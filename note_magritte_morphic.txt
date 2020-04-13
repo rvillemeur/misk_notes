@@ -1,0 +1,170 @@
+Note sur Magritte avec Morphic
+
+
+Pour le charger seul:
+Metacello new
+	baseline: 'Magritte';
+	repository: 'github://magritte-metamodel/magritte'; load: #(Morphic)
+
+Pour l'ajouter à un projet, à ajouter dans le baseline du projet:	
+baseline: 'Magritte' 
+with: [ spec repository: 'github://magritte-metamodel/magritte'; 
+             loads:  #(Morphic) ]; 
+
+
+
+Exemple de projet:
+    Metacello new
+        baseline: 'SmallWorld';
+        repository: 'github://seandenigris/SmallWorld:master/repository';
+        onConflict: [ :ex | ex allow ];
+        load.
+
+		
+Chaque propriété de votre objet doit être associé à un description magritte => meta description
+Ex:
+descriptionName
+	<magritteDescription>
+	^ MAStringDescription new
+		priority: 100;
+		accessor: #name;
+		beRequired;
+		yourself
+		
+		
+descriptionRepositoryView
+	<magritteActionDescription>
+	^ MAActionDescription new
+			action: [ :target | target repository view ];
+			label: 'Open Repository';
+			isMutator: false;
+			shortcut: $r asShortcut;
+			icon: #glmOpenFromURL;
+			yourself
+			
+			
+2 tag identifié:
+- magritteActionDescription
+- magritteDescription
+
+- magritteActionButtons à confirmer
+Pour construire l'interface:
+class >> open
+	self new asMagritteMorph
+		addButtons;
+		addWindow;
+		onAnswer: [ :newProject | self projects add: newProject ];
+		openInWorld
+		
+Exemple:
+---------
+'From Pharo7.0.4 of 13 August 2019 [Build information: Pharo-7.0.4+build.168.sha.ccd1f6489120f58ddeacb2cac77cd3a0f0dcfbe6 (32 Bit)] on 18 September 2019 at 3:52:39.207106 pm'!
+Object subclass: #Address
+	instanceVariableNames: 'street place plz canton'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'MaAddress'!
+
+!Address methodsFor: 'magritte' stamp: 'RenaudDeVillemeur 9/18/2019 15:24'!
+descriptionStreet
+<magritteDescription>
+    ^ MAStringDescription new 
+        accessor: #street;
+        label: 'Street';
+        priority: 100; 
+        yourself! !
+
+!Address methodsFor: 'magritte' stamp: 'RenaudDeVillemeur 9/18/2019 15:26'!
+descriptionPlz
+<magritteDescription>
+    ^ MANumberDescription new 
+        accessor: #plz;
+        label: 'PLZ';
+        priority: 200; 
+        beRequired;
+        min: 1000 ; 
+        max: 9999;
+        yourself! !
+
+!Address methodsFor: 'magritte' stamp: 'RenaudDeVillemeur 9/18/2019 15:26'!
+descriptionCanton
+<magritteDescription>
+    ^ MASingleOptionDescription new
+        accessor: #canton;
+        label: 'Canton' ; 
+        priority: 400;
+        options: #('Bern' 'Solothurn' 'Aargau' 'Zuerich' 'Schwyz' 'Glarus');
+        beSorted;
+        beRequired; 
+        yourself! !
+
+!Address methodsFor: 'magritte' stamp: 'RenaudDeVillemeur 9/18/2019 15:26'!
+descriptionPlace
+<magritteDescription>
+    ^ MAStringDescription new
+        accessor: #place;
+        label: 'Place'; 
+        priority: 300; 
+        yourself! !
+
+
+!Address methodsFor: 'accessing' stamp: 'RenaudDeVillemeur 9/18/2019 14:03'!
+street: anObject
+	street := anObject! !
+
+!Address methodsFor: 'accessing' stamp: 'RenaudDeVillemeur 9/18/2019 14:03'!
+plz: anObject
+	plz := anObject! !
+
+!Address methodsFor: 'accessing' stamp: 'RenaudDeVillemeur 9/18/2019 14:03'!
+place
+	^ place! !
+
+!Address methodsFor: 'accessing' stamp: 'RenaudDeVillemeur 9/18/2019 14:03'!
+canton
+	^ canton! !
+
+!Address methodsFor: 'accessing' stamp: 'RenaudDeVillemeur 9/18/2019 14:03'!
+place: anObject
+	place := anObject! !
+
+!Address methodsFor: 'accessing' stamp: 'RenaudDeVillemeur 9/18/2019 14:03'!
+canton: anObject
+	canton := anObject! !
+
+!Address methodsFor: 'accessing' stamp: 'RenaudDeVillemeur 9/18/2019 14:03'!
+street
+	^ street! !
+
+!Address methodsFor: 'accessing' stamp: 'RenaudDeVillemeur 9/18/2019 14:03'!
+plz
+	^ plz! !
+
+"-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- "!
+
+Address class
+	instanceVariableNames: 'projects'!
+
+!Address class methodsFor: 'examples' stamp: 'RenaudDeVillemeur 9/18/2019 15:24'!
+example1
+    | address | 
+    address := self new .
+    address plz: 1001.
+    address street: 'Sesame'.
+    address place: 'DreamTown'.
+    address canton: 'Bern'.
+    ^ address! !
+
+!Address class methodsFor: 'examples' stamp: 'RenaudDeVillemeur 9/18/2019 15:44'!
+projects
+
+	^ projects ifNil: [ projects := SortedCollection sortBlock: [ :a :b | a name < b name ] ].! !
+
+!Address class methodsFor: 'examples' stamp: 'RenaudDeVillemeur 9/18/2019 15:45'!
+open
+<example>
+	self new asMagritteMorph
+		addButtons;
+		addWindow;
+		onAnswer: [ :newProject | self projects add: newProject ];
+		openInWorld! !

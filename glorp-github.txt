@@ -1,0 +1,41 @@
+A baseline is associated with a "git version", so there is no need to
+"pin the version down in a specific version" ... in a "git project" you
+have the option of changing the specific version associated with a
+baseline on "every commit" .... 
+
+
+
+Metacello new
+    repository: 'github://akgrant43/Glorp/src';
+    baseline: 'Glorp';
+    load.
+
+
+To load Glorp with the UDBC SQLite drivers:
+
+Metacello new
+    repository: 'github://akgrant43/Glorp/src';
+    baseline: 'GlorpSQLite';
+    load.
+-----------------------------------------------------------------------
+
+Metacello new
+    repository: 'github://pharo-rdbms/Glorp/src';
+    baseline: 'Glorp';
+    load.
+
+To load Glorp with the UDBC SQLite drivers:
+
+Metacello new
+    repository: 'github://pharo-rdbms/glorp-garage/src';
+    baseline: 'glorp-garage';
+    load.
+	
+
+Metacello new
+    repository: 'github://pharo-rdbms/garage/src';
+    baseline: 'garage';
+    load.
+	
+	
+		

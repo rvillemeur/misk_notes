@@ -1,0 +1,37 @@
+$ cat > /tmp/lines.txt
+one
+two
+three
+
+(FileLocator temp / 'lines.txt') contents lines.
+
+'/tmp/lines.txt' asFileReference contents lines.
+
+'/tmp/lines.txt' asFileReference readStreamDo: [ :in |
+  Array streamContents: [ :out |
+    [ in atEnd ] whileFalse: [ out nextPut: in nextLine ] ] ].
+
+(File named: '/tmp/lines.txt') readStreamDo: [ :in |
+  | characterStream |
+  characterStream := ZnCharacterReadStream on: in.
+  Array streamContents: [ :out |
+    [ characterStream atEnd ] whileFalse: [ out nextPut: characterStream nextLine ] ] ].
+
+They all return #('one' 'two' 'three').
+
+
+  (File named: '/tmp/lines.txt') readStream[Do:]
+  
+  
+  | |
+ (File named: '/tmp/lines.txt') readStream[Do:]
+  
+  
+  #printToFileNamed:beforeWritingDo: 
+  
+   f := File openForWriteFileNamed: '/home/jimmie/xmldoc.xml'.
+> >> f nextPutAll: (writer write contents).
+> >> f flush.
+> >> f close.
+
+outStream nextPutAll:
