@@ -30,19 +30,19 @@ command line: g++ -Wall -Wextra -pedantic -std=c++0x  -o prog1 main.cpp source.c
 |	file    |		g++ -E		  | file      |	  g++ -S	|file *.s  |	g++ -c	   |file (*.o) |  g++ -o   |executable|
 +-----------+					  +-----------+			    +----------+			   +-----------+		   +----------+
 ```
- 
+
 # comment
 
 // Comment to end of line
 
-/* 
+/*
 
-Multi-line 
+Multi-line
 
-comment 
+comment
 
 */
- 
+
 
 # namespace
 ```
@@ -62,13 +62,13 @@ using namespace myNamespace			// to avoid myNamespace::X
 
 	void
     int, short int, long int, long long int, unsigned int, unsigned short int, unsigned long int, unsigned long long int,
-    float, double, long double 
-	char, wchar_t 
+    float, double, long double
+	char, wchar_t
 	bool
 	size_t (represent the size of any object (including arrays) in the particular implementation)
 	ptrdiff_t (represent the difference between pointers.)
 	nullptr, nullptr_t
-	
+
 ## other type declaration
 
 	enum (enum1 {var1, var2};) 							// type with limited set of values.
@@ -77,11 +77,10 @@ using namespace myNamespace			// to avoid myNamespace::X
 	extern												// Information only, declared elsewhere
 	auto												// automatic type deduction (c++11)
 	{1,2,3,4}											// initializer list
-	
-	
+
 ## class declaration
-``` 
-	class|struct|union class_name[:[public|private|protected]parent_class] 
+```
+	class|struct|union class_name[:[public|private|protected]parent_class]
 	{
 		[public|proctected|private]:
 			[explicit] class_name();				        //constructor
@@ -91,13 +90,12 @@ using namespace myNamespace			// to avoid myNamespace::X
 			class_name(class_name&& param);			        //move constructor (c++11)
             class_name& operator=(class_name&& other)       //move assignment operator
 			virtual typename method() =0;			        //pure virtual function
-            
-			
+
+
 			[friend|static|const] typename member [const];
 			[friend|static|const] typepename [const] method([const] typename param1 [const], parame2) [const|override|noexcept|final];
 
-			
-			
+
 			}
 ```
 The keyword *this* represent a pointer to the object whose member function is being executed.
@@ -110,8 +108,8 @@ any of the following then it should probably explicitly define all five:
    * copy assignment operator
    * move constructor
    * move assignment operator
-    
-    
+
+
 ## const declaration
 ```
 	//  #1      #2                #3      #4      #5
@@ -134,11 +132,11 @@ This field is applicable only for integral type(int, char, short, long...) exclu
 
 ```
 struct A
-{ 
+{
         unsigned a:2; // possible values 0..3,  occupies first 2 bits of int
         unsigned b:3; // possible values 0..7,  occupies next 3 bits of int
         unsigned :0;  // moves to end of next integral type
-        unsigned c:2; 
+        unsigned c:2;
         unsigned :4;  // pads 4 bits in between c & d
         unsigned d:1;
 };
@@ -188,8 +186,8 @@ catch (...) { c; }        // If a throws something else, jump here
 |Decrement 		 			|--a 		|R& T::operator --();   |
 |							|a-- 		|R T::operator --(int); |
 
-### Note: 
-C++ uses the unnamed dummy-parameter int to differentiate between prefix and 
+### Note:
+C++ uses the unnamed dummy-parameter int to differentiate between prefix and
 suffix decrement operators.
 
 ## Comparison operators/relational operators
@@ -214,7 +212,7 @@ suffix decrement operators.
 ### Note on pointers and reference.
 Pointers and reference are one of the tricky part of C and C++
 
-if A is a pointer, it contains the adress of another variable. 
+if A is a pointer, it contains the adress of another variable.
 '*' dereference the pointer, to get the content of the adress where A point to.
 '&' give the adress of the variable.
 
@@ -233,7 +231,7 @@ int *A //declare a pointer to an int.
 So you can do:
 *A = &B
 
-The C language is pass-by-value without exception. Passing a pointer as a 
+The C language is pass-by-value without exception. Passing a pointer as a
 parameter does not mean pass-by-reference as with C++. The rule is the following:
 **A function is not able to change the actual parameters value.**
 
@@ -257,8 +255,8 @@ int a = 3.
 
 \#2 is an r(ight)value. A temporary object that will diseappear on the next instruction.
 
-By implementing the move operator, we can assign a temporary value without 
-recreating using copy constructor it. 
+By implementing the move operator, we can assign a temporary value without
+recreating using copy constructor it.
 https://www.internalpointers.com/post/c-rvalue-references-and-move-semantics-beginners
 https://www.cprogramming.com/c++11/rvalue-references-and-move-semantics-in-c++11.html
 
@@ -274,7 +272,7 @@ to a new memory location. The move semantic avoid this kind of useless copy.
 |Logical OR 				|a \|\| b	|R T::operator \|\|(S b); |
 
 ## Bitwise operators
-|Operator name 	  			|Syntax   	|overload               | 	
+|Operator name 	  			|Syntax   	|overload               |
 |---------------------------|-----------|-----------------------|
 |Bitwise NOT 				|~a			|R T::operator ~();     |
 |Bitwise AND 				|a & b		|R T::operator &(S b);  |
