@@ -13,12 +13,23 @@ The advantages of vector graphics over raster are:
  *  ability to zoom indefinitely
  *  moving, scaling, filling, and rotating does not degrade the quality of an image
 
+Ultimately, picture on a computer are displayed on a screen with a specific 
+display dimension. However, while raster graphic doesn't scale very well when
+the resolution differ too much from the picture resolutiom, vector graphics
+are rasterized to fit the display they will appear on. Rasterization is the 
+technique of taking an image described in a vector graphics format and 
+transform it into a set of pixels for output on a screen.
+
+Note: You have the same concept when doing 3D programming with an API like 
+openGL. You describe your scene with point, vertices, etc..., and in the end,
+you rasterize your scene to display it on your screen.
+
 Morphic is currently the way to go on pharo for Graphics. However, all existing canvas
 are pixel based, and not vector based. This can be an issue with current screen,
 where the resolution can differ from machine to machine.
 
 Enter Athens, a vector based graphic API. Under the scene, it can either use
-balloon Canvas, or the cairo graphic library.
+balloon Canvas, or the cairo graphic library for the rasterization phase.
 
 When you integrate Athens with Morphic, you'll use the rendering engine to 
 create your picture. It's then transformed in a Form and displayed using on 
