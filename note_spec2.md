@@ -58,6 +58,7 @@ To link the name:
 ### SpApplication & SpNotification
 SpApplication concentrate ressource for user application like
 * which backend to use (Gtk, default is Morphic)
+* which style to apply.
 
 
 

@@ -9,10 +9,12 @@ Canvas is not directly instanciated but used through a call like
 
 The rendering dispatch is `rendering dispatch  Canvas->receiver->paint`
 
-Once your are painting on the AthensCanvas, the following steps are used:
-1. Set the path
-2. Define paint method
-3. Draw the path accordingly to the paint method.
+The Athens drawing model relies on a three layer model. Any drawing process 
+takes place in three steps:
+
+# First a ""path"" is created, which includes one or more vector primitives , i.e., circles, lines, TrueType fonts, Bézier curves, etc...
+# Then painting must be defined, which may be a color, a color gradient, a bitmap or some vector graphics
+# Finally the result is drawn to the Athens surface, which is provided by the back-end for the output.
 
 # draw class
 
@@ -87,6 +89,13 @@ relative: each new move is relative to the previous one.
 ```
 -> will draw a square in a surface which extent is 400@400 using relative move.
 
+cwArcTo:angle: and ccwArcTo: angle: will draw circular arc, connecting  
+previous segment endpoint and current endpoint of given angle, passing in 
+clockwise or counter clockwise direction. The angle must be specified in Radian.
+
+Please remember that the circumference of a circle is equal to 2 * Pi * R.
+If R = 1, half of the circumference is equal to PI, which is the value of half
+a circle.
 
 ## painting
 
@@ -113,20 +122,28 @@ a Canvas define its paint method:
 * setPaint:
 * setStrokePaint:
 
-### Stroke
+### Stroke paint
 The *createStrokePaintFor* operation takes a virtual pen along the path. It allows the source 
 to transfer through the mask in a thin (or thick) line around the path
 
-### fill
+AthensStrokePaint return a stroke paint.
+
+Import Athens message:
+    width: -> specify the width of the stroke.
+    joinBevel
+    joinMiter
+    joinRound
+    capButt
+    capRound
+    capSquare
+
+
+### Solid paint
 The*createSolidColorPaint* operation instead uses the path like the lines of a coloring book, 
 and allows the source through the mask within the hole whose boundaries are the 
 path. For complex paths (paths with multiple closed sub-paths—like a donut—or
 paths that self-intersect) this is influenced by the fill rule
 
-### Note (To be confirmed)
-But as often as not, the path is empty, and both calls will result in no change to your destination. 
-Why is it empty so often? For one, it starts that way; but more importantly after each 
-*createStrokePaintFor* or *createSolidColorPaint* it is emptied again to let you start building your next path.
 
 ### Gradient
 Gradient will let you create gradient of color, either linear, or radial.
@@ -192,8 +209,87 @@ canvas
 Either you set the shape first and then you call *draw*, or you call the 
 convenient method*drawShape:* directly with the path to draw as argument
 
-
+# example:
+```smalltalk
+"canvas pathTransform loadIdentity.  font1 getPreciseAscent. font getPreciseHeight"
+			surface clear.
+			canvas
+				setPaint:
+					((LinearGradientPaint from: 0 @ 0 to: self extent)
+						colorRamp:
+							{(0 -> Color white).
+							(1 -> Color black)}).
+			canvas drawShape: (0 @ 0 extent: self extent).
+			canvas
+				setPaint:
+					(canvas surface
+						createLinearGradient:
+							{(0 -> Color blue).
+							(0.5 -> Color white).
+							(1 -> Color red)}
+						start: 0@200
+						stop: 0@400). "change to 200 to get an horizontal gradient"
+			canvas drawShape: (0@200 extent: 300@400).
+			canvas setFont: font.
+			canvas
+				setPaint:
+					(canvas surface
+						createLinearGradient:
+							{(0 -> Color blue).
+							(0.5 -> Color white).
+							(1 -> Color red)}
+						start: 50@0
+						stop: (37*5)@0). "number of caracter * 5"
+			canvas pathTransform
+				translateX: 45 Y: 45 + font getPreciseAscent;
+				scaleBy: 2;
+				rotateByDegrees: 28.
+			canvas
+				drawString: 'Hello Athens in Pharo/Morphic !!!!!!!'.
+```
+                
+```smalltalk
+renderAthens
+	surface
+		drawDuring: [ :canvas | 
+			| stroke squarePath circlePath |
+			squarePath := canvas
+				createPath: [ :builder | 
+					builder
+						absolute;
+						moveTo: 100 @ 100;
+						lineTo: 100 @ 300;
+						lineTo: 300 @ 300;
+						lineTo: 300 @ 100;
+						close ].
+			circlePath := canvas
+				createPath: [ :builder | 
+					builder
+						absolute;
+						moveTo: 200 @ 100;
+						cwArcTo: 200 @ 300 angle: 180 degreesToRadians;
+						cwArcTo: 200 @ 100 angle: Float pi ].
+			canvas setPaint: Color red.
+			canvas drawShape: squarePath.
+			stroke := canvas setStrokePaint: Color black.
+			stroke
+				width: 10;
+				joinRound;
+				capRound.
+			canvas drawShape: squarePath.
+			canvas drawShape: circlePath.
+			circlePath := canvas
+				createPath: [ :builder | 
+					builder
+						relative;
+						moveTo: 175 @ 175;
+						cwArcTo: 50 @ 50 angle: 180 degreesToRadians;
+						cwArcTo: -50 @ -50 angle: Float pi ].
+			canvas drawShape: circlePath ]
+```
+                
 # Playing
 To help you practice your Athens drawing, you can use Athens sketch, migrated from SmalltalkHub:
-http://smalltalkhub.com/#!/~NicolaiHess/AthensSketch
+http://smalltalkhub.com/#!/~NicolaiHess/github
+https://github.com/rvillemeur/AthensSketch
 

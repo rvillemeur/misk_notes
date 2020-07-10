@@ -1,5 +1,5 @@
-# Athens Tutorial
-Inspired by https://www.cairographics.org/tutorial/
+# Integration Athens and Spec.
+
 
 #Introduction
 There are two different computer graphics: vector and raster graphics. 
@@ -35,7 +35,7 @@ When you integrate Athens with Morphic, you'll use the rendering engine to
 create your picture. It's then transformed in a Form and displayed using on 
 the screen using BitBlt.
 
-# Hello-world in Athens with Morphic.
+# Athens with Morphic
 We'll see how to use Athens directly integrated with Morphic. So will be the 
 base class we'll use after for all our experiment:
 
@@ -114,6 +114,7 @@ AthensHello >> extent: aPoint
 
 Congratulation, you have now created your first morphic windows where content
 is rendered using Athens.
+
 
 # Athens vocabulary
 

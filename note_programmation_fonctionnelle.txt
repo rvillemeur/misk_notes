@@ -14,6 +14,32 @@ Ex: 1 est un object de type integer, pour lequel je peux envoyer des messages.
 Un object peut être vu comme une cellule ou un mini-ordinateur, responsable de 
 garder son état.
 
+On associe à la programmation objet les 3 caractéristique suivantes:
+ * encapsulation.
+ * héritage.
+ * polymorphisme.
+
+L'encapsulation permet de masquer l'état interne des objects. C'est un état qui 
+est propre à l'implémentation du langage de programmation. C++ permet d'avoir 
+des attributs public, private ou protected, alors qu'en Smalltalk, toutes les
+variables sont privés, et les méthodes publiques.
+
+L'héritage est aussi propre à l'implémentation du langage de programmation.
+C++ et Smalltalk sont des langages de Classe, alors que Javascript est un
+langage de prototype. L'objectif premier de l'héritage est d'éviter la duplication
+de code en permettant à des sous-classes ou sous-object de réutiliser des fonctionnalités 
+et des variables de la classe mère.
+
+Le polymorphisme permet de définir des objets ayant des signatures identiques.
+Cela permet à des objets différents d'avoir la même interface, et du coup de pouvoir 
+être utilisé l'un à la place d'un autre. Les messages envoyés aux objets ne
+changent pas, seul la nature du destinataire change. Pour le client, il n'a pas
+à connaitre la nature de son interlocuteur, seulement son nom de variable, et le
+message qu'il veut leur envoyer.
+
+ 
+
+
 - pour la programmation fonctionnelle, tout est fonction
 Ex: 1 est une fonction qui n'accepte aucun argment, et qui renvoit toujours 
 l'entier 1. La programmation fonctionnelle suit une logique et une rigueur qui 

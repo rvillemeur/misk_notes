@@ -1,4 +1,10 @@
 "Cet exemple est complet et correct dans les résultats au 6 janvier 2020"
+"According to the Canada Interest Act, the effective rate charged can not be greater than that which results from semi-annual compounding of the annual percentage rate - section 6 and 7 of https://laws-lois.justice.gc.ca/eng/acts/i-15/index.html
+The amount of the principal money and the rate of interest chargeable on that money, calculated yearly or half-yearly. No
+interest shall be chargeable, payable or recoverable, on the principal money advanced, than the rate shown in the statement.
+As half-yearly compounded interest is greater than yearly, financial institution always use half yearly compounded interest rate."
+
+
 |startDate endDate duration initDate payDate
 initCapital balance nominalInterest period effectiveInterest monthlyInterest monthlyPayment biWeeklyPaiement|
 
