@@ -1,0 +1,87 @@
+EyeInspectorNavigator inspect: (Morph new)
+
+You can add your own inspector classes to your object, by subclassing
+object >> additionalInspectorClasses, like:
+additionalInspectorClasses
+	^ super additionalInspectorClasses, { EyeViewHierarchyInspector. EyeMorphViewer }
+
+Your class then must subclass EyeAbstractInspector or EyeInspector
+Morph inspector, for example, is a subclass of EyeAbstractInspector
+Many day-to-day inspector like those on character or DateTime, are subclasses of
+EyeInspector
+
+Your inspector is then a regular Spec2 class. As so, it must implement
+- initializePresenters => declare the list of widget that compose the GUI
+
+It should implement
+- connectPresenters => declare the interaction between the widget
+
+It can implement:
+- objectChanged => triggered when the inspected object is changed
+
+
+To do a specific inspector subclass this and override 	EyeInspector>>addSpecialFields
+Then on your object override 	Object>>inspectorClass
+so it returns your new inspector
+
+Let's go through an example: Mortage calculation.
+To keep it simple:
+- interest are compounded monthly
+- paiement happen every month.
+
+initCapital := 200000.
+nominalInterest := 2.00 percent.
+period := 20 "years" * 12 "month".
+
+"get effective monthly interest"
+monthlyInterest := (((1 + nominalInterest ) raisedTo: (1/12)) -1) round: 8.
+
+"get monthly"
+monthlyPayment := (capital * monthlyInterest) / (1 - (( 1 + monthlyInterest )raisedTo: (period negated))) round: 2.
+
+First inspector: monthly interest and paiement
+----------------------------------------------
+Derived from EyeInspector
+EyeDetailMortgageInspector >> addSpecialFields: elements
+	elements add: (DynamicEyeElement 
+		host: self object 
+		label: 'montly interest rate' 
+		value: [ self object monthlyInterest ]).
+			
+	elements add: (DynamicEyeElement 
+		host: self object 
+		label: 'monthly payment' 
+		value: [ self object monthlyPayment ]).
+
+		
+
+Second Inspector: Payment table
+----------------------------------------------
+Derived from EyeAbstractInspector
+Widget: SpTablePresenter
+Need to implement
+- initializePresenters => declare the list of widget that compose the GUI
+- connectPresenters => declare the interaction between the widget ???
+There is only one widget.
+- objectChanged => triggered when the inspected object is changed
+
+Third inspector: Graphic representation
+----------------------------------------------
+First, install Roassal3.
+Metacello new
+    baseline: 'Roassal3';
+    repository: 'github://ObjectProfile/Roassal3';
+    load.
+
+Derived from EyeAbstractInspector
+Widget: SpRoassalPresenter
+Need to implement
+- initializePresenters => declare the list of widget that compose the GUI
+- connectPresenters => declare the interaction between the widget ???
+There is only one widget.
+- objectChanged => triggered when the inspected object is chan
+
+	
+
+Forth inspector: update value ???
+
