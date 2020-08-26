@@ -1,0 +1,27 @@
+Indication sur la programmation fonctionnelle
+https://en.wikipedia.org/wiki/Programming_paradigm
+
+
+Comparatif de paradigme de programmation.
+- pour la programmation procedurale (ex: pascal, c), tout n'est qu'un ensemble
+d'instruction pour modifier l'état d'une variable, en passant par des fonctions
+ou des procédures. Cependant, contrairement à la programmation fonctionnelle, 
+les fonctions ne sont pas "pure", et peuvent modifier des variables en dehors de\
+leur portée (ou scope en anglais). On y retrouve la notion de boucle 
+
+- pour la programmation orienté object (ex: smalltalk), tout est object.
+Ex: 1 est un object de type integer, pour lequel je peux envoyer des messages.
+Un object peut être vu comme une cellule ou un mini-ordinateur, responsable de 
+garder son état.
+
+- pour la programmation fonctionnelle, tout est fonction
+Ex: 1 est une fonction qui n'accepte aucun argment, et qui renvoit toujours 
+l'entier 1. La programmation fonctionnelle suit une logique et une rigueur qui 
+se rapproche de la rigueur mathématique. En effet, en principe, les fonctions
+ne modifie pas d'états globaux - il n'est donc pas possible d'avoir d'effet de 
+bord dans une fonction, et il est possible de tester une fonction de façon 
+indépendante.
+
+De la même façon, la notion de boucle, comme dans la programmation impérative, 
+n'est pas répandue en programmation fonctionnelle, ou la notion de récursion 
+est beaucoup plus répandue et prononcée

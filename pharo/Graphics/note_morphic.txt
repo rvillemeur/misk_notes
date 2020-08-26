@@ -1,0 +1,37 @@
+Canvas utilisé par défaut: FormCanvas
+Athen dessine dans une image, qu'il envoie ensuite dans le canvas.
+
+
+Morph subclass: #AthensDemoMorph
+
+drawOn: aCanvas
+
+self halt.
+	self render.
+
+	aCanvas
+		drawImage: surface asForm at: self bounds origin
+
+
+asForm
+	"create a form and copy an image data there"
+	self checkSession.
+	self flush.
+ 	^ (AthensCairoSurfaceForm extent: (self width@(self height)) depth: 32 bits: id)
+		surface: self;
+		yourself
+
+
+Morph a trop de responsabilité:
+- layout de sous-morph (protocol geometry)
+- styling 
+- gestion des menus du World
+
+
+HandMorph -> souris.
+
+WorldMorph doOneCycle -> permet de rafraichir le monde.
+Va parcourir les sous-morph qui composent le monde, et va les dessiner, en utilisant le canvas par défaut: FormCanvas
+
+Le canvas va utiliser la classe Form, qui est un espace rectangulaire pour mettre une image.
+La classe Form utilise ensuite BitBlt pour envoyer son dessin vers l'écran
