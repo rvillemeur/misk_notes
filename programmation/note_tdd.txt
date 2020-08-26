@@ -45,6 +45,9 @@ are telling ourselves a story about how the operation will look from the outside
 Gradually generalized the working code, replacing constants with variables.
 Add items to your todo list, rather than addressing them all at once.
 
+For each desired change, make the change easy (warning: this may be hard), then
+make the easy change.
+
 -------------------------------------------------------------------------------
 Question to ask:
 * Where should you start building a system ? With stories you want to be able to 
