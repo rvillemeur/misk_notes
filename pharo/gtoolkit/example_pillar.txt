@@ -1,0 +1,42 @@
+!header 1
+#item 1
+#item2 
+#item3
+
+-list 1
+-list 2
+-list3
+!!header 2
+% this is a comment
+normal text without annotation,''italic'', ""bold"", __underline__, ^^superscript^^
+
+==monospaced
+--strikethrough--
+@@subscript@@
+!!!inserting code
+[[[label=foobar|caption=My code block that works|language=smalltalk|lineNumber=true
+self foo bar
+]]]
+!!!!hypertext link
+*https://github.com/feenkcom/gtoolkit/issues/700*
+@@note this is a note annotation.
+!!!!!table
+|!Country |!Capital
+|France | Paris
+|Belgium | Brussels
+
+||centered||!centered header||centered
+|{ left |} right || center
+
+;blue.
+:color of the sky
+;red.
+:color of the fire
+
+!!!!!!insert example
+${example:GtCSPictureExamples>>#pictureWithFacesAndForm|noCode|previewShow=gtPictureFor:}$
+
+I am a ${class:BrEditor}$ specific for ${class:GtDocumenter}$. 
+
+
+

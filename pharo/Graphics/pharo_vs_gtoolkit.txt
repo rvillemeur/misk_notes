@@ -1,0 +1,20 @@
+Pharo graphics vs gtoolkit graphics.
+
+Drawing:
+Athens (Cairo graphics) or Canvas (BitBlt bitmap graphics) vs Sparta (skia) graphics.
+
+Basic widgets:
+Morph vs BlElement (Bloc).
+
+BlElement is composed of:
+- Background (Paint, composite, Image or Transparent).
+- geometry (set up the space and bounds used by BlElement)
+- event handling.
+- Painting (delegated to underlying paint api, through drawOnSpartaCanvas message)
+- sub-children composition, layout and accessing.
+
+
+
+
+Advance Widget:
+Morph  and Spec2 vs Brick
