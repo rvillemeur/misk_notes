@@ -1,0 +1,335 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T19:54:07.134-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T19:54:21.161-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "MPFiSc+gDQC9iU5tDxVTDQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "\r\n# Introduction\r\n\r\n## design principles behind smalltalk\r\nhttps://www.cs.virginia.edu/~evans/cs655/readings/smalltalk.html\r\n\r\n**\"*Personal Mastery*: If a system is to serve the creative spirit, it must be entirely comprehensible to a single individual. \"**\r\n\r\nThe history of opensmalltalk/pharo virtual machine started a long time ago, with Smalltalk-80, and then in the squeak virtual machine, now opensmalltalk.\r\n\r\nhttp://files.squeak.org/docs/OOPSLA.Squeak.html\r\n\r\n\"Squeak is an open, highly-portable Smalltalk implementation whose virtual machine is written entirely in Smalltalk, making it easy to debug, analyze, and change. To achieve practical performance, a translator produces an equivalent C program whose performance is comparable to commercial Smalltalks.\"\r\n\r\n## overview\r\nTwo major components of the Smalltalk-80 system can be distinguished: the virtual image and the virtual machine.\r\n\r\n1. The virtual image consists of all of the objects in the system, including Smalltalk source code objects, compiler objects, and bytecode compiled method objects. It is platform independent.\r\n\r\n2. The virtual machine is the engine that runs the image. It consists of a machine language (or microcode or bytecode) routines that give dynamics to the objects in the virtual image. It is a platform dependent machine code executable that can be decomposed into: \r\n    * *Bytecode execution engine* - to interpret or JIT (Just In Time) compile each bytecode into machine code and execute it;  \r\n    * *Object engine* - to provide memory management of objects;   \r\n    * *Primitives* - to provide AOT (Ahead Of Time) compiled machine code for accelerated execution and interface to platform dependent operating system routines.\"\r\n\r\n\r\nThe system implementer's task is to create a virtual machine. A virtual image can then be loaded into the virtual machine and the pharo system becomes an interactive entity.\r\n\r\nThe various link of the opensmalltalk/pharo VM implementation given in this chapter is organized in a top-down fashion, starting with the source methods written by programmers. These methods are translated by a *compiler* into sequences of instructions called bytecodes. The bytecodes produced by the compiler are instructions for an *interpreter*. Below the interpreter in the implementation is an *object memory* that stores the objects that make up the virtual image.\r\n\r\nMain lecture: Smalltalk - 80. The language and its implementation:\r\nhttp://sdmeta.gforge.inria.fr/FreeBooks/BlueBook/Bluebook.pdf\r\n\r\nEspecially, the part that are related to the VM: pages 541 to pages 691\r\nA web format can be found here:\r\nhttp://www.mirandabanda.org/bluebook/\r\n\r\nA tour of the squeak object engine show a good overview, but is a bit more outdated:\r\nhttp://stephane.ducasse.free.fr/FreeBooks/CollectiveNBlueBook/Rowledge-Final.pdf\r\n\r\nBytecode and Virtual Machines:\r\nhttp://scg.unibe.ch/download/lectures/cc2011/09BytecodeVirtualMachines.pptx.pdf\r\n\r\nAn overview of all the the changes brough to opensmalltalk/pharo VM:\r\nhttps://www.researchgate.net/publication/328509577_Two_Decades_of_Smalltalk_VM_Development_Live_VM_Development_through_Simulation_Tools\r\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T19:54:30.261-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T19:55:19.561-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "CNXDSs+gDQC9ig0+DxVTDQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## set up\r\nhttp://forum.world.st/ANN-Pharo-Headless-Beta-Actually-what-is-between-Alpha-and-Beta-td5102089.html\r\n\r\nheadless VM: https://github.com/pharo-project/opensmalltalk-vm located in the headless branch.\r\n\r\nYou'll find instruction on how to build it on the github page. In addition, you'll get an image with VMMaker loaded so you can study the code of the VM.\r\n\r\nTips on debugging the VM:\r\n* https://pharoweekly.wordpress.com/2019/08/28/pharo-headless-linux-vm-debugging/\r\n* https://clementbera.wordpress.com/2016/05/30/simulating-the-cog-vm/\r\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T19:54:38.181-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T19:55:11.14-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "iK48S8+gDQC9i54aDxVTDQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# Compiler, bytecodes and compiled method\r\n## introduction\r\nhttps://marianopeck.blog/2011/04/30/smalltalk-reflective-model/\r\n\r\n## compiler - Opal\r\nSource methods written by programmers are represented in the system as instances of *String*. The Strings contain sequences of characters that conform to the pharo syntax.\r\n\r\nSource methods are translated by the system's *compiler* into sequences of instructions. The instructions are called bytecodes.\r\n\r\n* Towards a flexible Pharo Compiler: https://hal.inria.fr/hal-00862411/document\r\n* https://rmod.inria.fr/archives/events/2011DIS/Slides/Opal/OpalCompiler.pdf\r\n* https://clementbera.wordpress.com/2013/03/22/toward-a-zero-bugs-interpreter-compiler/\r\n* https://clementbera.wordpress.com/2013/05/28/modular-compilation-with-opal/\r\n\r\n### Example of live compiling\r\n* http://forum.world.st/Squeak-Compiler-evaluate-3-4-Pharo-equivalent-td5086475.html\r\n* http://forum.world.st/evaluate-with-bindings-td5071919.html\r\n\r\n\r\n## bytecode:\r\nThe original smalltalk interpreter understands 256 bytecode instructions that fall into five categories: pushes, stores, sends, returns, and jumps. Since more than 256 instructions for the interpreter are needed, some of the bytecodes take extensions. An extension is one or two bytes following the bytecode that further specify the instruction. An extension is not an instruction on its own, it is only a part of an instruction. \r\n\r\n* https://marianopeck.blog/2011/05/21/introduction-to-smalltalk-bytecodes/\r\n* https://clementbera.wordpress.com/2013/04/21/byte-code-to-source-code-mappin/\r\n* https://clementbera.wordpress.com/2013/09/23/squeakv3plusclosure-bytecode-set/\r\n* A bytecode set for adaptive optimizations: https://hal.inria.fr/hal-01088801/document\r\n\r\n## compiled method:\r\nThe compiler creates an instance of *CompiledMethod* to hold the bytecode translation of a source method. \r\n\r\n* https://marianopeck.blog/2011/05/14/playing-with-compiledmethod/\r\n* https://marianopeck.blog/2011/06/03/primitives-pragmas-literals-and-their-relation-to-compiledmethods/\r\n* https://clementbera.wordpress.com/2013/07/29/smalltalk-method-and-block-models/\r\n* http://www.mirandabanda.org/cogblog/2008/06/17/bluebook-compiledmethods-having-our-cake-and-eating-it-too/\r\n* https://marianopeck.blog/2011/07/06/named-primitives/\r\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T19:54:42.9-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T19:55:08.455-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "ILCES8+gDQC9jPVBDxVTDQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## class format:\r\nhttps://marianopeck.blog/2011/05/07/class-formats-and-compiledmethod-uniqueness/"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T19:54:50.259-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T19:54:50.259-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "OPr0S8+gDQC9jaB8DxVTDQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# stack interperter\r\nThe original smalltalk system wat a stack-oriented interpreter. A big part of the system still contain its source code, which is enhanced with Just In Time  (JIT) in recent version.\r\n\r\nThe Smalltalk-80 interpreter executes the bytecode instructions found in *CompiledMethods*. The interpreter uses five pieces of information and repeatedly performs a three-step cycle. \r\n\r\nMore information: \r\nhttp://www.mirandabanda.org/bluebook/bluebook_chapter26.html#TheInterpreter26\r\n\r\nUnderstand how a call stack interperter is working:\r\nhttps://files.pharo.org/books-pdfs/booklet-CallStack/2018-01-23-CallStack.pdf\r\n\r\nUnderstand how a simple system may work:\r\nhttp://books.pharo.org/booklet-ReflectiveCore/pdf/2018-03-05-ReflectiveKernel-spiral.pdf\r\n\r\n\r\n## context\r\nThe interpreter uses *contexts* to represent the state of its execution of *CompiledMethods* and *blocks*. A context can be a *MethodContext* or a *BlockContext*. A MethodContext represents the execution of a CompiledMethod that was invoked by a message.\r\n\r\n* http://www.mirandabanda.org/bluebook/bluebook_chapter26.html#Contexts26\r\n\r\n* http://www.mirandabanda.org/bluebook/bluebook_chapter27.html#Contexts27\r\n\r\n### in Opensmalltalk/Pharo\r\nhttp://www.mirandabanda.org/cogblog/2009/01/14/under-cover-contexts-and-the-big-frame-up/\r\n\r\n## block closure\r\n### In the original smalltalk-80 system:\r\nhttp://www.mirandabanda.org/bluebook/bluebook_chapter26.html#BlockContexts26\r\n\r\n\r\n### In Opensmalltalk/pharo\r\n* http://www.mirandabanda.org/cogblog/2008/06/07/closures-part-i/\r\n* http://www.mirandabanda.org/cogblog/2008/07/22/closures-part-ii-the-bytecodes/\r\n* http://www.mirandabanda.org/cogblog/2008/07/24/closures-part-iii-the-compiler/\r\n\r\n* https://clementbera.wordpress.com/2016/06/27/fullblockclosure-design/\r\n\r\n# object memory\r\nThe object memory provides the interpreter with an interface to the objects that make up the pharo virtual image. Each object is associated with a unique identifier called its object pointer. The object memory and interpreter communicate about objects with object pointers.\r\n\r\nThe object memory associates each object pointer with a set of other object pointers. Every object pointer is associated with the object pointer of a class. If an object has instance variables, its object pointer is also associated with the object pointers of their values. The individual instance variables are referred to by zero-relative integer indices. The value of an instance variable can be changed, but the class associated with an object cannot be changed. The object memory provides the following five fundamental functions to the interpreter.\r\nhttp://www.mirandabanda.org/bluebook/bluebook_chapter26.html#TheObjectMemory26\r\n\r\n### in Opensmalltalk/Pharo\r\n\r\n* https://marianopeck.blog/2011/10/26/memory-addresses-and-immediate-objects/\r\n* http://www.mirandabanda.org/cogblog/2013/09/05/a-spur-gear-for-cog/\r\n* https://clementbera.wordpress.com/2014/01/16/spurs-new-object-format/\r\n* https://clementbera.wordpress.com/2014/02/06/7-points-summary-of-the-spur-memory-manager/\r\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T19:54:56.459-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T19:54:56.459-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "+JRTTM+gDQC9jjGkDxVTDQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# beyond smalltalk-80 original VM - JIT\r\n## Just In Time - JIT\r\n* http://www.mirandabanda.org/cogblog/2011/03/01/build-me-a-jit-as-fast-as-you-can/\r\n* http://www.mirandabanda.org/cogblog/2011/03/04/an-arranged-marriage/\r\n\r\n## memory compactor and garbage collection\r\n* https://clementbera.wordpress.com/2018/06/07/free-chunk-management-in-the-cog-vm/\r\n* https://clementbera.wordpress.com/2017/03/12/tuning-the-pharo-garbage-collector/\r\n\r\n### Specific to Pharo\r\nhttps://github.com/SquareBracketAssociates/Booklet-PharoVirtualMachine\r\n\r\n## other\r\nSub-method, partial behavioral reflection with Reflectivity: Looking back on 10 years of use\r\nhttps://programming-journal.org/2020/4/5/\r\n\r\nDebugging the VM through the simulator (video)\r\n* https://clementbera.wordpress.com/2018/03/07/sista-vm-screencast/\r\n\r\n* http://www.mirandabanda.org/cogblog/2008/11/14/mechanised-modifications-and-miscellaneous-measurements/\r\n\r\n## multi-user transactional image\r\nmagma object representation by Chris Muller. \r\n* https://wiki.squeak.org/squeak/2665.\r\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T19:54:59.128-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T19:54:59.128-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "wE58TM+gDQC9jyIfDxVTDQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# UFFI\r\n* https://users.dcc.uchile.cl/~rsalgado/uffi-fourth-draft.pdf\r\n* http://books.pharo.org/booklet-uffi/pdf/2020-02-12-uFFI-V1.0.1\r\n\r\nPharo threaded FFI\r\nhttps://github.com/pharo-project/threadedFFI-Plugin\r\n\r\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T19:51:21.242-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T19:54:59.128-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "0NKCPs+gDQC9grtBDxVTDQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# parameters of the virtual machine\r\n\r\nhttps://lists.pharo.org/pipermail/pharo-users_lists.pharo.org/2016-May/026175.html\r\n\r\nfound in\r\n```smalltalk\r\nVirtualMachine >> parameterAt: parameterIndex\r\n\r\n\t\"parameterIndex is a positive integer corresponding to one of the VM's internal\r\n\tparameter/metric registers.  Answer with the current value of that register.\r\n\tFail if parameterIndex has no corresponding register.\r\n\tVM parameters are numbered as follows:\r\n\t1\tend (v3)/size(Spur) of old-space (0-based, read-only)\r\n\t2\tend (v3)/size(Spur) of young/new-space (read-only)\r\n\t3\tend (v3)/size(Spur) of heap (read-only)\r\n\t4\tnil (was allocationCount (read-only))\r\n\t5\tnil (was allocations between GCs (read-write)\r\n\t6\tsurvivor count tenuring threshold (read-write)\r\n\t7\tfull GCs since startup (read-only)\r\n\t8\ttotal milliseconds in full GCs since startup (read-only)\r\n\t9\tincremental GCs (SqueakV3) or scavenges (Spur) since startup (read-only)\r\n\t10\ttotal milliseconds in incremental GCs (SqueakV3) or scavenges (Spur) since startup (read-only)\r\n\t11\ttenures of surving objects since startup (read-only)\r\n\t12-20 were specific to ikp's JITTER VM, now 12-19 are open for use\r\n\t20\tutc microseconds at VM start-up (actually at time initialization, which precedes image load).\r\n\t21\troot table size (read-only)\r\n\t22\troot table overflows since startup (read-only)\r\n\t23\tbytes of extra memory to reserve for VM buffers, plugins, etc (stored\r\n\tin image file header).\r\n\t24\tmemory threshold above which shrinking object memory (rw)\r\n\t25\tmemory headroom when growing object memory (rw)\r\n\t26\tinterruptChecksEveryNms - force an ioProcessEvents every N milliseconds\t(rw) 27\tnumber of times mark loop iterated for current IGC/FGC (read-only)\tincludes ALL marking\r\n\t28\tnumber of times sweep loop iterated for current IGC/FGC (read-only)\r\n\t29\tnumber of times make forward loop iterated for current IGC/FGC\t(read-only) 30\tnumber of times compact move loop iterated for current\tIGC/FGC (read-only)\r\n\t31\tnumber of grow memory requests (read-only)\r\n\t32\tnumber of shrink memory requests (read-only)\r\n\t33\tnumber of root table entries used for current IGC/FGC (read-only)\r\n\t34\tnumber of allocations done before current IGC/FGC (read-only)\r\n\t35\tnumber of survivor objects after current IGC/FGC (read-only)\r\n\t36\tmillisecond clock when current IGC/FGC completed (read-only)\r\n\t37\tnumber of marked objects for Roots of the world, not including Root\tTable entries for current IGC/FGC (read-only)\r\n\t38\tmilliseconds taken by current IGC (read-only)\r\n\t39\tNumber of finalization signals for Weak Objects pending when current\tIGC/FGC completed (read-only)\r\n\t40\tBytesPerOop for this image\r\n\t41\timageFormatVersion for the VM\r\n\t42\tnumber of stack pages in use\r\n\t43\tdesired number of stack pages (stored in image file header, max 65535)\r\n\t44\tsize of eden, in bytes\r\n\t45\tdesired size of eden, in bytes (stored in image file header)\r\n\t46\tmachine code zone size, in bytes (Cog only; otherwise nil)\r\n\t47\tdesired machine code zone size (stored in image file header; Cog only;\totherwise nil)\r\n\t48\tvarious header flags. See getCogVMFlags.\r\n\t49\tmax size the image promises to grow the external semaphore table to (0\tsets to default, which is 256 as of writing)\r\n\t50-51 nil; reserved for VM parameters that persist in the image (such as\teden above)\r\n\t52\troot table capacity\r\n\t53\tnumber of segments (Spur only; otherwise nil)\r\n\t54\ttotal size of free old space (Spur only, otherwise nil)\r\n\t55\tratio of growth and image size at or above which a GC will be performed\tpost scavenge\r\n\t56\tnumber of process switches since startup (read-only)\r\n\t57\tnumber of ioProcessEvents calls since startup (read-only)\r\n\t58\tnumber of ForceInterruptCheck calls since startup (read-only)\r\n\t59\tnumber of check event calls since startup (read-only)\r\n\t60\tnumber of stack page overflows since startup (read-only)\r\n\t61\tnumber of stack page divorces since startup (read-only)\t62\tcompiled code compactions since startup (read-only; Cog only; otherwise nil)\r\n\t63\ttotal milliseconds in compiled code compactions since startup\t(read-only; Cog only; otherwise nil)\r\n\t64\tthe number of methods that currently have jitted machine-code\r\n\t65\twhether the VM supports a certain feature, MULTIPLE_BYTECODE_SETS is bit 0, IMMTABILITY is bit 1\r\n\t66\tthe byte size of a stack page\r\n\t67\tthe max allowed size of old space (Spur only; nil otherwise; 0 implies\tno limit except that of the underlying platform)\r\n\t68\tthe average number of live stack pages when scanned by GC (at\tscavenge/gc/become et al)\r\n\t69\tthe maximum number of live stack pages when scanned by GC (at\tscavenge/gc/become et al)\r\n\t70\tthe vmProxyMajorVersion (the interpreterProxy VM_MAJOR_VERSION)\r\n\t71\tthe vmProxyMinorVersion (the interpreterProxy VM_MINOR_VERSION)\"\r\n```\r\n"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2022-07-22T19:51:04.643-04:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2022-07-22T19:51:19.434-04:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Virtual Machine architecture map"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "b859823e-cfa0-0d00-bd81-2e700f15530d"
+	}
+}

@@ -1,0 +1,147 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-09T22:26:47.626-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-09T22:27:25.048-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "ENU3aHCdDQCByeEcBjULeg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Two goals of GToolkit: \r\n\r\n1.  provide a custom view for object, instead of a generic representation\r2. give a way to interact with the environment, to query it more easily.\r\n\r\"everything about software, including code, is data (object)\"\r\n\r#1. customize inspector\rAdd a method on the instance side, with pragma <gtView>\rEx:\rgtViewContactsListOn: aView\r\t<gtView>\r\t\raView is a subtype of GtPhlowProtoView or GtPhlowView\t\rTo get a list of all the view in the system:"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-09T22:27:16.739-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-09T22:27:18.004-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "uA/0aXCdDQCBy6xVBjULeg=="
+				},
+				"code" : "#gtView gtPragmas"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2021-06-18T18:25:09.756222-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-09T22:25:16.353-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "bl2SiHOBDQC6qgWjC6EZOQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "#2. document object.\radd comment in the pillar format in the comment part of the class.\rFor a full definition, look at class PRPillarGrammar\r\n\rAdd example and link:\r${example:GtCSPictureExamples>>#pictureWithFacesAndForm|noCode|previewShow=gtPictureFor:}$\r\n\r\nHeader:\r\n!!Header\r\n\r\nLoad file: \r\n${changes:01-createFileOnDisk.ombu}$\r\n\r\nhttps://github.com/SquareBracketAssociates/Booklet-PublishingAPillarBooklet/blob/master/Chapters/PillarSyntax.pillar\r\n\r\n\r#3. add item to the main board.\r\nhttps://spectrum.chat/gtoolkit/how-to/adding-items-to-the-list-of-tools-slideshows-docs-on-the-gt-tab~0438f838-6ac9-422f-95b4-9085f19af9f7\r\n\rGtHome>>documentationSection\r    <gtHomeSection>\r    ^ GtHomeDocumentationSection new\r        priority: 20\r\n\radd a new subclass of GtHomeSection and an extension method on GtHome with the gtHomeSection pragma\r\n\rLook at package GToolkit-World\r\n\r#4. provide examplee\rAdd the pragma <gtExample> to a method.\r\n\r#5. Créer des présentationn\rSee class GtSlideShow and GtPharo101 for exampl\rGtLiveShow create: MySlideShow neslide defined with pragma <gtSlide>Method accept aSlide, which is an instance of GtLiveSlide or one of its subclass,which are themselves subclasses of BrStencil\r\n\r\n#6. Graphics\r\nLook at Sparta (drawing), Block (low level, layout, event) and Brick (high level widget)."
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2021-06-18T18:24:24.326222-04:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2021-06-18T18:24:34.216222-04:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Note on GToolkit"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "4e30dd85-7381-0d00-baa6-47120ba11939"
+	}
+}

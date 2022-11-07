@@ -1,0 +1,76 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T19:48:10.158-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T19:48:10.158-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "OMOoM8+gDQC9dqkXDxVTDQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "note sur la possibilité dé doc dans Pharo:\r\n\r\n1. SUnit: \r\nTestCase subclass: #ClassNameTest\r\ntestMethod\r\nNautilus ajoute une pastille à coté de la méthode testé pour lancer automatiquement le test\r\n\r\nSi on a:\r\n- package >> className >> Method\r\n- packageTest >> className >> testMethod\r\nUne pastille sera ajouté à gauche de la méthode testé, permettant de valider son résultat\r\n\r\n\r\n5. message printString, displayString et printOn. \r\n\"printString is about to give a detailled information about an object, \r\ndisplayString is a message that should return a short string-based \r\nrepresentation to be used by list and related UI frameworks\"\r\nprintString appelle le message printOn:\r\n\r\n4. pragma <script>, qui ajoute un bouton dans Nautilus pour permettre d'exécuter la méthode \r\ncontenant ce pragma. On peut aussi avoir: <script: 'self new example06Cluster open'>\r\n\r\n3. Utiliser la possibilité d'étendre l'inspecteur, en créeant des méthodes de classes avec le pragma <gtInspectorPresentationOrder>\r\nPour des exemples:\r\n(Object subclasses collect: [:each | Pragma allNamed: #gtInspectorPresentationOrder: in: each] thenReject: [ :each | each size = 0 ]) collect: [ :each | (each at:1) method asRingDefinition ]\r\n\r\ngtInspectorSubmorphsIn: composite\r\n\t<gtInspectorPresentationOrder: 80>  \r\n\tself halt.\r\n\tcomposite tree \r\n\t\ttitle: 'Submorphs';\r\n\t\trootsExpanded;\r\n\t\tdisplay: [:each | {each} ];\r\n\t\ticon: [:each | | morphForm |\r\n\t\t\tmorphForm := each imageForm.\r\n\t\t\t(morphForm extent x > 0 and: [morphForm extent y > 0 ])\r\n\t\t\t\tifTrue: [(morphForm scaledToSize: 16@16) asMorph]\r\n\t\t\t\tifFalse: [Form extent: 16@16] ];\r\n\t\tchildren: [:each | each submorphs];\r\n\t\twhen: [:each | each submorphs notNil and:[ each hasSubmorphs ] ]\r\n\t\t\r\ncomposite being an instance of GLMCompositePresentation\r\n\r\n\r\n\r\n4. Prefixer le nom de sa methode par example: exampleMethod\r\n-> une flèche verte est ajouté dans le browser permettant d'exécuter la méthode.\r\nOr use the pragma <example> in the method.\r\n\r\n\r\n#pour enregistrer ses scripts.\r\n\r\n7. Accéder un répertoire de script: 'c:\\devzone' asFileReference\r\n\r\n\r\n6. Package QuickAccess pour créer ses propres action (comme des macros)\r\nDémo: http://astares.blogspot.ca/2015/11/quickaccess-in-pharo.html\r\n\r\nhttps://medium.com/concerning-pharo/hacking-a-simple-syntactic-highlighter-around-specs-textmodel-44ba2e2b1ab9"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2022-07-22T19:48:02.566-04:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2022-07-22T19:48:09.347-04:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Pharo internal documentation"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "7013a833-cfa0-0d00-bd75-84bd0f15530d"
+	}
+}

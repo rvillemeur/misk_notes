@@ -1,0 +1,76 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T20:29:53.211-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T20:29:53.211-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "2D9Gus+gDQCrnIh5DgkDmw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "\r\nPharo and smalltalk was told to be designed like operating system.\r\nHowever, if you compare their structure with a real operation system like Minix, \r\nyou will see that, while they share some common responsability, some are really\r\nsplit of between the VM and the Image.\r\n\r\n\t|Operating System| Pharo Smalltalk|\r\n\t| Process Mgmt\t | Pharo image\t  |\r\n\t| I&O\t\t\t | managed from image, possibilities given by VM|\r\n\t| memory mgmt\t | pharo VM \t  |\r\n\r\nIn I&O, look for \r\n- graphics\r\n- keyboard\r\n- mouse\r\n- touch screen\r\n- sound\r\n- etc...\r\n\r\nMemory management with Object format, and object recollection\r\n-> ObjectMemory; SpurMemoryManager\r\n=> difference between VM object and Image Object.\r\n\r\nVM is acting like a processor\r\n-> StackInterpreter >> initializeBytecodeTableForSistaV1\r\n=> bytecode.\r\n\r\nVM is acting like a primary operation system\r\n-> StackInterpreter class >> initializePrimitiveTable\r\n=> VM Primitive that the VM could use\r\n=> FFI to extend the possibilities of the VM\r\n=> plugin to extend the VM, either from external DLL or inside de VM/\r\n\r\nVM running optimization: COG which introduce JIT optimization.\r\n\r\nVM store the Image and define Image format\r\n-> ImageFormat\r\n\r\nVM Plugins\r\n-> category VMMaker-Plugins, and ThreadedFFIPlugin to access a DLL\r\n\r\nVM Source contain also a way to convert SLANG (a subset of smalltalk) to C \r\n-> Category \"VMMaker-Translation to C\"\r\n-> CCodeGenerator >> initializeCTranslationDictionary \r\n\r\n\r\nInitialisation de la VM:\r\n pharo-vm/opensmalltalk-vm/platforms/unix/vm/sqUnixMain.c \r\n Au démarrage:\r\n 1. loadModules()\r\n  ioInitTime();\r\n  ioInitThreads();\r\n  aioInit();\r\n  dpy->winInit();\r\n  imgInit() -> CoInterpreter >> readImageFromFile: f HeapSize: desiredHeapSize StartingAt: imageOffset \r\n\tou StackInterpreter >> readImageFromFile: f HeapSize: desiredHeapSize StartingAt: imageOffset\r\n  dpy->winOpen(runAsSingleInstance ? squeakArgCnt : 0, squeakArgVec);\r\n  interpret(); -> WMMaker-Interpreter >> StackInterpreter >> Interpret\r\n  \r\n\t\"This is the main interpreter loop. It normally loops forever, fetching and executing\r\n\t bytecodes.  When running in the context of a browser plugin VM, however, it must\r\n\t return control to the browser periodically.  This should done only when the state of\r\n\t the currently running Squeak thread is safely stored in the object heap.  Since this\r\n\t is the case at the moment that a check for interrupts is performed, that is when we\r\n\t return to the browser if it is time to do so.  Interrupt checks happen quite frequently.\"\r\n\t \r\nOn a alors la chaine suivante au démarrage:\r\ninitStackPagesAndInterpret (VM) -> loadInitialContext (VM) \r\n-> activeProc := self activeProcess (VM)\r\n-> activeContext := objectMemory fetchPointer: SuspendedContextIndex ofObject: activeProc.\r\n\tself marryContextInNewStackPageAndInitializeInterpreterRegisters: activeContext (VM)\r\n\t\r\n-> recharge l'image qui était sur le point de se fermer. Les dernière instructions\r\nsont donc \"Smalltalk snapshot: true andQuit: true\", qui, quand activé au démarrage, \r\nvont lancer le message \"startup: true\" \r\n(SessionManager >> snapshot: save andQuit: quit\r\n\t-> WorkingSession >> runStartup: isImageStarting qui va envoyer le message\r\n\tstartup: à toutes les listes des \" SessionManager default startupList.\")\r\n"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2022-07-22T19:50:52.577-04:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2022-07-22T19:51:00.741-04:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Virtual Machine"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "e83cca3d-cfa0-0d00-bd7f-79a70f15530d"
+	}
+}

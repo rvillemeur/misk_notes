@@ -1,0 +1,113 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-08-17T10:51:23.438+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-08-17T10:51:23.438+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "gIw+tM2iDQCsu5SQBqojuQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "How would I define something like enum Direction { input, output } in Smalltalk?"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-08-17T10:51:04.177+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-08-17T10:53:54.337+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "6LitsM2iDQCsurhjBqojuQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "#Trivial Approach\r\n\r\nThe most trivial approach is to have class-side methods returning symbols or other basic objects (such as integers).\r\n\r\nSo you can write your example as follows:\r\n\r\n```\r\nDirection class>>input\r\n    ^ #input\r\n\r\nDirection class>>output\r\n    ^ #output\r\n```\r\nAnd the usage:\r\n\r\n```\r\nDirection input\r\n```\r\nThe main downsides are:\r\n* any other \"enum\" that happens to return the same value will equals to this one, even though the enums are different (you could return e.g. ^ self name + '::input')\r\n * during debugging, you see the actual value of the object, which is especially ugly for number-based enums (Uh... what does this 7 mean?)\r\n\r\n#Object Approach\r\n\r\nA better way is to create your own enum object and return instances of it.\r\n\r\nSuch object should:\r\n* override `=` and `hash`, so you can compare them by your value and use the enum as key in hashed collections (dictionaries)\r\n* store the actual unique value representation\r\n* have custom `printOn:` method to ease debugging\r\n\r\nIt could look something like this\r\n\r\n```\r\nObject subclass: #DirectionEnum\r\n    slots: { #value }\r\n    classVariables: {  }\r\n    category: 'DirectionEnum'\r\n\r\n\"enum accessors\"\r\nDirectionEnum class>>input\r\n    ^ self new value: #input\r\n\r\nDirectionEnum class>>output\r\n    ^ self new value: #output\r\n\r\n\"getter/setters\"\r\nDirectionEnum>>value\r\n    ^ value\r\n\r\nDirectionEnum>>value: aValue\r\n    value := aValue\r\n\r\n\"comparing\"\r\nDirectionEnum>>= anEnum\r\n    ^ self class = anEnum class and: [ self value = anEnum value ]\r\n\r\nDirectionEnum>>hash\r\n    ^ self class hash bitXor: self value hash\r\n\r\n\"printing\"\r\nDirectionEnum>>printOn: aStream\r\n    super printOn: aStream.\r\n    aStream << '(' << self value asString << ')'\r\n```\r\nthe usage is still the same\r\n```\r\nDirection input.\r\nDirectionEnum output asString. \"'a DirectionEnum(output)'\"\r\n```\r\nand the problems mentioned in the trivial approach are resolved.\r\n\r\nObviously this is much more work, but the result is better. If you have many enums, then it could make sense to move the basic behavior to a new superclass Enum, and then DirectionEnum would just need to contain the class-side methods.\r\n"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2022-08-17T10:50:13.369+02:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2022-08-17T10:50:29.777+02:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Enums in Smalltalk"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "a81cadb0-cda2-0d00-acb9-aeee06aa23b9"
+	}
+}

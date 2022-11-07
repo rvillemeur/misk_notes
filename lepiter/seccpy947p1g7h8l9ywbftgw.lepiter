@@ -1,0 +1,76 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T19:47:23.732-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T19:47:23.732-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "SKbvMM+gDQC9cietDxVTDQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Chemin d'une requête sur Seaside.\r\n\r\n\r\nZnZincServerAdaptor startOn: 8081\r\n\r\nLance un ZnManagingMultiThreadedServer qui écoute sur le port 8081\r\nQuand il reçoit une requête, dans le message ZnManagingMultiThreadedServer >> executeOneRequestResponseOn:, \r\nla requête est transformé de ZdcSocketStream en ZnRequest par (request := self readRequestSafely: stream timing: timing)\r\npuis prise en charge par handleRequest:\r\n\r\nEnsuite il appelle self authenticateAndDelegateRequest: request dans la méthode ZnManagingMultiThreadedServer >> handleRequestProtected: \r\nDans cette methode, il appelle (delegate handleRequest: request), delegage étant un ZnSeasideServerAdaptorDelegate\r\n\r\nOn a ensuite ZnSeasideServerAdaptorDelegate >> handleRequest: znRequest\r\n\t\"I pass a Zinc HTTP Components ZnRequest to my Seaside Server Adaptor using #process:\"\r\n\t^ self adaptor process: znRequest\r\n\r\nadaptor étant un ZnZincServerAdaptor\r\n\r\nZnZincServerAdaptor >> process: aNativeRequest transforme un ZnRequest en WARequestContext\r\ndans la lignecontext := self contextFor: aNativeRequest. puis ensuite appelle self handle: context;\r\n\r\nZnZincServerAdaptor >> handleRequest: aRequestContext et le defaultRequestHandler est WADispatcher default\r\n\r\n---------------------------------------------------------------------------------\r\nPour enregistrer une application, dans les méthodes de classes de l'objet:\r\n(voir WAWelcome class >> initialize)\r\napplication := WAAdmin register: self asApplicationAt: 'welcome'.\r\n\tWAAdmin defaultDispatcher defaultName: 'welcome'.\r\n\r\nLes exemples de WAWelcome sont tous dans le même package.\r\n\r\nChaque composent dans Seaside dérive de WAComponent et doit implémenter la méthode renderContentOn:\r\npour pouvoir émettre du HTML\r\n\r\n\r\nParmis les composant possible, nous avons:\r\n- WATask\r\n- WAComponent\r\n- WAPainter\r\n- WAFileLibrary -> librairie\r\n---------------------------------------------------------------------------------\r\nApplication incluse par défaut\r\n- WAConfigurationTool\r\n- WADispatcherBrowser\r\n- WAStatus\r\n- WAWelcome\r\nPlus d'autres, qui s'enregistre comme application au démarrage de Seaside."
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2022-07-22T19:47:16.886-04:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2022-07-22T19:47:22.837-04:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Seaside"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "f00def30-cfa0-0d00-bd71-43570f15530d"
+	}
+}

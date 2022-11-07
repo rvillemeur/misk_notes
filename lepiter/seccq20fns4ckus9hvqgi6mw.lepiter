@@ -1,0 +1,76 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T19:46:10.234-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T19:46:10.234-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "GNRaLM+gDQC9Zv1hDxVTDQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Les settings système sont sauvegardé au format ston dans le répertoire:\n[[/home/gnome/.config/pharo/5.0/system-settings.ston]]\n\nCes settings sont lié au package **System-Settings. **\nces settings sont dépendant de la version de Pharo\n\nLe settings allowStartupScript correspond à l'option de la ligne de commande --no-default-preferences, en ce sens ou il ne va pas chercher à exécuter les scripts possible au démarrage:\n\nCes système de settings vient donner des settings plus statique que la possibilité de pouvoir faire tourner du code Smalltalk dès le démarrage de Pharo.\n\nLes fichiers de démarrage sont pris en charge dans le package **StartupPreferences**\nCe sont des fichiers .st, placé dans les répertoires suivants:\n[[/home/gnome/.config/pharo/5.0/settings.st]] => fichier de config pour spécifique pour la version\nStartupPreferencesLoader preferencesVersionFolder\n\n[[/home/gnome/.config/pharo/generalSettings.st]] => fichier de config pour toutes les version de pharo\nStartupPreferencesLoader preferencesGeneralFolder\nStartupPreferencesLoader startupGeneralPreferencesFolderScriptName\n\n[[/home/gnome/MySqueak/pharo5.0/shared/startup.st]] => fichier de config relatif à l'image utilisé\n\nhttp://lists.pharo.org/pipermail/pharo-users_lists.pharo.org/2015-December/023006.html\n\n\nEnfin, il reste le système de session, définis dans le package **System-SessionManager**.\nCe système de session est lié au cycle de vie de l'image, qui gère tous les processus interne à l'image, exécuté lors du démarrage ou de l'arrêt de l'image: quel objet se remet en premier, dans quel ordre:\nExemple, par défaut, va de //global IDs that are used for tracking user activity// jusqu'à //PharoCommonTools//.\n\n list of handlers by order of priority (categories order and categories priority) either for the startup or the shutdown.\n\nSessionManager default startupList.\nSessionManager default shutdownList."
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2022-07-22T19:45:59.999-04:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2022-07-22T19:46:09.408-04:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "System settings and loading"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "18da592c-cfa0-0d00-bd65-89d40f15530d"
+	}
+}

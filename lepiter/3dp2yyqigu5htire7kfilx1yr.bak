@@ -1,0 +1,110 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2021-06-21T13:17:59.415131-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2021-06-21T13:17:59.415131-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "W9WPl6uBDQC6l+vLC6EZOQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2021-06-21T13:18:04.990131-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2021-06-21T13:18:05.988131-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "s+bkl6uBDQC6mHehC6EZOQ=="
+				},
+				"code" : "con scale to fit elememt:\r\nicon := BrGlamorousVectorIcons transcript asElement.\r\nscaledIcon := icon asScalableElement\r\n    scaleStrategy: (BlScalableFixedStrategy zoom: 2);\r\n    constraintsDo: [ :c |\r\n        c horizontal fitContent.\r\n        c vertical fitContent ].\r\n    \r\ne := BlElement new\r\n    background: Color white;\r\n    border: (BlBorder paint: Color gray width: 1);\r\n    geometry: (BlRoundedRectangleGeometry cornerRadius: 4);\r\n    padding: (BlInsets top: 5 left: 10 bottom: 5 right: 10);\r\n    layout: BlFrameLayout new;\r\n    constraintsDo: [ :c |\r\n        c vertical fitContent.\r\n        c horizontal fitContent ];\r\n    addChild: scaledIcon;\r\n    yourself.\r"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2021-06-21T13:17:59.374131-04:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2021-06-21T13:17:59.374131-04:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Page 1"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "33358f97-ab81-0d00-ba96-b50f0ba11939"
+	}
+}

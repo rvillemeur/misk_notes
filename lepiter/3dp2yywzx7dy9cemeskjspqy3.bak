@@ -1,0 +1,110 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2021-06-21T13:23:44.216131-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2021-06-21T13:23:44.216131-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "QxQdrKuBDQC6pUXpC6EZOQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2021-06-21T13:23:50.809131-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2021-06-21T13:23:51.890131-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "K66BrKuBDQC6pu56C6EZOQ=="
+				},
+				"code" : "\r\nBlElement new\r\n    layout: (BlGridLayout horizontal columnCount: 3);\r\n    constraintsDo: [ :c |\r\n        c horizontal matchParent.\r\n        c vertical matchParent ];\r\n    addChildren: {\r\n        \"top row\"\r\n        (BlTextElement new text: '5,0' asRopedText).\r\n        (BlElement new size: 0@0).\r\n        (BlTextElement new text: '13,0' asRopedText).\r\n        \r\n        \"middle row\"\r\n        (BlElement new size: 0@0).\r\n        (BlElement new\r\n            constraintsDo: [ :c |\r\n                c horizontal matchParent.\r\n                c vertical matchParent ];\r\n            border: (BlBorder paint: Color gray width: 1)).\r\n        (BlElement new size: 0@0).\r\n        \r\n        \"bottom row\"\r\n        (BlTextElement new text: '5,25' asRopedText).\r\n        (BlElement new size: 0@0).\r\n        (BlTextElement new text: '13,25' asRopedText). }"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2021-06-21T13:23:44.169131-04:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2021-06-21T13:23:44.169131-04:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Page 1"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "ab5c1cac-ab81-0d00-baa4-d5e70ba11939"
+	}
+}

@@ -1,0 +1,150 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T20:11:10.368-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T20:11:10.368-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "+FrRhc+gDQC+J/gGDxVTDQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "VFComplet\nDoodstream\nuqload.org\nhttps://vudeo.net/\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T20:33:47.505-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T21:04:51.031-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "wHhXzs+gDQCrvZ/YDgkDmw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "`+-------------------------------------------------------+`\n`| ~ |! ¹|@  |#  |$ £|%  |^  |&  |*  |(  |)  |_  |+ ÷|   |`\n`| ``` |1 ¡|2 ²|3 ³|4 ¤|5 €|6 ¼|7 ½|8 ¾|9 ‘|0 ’|- ¥|= ×|bck|`\n`+-------------------------------------------------------+`\n`|   |Q Ä|W Å|E É|R  |T Þ|Y Ü|I Í|O Ó|P Ö|{  |}  || ¦|  | `\n`|TAB|q ä|w å|e é|r ®|t þ|y ü|i í|o ó|p ö|[ «|] »|\\ ¬|`\n`+-------------------------------------------------------+`\n`|   |A Á|S §|D Ð|F  |G  |H  |J  |K  |L Ø|: °|\" ¨ |   |`\n`|ClK|a á|s ß|d ð|f  |g  |h  |j  |k  |l ø|; ¶| ' ´|Ent|`\n`+-------------------------------------------------------+`\n`|   |Z Æ|X  |C ¢|V  |B  |N Ñ|M  |< Ç|>  |?  |   |`\n`|Sft|z æ|x  |c ©|v  |b  |n ñ|m µ|, ç|.  |/ ¿|Sft|`\n`+-------------------------------------------------------+`\n`| Ctrl  | Alt |           space         | Alt Gr.| Ctrl |`\n`+-------------------------------------------------------+`"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T20:45:27.054-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T20:50:31.225-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "sMr2ANCgDQCr8Nl+DgkDmw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Press space to get  `',\", ~` or `^`\n`+-----------+`\n`| ``` + e = è |`\n`| ``` + E = È |`\n`| ' + e = é |`\n`| ' + E = É |`\n`| \" + e = ë |`\n`| \" + E = Ë |`\n`+-----------+`\n`| ``` + u = ù |`\n`| ``` + U = Ù |`\n`| ' + u = ú |`\n`| ' + U = Ú |`\n`| \" + u = ü |`\n`| \" + U = Ü |`\n`+-----------+`\n`| ``` + i = ì |`\n`| ``` + i = Ì |`\n`| ' + i = í |`\n`| ' + I = Í |`\n`| \" + i = ï |`\n`| \" + I = Ï |`\n`+-----------+`\n`| ``` + o = ò |   `\n`| ``` + O = Ò |`\n`| ' + o = ó |`\n`| ' + O = Ó |`\n`| \" + o = ö |`\n`| \" + O = Ö |`\n`+-----------+`\n`| ``` + a = à |`\n`| ``` + A = À |`\n`| ' + a = á |`\n`| ' + A = Á |`\n`| \" + a = ä |`\n`| \" + A = A |`\r\n`| ~ + a = ã |`\n`| ~ + A = Ã |`\r\n`+-----------+`\n`| ' + c = ç |`\n`| ' + C = Ç |`\n`+-----------+`\n`| ~ + n = ñ |`\n`| ~ + N = Ñ |`\n`+-----------+`\n`| ~ + o = õ |`        \n`| ~ + O = Õ |`        \n`+-----------+` "
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2022-07-22T20:11:00.958-04:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2022-07-22T20:31:16.637-04:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "US Intl keyboard layout & Lecteur streaming"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "30abd085-cfa0-0d00-be26-ad4a0f15530d"
+	}
+}

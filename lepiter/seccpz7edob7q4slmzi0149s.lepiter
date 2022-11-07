@@ -1,0 +1,147 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T20:01:57.163-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T20:01:57.163-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "+ANnZc+gDQC99AigDxVTDQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Note thread/active object pharo smalltalk\r\n------------------------------------------\r\n\r\nOn recherche la programmation parallèle pour 2 raisons principales:\r\n1. La réactivité d'une application et l'isolation d'un processus\r\n\tEx: Interface Graphique, appel de base de donnée.\r\n\t\r\n2. La puissance de calcul (scalability)\r\n\tEx: calcul distribué sur plusieurs coeurs/instance.\r\n\t\r\nCes 2 problèmes peuvent entrainer des soucis de cohérence des donnée (consistency)\r\n\tEx: donnée partagée entre plusieurs thread (espace mémoire commun)\r\n\r\nProgrammation parallèle ou Concurrente -> pas important, ce qu'il faut, c'est de\r\nsynchroniser les évèmenents entre thread:\r\n- Sérialization: Evt A doit se faire avant Evt B\r\n- Mutual exclusion: Evt A et B ne peuvent arriver en même temps.\r\n\r\nLe problème se pose surtout avec les variables partagés entre plusieurs contexte\r\nd'exécution, en particulier sur lors d'écriture concurrente (initialisation ou\r\nmise à jour).\r\n\r\nLa programmation multi-thread peut être utile, ne serait-ce que pour \r\ngarder une interface utilisateur réactive en cas de calcul intensif.\r\n"
+			},
+			{
+				"__type" : "pictureSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T20:02:07.414-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T20:02:35.061-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "8G4DZs+gDQC99h79DxVTDQ=="
+				},
+				"url" : "attachments/seccpvsxki8l0rz4to5j8c0o/pillar_ec_hs_table1.gif"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T19:40:13.135-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T20:01:57.163-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "mIweF8+gDQC9RZmIDxVTDQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Base sur les thread:\r\n------------------------------------------\r\nCréation d'un nouveau thread:\r\n[ command ] fork.\r\nou\r\n[ command] newProcess resume\r\n\r\nSynchronisation avec les sémaphores - permet de bloquer l'accès à une variable.\r\nsem := Semaphore new\r\nsem wait <-> sem signal \r\n\r\nil faut que le nombre de wait et de signal correspondent pour libérer le sémaphore.\r\n\r\nEx: forkAndWait\r\n\t\"Suspend current process and execute self in new process, when it completes resume current process\"\r\n\r\n\t| semaphore |\r\n\tsemaphore := Semaphore new.\r\n\t[self ensure: [semaphore signal]] fork.\r\n\tsemaphore wait.\r\n\r\n\t\r\nProblème avec les threads et sémaphores:\r\n------------------------------------------\r\n- deadlock => 2 thread s'attende mutuellement avant de continuer leur travail.\r\n\r\n- race condition => le contenu d'une variable peut être lu et mis à jour par plusieurs\r\nthread concurrent.\r\n\r\nles problèmes décrits sont par exemple:\r\n- producer-consumer\r\n- readers-writers\r\n- no-starve\r\n- dining philosophers\r\n- cigarette smokers.\r\n\r\n=> code bas niveau, nécessitant de suivre tout les accès concurrent à une variable.\r\nUn livre entier a été écris pour les problèmes: \"Little Book of Semaphores\".\r\nIl faut identifier les patterns de synchronisation rencontrés, avant de mettre \r\nen place la solution appropriées.\r\n\r\n\r\nLe pattern Active Object - Future - promises.\r\n---------------------------------------------\r\nFuture, promise, delay, and deferred refer to constructs used for synchronizing \r\nprogram execution in some concurrent programming languages. a future is a \r\nread-only container for a result that does not yet exist, while a promise can \r\nbe written (normally only once). \r\n\r\nComme le dit Herb Sutter: \"Use Threads Correctly = Isolation + Asynchronous Messages \"\r\nand \"Effective Concurrency: Prefer Using Active Objects Instead of Naked Threads\"\r\n\r\nWith an active object, method invocation is decoupled from the actual method \r\nexecution, i.e. invoked methods of these objects are executed asynchronously \r\nand do not block the caller. \r\n\r\nThe concurrency functionality is achieved by running methods in a thread \r\nor process context different from that of the caller. Possible results of active \r\nmethods are encapsulated in so called future objects which can be seen as \r\nplaceholders or contracts for the real results. A future is basically a join \r\npoint or rendez-vous for the caller and the active object. \r\n \r\nThe basic idea is to take a block of code, schedule it on another thread and \r\nreturn a dynamic proxy that if accessed, blocks until the value returns.\r\n\r\na subclass of ProtoObject since we're building a proxy\r\n\tProtoObject subclass: #SFuture\r\n\t\tinstanceVariableNames: 'futureValue error lock'\r\n\t\tclassVariableNames: ''\r\n\t\tpoolDictionaries: ''\r\n\t\tcategory: 'OnSmalltalk'\r\n\t\r\nThen a #value: write accessor which eagerly kicks off the process, sets up, and \r\nclears the lock after fetching the future value.\r\n\tvalue: aBlock \r\n    lock := Semaphore new.\r\n\r\n    [ [ futureValue := aBlock value ] \r\n        on: Error\r\n        do: [ :err | error := err ]\r\n        ensure: [ lock signal ] ] forkBackground\r\n\r\nNow a #value read accessor that blocks if the lock still exists, re-throws any \r\nerror that may have happened on the worker thread in the context of the main \r\nthread, and finally returns the future value.\r\n\tvalue\r\n    lock isSignaled ifFalse: [ lock wait ].\r\n    error ifNotNil: \r\n        [ error\r\n            privHandlerContext: thisContext;\r\n            signal ].\r\n    ^ futureValue\r\n\t\r\nA quick testing method for checking if the future has finished executing \r\n(useful for doing what work you can with the results that have returned).\r\n\r\n\thasValue\r\n\t\t^ lock isSignaled\r\n\r\nAnd the all important #doesNotUnderstand: override that intercepts any message \r\nsent to the proxy and sends it to the future value, causing the thread to block \r\nuntil the result is finished computing.\r\n\r\n\tdoesNotUnderstand: aMessage \r\n\t\t^ self value \r\n\t\t\tperform: aMessage selector\r\n\t\t\twithArguments: aMessage arguments\r\n\t\t\r\nFinally, a single extension method to BlockContext to make using the future more \r\nnatural and ensuring to call fixTemps so I can collect future values in a loop \r\nwith the assumption that the block will act like a proper closure.\r\n\r\n\tBlockClosure>>future\r\n\t\t^ SFuture new value: self fixTemps\r\n\t\t\r\nUsage:\r\n\tvalue1 := [200 timesRepeat:[Transcript show: '.']. 6] future.\r\n\tvalue2 := [200 timesRepeat:[Transcript show: '+']. 6] future.\r\n\tTranscript show: 'other work'.\r\n\tTranscript show: (value1 + value2).\r\n\r\nLa solution Pharo Smalltalk - utiliser TaskIt\r\n---------------------------------------------\r\nhttps://github.com/sbragagnolo/taskit\r\n\r\n\r\n\r\nReference:\r\n---------------------------------------------\r\nhttp://tutorials.jenkov.com/java-concurrency/race-conditions-and-critical-sections.html\r\nhttp://onsmalltalk.com/smalltalk-concurrency-playing-with-futures\r\nhttps://en.wikipedia.org/wiki/Futures_and_promises\r\nhttps://blog.gurock.com/wp-content/uploads/2008/01/activeobjects.pdf\r\nhttps://medium.com/swlh/what-you-need-to-know-about-asynchronous-programming-in-javascript-894f90a97941\r\nhttps://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/Utiliser_les_promesses\r\n"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2022-07-22T19:40:03.756-04:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2022-07-22T19:40:11.225-04:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "thread and concurrency"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "e0031e17-cfa0-0d00-bd44-00770f15530d"
+	}
+}

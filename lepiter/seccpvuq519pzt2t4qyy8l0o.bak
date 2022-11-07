@@ -1,0 +1,255 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T20:05:45.064-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T20:05:45.064-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "QIL8cs+gDQC+DtAJDxVTDQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# Managing asynchronous programming in JavaScript \n\nSome smart people have written something much more complete than I'll ever do at: https://javascript.info/async. This page is only a personal summary\n\nJavaScript executes code in a single thread, which makes it blocking. Using some APIs (Web, NodeJs, etc...), some JavaScript jobs can be transferred to other threads, and notified through event.\n\nNode.js and JavaScript in general is an event-based platform. This means that everything that  happens is the reaction to an event. A transaction passing  through Node traverses a cascade of callbacks. Abstracted away from  the developer, this is all handled by a library called libuv which  provides a mechanism called an event loop.\n\nNode JS applications uses “Single Threaded Event Loop Model\". Node  JS Processing model mainly based on Javascript Event based model with  Javascript callback mechanism.\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T20:07:39.251-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T20:07:39.251-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "ON3Kec+gDQC+Fak+DxVTDQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## The origin: Continuation Passing Style\n\nContinuation-passing style (CPS) originated as a style of programming in the 1970s, especially in functional programming paradigm. Like functional language, JavaScript function are first class, and can be passed as parameter to other function.\n\nNatively, most  asynchronous JavaScript APIs are callback based. They need a callback function to notify when an asynchronous operation is done.\n\nThe CPS pattern have been used by NodeJS as the preferred way to handle asynchronous code and to handle exception. Instead of catching exception as in synchronous code, you pass the error to the continuation function.\n\nExample with the readfile method:\n\n```js\nconst fs = require('fs') \n\n// method signature\nfs.readFile(filePath, options, callback)\n\n// method usage with lambda javascript function\nfs.readFile('some-file', (err, data) => {\n  if (err) {\n    // Handle error \n  } else {\n    // Do something with data\n  }\n})\n```\n\nHowever, CPS come with its own issue, the main one being what is called the pyramid of doom or callback hell, when you avec CPS calling CPS, calling CPS. This is best described here: http://callbackhell.com/. To solve this and provide a higher level of abstraction, the Javavascript community came with the Promise."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T20:06:54.772-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T20:07:39.267-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "ICskd8+gDQC+EgNeDxVTDQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## The intermediate: Promise\n\nPromise is not a new concept by itself, It's a pattern that have been studied in the OOP community; They were called Active Object in the C++ community, and was mainly devised for multithreaded application architecture. The promise and Future pattern date back itself to the 70's.\n\nThe **Promise** object represents the eventual completion (or failure) of an asynchronous operation and its resulting value. Essentially, a promise is a returned object to which you attach callbacks, instead of passing callbacks into a function.\n\nTo convert a callback into a promise, you need to return a promise, and you run the code with the callback inside the promise.\n\n```js\nconst readFilePromise = (...args) => {\n  return new Promise((resolve, reject) => {\n    fs.readFile(...args, (err, data) => {\n      if (err) return reject(err)\n      resolve(data)\n    })\n  })\n}\n```\n\nYou can then use `readFilePromise` as a promise.\n\n```js\nreadFilePromise(filePath, options)\n  .then(data => {/* Do something with data */})\n  .catch(err => {/* Handle error */}\n```\n\nPromise call sequence."
+			},
+			{
+				"__type" : "pictureSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T20:07:02.275-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T20:07:26.628-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "uKeWd8+gDQC+EyL1DxVTDQ=="
+				},
+				"url" : "attachments/seccpz214tcpze9oilowja40/promise call.png"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T20:05:39.79-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T20:06:54.772-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "AJ4Ncs+gDQC+DXzSDxVTDQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "![](C:\\devzone\\sources\\misk_notes\\javascript\\promise call.png)\n\n## The modern way: async and await\n\nCode returning a promise follow similar pattern, but on the outside, they look like regular function. Nothing tells that they must be used in an asynchronous way except if you read their code definition. The keyword Async and await have been introduced in JavaScript to show explicitly when code is asynchronous. Internally, they still use Promise.\n\nThe word **async** before a function means one simple thing: a function  always returns a promise. Other values are wrapped in a resolved promise automatically. The keyword **await** makes JavaScript wait until that promise settles and returns its result. If we try to use **await** in non-async function, there would be a syntax error. This force the programmer to think its code fully asynchronously.\n\n**async** function is more like your promise executor function which runs synchronously. The **await** keyword is like a **then** callback that wraps all the statements below it.\n\n\n\n## Bonus: Event handling in web page\n\nThe **addEventListener** method is the most preferred way to add an event listener to **window**, **document** or any other **element** in the DOM\n\n```js\nwindow.addEventListener(\"mousedown\",function(event){\n alert(\"window\");\n console.log(event);\n});\n```\n\nIf you want to remove an event listener from a specific element:\n\n```js\nDocument.getElementbyId(\"id_name\").removeEventListener(\"click\",fn_name)\n```\n\nThe list of event is available at: https://developer.mozilla.org/en-US/docs/Web/Events\n\n## source\n\nhttps://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/\n\nhttps://medium.com/the-node-js-collection/what-you-should-know-to-really-understand-the-node-js-event-loop-and-its-metrics-c4907b19da4c\n\nhttps://medium.com/better-programming/learn-node-js-under-the-hood-37966a20e127\n\nhttps://medium.com/better-programming/is-node-js-really-single-threaded-7ea59bcc8d64\n\nhttps://medium.com/front-end-weekly/javascript-event-loop-explained-4cd26af121d4\n\nhttp://matt.might.net/articles/by-example-continuation-passing-style/\n\nhttps://zellwk.com/blog/converting-callbacks-to-promises/\n\nhttps://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise\n\nhttps://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises\n\nhttps://medium.com/better-programming/should-i-use-promises-or-async-await-126ab5c98789\n\nhttps://medium.com/jspoint/javascript-promises-and-async-await-as-fast-as-possible-d7c8c8ff0abc\n\nhttps://stackoverflow.com/questions/46004290/will-async-await-block-a-thread-node-js/46004756#46004756\n\nhttps://www.imaginarycloud.com/blog/async-javascript-patterns-guide/\n\n\n\n\n\n"
+			},
+			{
+				"__type" : "pictureSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T20:05:50.351-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T20:06:15.924-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "mC5Nc8+gDQC+DyQODxVTDQ=="
+				},
+				"url" : "attachments/seccpzuapp5wwxevpszlrf6o/promise call.png"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2022-07-22T20:05:29.361-04:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2022-07-22T20:05:38.936-04:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "async programming javascript"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "68e60c72-cfa0-0d00-be0c-49070f15530d"
+	}
+}

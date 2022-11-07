@@ -1,0 +1,113 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T23:40:12.167-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T23:40:12.167-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "WOvscdKgDQCsV31QDgkDmw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# Computer are fascinating. "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T18:58:10.715-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T23:40:58.491-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "+Pk3gc6gDQC8EdOQDxVTDQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "I have been lucky to discover the IT world at the end of the 90's, when internet was at its very beginning, and Windows 95 was the best things in the world. A whole universe containted in a box, with different layer:\r\n\r\n- hardware\r\n- software\r\n- operating system\r\n- programming language\r\n- database\r\n- internet\r\n- etc...\r\n\r\nThe possibilities looked endlessly. I wanted to understand how everything was working, and master the *magic* behind it. During my quest, one day, I discovered *Pharo smalltalk*. At first, curious about its surprising syntax, which is completely appart of the dominant language I knew at that time (C/C++, javascript, a little bit of Python), I quickly went to appreciate the full environment.\r\n\r\nComputer are themselvers a full universe, and *Pharo* contain a complete world, completely open to study, with a regular syntax. No more specific tools to master, no obscure framework, no hidden code or closed library, everything is available in the image.\r\n\r\nWhen I say everything, I really mean everything. Compiler, graphics stacks, syntax, everything is defined and available right in the image. The Virtual Machine itself is written in *Pharo*, and its code can be browsed and studied with the same tool you use to write and manipulate *Pharo*.\r\n\r\nAs a quick reminder, the whole Pharo syntax can be expressed on postcard, as illustratred [here](https://commons.wikimedia.org/wiki/File:Pharo_syntax_postcard.svg).\r\nYou can find all information you need on *Pharo* directly on the project page: [pharo](https://www.pharo.org)\r\n\r\nThis notebook is the result of my exploration. I hope you'll find usefull information in here, and get the same fun at deep diving into the *Pharo* World than I had.\r\n\r\n## Computer graphics and Pharo graphical stacks\r\n\r\nOne of the first things that caught my attention with computer was Graphics. If\r\ncomputer can be mysterious, graphics looked like magic.\r\n\r\nThere is a famous quote that says: [All problems in computer science can be solved by another level of indirection](https://wiki.c2.com/?OneMoreLevelOfIndirection) (or abstraction). The graphical stack is a perfect example of this, as each new layer add another level of indirection to the previous one, to introduce new abstraction that make problems easier to solve."
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2022-07-22T18:58:08.842-04:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2022-07-22T18:58:19.791-04:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "introduction"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "10793781-cea0-0d00-bc10-5dc70f15530d"
+	}
+}
