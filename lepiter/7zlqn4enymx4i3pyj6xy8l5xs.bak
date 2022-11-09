@@ -1,0 +1,292 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-09T18:41:41.635522-05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-09T18:41:41.635522-05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "/dUo7nOpDQCkeJHpAprxhg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "[SAM (State-Action-Model)](https://sam.js.org/) is a software engineering pattern that helps manage the application state and reason about temporal aspects with precision and clarity. SAM's founding principle is that State Mutations must be first class citizens of the programming model. Once that principle is accepted, proper temporal semantics can be articulated.\r\n \r\n The model is a singleton that contains all the application state and (logically) exposes a single method: present(proposal). The model is responsible for accepting (or rejecting) the effects of an action. The model is where integrity rules get enforced. In other words, actions are generally triggered with some context specific data, they do not have access to the application state, for instance, when you implement a \"change password\" action, the action will check if the password is valid in the context of the request, but the model might enforce additional integrity rules, such that you cannot use a password that matches any of your last three passwords.\r\n\r\nThe model is also solely responsible for the persistence of the application state.\r\n\r\n `  ________________________... event ...__________________________`\r\n   `|                                                               |`\r\n` |                                                             Render`\r\n` |          ___________Model___________                          |`\r\n` v         |       (synchronized)      |                         |`\r\n`Action ->  | Acceptor(s) -> Reactor(s) | -> (Next-Action and|or State Representation)`\r\n` ^         |___________________________|        |`\r\n` |                                              |`        \r` |______________________________________________|`\r\n"
+			},
+			{
+				"__type" : "pictureSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-09T18:41:58.411565-05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-09T18:42:00.453424-05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "pcV+8HOpDQCkeWYsAprxhg=="
+				},
+				"url" : "attachments/4wlqgrewsrsm9f3kdcrd4jqp4/fig6.jpg"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-09T18:42:24.35904-05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-09T18:42:24.35904-05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "5qXv8XOpDQCketrIAprxhg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "####1. actions compute proposals\r{{gtMethod:SAMAction>>increment|expanded=true}}"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-09T18:42:39.975824-05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-09T18:42:39.975824-05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "cuTg8nOpDQCke5EdAprxhg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "####2. the model accepts, partially accepts or rejects the proposals\r\nmodel.accept(proposal)\r\n It is recommended to factor the model as a series of acceptors and reactors\r\n 2.a. Acceptors validate proposals and mutate the state accordingly\r\n  2.b. Reactors react to state mutations and are not involved in processing proposals\r\n  {{gtMethod:SAMModel>>accept:|expanded=true}}\r\n\r\n####3. evaluates whether a next-action is needed\r\n    .then(nextAction)\r\n\r\n####4. compute the new state representation\r\n    .then(representation)\r\n    {{gtMethod:SAMState>>representation:|expanded=true}}"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-09T18:43:01.233941-05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-09T18:43:01.233941-05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "5MUU9HOpDQCkfBJEAprxhg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "#A complete example"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-09T18:43:19.016748-05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-09T18:43:21.886055-05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "crVM9XOpDQCkfUkTAprxhg=="
+				},
+				"code" : "SAMView new createUI."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-09T18:43:38.149774-05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-09T18:43:38.149774-05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "ItrD9XOpDQCkfqrbAprxhg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "[javascrip example](https://jsfiddle.net/mfeitoza/pvdLkny7)"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2022-11-09T18:41:19.13429-05:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2022-11-09T18:41:24.761588-05:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "SAM (State-Action-Model) "
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "507127ee-73a9-0d00-a477-d603029af186"
+	}
+}

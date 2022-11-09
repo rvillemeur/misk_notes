@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-07-22T20:32:04.553-04:00"
+						"dateAndTimeString" : "2022-11-09T16:54:11.969438-05:00"
 					}
 				},
 				"editEmail" : {
@@ -66,7 +66,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-07-22T20:32:04.553-04:00"
+						"dateAndTimeString" : "2022-11-09T16:54:11.969438-05:00"
 					}
 				},
 				"uid" : {
@@ -76,7 +76,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "$baseURL = \"https://dl.feenk.com/gt/\"\n$folder = \"c:\\devzone\\\"\n\ncd $folder\n\n\"remove previous version of GToolkit\"\nRemove-Item -Path ($folder + \"GlamorousToolkitWin64\") -Recurse\n\n\"download Gtoolkit\"\n$byte = Invoke-WebRequest -Uri ($baseURL + \"GlamorousToolkitWin64-release\")  | Select-Object -ExpandProperty Content\n$version =  [System.Text.Encoding]::ASCII.GetString($byte).replace(\"`n\",\"\")\n\n$url = $baseURL + $version\nInvoke-WebRequest -Uri $url -OutFile ($folder + $version)\n\n\n\"extract and rename folder\"\nExpand-Archive -Path $version -DestinationPath ($folder + \"GlamorousToolkitWin64\") -verbose\n#$folderName  = $version.Substring(0, $version.IndexOf(\\\".zip\\\"))\n#Rename-Item $folderName GlamorousToolkitWin64\n\n\"remove archive\"\nRemove-Item -Path ($folder + 'GlamorousToolkit-Windows*.zip')"
+				"string" : "```\r\n$baseURL = \"https://dl.feenk.com/gt/\"\n$folder = \"c:\\devzone\\\"\n\ncd $folder\n\n\"remove previous version of GToolkit\"\nRemove-Item -Path ($folder + \"GlamorousToolkitWin64\") -Recurse\n\n\"download Gtoolkit\"\n$byte = Invoke-WebRequest -Uri ($baseURL + \"GlamorousToolkitWin64-release\")  | Select-Object -ExpandProperty Content\n$version =  [System.Text.Encoding]::ASCII.GetString($byte).replace(\"`n\",\"\")\n\n$url = $baseURL + $version\nInvoke-WebRequest -Uri $url -OutFile ($folder + $version)\n\n\n\"extract and rename folder\"\nExpand-Archive -Path $version -DestinationPath ($folder + \"GlamorousToolkitWin64\") -verbose\n#$folderName  = $version.Substring(0, $version.IndexOf(\\\".zip\\\"))\n#Rename-Item $folderName GlamorousToolkitWin64\n\n\"remove archive\"\nRemove-Item -Path ($folder + 'GlamorousToolkit-Windows*.zip') \r\n```"
 			}
 		]
 	},

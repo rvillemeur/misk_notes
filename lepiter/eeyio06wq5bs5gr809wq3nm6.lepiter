@@ -185,6 +185,191 @@
 					"uidString" : "N18ZMnKBDQC9YLgGC6EZOQ=="
 				},
 				"code" : "self database tableOfContentsPageID: self uid"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-09T17:13:48.163631-05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-09T17:13:48.163631-05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "CgoTtXKpDQCkB5nEAprxhg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "##balise dynamique - gtClass, gtMethod, etc...\r\n###gtClass\r\n{{gtClass:name=BlElement|full|label=BlElement class}}\r\n{{gtClass:BaselineOfBloc|show=gtDependencyAnalyzerFor:|expanded=true|height=450}}"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-09T17:18:01.76404-05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-09T17:18:01.76404-05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "XWoJxHKpDQCkIOvHAprxhg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "gtExample\r\n{{gtExample:name=BlEllipseExamples>>default}}"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-09T17:18:28.080572-05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-09T17:18:28.080572-05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "55oYxXKpDQCkI6XsAprxhg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "\r\nor\r\n{{gtExample:GtBaselinesShouldProperlySpecifyDependencies class>>blocSpartaPackageAnalysisExample|noCode=true|previewShow=gtPackageDependenciesFor:}}"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-09T17:14:22.223303-05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-09T17:14:22.223303-05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "whkct3KpDQCkDBQhAprxhg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "###gtMethod\r\n{{gtMethod:name=BlElement>>addChild:}}\r\n\r\n###gtPage\r\n{{gtPage:Note on GToolkit}}\r\n\r\n###gtPackage\r\n{{gtPackage:name=Bloc}}"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-09T17:14:39.352355-05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-09T17:14:54.709611-05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "T4ImuHKpDQCkEGRyAprxhg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "##Integrate local file reference\r\nLoad file: \r\n</home/renaud/devzone>"
 			}
 		]
 	},
