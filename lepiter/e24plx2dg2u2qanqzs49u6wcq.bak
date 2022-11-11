@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-11T13:35:43.759757-05:00"
+						"dateAndTimeString" : "2022-11-11T13:36:45.138902-05:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,41 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "this needs to be put under $HOME/"
+				"string" : "this needs to be put under **$HOME/.local/share/applications**\n"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-11T15:39:31.063865-05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-11T15:40:02.695005-05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "gECqn5mpDQCKEUmZDGbN9g=="
+				},
+				"code" : "(FileLocator home / '.local/share/application/gtoolkit.desktop') resolve"
 			},
 			{
 				"__type" : "textSnippet",
@@ -66,7 +100,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-11T13:35:33.551473-05:00"
+						"dateAndTimeString" : "2022-11-11T15:37:41.720218-05:00"
 					}
 				},
 				"uid" : {
@@ -76,7 +110,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "```\n[Desktop Entry]\nVersion=1.0\nName=GToolkit\nGenericName=Moldable development environment\nExec=/home/renaud/devzone/GlamorousToolkit-Linux/bin/GlamorousToolkit\nIcon=/home/renaud/devzone/sources/gt-logo.png\nType=Application\nCategories=development;\nKeywords=smalltalk;gtoolkit;\n```"
+				"string" : "```\n[Desktop Entry]\nVersion=1.0\nName=GToolkit\nGenericName=Moldable development environment\nExec=/home/renaud/devzone/GlamorousToolkit/bin/GlamorousToolkit\nIcon=/home/renaud/devzone/sources/gt-logo.png\nType=Application\nCategories=development;\nKeywords=smalltalk;gtoolkit;\n```"
 			}
 		]
 	},
