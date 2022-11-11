@@ -1403,7 +1403,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-09T18:40:06.516152-05:00"
+						"dateAndTimeString" : "2022-11-09T18:40:09.076403-05:00"
 					}
 				},
 				"uid" : {
@@ -1413,7 +1413,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[programmation"
+				"string" : "[[programmation]]"
 			},
 			{
 				"__type" : "textSnippet",
