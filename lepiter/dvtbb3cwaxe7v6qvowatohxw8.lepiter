@@ -1,0 +1,594 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2021-08-29T14:45:37.329-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2021-08-29T14:45:49.536-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "4A7s2xiHDQCBteAGDkyD6g=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Your language isn't broken, it's doing floating point math. Computers can only \r\nnatively store integers, so they need some way of representing decimal numbers. \r\nThis representation comes with some degree of inaccuracy. That's why, more often \r\nthan not, ` .1 + .2 != .3.`\r"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2021-08-29T14:51:37.888-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2021-08-29T14:51:37.888-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "OM+R8BiHDQCByfV2DkyD6g=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "The most common situation is illustrated by the decimal number 0.1. \r\n'Although it has a finite decimal representation, in binary it has an \r\ninfinite repeating representation."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2021-08-29T14:46:52.572-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2021-08-29T14:47:00.292-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "kDF+4BiHDQCBwcCpDkyD6g=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Why does this happen? It's actually pretty simple. When you have a base 10 \r\nsystem (like ours), it can only express fractions that use a prime factor of the \r\nbase. The prime factors of 10 are 2 and 5. So 1/2, 1/4, 1/5, 1/8, and 1/10 can \r\nall be expressed cleanly because the denominators all use prime factors of 10. \r\nIn contrast, 1/3, 1/6, and 1/7 are all repeating decimals because their \r\ndenominators use a prime factor of 3 or 7. In binary (or base 2), the only prime \r\nfactor is 2. So you can only express fractions cleanly which only contain 2 as a \r\nprime factor. In binary, 1/2, 1/4, 1/8 would all be expressed cleanly as \r\ndecimals. While, 1/5 or 1/10 would be repeating decimals. So 0.1 and 0.2 (1/10 \r\nand 1/5) while clean decimals in a base 10 system, are repeating decimals in the \r\nbase 2 system the computer is operating in. When you do math on these repeating \r\ndecimals, you end up with leftovers which carry over when you convert the \r\ncomputer's base 2 (binary) number into a more human readable base 10 number."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2021-08-29T14:47:08.076-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2021-08-29T14:47:08.076-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "EMRq4RiHDQCBwsUTDkyD6g=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "If the leading digit is nonzero, then the representation is said to be \r\nnormalized. Requiring that a floating-point representation be normalized makes \r\nthe representation unique. Since floating-point numbers are always normalized, \r\nthe most significant bit of the significand is always 1, and there is no reason \r\nto waste a bit of storage representing it. Formats that use this trick are said \r\nto have a hidden bit.\r"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2021-08-29T14:47:21.415-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2021-08-29T14:47:21.415-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "oEk24hiHDQCBxQnZDkyD6g=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "IEEE 754 single precision is encoded in 32 bits using \r\n- 1 bit for the sign, \r\n- 8 bits for the exponent, and \r\n- 23 bits for the significand. \r\nHowever, it uses a hidden bit, so the significand is 24 bits (p = 24), even \r\nthough it is encoded using only 23 bits. \r\n\r\n`s eeeeeeee mmmmmmmmmmmmmmmmmmmmmmm    1/n`\r\n`0 01111011 10011001100110011001101\t=> chiffre en 32 bits.`"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2021-08-29T14:45:17.763-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2021-08-29T14:53:55.959-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "KNC72hiHDQCBtC0wDkyD6g=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "It can be read with formula like\r\n`(-1)^sign * 2^(exponent - 127) * (1 + sum(i = 1 -> 23) b(i)*2^-i)`\r\n\t\t  \r\n\r\n##Exemple: get 0.1 as float in 4 easy steps.\r\n          \r\n###1. s: signe du chiffre (positif ou négatif)\r\nSur 1 bit\r\n`0: positif`\r\n`1: négatif`"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2021-08-29T14:48:57.291-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2021-08-29T14:54:32.289-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "KEHt5xiHDQCByG7iDkyD6g=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "### 2. eeeeeee: Exposant or multiplier (la puissance à laquelle est poussé le chiffre)\r\nou biased exponent - trouvé par la formule `2^(k-1) - 1 => 2^(8 -1) - 1 = 127`\r\nLa valeur de l'exposant est ` '2^(exponent - 127)'`\r\nsur 8 bits 0 -> 255\r\n`  00000000\t=> 0`\r\n`+ 01000000\t=> 64`\r\n`+ 00100000    => 32`\r\n`+ 00010000\t=> 16`\r\n`+ 00001000    => 8`\r\n`+ 00000010    => 2`\r\n`+ 00000001\t=> 1`\r`= 01111011    => 123`\r\n\r`2^(123 - 127) = 2^(-4)`\r`123 - 127 bias = -4 => multiplier = 2^-4 ou 1/16.`\r\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2021-08-29T14:48:42.922-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2021-08-29T14:54:11.733-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "yFby5hiHDQCBxpAEDkyD6g=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "### 3. mmmmmmmmmmmmmmmmmmmmmmm: mantissa or fraction\r\nsur 23 bits: 1/2 -> 1/8388608\r\nIt consists of 1 (the implicit base) plus (for all those bits with each being \r\nworth 1/(2^n) as n starts at 1 and increases to the right). Remember that 1 bit\r\nis hidden (see normalized text above)\r\n`  10000000000000000000000 => 1/2 (1/2^1) `\r\n`+ 00010000000000000000000 => 1/16 (1/2^4)`\r\n`+ 00001000000000000000000 => 1/32 (1/2^5)\t`\r\n`+ 00000001000000000000000 => 1/256`\r\n`+ 00000000100000000000000 => 1/512`\r\n`+ 00000000000100000000000 => 1/4096`\r\n`+ 00000000000010000000000 => 1/8192`\r\n`+ 00000000000000010000000 => 1/65536`\r\n`+ 00000000000000001000000 => 1/131072 `\r\n`+ 00000000000000000001000 => 1/1048576`\r\n`+ 00000000000000000000100 => 1/2097152 `\r\n`+ 00000000000000000000001 => 1/8388608 (1/2^23) `\r\n`= 10011001100110011001101 => 1.60000002384185791015625`\r\n\r\n###4. mantisse * exposant \r\n `= 1.60000002384185791015625 * 1/16 = 0.100000001490116119384765625`\r"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2021-08-29T14:52:29.353-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2021-08-29T14:52:46.343-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "uH589BiHDQCByi/0DkyD6g=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "We are a little offset from our matical representation of 0.1"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2021-08-29T14:55:15.819-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2021-08-29T14:55:15.819-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "+Cl9/hiHDQCBy3U6DkyD6g=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2021-08-29T14:55:17.685-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2021-08-29T14:55:23.081-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "iLiL/hiHDQCBzEA3DkyD6g=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "##The 0.5 example is substantially easier. It's represented as:\r\n`s eeeeeeee mmmmmmmmmmmmmmmmmmmmmmm`\r\n`0 01111110 00000000000000000000000`\r\n\r\nwhich means it's the implicit base, 1, plus no other additives (all the mantissa bits are zero).\r\n\r\nThe sign is again positive. \r\nThe exponent is 64+32+16+8+4+2 = 126 - 127 bias = -1.\r\nHence the multiplier is 2-1 which is 1/2 or 0.5.\r\n\r\nSo the final value is 1 multiplied by 0.5, or 0.5. Voila!\r"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2021-08-29T14:56:29.89-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2021-08-29T14:56:53.222-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "iFeYAhmHDQCBzRl9DkyD6g=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "#An example of rounding issue with floating point representation"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2021-08-29T15:00:11.076-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2021-08-29T15:00:11.076-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "0NcDEBmHDQCCamFCDkyD6g=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "This is known as ”Muller’s Recurrence,” crafted to highlight how quickly and dramatically floating point roundoff errors can cause things to fall apart, given the right (well, wrong) conditions."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2021-08-29T14:38:00.486-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2021-08-29T14:56:18.676-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "cDzHwBiHDQCBlaPxDkyD6g=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "{{gtClass:Muller|expanded=false}}"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2021-08-29T14:36:30.288-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2021-08-29T14:40:37.955-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "eJ7LsRiHDQCBkgy/DkyD6g=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "#References:\r\nhttps://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html.\r\nhttps://stackoverflow.com/questions/3448777/how-to-represent-0-1-in-floating-point-arithmetic-and-decimal\r\nhttps://www.h-schmidt.net/FloatConverter/IEEE754.html\r\nhttps://en.wikipedia.org/wiki/IEEE_754-1985\r\nhttps://en.wikipedia.org/wiki/Guard_digit\r\nhttp://0.30000000000000004.com/\r\n\r\n"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2021-08-29T14:33:49.079-04:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2021-08-29T14:36:56.616-04:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "How float number are managed in current computer"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "d811cbb1-1887-0d00-8191-726f0e4c83ea"
+	}
+}
