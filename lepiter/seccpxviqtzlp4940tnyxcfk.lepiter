@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-07-22T20:11:10.368-04:00"
+						"dateAndTimeString" : "2022-11-12T17:59:57.928164-05:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-07-22T20:11:10.368-04:00"
+						"dateAndTimeString" : "2022-11-12T18:02:31.479955-05:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "+FrRhc+gDQC+J/gGDxVTDQ=="
+					"uidString" : "6EvJs6+pDQCKKN1BB5qlGQ=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "VFComplet\nDoodstream\nuqload.org\nhttps://vudeo.net/\n"
+				"string" : "VFComplet\nDoodstream\nuqload.org\nhttps://vudeo.net/\nnetu\nFembed"
 			},
 			{
 				"__type" : "textSnippet",

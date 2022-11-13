@@ -13,7 +13,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-07-22T19:25:06.658-04:00"
+			"dateAndTimeString" : "2022-11-12T17:59:05.969318-05:00"
 		}
 	},
 	"editEmail" : {
@@ -24,15 +24,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-07-22T19:25:16.59-04:00"
+			"dateAndTimeString" : "2022-11-12T17:59:05.969318-05:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Misc"
+		"title" : "programmation"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "d062a5e1-cea0-0d00-bcd6-1ba70f15530d"
+		"uuid" : "9489b0b0-afa9-0d00-8a22-22cf079aa519"
 	}
 }
