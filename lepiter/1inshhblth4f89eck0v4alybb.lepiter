@@ -13,7 +13,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-07-22T19:25:06.658-04:00"
+			"dateAndTimeString" : "2022-11-12T22:18:15.360483-05:00"
 		}
 	},
 	"editEmail" : {
@@ -24,15 +24,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-07-22T19:25:16.59-04:00"
+			"dateAndTimeString" : "2022-11-12T22:18:29.009818-05:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Misc"
+		"title" : "Note  on Pharo"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "d062a5e1-cea0-0d00-bcd6-1ba70f15530d"
+		"uuid" : "f76a814f-b3a9-0d00-9d59-ff61079aa519"
 	}
 }

@@ -24,12 +24,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-07-22T19:25:16.59-04:00"
+			"dateAndTimeString" : "2022-11-12T22:17:58.811518-05:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Misc"
+		"title" : "smalltalk tips&tricks"
 	},
 	"uid" : {
 		"__type" : "uuid",
