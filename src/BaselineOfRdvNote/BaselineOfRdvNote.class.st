@@ -24,10 +24,14 @@ BaselineOfRdvNote >> loadLepiter [
 		do: [ :e | e uuidString = 'eeyinywcclrst8qypl6okcb2' ifTrue: [ dbExist := true ] ].
 	dbExist
 		ifFalse: [ LeDatabasesRegistry defaultLogicalDatabase properties
-				addRegisteredDirectory: (FileReference
-						fileSystem: FileSystem disk
-						path: (Path from: 'C:\devzone\sources\note_gtoolkit\lepiter')).
-			LeDatabasesRegistry default defaultLogicalDatabase reload ]
+				addRegisteredDirectory: FileLocator imageDirectory
+			/ 'pharo-local'
+			/ 'iceberg'
+			/ 'rvillemeur'
+			/ 'misk_notes'
+			/ 'lepiter'.
+	
+	LeDatabasesRegistry default defaultLogicalDatabase reload. ]
 ]
 
 { #category : #accessing }
