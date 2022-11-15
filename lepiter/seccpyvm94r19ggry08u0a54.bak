@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-07-22T19:31:01.008-04:00"
+						"dateAndTimeString" : "2022-11-14T20:07:12.10067-05:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,335 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-07-22T19:31:41.758-04:00"
+						"dateAndTimeString" : "2022-11-14T20:08:37.58176-05:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "4EG29c6gDQC9JIZ2DxVTDQ=="
+					"uidString" : "iE6AttmpDQCgpgnJB5qlGQ=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "#Connexion à MySql\r\nconnection := GADriver fromConnectionString:\n\t'mysql://localhost:5432/sodbxtest?&user=sodbxtest&password=sodbxtest'."
+				"string" : "#Garage/MySQL usage\r\n##1.   connection setup"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-14T20:07:19.191574-05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-14T20:07:20.485144-05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "XYzsttmpDQCgp3jNB5qlGQ=="
+				},
+				"code" : "connection := GADriver fromConnectionString: 'mysql://localhost:5432/sodbxtest?&user=sodbxtest&password=sodbxtest'."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-14T20:09:14.052183-05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-14T20:09:14.052183-05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "EBzFvdmpDQCgqaSyB5qlGQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "**connection string definition**\n*driver://host:port/database?key=value&key2=value2*\n\n##2. Check if connection is working\n*https://guillep.github.io/DBXTalk/garage/getting_started.html*"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-14T20:09:21.32437-05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-14T20:11:02.619106-05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "nSU0vtmpDQCgqrU3B5qlGQ=="
+				},
+				"code" : "connection isConnected.\nconnection connect."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-14T20:10:02.718846-05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-14T20:10:02.718846-05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "DrSrwNmpDQCgq2hdB5qlGQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "##3. Create a connection and connect at the same time:"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-14T20:10:06.865056-05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-14T20:10:10.95978-05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "5wrrwNmpDQCgrN7TB5qlGQ=="
+				},
+				"code" : "connection := GADriver connectToConnectionString: \n\t\t'mysql://localhost:3306/sodbxtest?user=sodbxtest&password=sodbxtest'."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-14T20:10:27.546246-05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-14T20:10:27.546246-05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "HpAmwtmpDQCgrfiJB5qlGQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "##4. Execute a SQL query"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-14T20:10:31.749605-05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-14T20:10:35.553344-05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "LMBmwtmpDQCgrhbfB5qlGQ=="
+				},
+				"code" : "connection execute: 'CREATE TABLE CATS (\n\t\tname varchar(50),\n\t\towner varchar(50))'.\n\nconnection execute: 'SELECT * FROM CATS'."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-14T20:10:48.206134-05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-14T20:10:48.206134-05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "mtFhw9mpDQCgr7mhB5qlGQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "##5. Close the connection"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-14T20:10:53.837501-05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-14T20:10:57.244765-05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "DMm3w9mpDQCgsDPgB5qlGQ=="
+				},
+				"code" : "connection close."
 			},
 			{
 				"__type" : "textSnippet",
@@ -66,7 +384,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-07-22T19:31:25.057-04:00"
+						"dateAndTimeString" : "2022-11-14T20:11:53.29468-05:00"
 					}
 				},
 				"uid" : {
@@ -76,7 +394,41 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "# utilisation de Garage\r\n1. avoir une connection\n\nconnection := GADriver fromConnectionString: 'mysql://localhost:5432/sodbxtest?&user=sodbxtest&password=sodbxtest'.\n\ndriver://host:port/database?key=value&key2=value2\n\n2. vérifier la connection, ou la mettre en place: https://guillep.github.io/DBXTalk/garage/getting_started.html\n\tconnection isConnected.\n\tconnection connect.\n\n\n3. pour avoir une connection et se connecter en même temps:\n\tconnection := GADriver connectToConnectionString: \n\t\t'mysql://localhost:3306/sodbxtest?user=sodbxtest&password=sodbxtest'.\n\n\n4. Executer une requete\n\tconnection execute: 'CREATE TABLE CATS (\n\t\tname varchar(50),\n\t\towner varchar(50))'.\n\nconnection execute: 'SELECT * FROM CATS'.\n\n5. Fermer la connection:\n\tconnection close.\n\n6. transaction: https://guillep.github.io/DBXTalk/garage/transactions.html\n[ connection beginTransaction.\n\nconnection execute: 'INSERT INTO CATS(name, owner) VALUES('lutz', 'guille')'.\n\nconnection commitTransaction ] on: Error do: [ connection rollbackTransaction ]."
+				"string" : "##6. If you want to execute Execute transaction: \n*https://guillep.github.io/DBXTalk/garage/transactions.html*"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-14T20:11:30.277171-05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-14T20:11:34.302375-05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "es/jxdmpDQCgsbh0B5qlGQ=="
+				},
+				"code" : "[ connection beginTransaction.\n\nconnection execute: 'INSERT INTO CATS(name, owner) VALUES('lutz', 'guille')'.\n\nconnection commitTransaction ] on: Error do: [ connection rollbackTransaction ]."
 			},
 			{
 				"__type" : "textSnippet",
@@ -103,7 +455,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-07-22T19:35:05.365-04:00"
+						"dateAndTimeString" : "2022-11-14T20:13:07.736518-05:00"
 					}
 				},
 				"uid" : {
@@ -113,7 +465,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "##Glorp et Garage\r\nDocumentation de base: https://guillep.github.io/DBXTalk/glorp.html\n\n===== installation des drivers =====\n\n==== glorp - garage ====\n\nMetacello new smalltalkhubUser: 'DBXTalk' project: 'Garage';\nconfiguration: 'GarageGlorp'; version: #stable;\nload.\n=> permet de charger glorp avec les 3 drivers:\n- postgresql\n- mysql\n- sqlite (qui fait partie de Garage).\n\n==== garage - glorp sqlite 3 ====\n\n=== Pour installer la version Garage de Sqlite 3: ===\n  Gofer it\n\t  smalltalkhubUser: 'DBXTalk' project: 'Garage';\n\t  configurationOf: 'Garage';\n\t  load.\n    \n  (ConfigurationOfGarage project version: '0.5')\n\t  load: 'sqlite3'.\n\n**sous linux, il faut indiquer le chemin de la librairie. **2 possibilitées:\n- In GASqlite3FFI\n\t//library//\n\t\t//^ '/usr/lib/libsqlite3.so.0'//\n\n- Ou dans le répertoire de la VM:\n\t//ln -s /usr/lib/libsqlite3.so.0 libsqlite3//\n\tln -s /usr/lib64/libsqlite3.so.0 sqlite3 si le module s'appelle sqlite3\n\n**Test:**\nGAContinuousIntegrationConfiguration new configureSqlite3.\n\n=> all tests passes with symbolic linked passe on.\nPour vérifier quels drivers sont installés:\nGADriver availableDrivers.\n\n=== pour installer Glorp ===\n   Gofer it\n\t  smalltalkhubUser: 'DBXTalk' project: 'Glorp';\n\t  configurationOf: 'Glorp';\n\t  load.\n\t\n(ConfigurationOfGlorp project version: '2.0') load.\n\n=== Pour installer le driver Garage-Glorp ===\nGofer it smalltalkhubUser: 'DBXTalk' project: 'Glorp'; \n\tpackage: 'GarageGlorpDriver'; load.\n\n\n=== Test ===\n\nGAGlorpContinuousIntegrationConfiguration new configureSqlite3.\nGAGlorpDriver beGlorpDefaultDriver.\n\nGlorpDemoTablePopulatorResource invalidateSetup.\nGlorpDatabaseLoginResource defaultSQLiteLocalLogin.\n"
+				"string" : "#Glorp et Garage\r\n[Base documentation](https://guillep.github.io/DBXTalk/glorp.html)\n\n###installation des drivers\n\n####glorp - garage\n\nMetacello new smalltalkhubUser: 'DBXTalk' project: 'Garage';\nconfiguration: 'GarageGlorp'; version: #stable;\nload.\n=> permet de charger glorp avec les 3 drivers:\n- postgresql\n- mysql\n- sqlite (qui fait partie de Garage).\n\n#### garage - glorp sqlite 3\n\n####Pour installer la version Garage de Sqlite 3: \n  Gofer it\n\t  smalltalkhubUser: 'DBXTalk' project: 'Garage';\n\t  configurationOf: 'Garage';\n\t  load.\n    \n  (ConfigurationOfGarage project version: '0.5')\n\t  load: 'sqlite3'.\n\n**sous linux, il faut indiquer le chemin de la librairie. **2 possibilitées:\n- In GASqlite3FFI\n\t//library//\n\t\t//^ '/usr/lib/libsqlite3.so.0'//\n\n- Ou dans le répertoire de la VM:\n\t//ln -s /usr/lib/libsqlite3.so.0 libsqlite3//\n\tln -s /usr/lib64/libsqlite3.so.0 sqlite3 si le module s'appelle sqlite3\n\n**Test:**\nGAContinuousIntegrationConfiguration new configureSqlite3.\n\n=> all tests passes with symbolic linked passe on.\nPour vérifier quels drivers sont installés:\nGADriver availableDrivers.\n\n### pour installer Glorp\n   Gofer it\n\t  smalltalkhubUser: 'DBXTalk' project: 'Glorp';\n\t  configurationOf: 'Glorp';\n\t  load.\n\t\n(ConfigurationOfGlorp project version: '2.0') load.\n\n=== Pour installer le driver Garage-Glorp ===\nGofer it smalltalkhubUser: 'DBXTalk' project: 'Glorp'; \n\tpackage: 'GarageGlorpDriver'; load.\n\n### Test\n\nGAGlorpContinuousIntegrationConfiguration new configureSqlite3.\nGAGlorpDriver beGlorpDefaultDriver.\n\nGlorpDemoTablePopulatorResource invalidateSetup.\nGlorpDatabaseLoginResource defaultSQLiteLocalLogin.\n"
 			},
 			{
 				"__type" : "textSnippet",
@@ -140,7 +492,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-07-22T19:35:32.375-04:00"
+						"dateAndTimeString" : "2022-07-22T19:35:34.387-04:00"
 					}
 				},
 				"uid" : {
@@ -150,7 +502,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "##Glorp et Github"
+				"string" : "##Glorp et Github\r\nA baseline is associated with a \"git version\", so there is no need to\r\n\"pin the version down in a specific version\" ... in a \"git project\" you\r\nhave the option of changing the specific version associated with a\r\nbaseline on \"every commit\" .... \r\n\r\n\r\n\r\nMetacello new\r\n    repository: 'github://akgrant43/Glorp/src';\r\n    baseline: 'Glorp';\r\n    load.\r\n\r\n\r\nTo load Glorp with the UDBC SQLite drivers:\r\n\r\nMetacello new\r\n    repository: 'github://akgrant43/Glorp/src';\r\n    baseline: 'GlorpSQLite';\r\n    load.\r\n-----------------------------------------------------------------------\r\n\r\nMetacello new\r\n    repository: 'github://pharo-rdbms/Glorp/src';\r\n    baseline: 'Glorp';\r\n    load.\r\n\r\nTo load Glorp with the UDBC SQLite drivers:\r\n\r\nMetacello new\r\n    repository: 'github://pharo-rdbms/glorp-garage/src';\r\n    baseline: 'glorp-garage';\r\n    load.\r\n\t\r\n\r\nMetacello new\r\n    repository: 'github://pharo-rdbms/garage/src';\r\n    baseline: 'garage';\r\n    load.\r\n\t"
 			}
 		]
 	},
@@ -173,12 +525,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-07-22T19:30:49.986-04:00"
+			"dateAndTimeString" : "2022-11-14T20:08:21.332466-05:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "databases"
+		"title" : "databases in Pharo/GToolkit"
 	},
 	"uid" : {
 		"__type" : "uuid",
