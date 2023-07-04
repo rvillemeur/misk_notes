@@ -1455,6 +1455,43 @@
 								"__type" : "textStyle"
 							},
 							"string" : "[[GToolkit graphical stack]]"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-07-04T08:57:09.151766-04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-07-04T08:57:09.160104-04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "NaFzjgq8DQCbm4KUDBnnKQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "[[GtSlideShow]]"
 						}
 					]
 				},

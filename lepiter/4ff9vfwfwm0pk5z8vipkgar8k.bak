@@ -331,7 +331,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-07-22T19:31:55.545-04:00"
+									"dateAndTimeString" : "2022-11-14T20:08:21.338317-05:00"
 								}
 							},
 							"uid" : {
@@ -341,7 +341,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[databases]]"
+							"string" : "[[databases in Pharo/GToolkit]]"
 						},
 						{
 							"__type" : "textSnippet",
