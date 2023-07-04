@@ -160,7 +160,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-07-04T09:15:14.276885-04:00"
+						"dateAndTimeString" : "2023-07-04T09:22:54.259446-04:00"
 					}
 				},
 				"editEmail" : {
@@ -171,7 +171,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-07-04T09:15:18.724124-04:00"
+						"dateAndTimeString" : "2023-07-04T09:22:54.259446-04:00"
 					}
 				},
 				"uid" : {
@@ -181,7 +181,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Presentation "
+				"string" : ""
 			},
 			{
 				"__type" : "textSnippet",
@@ -208,7 +208,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-07-04T09:15:06.365758-04:00"
+						"dateAndTimeString" : "2023-07-04T09:20:19.91716-04:00"
 					}
 				},
 				"uid" : {
@@ -218,44 +218,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "{{gtMethod:name=GtTour>>viewsExplanationSlideFor:}}"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-07-04T09:07:35.360661-04:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-07-04T09:10:46.318051-04:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "2owmtAq8DQCbv7bKDBnnKQ=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : " {{gtMethod:name=GtMethodCoderExplanationStylerExamples>>viewsExplanationWithLinksText}}"
+				"string" : "{{gtMethod:name=GtTour>>viewsExplanationSlideFor:|expanded}}"
 			}
 		]
 	},
