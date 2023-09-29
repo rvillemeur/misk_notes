@@ -66,14 +66,16 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-09T18:45:56.403628-05:00"
+						"dateAndTimeString" : "2023-09-28T21:42:33.804134-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "pcV+8HOpDQCkeWYsAprxhg=="
 				},
-				"url" : "attachments/4wlqgrewsrsm9f3kdcrd4jqp4/fig6.jpg"
+				"url" : "attachments/4wlqgrewsrsm9f3kdcrd4jqp4/fig6.jpg",
+				"caption" : "",
+				"previewHeight" : 300
 			},
 			{
 				"__type" : "textSnippet",
