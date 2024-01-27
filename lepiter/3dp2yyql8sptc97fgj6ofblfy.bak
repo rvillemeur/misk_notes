@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-09T18:34:18.500808-05:00"
+						"dateAndTimeString" : "2024-01-26T20:08:15.967821-05:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,88 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-09T18:34:18.500808-05:00"
+						"dateAndTimeString" : "2024-01-26T20:08:51.055411-05:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "ewAV1XOpDQCkS5JHAprxhg=="
+					"uidString" : "OxDNyETMDQCIrFfBAR/bNw=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Two goals of GToolkit: \r\n\r\n1.  provide a custom view for object, instead of a generic representation\r2. give a way to interact with the environment, to query it more easily.\r\n\r\"everything about software, including code, is data (object)\"\r\n\r#1. Add custom inspector to object\r\n{{gtPage:GtInspector}}\r\n"
+				"string" : "Two goals of GToolkit: \r\n\r\n1.  provide a custom view for object, instead of a generic representation\r2. give a way to interact with the environment, to query it more easily.\r\n\r\"everything about software, including code, is data (object)\"\r\n[[Gtoolkit addtional pragma for moldable development]]"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-01-26T20:09:45.817031-05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-01-26T20:09:45.817031-05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "TRwozkTMDQCKOKQhAR/bNw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "#1. Add custom inspector to object\r\n{{gtPage:GtInspector}} and *gtView* pragma"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-01-26T20:10:02.710552-05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-01-26T20:10:12.731529-05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "6tEpz0TMDQCKYX6VAR/bNw=="
+				},
+				"code" : "#gtView gtPragmas"
 			},
 			{
 				"__type" : "textSnippet",
@@ -66,7 +137,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-09T18:34:41.190194-05:00"
+						"dateAndTimeString" : "2024-01-26T20:07:15.648214-05:00"
 					}
 				},
 				"uid" : {
@@ -76,7 +147,78 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "#2. document object.\radd comment in the markdown format in the comment part of the class or in the lepiter book\rFor a full definition, look at {{gtPage:note sur Lepiter using Markdown sy"
+				"string" : "#2. document object.\radd comment in the markdown format in the comment part of the class or in the lepiter book\rFor a full definition, look at {{gtPage:note sur Lepiter using Markdown syntax}}"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-01-26T20:10:35.618266-05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-01-26T20:10:35.618266-05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "CvYf0UTMDQCKx0kUAR/bNw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "#3. add item to the main board.\r\nhttps://spectrum.chat/gtoolkit/how-to/adding-items-to-the-list-of-tools-slideshows-docs-on-the-gt-tab~0438f838-6ac9-422f-95b4-9085f19af9f7\r\n\rGtHome>>documentationSection\r    <gtHomeSection>\r    ^ GtHomeDocumentationSection new\r        priority: 20\r\n\radd a new subclass of GtHomeSection and an extension method on GtHome with the gtHomeSection pragma\r\n\rLook at package GToolkit-World\r\n"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-01-26T20:10:43.930032-05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-01-26T20:10:51.122973-05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "XtGe0UTMDQCKzWl/AR/bNw=="
+				},
+				"code" : "#gtHomeSection gtPragmas"
 			},
 			{
 				"__type" : "textSnippet",
@@ -103,7 +245,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-09T18:35:05.968737-05:00"
+						"dateAndTimeString" : "2024-01-26T20:10:35.624297-05:00"
 					}
 				},
 				"uid" : {
@@ -113,7 +255,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "#3. add item to the main board.\r\nhttps://spectrum.chat/gtoolkit/how-to/adding-items-to-the-list-of-tools-slideshows-docs-on-the-gt-tab~0438f838-6ac9-422f-95b4-9085f19af9f7\r\n\rGtHome>>documentationSection\r    <gtHomeSection>\r    ^ GtHomeDocumentationSection new\r        priority: 20\r\n\radd a new subclass of GtHomeSection and an extension method on GtHome with the gtHomeSection pragma\r\n\rLook at package GToolkit-World\r\n\r#4. provide example on how to use objects and methods\rAdd the pragma <gtExample> to a method. For examples, look at"
+				"string" : "#4. provide example on how to use objects and methods\rAdd the pragma <gtExample> to a method. For examples, look at"
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -234,43 +376,6 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2021-06-18T18:25:09.756222-04:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-09T18:36:44.172605-05:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "bl2SiHOBDQC6qgWjC6EZOQ=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "#2. document object.\radd comment in the pillar format in the comment part of the class.\rFor a full definition, look at class PRPillarGrammar\r\n\rAdd example and link:\r${example:GtCSPictureExamples>>#pictureWithFacesAndForm|noCode|previewShow=gtPictureFor:}$\r\n\r\nHeader:\r\n!!Header\r\n\r\nLoad file: \r\n${changes:01-createFileOnDisk.ombu}$\r\n\r\nhttps://github.com/SquareBracketAssociates/Booklet-PublishingAPillarBooklet/blob/master/Chapters/PillarSyntax.pillar\r\n\r\n\r#3. add item to the main board.\r\nhttps://spectrum.chat/gtoolkit/how-to/adding-items-to-the-list-of-tools-slideshows-docs-on-the-gt-tab~0438f838-6ac9-422f-95b4-9085f19af9f7\r\n\rGtHome>>documentationSection\r    <gtHomeSection>\r    ^ GtHomeDocumentationSection new\r        priority: 20\r\n\radd a new subclass of GtHomeSection and an extension method on GtHome with the gtHomeSection pragma\r\n\rLook at package GToolkit-World\r\n\r#4. provide examplee\rAdd the pragma <gtExample> to a method.\r\n\r#5. Créer des présentationn\rSee class GtSlideShow and GtPharo101 for exampl\rGtLiveShow create: MySlideShow neslide defined with pragma <gtSlide>Method accept aSlide, which is an instance of GtLiveSlide or one of its subclass,which are themselves subclasses of BrStencil\r\n\r\ncheck: {{gtClass:SmalltalkIntroSlideshow}}\r\n\r\n"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
 						"dateAndTimeString" : "2022-11-09T18:36:29.074536-05:00"
 					}
 				},
@@ -293,6 +398,148 @@
 					"__type" : "textStyle"
 				},
 				"string" : "#6. Graphic stack\r\nLook at Sparta (drawing), Block (low level, layout, event) and Brick (high level widget) described in {{gtPage:GToolkit graphical stack}} and its subpages"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-01-26T20:11:16.249947-05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-01-26T20:11:32.755451-05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "EPOL00TMDQCLPG6lAR/bNw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "##7. add custom action to inspector or coder"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-01-26T20:11:36.828872-05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-01-26T20:11:42.715805-05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "G/3F1ETMDQCMPJ1OAR/bNw=="
+				},
+				"code" : "#gtAction gtPragmas"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-01-26T20:12:07.439179-05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-01-26T20:12:25.272367-05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "/xCZ1kTMDQCMlzziAR/bNw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# 8. add linter in code (to be further explained)"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-01-26T20:12:30.82434-05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-01-26T20:12:33.556349-05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "zd7910TMDQCN63KHAR/bNw=="
+				},
+				"code" : "#gt"
 			}
 		]
 	},
