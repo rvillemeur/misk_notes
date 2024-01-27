@@ -495,7 +495,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-01-26T20:12:25.272367-05:00"
+						"dateAndTimeString" : "2024-01-26T20:21:21.986873-05:00"
 					}
 				},
 				"uid" : {
@@ -505,7 +505,44 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "# 8. add linter in code (to be further explained)"
+				"string" : "# 8. add linter in code (to be further explained)\n "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-01-26T20:22:46.717687-05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-01-26T20:53:17.949428-05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "6LWz/ETMDQCSX2UVAR/bNw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Example with {{gtMethod:name=ClassDescription>>gtInstanceVariableCase:}}. If one of your instance variable begin with an uppercase, you'll see an Icon on the right of your class name, with linter advice to put it lowercase. Other example are available in the image."
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -540,6 +577,77 @@
 					"uidString" : "zd7910TMDQCN63KHAR/bNw=="
 				},
 				"code" : "#gtAdvice gtPragmas"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-01-26T21:02:13.806197-05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-01-26T21:02:24.811614-05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "wZjKiUXMDQCa7hPgAR/bNw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "#9, , Custom search"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-01-26T21:02:40.486075-05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-01-26T21:03:05.219636-05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "TLBhi0XMDQCbU5kkAR/bNw=="
+				},
+				"code" : "#gtSearch gtPragmas"
 			}
 		]
 	},

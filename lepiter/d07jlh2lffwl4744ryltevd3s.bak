@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-01-26T20:53:57.181529-05:00"
+						"dateAndTimeString" : "2024-01-26T20:53:38.736635-05:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "#1. customize inspector\rAdd a method on the instance side, with pragma **<gtView>** and **<gtClassView>**\rEx:\rgtViewContactsListOn: aView\r\t<gtView>\r\t\raView is a subtype of {{gtClass:name=GtPhlowProtoView}} or {{gtClass:name=GtPhlowView}} \t\r\r\nTo get a list of all the view in the system:"
+				"string" : "#1. customize inspector\rAdd a method on the instance side, with pragma **<gtView>** and \rEx:\rgtViewContactsListOn: aView\r\t<gtView>\r\t\raView is a subtype of {{gtClass:name=GtPhlowProtoView}} or {{gtClass:name=GtPhlowView}} \t\r\r\nTo get a list of all the view in the system:"
 			},
 			{
 				"__type" : "pharoSnippet",
