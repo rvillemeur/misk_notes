@@ -18,6 +18,302 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-03-13T17:08:11.148-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-03-13T17:08:11.148-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "4Ka/6PLPDQC6JyuxDHyM3Q=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "\t\t\t\t\t\t\t\t\tC++ reference\r\n\r\n# basic structure\r\n```\r\n| source.h\t\t\t\t\t\t|source.cpp\t\t\t\t\t\t\t|main.cpp                        |\r\n|-------------------------------|-----------------------------------|--------------------------------|\r\n| #ifndef SOURCE_H\t\t\t\t|#include \"source.h\"\t\t\t\t|#include \"source.h\"             |\r\n| #define SOURCE_H\t\t\t\t|#include <iostream>\t\t\t\t|                                |\r\n| \t\t\t\t\t\t\t\t|\t\t\t\t\t\t\t\t\t|                                |\r\n| namespace myNamespace\t\t\t|using namespace myNamespace;\t\t|using namespace myNamespace;    |\r\n| {\t\t\t\t\t\t\t\t|using namespace std;\t\t\t\t|                                |\r\n| \tclass myClass\t\t\t\t|\t\t\t\t\t\t\t\t\t|                                |\r\n| \t{\t\t\t\t\t\t\t|void myClass::method1()\t\t\t|int main(int argc, char* argv[]) |\r\n| \t\tpublic:\t\t\t\t\t|{\t\t\t\t\t\t\t\t\t|{                               |\r\n| \t\t\tvoid method1();\t\t|\tcout << \"hello world\";\t\t\t|\tmyClass var1;                |\r\n| \t};\t\t\t\t\t\t\t|}\t\t\t\t\t\t\t\t\t|\tvar1.method1();              |\r\n| }\t\t\t\t\t\t\t\t|\t\t\t\t\t\t\t\t\t|\treturn 0;                    |\r\n| \t\t\t\t\t\t\t\t|\t\t\t\t\t\t\t\t\t|}                               |\r\n| #endif /* SOURCE_H */\t\t\t|\t\t\t\t\t\t\t\t\t|                                |\r\n```\r\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-03-13T17:08:17.057-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-03-13T17:08:17.057-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "6NAZ6fLPDQC6LlSnDHyM3Q=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# C++ compilation process\r\n```\r\ncommand line: g++ -Wall -Wextra -pedantic -std=c++0x  -o prog1 main.cpp source.cpp\r\n```\r\n\r\n```\r\n+-----------+\t\t\t\t\t  +-----------+\t\t\t    +----------+\t\t\t   +-----------+\t\t   +----------+\r\n|source code|- C++ preprocessor ->|temporary  |- compiler ->|assembler |-- assembler ->|object code|- linker ->|   final  |\r\n|\tfile    |\t\tg++ -E\t\t  | file      |\t  g++ -S\t|file *.s  |\tg++ -c\t   |file (*.o) |  g++ -o   |executable|\r\n+-----------+\t\t\t\t\t  +-----------+\t\t\t    +----------+\t\t\t   +-----------+\t\t   +----------+\r\n```\r\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-03-13T17:08:20.559-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-03-13T17:08:20.559-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "mEBP6fLPDQC6NTR3DHyM3Q=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# comment\r\n\r\n// Comment to end of line\r\n\r\n/*\r\n\r\nMulti-line\r\n\r\ncomment\r\n\r\n*/\r\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-03-13T17:08:23.682-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-03-13T17:08:23.682-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "0Od+6fLPDQC6PBD6DHyM3Q=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# namespace\r\n```\r\nnamespace myNamespace\r\n{\r\n}\r\n\r\ntypename::X                      \t// Name X defined in class T\r\nnamespace::X                      \t// Name X defined in namespace N\r\n::X                       \t\t\t// Global name X (mostly for c function)\r\nusing namespace myNamespace\t\t\t// to avoid myNamespace::X\r\n```\r\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-03-13T17:08:36.164-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-03-13T17:08:36.164-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "oF096vLPDQC6QyGhDHyM3Q=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# base type and Class declaration\r\n\r\n## base type\r\n\r\n\tvoid\r\n    int, short int, long int, long long int, unsigned int, unsigned short int, unsigned long int, unsigned long long int,\r\n    float, double, long double\r\n\tchar, wchar_t\r\n\tbool\r\n\tsize_t (represent the size of any object (including arrays) in the particular implementation)\r\n\tptrdiff_t (represent the difference between pointers.)\r\n\tnullptr, nullptr_t\r\n\r\n## other type declaration\r\n\r\n\tenum (enum1 {var1, var2};) \t\t\t\t\t\t\t// type with limited set of values.\r\n\tenum class Salutation : char { mr, ms, co, none }; \t//scoped enumeration (cc++11)\r\n\ttypedef (string char*;)\t\t\t\t\t\t\t\t// type alias\r\n\textern\t\t\t\t\t\t\t\t\t\t\t\t// Information only, declared elsewhere\r\n\tauto\t\t\t\t\t\t\t\t\t\t\t\t// automatic type deduction (c++11)\r\n\t{1,2,3,4}\t\t\t\t\t\t\t\t\t\t\t// initializer list\r\n\r\n## class declaration\r\n```\r\n\tclass|struct|union class_name[:[public|private|protected]parent_class]\r\n\t{\r\n\t\t[public|proctected|private]:\r\n\t\t\t[explicit] class_name();\t\t\t\t        //constructor\r\n\t\t\t~class_name();\t\t\t\t\t\t\t        //destructor\r\n\t\t\tclass_name(const class_name& param); \t        //copy constructor\r\n            class_name& operator=(const class_name& other)  //copy assignment operator\r\n\t\t\tclass_name(class_name&& param);\t\t\t        //move constructor (c++11)\r\n            class_name& operator=(class_name&& other)       //move assignment operator\r\n\t\t\tvirtual typename method() =0;\t\t\t        //pure virtual function\r\n\r\n\r\n\t\t\t[friend|static|const] typename member [const];\r\n\t\t\t[friend|static|const] typepename [const] method([const] typename param1 [const], parame2) [const|override|noexcept|final];\r\n\r\n\r\n\t\t\t}\r\n```\r\nThe keyword *this* represent a pointer to the object whose member function is being executed.\r\n\r\nRule of 5:\r\nThe rule of five is a rule of thumb in C++ that claims that if a class defines \r\nany of the following then it should probably explicitly define all five:\r\n   * destructor\r\n   * copy constructor\r\n   * copy assignment operator\r\n   * move constructor\r\n   * move assignment operator\r\n\r\n\r\n## const declaration\r\n```\r\n\t//  #1      #2                #3      #4      #5\r\n   int const * const Method3(int const * const&) const;\r\n```\r\n(Equivalent to  const int* const  Method3(const int* const&) const;)\r\n\\#5 the entire method declaration does not modify the non mutable members of its class.\r\n\r\n\\#4 the pointer to the left is const and may not be changed to point to a different location.\r\n\r\n\\#3 says that the int to the left is const.\r\n\r\n\\#2 says that the pointer to the left is const.\r\n\r\n\\#1 says that the int to the left is const.\r\n\r\n## Bit Fields\r\nBit Fields are used to define the class members that can occupy less storage than an integral type. \r\nThis field is applicable only for integral type(int, char, short, long...) excludes float or double.\r\n\r\n```\r\nstruct A\r\n{\r\n        unsigned a:2; // possible values 0..3,  occupies first 2 bits of int\r\n        unsigned b:3; // possible values 0..7,  occupies next 3 bits of int\r\n        unsigned :0;  // moves to end of next integral type\r\n        unsigned c:2;\r\n        unsigned :4;  // pads 4 bits in between c & d\r\n        unsigned d:1;\r\n};\r\n```\r\n\r\n# statement\r\n```\r\nif (x) a;                 // If x is true (not 0), evaluate a\r\nelse if (y) b;            // If not x and y (optional, may be repeated)\r\nelse c;                   // If not x and not y (optional)\r\n\r\nwhile (x) a;              // Repeat 0 or more times while x is true\r\ndo a; while (x);          // Equivalent to: a; while(x) a;\r\nfor (x; y; z) a;          // Equivalent to: x; while(y) {a; z;}\r\n\r\nswitch (x) {              // x must be int\r\n  case X1: a;             // If x == X1 (must be a const), jump here\r\n  case X2: b;             // Else if x == X2, jump here\r\n  default: c;             // Else jump here (optional)\r\n}\r\n\r\nbreak;                    // Jump out of while, do, or for loop, or switch\r\ncontinue;                 // Jump to bottom of while, do, or for loop\r\nreturn x;                 // Return x from function to caller\r\n\r\ntry { a; }\r\ncatch (T t) { b; }        // If a throws a T, then jump here\r\ncatch (...) { c; }        // If a throws something else, jump here\r\n```\r\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-03-13T17:09:30.656-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-03-13T17:09:30.656-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "ANl87fLPDQC6bxorDHyM3Q=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# Operator (https://en.wikipedia.org/wiki/Operators_in_C_and_C%2B%2B)\r\n\r\n## Arithmetic operators\r\n```\r\n|Operator name \t\t\t\t|Syntax \t|overload               |\r\n|---------------------------|-----------|-----------------------|\r\n|Basic assignment \t\t\t|a = b \t\t|R& T::operator =(S b); |\r\n|Addition \t\t\t\t\t|a + b \t\t|R T::operator +(S b);  |\r\n|Subtraction \t\t\t\t|a - b \t\t|R T::operator -(S b);  |\r\n|Unary plus  \t\t\t\t|+a \t\t|R T::operator +();\t    |\r\n|Unary minus  \t\t\t\t|-a \t\t|R T::operator -(); \t|\r\n|Multiplication \t\t\t|a \\* b\t    |R T::operator \\*(S b);\t|\r\n|Division \t\t\t\t\t|a \\/ b \t|R T::operator \\/(S b);\t|\r\n|Modulo \t\t\t\t\t|a % b \t    |R T::operator %(S b);\t|\r\n|Increment \t\t\t\t\t|++a \t\t|R& T::operator ++();\t|\r\n|\t\t\t\t\t\t\t|a++ \t\t|R T::operator ++(int);\t|\r\n|Decrement \t\t \t\t\t|--a \t\t|R& T::operator --();   |\r\n|\t\t\t\t\t\t\t|a-- \t\t|R T::operator --(int); |\r\n```\r\n### Note:\r\nC++ uses the unnamed dummy-parameter int to differentiate between prefix and\r\nsuffix decrement operators.\r\n\r\n## Comparison operators/relational operators\r\n|Operator name     \t\t\t|Syntax  \t|overload               |\r\n|---------------------------|-----------|-----------------------|\r\n|Equal to \t\t\t\t\t|a == b \t|R T::operator ==(S b); |\r\n|Not equal to \t\t\t\t|a != b\t\t|R T::operator !=(S b); |\r\n|Greater than \t\t\t\t|a > b \t\t|R T::operator >(S b);  |\r\n|Less than \t\t\t\t\t|a < b \t\t|R T::operator <(S b);  |\r\n|Greater than or equal to \t|a >= b \t|R T::operator >=(S b); |\r\n|Less than or equal to \t\t|a <= b \t|R T::operator <=(S b); |\r\n\r\n## Member and pointer operators\r\n|Operator name \t\t\t\t|Syntax \t|overload \t\t\t\t|comment                                |\r\n|---------------------------|-----------|-----------------------|---------------------------------------|\r\n|Array subscript \t\t\t|a[b] \t\t|R T::operator [](S b); |                                       |\r\n|Pointer dereference\t\t|*a\t\t\t|R T::operator *(); \t|(\"object pointed to by a\")             |\r\n|Reference \t\t\t\t\t|&a \t\t|R T::operator &(); \t|(\"address of a\") \t                    |\r\n|Structure dereference  \t|a->b \t\t|R T::operator ->();   \t|(\"member b of object pointed to by a\") |\r\n|Structure reference \t\t|a.b \t\t|\t\t\t\t\t\t|(\"member b of object a\")               |\r\n|rvalue reference           |&&a        |                       |                                       |\r\n### Note on pointers and reference.\r\nPointers and reference are one of the tricky part of C and C++\r\n\r\nif A is a pointer, it contains the adress of another variable.\r\n'*' dereference the pointer, to get the content of the adress where A point to.\r\n'&' give the adress of the variable.\r\n\r\n**BUT, in C++, the & operator has an additional meaning**. It can be used to pass\r\nvalue by reference.\r\n\r\nThere are numerous example of pointer arithmetic on the internet, and it won't\r\nbe covered here.\r\n\r\n#### Exemple:\r\nint B //declare the variable.\r\n&B give the address of the variable in memory.\r\nint *A //declare a pointer to an int.\r\n&A give the address of the pointer in memory\r\n*A give the address of the content pointed by A\r\nSo you can do:\r\n*A = &B\r\n\r\nThe C language is pass-by-value without exception. Passing a pointer as a\r\nparameter does not mean pass-by-reference as with C++. The rule is the following:\r\n**A function is not able to change the actual parameters value.**\r\n\r\n|C style:                           |C++ style:                         |\r\n|-----------------------------------|-----------------------------------|\r\n|```                                |```                                |\r\n|void func(int *ref) {*ref = 4;}    |void func(int& ref) {ref = 4;}     |\r\n|                                   |                                   |\r\n|int myRef;                         |int myRef;                         |\r\n|func(&myRef); //passed by pointer  |func(myRef); //passed by reference.|\r\n|```                                |```                                |\r\n\r\n\r\n### lvalue, rvalue and move semantic\r\n```\r\n    #1  #2\r\nint a = 3.\r\n```\r\n\r\n\\#1 is an l(eft)value. The operand is modifiable.\r\n\r\n\\#2 is an r(ight)value. A temporary object that will diseappear on the next instruction.\r\n\r\nBy implementing the move operator, we can assign a temporary value without\r\nrecreating using copy constructor it.\r\nhttps://www.internalpointers.com/post/c-rvalue-references-and-move-semantics-beginners\r\nhttps://www.cprogramming.com/c++11/rvalue-references-and-move-semantics-in-c++11.html\r\n\r\nAt the end of a function call, local variable on the stack are destroyed, even\r\nif they are affected to a reference. To keep them, the program have to copy them\r\nto a new memory location. The move semantic avoid this kind of useless copy.\r\n\r\n## Logical operators\r\n|Operator name \t  \t\t\t|Syntax   \t|overload \t              |\r\n|---------------------------|-----------|-------------------------|\r\n|Logical negation (NOT) \t|!a\t\t\t|R T::operator !();       |\r\n|Logical AND \t\t\t\t|a && b\t\t|R T::operator &&(S b);   |\r\n|Logical OR \t\t\t\t|a \\|\\| b\t|R T::operator \\|\\|(S b); |\r\n\r\n## Bitwise operators\r\n|Operator name \t  \t\t\t|Syntax   \t|overload               |\r\n|---------------------------|-----------|-----------------------|\r\n|Bitwise NOT \t\t\t\t|~a\t\t\t|R T::operator ~();     |\r\n|Bitwise AND \t\t\t\t|a & b\t\t|R T::operator &(S b);  |\r\n|Bitwise OR \t\t\t\t|a \\| b\t\t|R T::operator \\|(S b); |\r\n|Bitwise XOR \t\t\t\t|a ^ b\t\t|R T::operator ^(S b);  |\r\n|Bitwise left shift[c] \t\t|a << b \t|R T::operator <<(S b); |\r\n|Bitwise right shift[c][d]  |a >> b \t|R T::operator >>(S b); |\r\n\r\n## Compound assignment operators\r\n|Operator name \t  \t\t\t\t|Syntax   \t|Meaning     \t|overload \t            |\r\n|-------------------------------|-----------|---------------|-----------------------|\r\n|Addition assignment \t\t\t|a += b \t|a = a + b \t\t|R T::operator +=(S b); |\r\n|Subtraction assignment \t\t|a -= b \t|a = a - b \t\t|R T::operator -=(S b); |\r\n|Multiplication assignment \t\t|a *= b \t|a = a * b \t\t|R T::operator *=(S b); |\r\n|Division assignment \t\t\t|a /= b \t|a = a / b \t\t|R T::operator /=(S b); |\r\n|Modulo assignment \t\t\t\t|a %= b \t|a = a % b \t\t|R T::operator %=(S b); |\r\n|Bitwise AND assignment \t\t|a &= b\t\t|a = a & b \t\t|R T::operator &=(S b); |\r\n|Bitwise OR assignment \t\t\t|a \\|= b\t|a = a \\| b \t|R T::operator \\|=(S b) |\r\n|Bitwise XOR assignment \t\t|a ^= b\t\t|a = a ^ b \t\t|R T::operator ^=(S b); |\r\n|Bitwise left shift assignment \t|a <<= b \t|a = a << b \t|R T::operator <<=(S b) |\r\n|Bitwise right shift assignment\t|a >>= b \t|a = a >> b \t|R T::operator >>=(S b) |\r\n\r\n## Other operator:\r\n|Operator name \t  \t\t\t\t|Syntax   \t|overload                           |\r\n|-------------------------------|-----------|-----------------------------------|\r\n|Function call\t\t\t\t\t|a(a1, a2) \t|R T::operator ()(S a1, U a2, ...); |\r\n|Ternary conditional \t\t\t|a ? b : c  |                                   |\r\n\r\n### Note: function call overload allow to do functor. See c++11 lambda for alternative\r\nc++11 lambda: [capture list] (parameter list) -> return type { function body }\r\ncapture list is a list of local variables defined in the enclosing function;\r\n[=] means that the outer scope is passed to the lambda by value. \r\n[&] means that the outer scope is passed to the lambda by reference.\r\n[](int x, int y) -> int { return x + y; }\r\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-03-13T17:09:10.196-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-03-13T17:09:30.665-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "IKdE7PLPDQC6X5iVDHyM3Q=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# Memory management and type conversion\r\nSize-of \t\t\t\t\tsizeof(a) or sizeof(type)\r\ntype id\t\t\t\t\t\ttypeid(a)\r\nOperator name \t  \t\t\tSyntax   \t     \t\t\toverload\r\nConversion (C-style cast) \t(type)a or type(a)\t\t\tT::operator R();\r\nstatic_cast\t\t\t \t\tstatic_cast<type>\r\ndynamic_cast\t\t\t \tdynamic_cast<type>\r\nconst_cast\t\t\t \t\tconst_cast<type>\r\nreinterpret_cast\t\t\treinterpret_cast<type>\r\n\r\nAllocate storage \t\t\tnew type \t\t\t\t\tvoid* T::operator new(size_t x);\r\nDeallocate storage\t\t\tdelete a \t\t\t\t\tvoid T::operator delete(void* x);\r\n\r\nArray declaration\t\t\ttypename var[]\r\nAllocate storage (array) \tnew type[n] \t\t\t\tvoid* T::operator new[](size_t x);\r\nDeallocate storage (array) \tdelete[] a \t\t\t\t\tvoid T::operator delete[](void* x);\r\n\r\n\r\n# preprocessor\r\n```\r\n#include <stdio.h>        // Insert standard header file\r\n#include \"myfile.h\"       // Insert file in current directory\r\n\r\n#define X some text       // Replace X with some text\r\n#define F(a,b) a+b        // Replace F(1,2) with 1+2\r\n#define X \\\r\n  some text               // Line continuation\r\n#undef X                  // Remove definition\r\n\r\n#if defined(X)            // Condional compilation ( X)\r\n#ifdef\r\n#ifndef\r\n#elif\r\n#else                   // Optional ( X or #if !defined(X))\r\n#endif                    // Required after #if, #ifdef\r\n\r\n#pragma\t\t\t\t\t  // compiler specific\r\n#line\r\n```\r\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-03-13T17:09:17.632-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-03-13T17:09:17.632-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "AB627PLPDQC6Zw6BDHyM3Q=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# template\r\n```\r\ntemplate <typename T> function_declaration(T) {};\r\n```\r\nusage: var1 = function_declaration<type>(param1);\r\n\r\n```\r\ntemplate <typename T> class my_class { T;};\r\n```\r\n\r\nusage: my_class<type> var1;\r\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
 						"dateAndTimeString" : "2022-07-22T20:09:45.26-04:00"
 					}
 				},
@@ -29,7 +325,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-07-22T20:09:45.26-04:00"
+						"dateAndTimeString" : "2024-03-13T17:09:17.632-04:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +335,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "\t\t\t\t\t\t\t\t\tC++ reference\r\n\r\n# basic structure\r\n\r\n| source.h\t\t\t\t\t\t|source.cpp\t\t\t\t\t\t\t|main.cpp                        |\r\n|-------------------------------|-----------------------------------|--------------------------------|\r\n| #ifndef SOURCE_H\t\t\t\t|#include \"source.h\"\t\t\t\t|#include \"source.h\"             |\r\n| #define SOURCE_H\t\t\t\t|#include <iostream>\t\t\t\t|                                |\r\n| \t\t\t\t\t\t\t\t|\t\t\t\t\t\t\t\t\t|                                |\r\n| namespace myNamespace\t\t\t|using namespace myNamespace;\t\t|using namespace myNamespace;    |\r\n| {\t\t\t\t\t\t\t\t|using namespace std;\t\t\t\t|                                |\r\n| \tclass myClass\t\t\t\t|\t\t\t\t\t\t\t\t\t|                                |\r\n| \t{\t\t\t\t\t\t\t|void myClass::method1()\t\t\t|int main(int argc, char* argv[]) |\r\n| \t\tpublic:\t\t\t\t\t|{\t\t\t\t\t\t\t\t\t|{                               |\r\n| \t\t\tvoid method1();\t\t|\tcout << \"hello world\";\t\t\t|\tmyClass var1;                |\r\n| \t};\t\t\t\t\t\t\t|}\t\t\t\t\t\t\t\t\t|\tvar1.method1();              |\r\n| }\t\t\t\t\t\t\t\t|\t\t\t\t\t\t\t\t\t|\treturn 0;                    |\r\n| \t\t\t\t\t\t\t\t|\t\t\t\t\t\t\t\t\t|}                               |\r\n| #endif /* SOURCE_H */\t\t\t|\t\t\t\t\t\t\t\t\t|                                |\r\n\r\n\r\n# C++ compilation process\r\n```\r\ncommand line: g++ -Wall -Wextra -pedantic -std=c++0x  -o prog1 main.cpp source.cpp\r\n```\r\n\r\n```\r\n+-----------+\t\t\t\t\t  +-----------+\t\t\t    +----------+\t\t\t   +-----------+\t\t   +----------+\r\n|source code|- C++ preprocessor ->|temporary  |- compiler ->|assembler |-- assembler ->|object code|- linker ->|   final  |\r\n|\tfile    |\t\tg++ -E\t\t  | file      |\t  g++ -S\t|file *.s  |\tg++ -c\t   |file (*.o) |  g++ -o   |executable|\r\n+-----------+\t\t\t\t\t  +-----------+\t\t\t    +----------+\t\t\t   +-----------+\t\t   +----------+\r\n```\r\n\r\n# comment\r\n\r\n// Comment to end of line\r\n\r\n/*\r\n\r\nMulti-line\r\n\r\ncomment\r\n\r\n*/\r\n\r\n\r\n# namespace\r\n```\r\nnamespace myNamespace\r\n{\r\n}\r\n\r\ntypename::X                      \t// Name X defined in class T\r\nnamespace::X                      \t// Name X defined in namespace N\r\n::X                       \t\t\t// Global name X (mostly for c function)\r\nusing namespace myNamespace\t\t\t// to avoid myNamespace::X\r\n```\r\n\r\n# base type and Class declaration\r\n\r\n## base type\r\n\r\n\tvoid\r\n    int, short int, long int, long long int, unsigned int, unsigned short int, unsigned long int, unsigned long long int,\r\n    float, double, long double\r\n\tchar, wchar_t\r\n\tbool\r\n\tsize_t (represent the size of any object (including arrays) in the particular implementation)\r\n\tptrdiff_t (represent the difference between pointers.)\r\n\tnullptr, nullptr_t\r\n\r\n## other type declaration\r\n\r\n\tenum (enum1 {var1, var2};) \t\t\t\t\t\t\t// type with limited set of values.\r\n\tenum class Salutation : char { mr, ms, co, none }; \t//scoped enumeration (cc++11)\r\n\ttypedef (string char*;)\t\t\t\t\t\t\t\t// type alias\r\n\textern\t\t\t\t\t\t\t\t\t\t\t\t// Information only, declared elsewhere\r\n\tauto\t\t\t\t\t\t\t\t\t\t\t\t// automatic type deduction (c++11)\r\n\t{1,2,3,4}\t\t\t\t\t\t\t\t\t\t\t// initializer list\r\n\r\n## class declaration\r\n```\r\n\tclass|struct|union class_name[:[public|private|protected]parent_class]\r\n\t{\r\n\t\t[public|proctected|private]:\r\n\t\t\t[explicit] class_name();\t\t\t\t        //constructor\r\n\t\t\t~class_name();\t\t\t\t\t\t\t        //destructor\r\n\t\t\tclass_name(const class_name& param); \t        //copy constructor\r\n            class_name& operator=(const class_name& other)  //copy assignment operator\r\n\t\t\tclass_name(class_name&& param);\t\t\t        //move constructor (c++11)\r\n            class_name& operator=(class_name&& other)       //move assignment operator\r\n\t\t\tvirtual typename method() =0;\t\t\t        //pure virtual function\r\n\r\n\r\n\t\t\t[friend|static|const] typename member [const];\r\n\t\t\t[friend|static|const] typepename [const] method([const] typename param1 [const], parame2) [const|override|noexcept|final];\r\n\r\n\r\n\t\t\t}\r\n```\r\nThe keyword *this* represent a pointer to the object whose member function is being executed.\r\n\r\nRule of 5:\r\nThe rule of five is a rule of thumb in C++ that claims that if a class defines \r\nany of the following then it should probably explicitly define all five:\r\n   * destructor\r\n   * copy constructor\r\n   * copy assignment operator\r\n   * move constructor\r\n   * move assignment operator\r\n\r\n\r\n## const declaration\r\n```\r\n\t//  #1      #2                #3      #4      #5\r\n   int const * const Method3(int const * const&) const;\r\n```\r\n(Equivalent to  const int* const  Method3(const int* const&) const;)\r\n\\#5 the entire method declaration does not modify the non mutable members of its class.\r\n\r\n\\#4 the pointer to the left is const and may not be changed to point to a different location.\r\n\r\n\\#3 says that the int to the left is const.\r\n\r\n\\#2 says that the pointer to the left is const.\r\n\r\n\\#1 says that the int to the left is const.\r\n\r\n## Bit Fields\r\nBit Fields are used to define the class members that can occupy less storage than an integral type. \r\nThis field is applicable only for integral type(int, char, short, long...) excludes float or double.\r\n\r\n```\r\nstruct A\r\n{\r\n        unsigned a:2; // possible values 0..3,  occupies first 2 bits of int\r\n        unsigned b:3; // possible values 0..7,  occupies next 3 bits of int\r\n        unsigned :0;  // moves to end of next integral type\r\n        unsigned c:2;\r\n        unsigned :4;  // pads 4 bits in between c & d\r\n        unsigned d:1;\r\n};\r\n```\r\n\r\n# statement\r\n```\r\nif (x) a;                 // If x is true (not 0), evaluate a\r\nelse if (y) b;            // If not x and y (optional, may be repeated)\r\nelse c;                   // If not x and not y (optional)\r\n\r\nwhile (x) a;              // Repeat 0 or more times while x is true\r\ndo a; while (x);          // Equivalent to: a; while(x) a;\r\nfor (x; y; z) a;          // Equivalent to: x; while(y) {a; z;}\r\n\r\nswitch (x) {              // x must be int\r\n  case X1: a;             // If x == X1 (must be a const), jump here\r\n  case X2: b;             // Else if x == X2, jump here\r\n  default: c;             // Else jump here (optional)\r\n}\r\n\r\nbreak;                    // Jump out of while, do, or for loop, or switch\r\ncontinue;                 // Jump to bottom of while, do, or for loop\r\nreturn x;                 // Return x from function to caller\r\n\r\ntry { a; }\r\ncatch (T t) { b; }        // If a throws a T, then jump here\r\ncatch (...) { c; }        // If a throws something else, jump here\r\n```\r\n\r\n# Operator (https://en.wikipedia.org/wiki/Operators_in_C_and_C%2B%2B)\r\n\r\n## Arithmetic operators\r\n\r\n|Operator name \t\t\t\t|Syntax \t|overload               |\r\n|---------------------------|-----------|-----------------------|\r\n|Basic assignment \t\t\t|a = b \t\t|R& T::operator =(S b); |\r\n|Addition \t\t\t\t\t|a + b \t\t|R T::operator +(S b);  |\r\n|Subtraction \t\t\t\t|a - b \t\t|R T::operator -(S b);  |\r\n|Unary plus  \t\t\t\t|+a \t\t|R T::operator +();\t    |\r\n|Unary minus  \t\t\t\t|-a \t\t|R T::operator -(); \t|\r\n|Multiplication \t\t\t|a \\* b\t    |R T::operator \\*(S b);\t|\r\n|Division \t\t\t\t\t|a \\/ b \t|R T::operator \\/(S b);\t|\r\n|Modulo \t\t\t\t\t|a % b \t    |R T::operator %(S b);\t|\r\n|Increment \t\t\t\t\t|++a \t\t|R& T::operator ++();\t|\r\n|\t\t\t\t\t\t\t|a++ \t\t|R T::operator ++(int);\t|\r\n|Decrement \t\t \t\t\t|--a \t\t|R& T::operator --();   |\r\n|\t\t\t\t\t\t\t|a-- \t\t|R T::operator --(int); |\r\n\r\n### Note:\r\nC++ uses the unnamed dummy-parameter int to differentiate between prefix and\r\nsuffix decrement operators.\r\n\r\n## Comparison operators/relational operators\r\n|Operator name     \t\t\t|Syntax  \t|overload               |\r\n|---------------------------|-----------|-----------------------|\r\n|Equal to \t\t\t\t\t|a == b \t|R T::operator ==(S b); |\r\n|Not equal to \t\t\t\t|a != b\t\t|R T::operator !=(S b); |\r\n|Greater than \t\t\t\t|a > b \t\t|R T::operator >(S b);  |\r\n|Less than \t\t\t\t\t|a < b \t\t|R T::operator <(S b);  |\r\n|Greater than or equal to \t|a >= b \t|R T::operator >=(S b); |\r\n|Less than or equal to \t\t|a <= b \t|R T::operator <=(S b); |\r\n\r\n## Member and pointer operators\r\n|Operator name \t\t\t\t|Syntax \t|overload \t\t\t\t|comment                                |\r\n|---------------------------|-----------|-----------------------|---------------------------------------|\r\n|Array subscript \t\t\t|a[b] \t\t|R T::operator [](S b); |                                       |\r\n|Pointer dereference\t\t|*a\t\t\t|R T::operator *(); \t|(\"object pointed to by a\")             |\r\n|Reference \t\t\t\t\t|&a \t\t|R T::operator &(); \t|(\"address of a\") \t                    |\r\n|Structure dereference  \t|a->b \t\t|R T::operator ->();   \t|(\"member b of object pointed to by a\") |\r\n|Structure reference \t\t|a.b \t\t|\t\t\t\t\t\t|(\"member b of object a\")               |\r\n|rvalue reference           |&&a        |                       |                                       |\r\n### Note on pointers and reference.\r\nPointers and reference are one of the tricky part of C and C++\r\n\r\nif A is a pointer, it contains the adress of another variable.\r\n'*' dereference the pointer, to get the content of the adress where A point to.\r\n'&' give the adress of the variable.\r\n\r\n**BUT, in C++, the & operator has an additional meaning**. It can be used to pass\r\nvalue by reference.\r\n\r\nThere are numerous example of pointer arithmetic on the internet, and it won't\r\nbe covered here.\r\n\r\n#### Exemple:\r\nint B //declare the variable.\r\n&B give the address of the variable in memory.\r\nint *A //declare a pointer to an int.\r\n&A give the address of the pointer in memory\r\n*A give the address of the content pointed by A\r\nSo you can do:\r\n*A = &B\r\n\r\nThe C language is pass-by-value without exception. Passing a pointer as a\r\nparameter does not mean pass-by-reference as with C++. The rule is the following:\r\n**A function is not able to change the actual parameters value.**\r\n\r\n|C style:                           |C++ style:                         |\r\n|-----------------------------------|-----------------------------------|\r\n|```                                |```                                |\r\n|void func(int *ref) {*ref = 4;}    |void func(int& ref) {ref = 4;}     |\r\n|                                   |                                   |\r\n|int myRef;                         |int myRef;                         |\r\n|func(&myRef); //passed by pointer  |func(myRef); //passed by reference.|\r\n|```                                |```                                |\r\n\r\n\r\n### lvalue, rvalue and move semantic\r\n```\r\n    #1  #2\r\nint a = 3.\r\n```\r\n\r\n\\#1 is an l(eft)value. The operand is modifiable.\r\n\r\n\\#2 is an r(ight)value. A temporary object that will diseappear on the next instruction.\r\n\r\nBy implementing the move operator, we can assign a temporary value without\r\nrecreating using copy constructor it.\r\nhttps://www.internalpointers.com/post/c-rvalue-references-and-move-semantics-beginners\r\nhttps://www.cprogramming.com/c++11/rvalue-references-and-move-semantics-in-c++11.html\r\n\r\nAt the end of a function call, local variable on the stack are destroyed, even\r\nif they are affected to a reference. To keep them, the program have to copy them\r\nto a new memory location. The move semantic avoid this kind of useless copy.\r\n\r\n## Logical operators\r\n|Operator name \t  \t\t\t|Syntax   \t|overload \t              |\r\n|---------------------------|-----------|-------------------------|\r\n|Logical negation (NOT) \t|!a\t\t\t|R T::operator !();       |\r\n|Logical AND \t\t\t\t|a && b\t\t|R T::operator &&(S b);   |\r\n|Logical OR \t\t\t\t|a \\|\\| b\t|R T::operator \\|\\|(S b); |\r\n\r\n## Bitwise operators\r\n|Operator name \t  \t\t\t|Syntax   \t|overload               |\r\n|---------------------------|-----------|-----------------------|\r\n|Bitwise NOT \t\t\t\t|~a\t\t\t|R T::operator ~();     |\r\n|Bitwise AND \t\t\t\t|a & b\t\t|R T::operator &(S b);  |\r\n|Bitwise OR \t\t\t\t|a \\| b\t\t|R T::operator \\|(S b); |\r\n|Bitwise XOR \t\t\t\t|a ^ b\t\t|R T::operator ^(S b);  |\r\n|Bitwise left shift[c] \t\t|a << b \t|R T::operator <<(S b); |\r\n|Bitwise right shift[c][d]  |a >> b \t|R T::operator >>(S b); |\r\n\r\n## Compound assignment operators\r\n|Operator name \t  \t\t\t\t|Syntax   \t|Meaning     \t|overload \t            |\r\n|-------------------------------|-----------|---------------|-----------------------|\r\n|Addition assignment \t\t\t|a += b \t|a = a + b \t\t|R T::operator +=(S b); |\r\n|Subtraction assignment \t\t|a -= b \t|a = a - b \t\t|R T::operator -=(S b); |\r\n|Multiplication assignment \t\t|a *= b \t|a = a * b \t\t|R T::operator *=(S b); |\r\n|Division assignment \t\t\t|a /= b \t|a = a / b \t\t|R T::operator /=(S b); |\r\n|Modulo assignment \t\t\t\t|a %= b \t|a = a % b \t\t|R T::operator %=(S b); |\r\n|Bitwise AND assignment \t\t|a &= b\t\t|a = a & b \t\t|R T::operator &=(S b); |\r\n|Bitwise OR assignment \t\t\t|a \\|= b\t|a = a \\| b \t|R T::operator \\|=(S b) |\r\n|Bitwise XOR assignment \t\t|a ^= b\t\t|a = a ^ b \t\t|R T::operator ^=(S b); |\r\n|Bitwise left shift assignment \t|a <<= b \t|a = a << b \t|R T::operator <<=(S b) |\r\n|Bitwise right shift assignment\t|a >>= b \t|a = a >> b \t|R T::operator >>=(S b) |\r\n\r\n## Other operator:\r\n|Operator name \t  \t\t\t\t|Syntax   \t|overload                           |\r\n|-------------------------------|-----------|-----------------------------------|\r\n|Function call\t\t\t\t\t|a(a1, a2) \t|R T::operator ()(S a1, U a2, ...); |\r\n|Ternary conditional \t\t\t|a ? b : c  |                                   |\r\n\r\n### Note: function call overload allow to do functor. See c++11 lambda for alternative\r\nc++11 lambda: [capture list] (parameter list) -> return type { function body }\r\ncapture list is a list of local variables defined in the enclosing function;\r\n[=] means that the outer scope is passed to the lambda by value. \r\n[&] means that the outer scope is passed to the lambda by reference.\r\n[](int x, int y) -> int { return x + y; }\r\n\r\n# Memory management and type conversion\r\nSize-of \t\t\t\t\tsizeof(a) or sizeof(type)\r\ntype id\t\t\t\t\t\ttypeid(a)\r\nOperator name \t  \t\t\tSyntax   \t     \t\t\toverload\r\nConversion (C-style cast) \t(type)a or type(a)\t\t\tT::operator R();\r\nstatic_cast\t\t\t \t\tstatic_cast<type>\r\ndynamic_cast\t\t\t \tdynamic_cast<type>\r\nconst_cast\t\t\t \t\tconst_cast<type>\r\nreinterpret_cast\t\t\treinterpret_cast<type>\r\n\r\nAllocate storage \t\t\tnew type \t\t\t\t\tvoid* T::operator new(size_t x);\r\nDeallocate storage\t\t\tdelete a \t\t\t\t\tvoid T::operator delete(void* x);\r\n\r\nArray declaration\t\t\ttypename var[]\r\nAllocate storage (array) \tnew type[n] \t\t\t\tvoid* T::operator new[](size_t x);\r\nDeallocate storage (array) \tdelete[] a \t\t\t\t\tvoid T::operator delete[](void* x);\r\n\r\n\r\n# preprocessor\r\n```\r\n#include <stdio.h>        // Insert standard header file\r\n#include \"myfile.h\"       // Insert file in current directory\r\n\r\n#define X some text       // Replace X with some text\r\n#define F(a,b) a+b        // Replace F(1,2) with 1+2\r\n#define X \\\r\n  some text               // Line continuation\r\n#undef X                  // Remove definition\r\n\r\n#if defined(X)            // Condional compilation ( X)\r\n#ifdef\r\n#ifndef\r\n#elif\r\n#else                   // Optional ( X or #if !defined(X))\r\n#endif                    // Required after #if, #ifdef\r\n\r\n#pragma\t\t\t\t\t  // compiler specific\r\n#line\r\n```\r\n\r\n# template\r\n```\r\ntemplate <typename T> function_declaration(T) {};\r\n```\r\nusage: var1 = function_declaration<type>(param1);\r\n\r\n```\r\ntemplate <typename T> class my_class { T;};\r\n```\r\n\r\nusage: my_class<type> var1;\r\n\r\n# OO design concept - design by adding concepts within the context of previously presented concepts\r\n\r\nFind what varies to what is common, and encapsulate varying part into specific classes\r\n• \"Program to an interface, not an implementation.\"\r\n• \"Favor object composition over class inheritance.\"\r\n• \"Consider what should be variable in your design.\r\n\r\nInstead of considering what might force a change to a design, consider what you want to be able to change without redesign.\r\n```\r\ncommonality analysis\t-> \t\tconceptual perspective\t\t-> abstract class\r\n\t\t\t\t\t\t|-> \tspecification perspective\t|\r\nvariability analysis\t-> \t\timplementation perspective\t-> concrete class\r\n```\r\n1. Start out with a conceptual understanding of the whole in order to understand what needs to be accomplished.\r\n2. Identify the patterns that are present in the whole.\r\n3. Start with those patterns that create the context for the others.\r\n4. Apply these patterns.\r\n5. Repeat with the remaining patterns, as well as with any new patterns that were discovered along the way.\r\n6. Finally, refine the design and implement within the context created by applying these patterns one at a time.\r\n"
+				"string" : "# OO design concept - design by adding concepts within the context of previously presented concepts\r\n\r\nFind what varies to what is common, and encapsulate varying part into specific classes\r\n• \"Program to an interface, not an implementation.\"\r\n• \"Favor object composition over class inheritance.\"\r\n• \"Consider what should be variable in your design.\r\n\r\nInstead of considering what might force a change to a design, consider what you want to be able to change without redesign.\r\n```\r\ncommonality analysis\t-> \t\tconceptual perspective\t\t-> abstract class\r\n\t\t\t\t\t\t|-> \tspecification perspective\t|\r\nvariability analysis\t-> \t\timplementation perspective\t-> concrete class\r\n```\r\n1. Start out with a conceptual understanding of the whole in order to understand what needs to be accomplished.\r\n2. Identify the patterns that are present in the whole.\r\n3. Start with those patterns that create the context for the others.\r\n4. Apply these patterns.\r\n5. Repeat with the remaining patterns, as well as with any new patterns that were discovered along the way.\r\n6. Finally, refine the design and implement within the context created by applying these patterns one at a time.\r\n"
 			}
 		]
 	},

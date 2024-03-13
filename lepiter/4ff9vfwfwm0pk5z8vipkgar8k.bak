@@ -1566,6 +1566,43 @@
 								"__type" : "textStyle"
 							},
 							"string" : "[[GtAction]]"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-01-26T19:19:24.9357-05:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-01-26T19:19:24.944976-05:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "D+6GGUTMDQCHmIvZAR/bNw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "[[Gtoolkit addtional pragma for moldable development]]"
 						}
 					]
 				},

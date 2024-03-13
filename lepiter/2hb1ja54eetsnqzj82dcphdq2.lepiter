@@ -182,6 +182,43 @@
 					"__type" : "textStyle"
 				},
 				"string" : "Presentation with text pointing to code element example . Look at:\n{{gtMethod:name=GtTour>>viewsExplanationSlideFor:|expanded}}"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-03-13T17:05:43.182-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-03-13T17:05:44.166-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "sN7t3/LPDQC5TBo1DHyM3Q=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "See {{gtClass:name=GtSlideShow}}  and {{gtClass:GtPharo101}} for example\r{{gtMethod:name=GtLiveShow class>>create:}}  *MySlideShow*. \r\nSlides are defined  within method with pragma <gtSlide> Theses method accept aSlide, which is an instance of {{gtClass:name=GtLiveSlide}} or one of its subclass,which are themselves subclasses of {{gtClass:name=BrStencil}} \r\nlike {{gtMethod:GtPharo101>>dictionaryExplanationSlideFor:|expanded}}"
 			}
 		]
 	},

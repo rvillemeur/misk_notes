@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-03-13T15:10:23.315-04:00"
+						"dateAndTimeString" : "2024-03-13T17:42:13.344-04:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "## Morphic vs GToolkit graphical stacks\r\n\r\nGlutin -> SDL2 (+ OSWindow)\r\nSparta/skia -> Athens/cairo (+ morphic canvas if we want to use pixel canvas instead of vector canvas)\r\nBloc -> morphic-core\r\nBrick -> morphic-polymorph and Morphic-Widgets-(SubPackages)\r\nSpace -> Morphic World\r\n\r\nGtoolkit emphasise on a Single Window. Pharo mimics more the beharior of a \r\ncomplete operating system desktop.\r\n#Bloc hierarchy\r\n- {{gtPackage:name=Glutin}} is the low level interface with underlying operating system to manage OS windows\r\n-  {{gtPackage:name=Sparta-Core}} :  low level drawing (curve, line, rectangle, etc...), done using skia. Example are available here: {{gtClass:SkiaCanvasExamples}}\n-  {{gtPackage:Bloc}} : low level (event handling, widget drawing, animation, etc...). Interaction with OS Window is done throug Glutin. Element creation can be automated with {{gtClass:name=BrStencil}}. Interface can be scripted with {{gtClass:name=BlScripter}}. Event are managed through the help of {{gtClass:name=BlEvent}} and subclasses\n- {{gtPackage:name=Brick}}: advanced widget (button, checkbox, etc...)\r\n- {{gtPackage:name=GToolkit-Phlow}}are built on top of Brick and are used to compose views of a particular object.  It's heavily used by [[GtInspector]] view\n- {{gtClass:name=BlUniverse}} contains  {{gtClass:name=BlSpace}}, each spaces is a tab in GToolkit. All the spaces compose {{gtClass:name=GtWorld}}"
+				"string" : "## Morphic vs GToolkit graphical stacks\r\n\r\nGlutin -> SDL2 (+ OSWindow)\r\nSparta/skia -> Athens/cairo (+ morphic canvas if we want to use pixel canvas instead of vector canvas)\r\nBloc -> morphic-core\r\nBrick -> morphic-polymorph and Morphic-Widgets-(SubPackages)\r\nSpace -> Morphic World\r\n\r\nGtoolkit emphasise on a Single Window. Pharo mimics more the beharior of a  complete operating system desktop.\r\n#Bloc hierarchy\r\n- {{gtPackage:name=Glutin}} is the low level interface with underlying operating system to manage OS windows. It's based on rust library [glutin](https://github.com/rust-windowing/glutin)\r\n-  {{gtPackage:name=Sparta-Core}} :  low level drawing (curve, line, rectangle, etc...), done using skia. Example are available here: {{gtClass:SkiaCanvasExamples}}\n-  {{gtPackage:Bloc}} : low level (event handling, widget drawing, animation, etc...). Interaction with OS Window is done throug Glutin. Element creation can be automated with {{gtClass:name=BrStencil}}. Interface can be scripted with {{gtClass:name=BlScripter}}. Event are managed through the help of {{gtClass:name=BlEvent}} and subclasses\n- {{gtPackage:name=Brick}}: advanced widget (button, checkbox, etc...)\r\n- {{gtPackage:name=GToolkit-Phlow}}are built on top of Brick and are used to compose views of a particular object.  It's heavily used by [[GtInspector]] view\n- {{gtClass:name=BlUniverse}} contains  {{gtClass:name=BlSpace}}, each spaces is a tab in GToolkit. {{gtClass:name=GtWorld}} is one specific space, opened by default when you launch GToolkit. You'll find them by looking at\r\n```\r\nSessionManager default startupList\r\n```\r\nYou can query element, which will use {{gtClass:name=BlElementQuery}}"
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -100,7 +100,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2021-06-21T13:31:54.511131-04:00"
+						"dateAndTimeString" : "2024-03-13T16:41:14.177-04:00"
 					}
 				},
 				"uid" : {
@@ -110,7 +110,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "BlSpace is a window in bloc, equivalent of the world in Pharo ??? \r\nBlElement are added or removed from a BlSpace, which act as a scene graph. \r\nSpaces are managed through BlUniverse.\r\n\r\nWe so have\r\nBlUniverse -> BlSpace -> BlElement\r\n\t\t\t\t\t  -> BlEvent and BlBaseEventProcessor\r\n\t\t\t\t\t  -> BlCursor\r\n\t\t\t\t\t  -> BlTime\r\n\t\t\t\t\t  -> BlSpaceFrame\r\n\t\t\t\t\t  \r\nLast, Bloc run on a host, being:\r\n- Morphic\r\n- OsWindow\r\n- SDL2.\r\n\r\n\r\n###To open a space in a new window:"
+				"string" : "###To open a space in a new window:"
 			},
 			{
 				"__type" : "pharoSnippet",

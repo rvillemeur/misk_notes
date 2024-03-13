@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-01-26T19:09:52.871097-05:00"
+						"dateAndTimeString" : "2022-10-09T23:04:42.816-04:00"
 					}
 				},
 				"editEmail" : {
@@ -29,20 +29,20 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-01-26T19:11:33.882711-05:00"
+						"dateAndTimeString" : "2022-10-09T23:08:06.421-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "zh4A+EPMDQCEyWzVAR/bNw=="
+					"uidString" : "ADp4KAenDQCSGk9EBOFpRg=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "gtSearch"
+				"string" : "1. subclass {{gtClass:name=GtHomeSection}} , and override {{gtMethod:name=BrStencil>>create}} create method, like {{gtClass:name=GtHomeGetStartedSection}}  \n2. In {{gtClass:name=GtHome}} , add a method with pragma **gtHomeSection**\n```smalltalk\ngetRdvHome\n\t<gtHomeSection>\n\t^ RdvHome new\n\t\tpriority: 25\n```        \nHome screen will be refreshed everytime you save this method\n*Don't forget to save it as extension method of your package*"
 			},
 			{
-				"__type" : "textSnippet",
+				"__type" : "pharoSnippet",
 				"children" : {
 					"__type" : "snippets",
 					"items" : [ ]
@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-01-26T19:12:19.966015-05:00"
+						"dateAndTimeString" : "2024-03-13T17:04:29.716-04:00"
 					}
 				},
 				"editEmail" : {
@@ -66,54 +66,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-01-26T19:13:46.648227-05:00"
+						"dateAndTimeString" : "2024-03-13T17:04:30.732-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "WZjEAETMDQCGQN2RAR/bNw=="
+					"uidString" : "IN6M2/LPDQC4/YkODHyM3Q=="
 				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "return:  for documentation. Doesn't seems to be really used."
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-01-26T19:13:46.875046-05:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-01-26T19:13:46.875046-05:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "iLnyBUTMDQCHkJ3LAR/bNw=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : ""
+				"code" : "#gtHomeSection gtPragmas"
 			}
 		]
 	},
@@ -125,7 +85,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2024-01-26T19:10:01.984186-05:00"
+			"dateAndTimeString" : "2022-10-09T23:03:12.855-04:00"
 		}
 	},
 	"editEmail" : {
@@ -136,15 +96,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2024-01-26T19:12:27.868861-05:00"
+			"dateAndTimeString" : "2022-10-09T23:03:29.079-04:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Gtoolkit addtional pragma for moldable development"
+		"title" : "Add new element to GToolkit home page"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "63b3fff7-43cc-0d00-84c8-7c34011fdb37"
+		"uuid" : "d8871b23-07a7-0d00-9218-7f4e04e16946"
 	}
 }
