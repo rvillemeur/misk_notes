@@ -66,14 +66,16 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-07-22T20:02:35.061-04:00"
+						"dateAndTimeString" : "2024-03-13T11:32:05.666-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "8G4DZs+gDQC99h79DxVTDQ=="
 				},
-				"url" : "attachments/seccpvsxki8l0rz4to5j8c0o/pillar_ec_hs_table1.gif"
+				"url" : "attachments/seccpvsxki8l0rz4to5j8c0o/pillar_ec_hs_table1.gif",
+				"caption" : "",
+				"previewHeight" : 300
 			},
 			{
 				"__type" : "textSnippet",

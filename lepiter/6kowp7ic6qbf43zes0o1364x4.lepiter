@@ -182,6 +182,77 @@
 					"uidString" : "oL8ZuJKcDQCXSavQCJ56vQ=="
 				},
 				"code" : "\t| currentProperties |\r\n\tcurrentProperties := LeDatabasesRegistry defaultLogicalDatabase properties.\r\n\tcurrentProperties\r\n\t\taddRegisteredDirectory: FileLocator imageDirectory\r\n\t\t\t/ 'pharo-local'\r\n\t\t\t/ 'iceberg'\r\n\t\t\t/ 'feenkcom'\r\n\t\t\t/ 'gt4edx'\r\n\t\t\t/ 'lepiter'.\r\n\t\r\n\tLeDatabasesRegistry default defaultLogicalDatabase reload."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-03-13T11:16:13.666-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-03-13T11:18:01.382-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "0HIM/u3PDQClFGyQDHyM3Q=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "snippet taken from [AOC2023](https://github.com/onierstrasz/AOC2023/blob/main/src/BaselineOfAOC2023/BaselineOfAOC2023.class.st) demo . You'll simply need to call `#BaselineOfAOC2023 asClass loadLepiter.` "
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-03-13T11:16:20.882-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-03-13T11:16:21.972-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "aIp6/u3PDQClcyjnDHyM3Q=="
+				},
+				"code" : "BaselineOfAOC2023 class >> loadLepiter [\r\n\tIceRepository registry  \r\n\t\tdetect: [ :aRepository |\r\n\t\t\taRepository name = 'AOC2023' ]\r\n\t\tifFound: [ :aRepository | \r\n\t\t\t| defaultDatabase currentProperties |\r\n\t\t\tdefaultDatabase := LeDatabasesRegistry defaultLogicalDatabase.\r\n\t\t\tcurrentProperties := defaultDatabase properties.\r\n\t\t\tcurrentProperties addRegisteredDirectory: aRepository repositoryDirectory / 'lepiter'.\r\n\t\t\tdefaultDatabase reload ]\r\n\t\tifNone: [\r\n\t\t\tself inform: 'Repository not found.' ]\r\n]"
 			}
 		]
 	},
