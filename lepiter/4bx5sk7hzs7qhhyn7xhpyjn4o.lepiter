@@ -399,7 +399,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-05-30T17:16:05.378-04:00"
+						"dateAndTimeString" : "2024-05-30T17:41:51.093-04:00"
 					}
 				},
 				"uid" : {
@@ -409,7 +409,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "you can customize the appearance of your BlElement with:\r\n- {{gtMethod:BlElement>>background:}}\r\n- {{gtMethod:BlElement>>border:}}\r\n- {{gtMethod:BlElement>>geometry:}}\r\n- {{gtMethod:BlElement>>outskirts:}}\r\n- {{gtMethod:BlElement>>padding:}}\r\n- {{gtMethod:BlElement>>margin:}}\r\n- {{gtMethod:BlElement>>layout:}} and {{gtMethod:BlElement>>size:}}\r\n- {{gtMethod:BlElement>>opacity:}}\r\nThese properties can also be specified as {{gtClass:BlAbstractStyles}}. You can subclass {{gtClass:BrStyleAptitude}} or {{gtClass:BrLazyStyleAptitude}} and integrate it into your own aptitude definition to use this mecanism and apply style to your element.  {{gtClass:BlElementStyle}} also plays a role of a factory to define styles for most commonly used {{gtClass:BlElementState}}. "
+				"string" : "you can customize the appearance of your BlElement with:\r\n- {{gtMethod:BlElement>>background:}}\r\n- {{gtMethod:BlElement>>border:}}\r\n- {{gtMethod:BlElement>>geometry:}}\r\n- {{gtMethod:BlElement>>outskirts:}}\r\n- {{gtMethod:BlElement>>padding:}}\r\n- {{gtMethod:BlElement>>margin:}}\r\n- {{gtMethod:BlElement>>layout:}} and {{gtMethod:BlElement>>size:}}\r\n- {{gtMethod:BlElement>>opacity:}}\r\nThese properties can also be specified as {{gtClass:BlAbstractStyles}} ortyle}} and {{gtClass:BlElementStyles}}.  Individual style are defined by  {{gtClass:BlElementStyle}} a factory to define styles for most commonly used {{gtClass:BlElementState}}, definition of your elements specific events. . You can subclass {{gtClass:BrStyleAptitude}} or {{gtClass:BrLazyStyleAptitude}} and integrate it into your own aptitude definition to use this mecanism and apply style to your element. "
 			},
 			{
 				"__type" : "textSnippet",
