@@ -285,7 +285,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-08-08T10:02:18.487-04:00"
+						"dateAndTimeString" : "2024-08-08T10:30:42.511-04:00"
 					}
 				},
 				"uid" : {
@@ -295,7 +295,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "{{gtMethod:name=BlSpace>>processPulse}}\r\n{{gtMethod:name=BlSpace>>render}}"
+				"string" : "{{gtMethod:name=BlSpace>>processPulse}} -> pulse to render the next \r\n{{gtMethod:name=BlSpace>>render}} -> render (drawing) element element\r\n{{gtMethod:name=BlSpace>>doComputeProperties}} -> render properties, and manage **compositionLayer** like in {{gtClass:BlGaussianShadowEffect}}"
 			},
 			{
 				"__type" : "textSnippet",
@@ -444,6 +444,43 @@
 					"__type" : "textStyle"
 				},
 				"string" : "Host renderer is resposible for the overall rendering logic"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-08-08T10:04:50.059-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-08-08T10:05:04.934-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "+Eo9P47bDQCoMHc6BVjeyg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "{{gtMethod:name=BlHostRenderer>>render:}}"
 			}
 		]
 	},

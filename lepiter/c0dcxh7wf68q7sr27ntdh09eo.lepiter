@@ -285,7 +285,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-08-08T10:02:18.487-04:00"
+						"dateAndTimeString" : "2024-08-08T10:30:57.746-04:00"
 					}
 				},
 				"uid" : {
@@ -295,7 +295,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "{{gtMethod:name=BlSpace>>processPulse}}\r\n{{gtMethod:name=BlSpace>>render}}"
+				"string" : "{{gtMethod:name=BlSpace>>processPulse}} -> pulse to render the next {{gtClass:BlSpaceFrame}}\r\n{{gtMethod:name=BlSpace>>render}} -> render (drawing) element element\r\n{{gtMethod:name=BlSpace>>doComputeProperties}} -> render properties, and manage **compositionLayer** like in {{gtClass:BlGaussianShadowEffect}}"
 			},
 			{
 				"__type" : "textSnippet",
