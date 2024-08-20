@@ -11,7 +11,6 @@ BaselineOfRdvNote >> baseline: spec [
 		for: #common
 		do: [ spec postLoadDoIt: #loadLepiter.
 			spec
-				package: 'RdvNote';
 				package: 'RdvSAM';
 				package: 'RdvRounding' ]
 ]
