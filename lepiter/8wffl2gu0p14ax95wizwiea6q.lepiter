@@ -66,7 +66,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T15:48:07.893343-04:00"
+						"dateAndTimeString" : "2024-09-08T17:03:09.917934-04:00"
 					}
 				},
 				"uid" : {
@@ -76,7 +76,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "{{gtMethod:OSSDL2Driver >>startUp:|expanded}}"
+				"string" : "{{gtMethod:OSSDL2Driver >>startUp:|expanded}}{{gtMethod:OSSDL2Driver>>setupEventLoop|expanded}}"
 			},
 			{
 				"__type" : "textSnippet",
@@ -103,7 +103,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T15:49:40.687797-04:00"
+						"dateAndTimeString" : "2024-09-08T17:02:53.555028-04:00"
 					}
 				},
 				"uid" : {
@@ -113,7 +113,44 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "{{gtMethod:OSSDL2Driver>>setupEventLoop|expanded}}\nImportant call here is `self eventLoopProcessWithVMWindow `(forked by VM)"
+				"string" : "Important call here is \n`self eventLoopProcessWithVMWindow `(forked by VM)"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T17:02:00.414351-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T17:02:22.083806-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "uco+sAPeDQC1jWZ4ChjiFw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## processing\n{{gtMethod:OSSDL2Driver>>eventLoopProcessWithVMWindow|expanded}}"
 			},
 			{
 				"__type" : "textSnippet",
@@ -140,7 +177,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T16:42:02.496553-04:00"
+						"dateAndTimeString" : "2024-09-08T17:02:16.920126-04:00"
 					}
 				},
 				"uid" : {
@@ -150,7 +187,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "## processing\n{{gtMethod:OSSDL2Driver>>eventLoopProcessWithVMWindow|expanded}}\n\nimportant call here:\n\t``event := SDL_Event new.\n\t\tself processEvent: event``\n"
+				"string" : "important call here:\n```\nevent := SDL_Event new.\n\t\tself processEvent: event\n```"
 			},
 			{
 				"__type" : "textSnippet",
@@ -177,7 +214,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T16:00:01.371849-04:00"
+						"dateAndTimeString" : "2024-09-08T17:03:24.675214-04:00"
 					}
 				},
 				"uid" : {
@@ -187,7 +224,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "\t{{gtMethod:OSSDL2Driver>>processEvent:|expanded}}\nImportant call: `mappedEvent := sdlEvent mapped.`"
+				"string" : "\t{{gtMethod:OSSDL2Driver>>processEvent:|expanded}}Important call: `mappedEvent := sdlEvent mapped.`"
 			},
 			{
 				"__type" : "textSnippet",
@@ -314,6 +351,43 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T16:59:02.523939-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T16:59:10.058341-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "c2akpQPeDQC0ymq5ChjiFw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "\t{{gtMethod:OSSDL2BackendWindow>>visitMouseMotionEvent:|expanded}}\n\t"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
 						"dateAndTimeString" : "2024-09-08T15:56:42.76698-04:00"
 					}
 				},
@@ -325,7 +399,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T16:43:30.183342-04:00"
+						"dateAndTimeString" : "2024-09-08T16:59:21.308771-04:00"
 					}
 				},
 				"uid" : {
@@ -335,7 +409,192 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "\t{{gtMethod:OSSDL2BackendWindow>>visitMouseMotionEvent:|expanded}}\n\t\nImportant part is \n``\n\t\tosEvent := OSMouseMoveEvent for: osWindow.\n\t\t^ osEvent deliver\t\n\t\t``"
+				"string" : "Important part is \n```\nosEvent := OSMouseMoveEvent for: osWindow.\n^ osEvent deliver\t\n```"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T17:03:57.95575-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T17:03:57.95575-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "51ZAtwPeDQC17wTkChjiFw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "\t{{gtMethod:OSEvent>>deliver|expanded}}"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T17:04:11.501007-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T17:04:11.501007-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "OgQPuAPeDQC2APrkChjiFw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "{{gtMethod:OSWindow>>deliverEvent:|expanded}}\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T17:07:46.947501-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T17:09:15.203149-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "e3DmxAPeDQC2En5qChjiFw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "In the {{gtMethod:SDL2AthensExample>>open}} method, we have:\n `window eventHandler: (self createEventHandler)` "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T17:07:58.105083-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T17:09:12.651786-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "MLSQxQPeDQC2HhR5ChjiFw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : " which is defined as: "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T17:08:01.900366-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T17:09:08.476414-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "HqTKxQPeDQC2JBniChjiFw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "{{gtMethod:SDL2AthensDrawingExample>>createEventHandler|expanded}}"
 			},
 			{
 				"__type" : "textSnippet",
@@ -362,7 +621,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T16:36:44.031837-04:00"
+						"dateAndTimeString" : "2024-09-08T17:09:50.729249-04:00"
 					}
 				},
 				"uid" : {
@@ -372,7 +631,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "\t{{gtMethod:OSEvent>>deliver|expanded}}\n"
+				"string" : "{{gtMethod>:\n\tOSWindowAthensDrawingExampleEventHandler >> handleEvent: anEvent\n\n\tinherit code from: "
 			},
 			{
 				"__type" : "textSnippet",
@@ -388,7 +647,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T15:56:49.703889-04:00"
+						"dateAndTimeString" : "2024-09-08T16:50:58.628323-04:00"
 					}
 				},
 				"editEmail" : {
@@ -399,17 +658,91 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T16:46:17.811495-04:00"
+						"dateAndTimeString" : "2024-09-08T16:53:48.702496-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "FRgmxwLeDQCm41vVCMvzoQ=="
+					"uidString" : "bbXMiAPeDQCxjXlVChjiFw=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "{{gtMethod:OSWindow>>deliverEvent:|expanded}}\n\nOSWindow >> DeliverEvent: anEvent\n\t\teventHandler ifNotNil: [ eventHandler handleEvent: anEvent ].\n\n\t\t In the open method, we have: window eventHandler: (self createEventHandler) which is defined as: \nOSWindowAthensExampleEventHandler new athensExample: self\n\tOSWindowAthensDrawingExampleEventHandler >> handleEvent: anEvent\n\n\tinherit code from: \nOSWindowEventVisitor >> handleEvent: anEvent\n\t\tanEvent accept: self.\n\nOSMouseMoveEvent >> accept: aVisitor\n\t\t^ aVisitor visitMouseMoveEvent: self\n\t\n\tOSWindowAthensExampleEventHandler >> visitMouseMoveEvent: anEvent\n\t\"your code reacting to event here\"\n\t\t\tathensExample moveAt: anEvent position\n"
+				"string" : "{{gtMethod:OSWindowEventVisitor>>handleEvent:|expanded}}\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T17:04:49.168927-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T17:04:49.168927-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "28lNugPeDQC2CVrFChjiFw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "{{gtMethod:OSMouseMoveEvent>>accept:|expanded}}"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T16:54:10.441897-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T17:04:49.176415-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "YZc7lAPeDQCz6wlMChjiFw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "{{gtMethod:OSWindowAthensDrawingExampleEventHandler>>visitMouseMoveEvent:|expanded}}\n"
 			},
 			{
 				"__type" : "textSnippet",
@@ -617,12 +950,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2024-09-08T14:50:32.4941-04:00"
+			"dateAndTimeString" : "2024-09-08T16:56:29.700052-04:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Chain of event delivery (OSMouseMoveEvent in this example)."
+		"title" : "Chain of event delivery (by studying SDL2AthensDrawingExample and Mouse Move )."
 	},
 	"uid" : {
 		"__type" : "uuid",
