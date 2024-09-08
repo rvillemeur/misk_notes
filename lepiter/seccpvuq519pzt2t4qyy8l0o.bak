@@ -163,7 +163,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-07-22T20:05:39.79-04:00"
+						"dateAndTimeString" : "2022-07-22T20:07:56.792-04:00"
 					}
 				},
 				"editEmail" : {
@@ -174,20 +174,20 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-07-22T20:06:54.772-04:00"
+						"dateAndTimeString" : "2022-07-22T20:07:56.792-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "AJ4Ncs+gDQC+DXzSDxVTDQ=="
+					"uidString" : "wITWes+gDQC+F7aLDxVTDQ=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "![](C:\\devzone\\sources\\misk_notes\\javascript\\promise call.png)\n\n## The modern way: async and await\n\nCode returning a promise follow similar pattern, but on the outside, they look like regular function. Nothing tells that they must be used in an asynchronous way except if you read their code definition. The keyword Async and await have been introduced in JavaScript to show explicitly when code is asynchronous. Internally, they still use Promise.\n\nThe word **async** before a function means one simple thing: a function  always returns a promise. Other values are wrapped in a resolved promise automatically. The keyword **await** makes JavaScript wait until that promise settles and returns its result. If we try to use **await** in non-async function, there would be a syntax error. This force the programmer to think its code fully asynchronously.\n\n**async** function is more like your promise executor function which runs synchronously. The **await** keyword is like a **then** callback that wraps all the statements below it.\n\n\n\n## Bonus: Event handling in web page\n\nThe **addEventListener** method is the most preferred way to add an event listener to **window**, **document** or any other **element** in the DOM\n\n```js\nwindow.addEventListener(\"mousedown\",function(event){\n alert(\"window\");\n console.log(event);\n});\n```\n\nIf you want to remove an event listener from a specific element:\n\n```js\nDocument.getElementbyId(\"id_name\").removeEventListener(\"click\",fn_name)\n```\n\nThe list of event is available at: https://developer.mozilla.org/en-US/docs/Web/Events\n\n## source\n\nhttps://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/\n\nhttps://medium.com/the-node-js-collection/what-you-should-know-to-really-understand-the-node-js-event-loop-and-its-metrics-c4907b19da4c\n\nhttps://medium.com/better-programming/learn-node-js-under-the-hood-37966a20e127\n\nhttps://medium.com/better-programming/is-node-js-really-single-threaded-7ea59bcc8d64\n\nhttps://medium.com/front-end-weekly/javascript-event-loop-explained-4cd26af121d4\n\nhttp://matt.might.net/articles/by-example-continuation-passing-style/\n\nhttps://zellwk.com/blog/converting-callbacks-to-promises/\n\nhttps://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise\n\nhttps://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises\n\nhttps://medium.com/better-programming/should-i-use-promises-or-async-await-126ab5c98789\n\nhttps://medium.com/jspoint/javascript-promises-and-async-await-as-fast-as-possible-d7c8c8ff0abc\n\nhttps://stackoverflow.com/questions/46004290/will-async-await-block-a-thread-node-js/46004756#46004756\n\nhttps://www.imaginarycloud.com/blog/async-javascript-patterns-guide/\n\n\n\n\n\n"
+				"string" : "![](C:\\devzone\\sources\\misk_notes\\javascript\\promise call.png)\n\n## The modern way: async and await\n\nCode returning a promise follow similar pattern, but on the outside, they look like regular function. Nothing tells that they must be used in an asynchronous way except if you read their code definition. The keyword Async and await have been introduced in JavaScript to show explicitly when code is asynchronous. Internally, they still use Promise.\n\nThe word **async** before a function means one simple thing: a function  always returns a promise. Other values are wrapped in a resolved promise automatically. The keyword **await** makes JavaScript wait until that promise settles and returns its result. If we try to use **await** in non-async function, there would be a syntax error. This force the programmer to think its code fully asynchronously.\n\n**async** function is more like your promise executor function which runs synchronously. The **await** keyword is like a **then** callback that wraps all the statements below it.\n\n"
 			},
 			{
-				"__type" : "pictureSnippet",
+				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
 					"items" : [ ]
@@ -200,7 +200,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-07-22T20:05:50.351-04:00"
+						"dateAndTimeString" : "2022-07-22T20:07:50.603-04:00"
 					}
 				},
 				"editEmail" : {
@@ -211,14 +211,54 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-07-22T20:06:15.924-04:00"
+						"dateAndTimeString" : "2022-07-22T20:07:56.792-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "mC5Nc8+gDQC+DyQODxVTDQ=="
+					"uidString" : "+BR4es+gDQC+FlQHDxVTDQ=="
 				},
-				"url" : "attachments/seccpzuapp5wwxevpszlrf6o/promise call.png"
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## Bonus: Event handling in web page\n\nThe **addEventListener** method is the most preferred way to add an event listener to **window**, **document** or any other **element** in the DOM\n\n```js\nwindow.addEventListener(\"mousedown\",function(event){\n alert(\"window\");\n console.log(event);\n});\n```\n\nIf you want to remove an event listener from a specific element:\n\n```js\nDocument.getElementbyId(\"id_name\").removeEventListener(\"click\",fn_name)\n```\n\nThe list of event is available at: https://developer.mozilla.org/en-US/docs/Web/Events\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T20:05:39.79-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T20:07:50.603-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "AJ4Ncs+gDQC+DXzSDxVTDQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## source\n\nhttps://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/\n\nhttps://medium.com/the-node-js-collection/what-you-should-know-to-really-understand-the-node-js-event-loop-and-its-metrics-c4907b19da4c\n\nhttps://medium.com/better-programming/learn-node-js-under-the-hood-37966a20e127\n\nhttps://medium.com/better-programming/is-node-js-really-single-threaded-7ea59bcc8d64\n\nhttps://medium.com/front-end-weekly/javascript-event-loop-explained-4cd26af121d4\n\nhttp://matt.might.net/articles/by-example-continuation-passing-style/\n\nhttps://zellwk.com/blog/converting-callbacks-to-promises/\n\nhttps://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise\n\nhttps://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises\n\nhttps://medium.com/better-programming/should-i-use-promises-or-async-await-126ab5c98789\n\nhttps://medium.com/jspoint/javascript-promises-and-async-await-as-fast-as-possible-d7c8c8ff0abc\n\nhttps://stackoverflow.com/questions/46004290/will-async-await-block-a-thread-node-js/46004756#46004756\n\nhttps://www.imaginarycloud.com/blog/async-javascript-patterns-guide/\n\n\n\n\n\n"
 			}
 		]
 	},

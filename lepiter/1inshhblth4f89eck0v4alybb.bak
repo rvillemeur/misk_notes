@@ -24,12 +24,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-11-12T22:18:15.360483-05:00"
+			"dateAndTimeString" : "2022-11-12T22:18:29.009818-05:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Page 1"
+		"title" : "Note  on Pharo"
 	},
 	"uid" : {
 		"__type" : "uuid",

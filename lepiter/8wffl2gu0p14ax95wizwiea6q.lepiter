@@ -1,0 +1,187 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T14:52:16.904774-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T14:52:16.904774-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "at1P4AHeDQCadIZACVxYlg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "##setup"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T14:52:35.071861-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T15:48:07.893343-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "0BRl4QHeDQCagtzBCVxYlg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "{{gtMethod:OSSDL2Driver >>startUp:|expanded}}"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T15:49:40.687797-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T15:49:40.687797-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "jdGTrQLeDQCcm6/RCVxYlg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "{{gtMethod:OSSDL2Driver>>setupEventLoop|expanded}}\nImportant call here is `self eventLoopProcessWithVMWindow `(forked by VM)"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T14:50:23.691831-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T15:50:26.295276-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "fmiQ2QHeDQCZ1YoPCVxYlg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## processing\n{{gtMethod:OSSDL2Driver>>eventLoopProcessWithVMWindow|expanded}}\n\n\n\n\nOSSDL2Driver >> eventLoopProcessWithVMWindow\n\t\t|event|\n\t\tevent := SDL_Event new.\n\t\tself processEvent: event\n\n\tOSSDL2Driver >> processEvent: sdlEvent\n\t\t| event |\n\t\tevent := self convertEvent: sdlEvent.\n\n\tOSSDL2Driver >> convertEvent: sdlEvent\n\t\t| mappedEvent window |\n\t\tmappedEvent := sdlEvent mapped.\n\t\twindow := WindowMap at: mappedEvent windowID\n\t\twindow handleNewSDLEvent: mappedEvent.\n\n\tOSSDL2BackendWindow >> handleNewSDLEvent: sdlEvent\n\t\t^ sdlEvent accept: self\n\tSDL_MouseMotionEvent >> accept: aVisitor\n\t\t^ aVisitor visitMouseMotionEvent: self\n\n\tOSSDL2BackendWindow >> visitMouseMotionEvent: sdlEvent\n\t\t| osEvent |\n\t\tosEvent := OSMouseMoveEvent for: osWindow.\n\t\t^ osEvent deliver\n\t\t\n\tOSEvent >> deliver\n\t\t^ window deliverEvent: self\n\nOSWindow >> DeliverEvent: anEvent\n\t\teventHandler ifNotNil: [ eventHandler handleEvent: anEvent ].\n\n\t\t In the open method, we have: window eventHandler: (self createEventHandler) which is defined as: \nOSWindowAthensExampleEventHandler new athensExample: self\n\tOSWindowAthensDrawingExampleEventHandler >> handleEvent: anEvent\n\n\tinherit code from: \nOSWindowEventVisitor >> handleEvent: anEvent\n\t\tanEvent accept: self.\n\nOSMouseMoveEvent >> accept: aVisitor\n\t\t^ aVisitor visitMouseMoveEvent: self\n\t\n\tOSWindowAthensExampleEventHandler >> visitMouseMoveEvent: anEvent\n\t\"your code reacting to event here\"\n\t\t\tathensExample moveAt: anEvent position\n##############################################################\t\t\n## event conversion\n\nIn OSSDL2Driver >> convertEvent: sdlEvent, we have: mappedEvent := sdlEvent mapped.\nSDL_Event >> mapped\n\t^ (EventTypeMap at: self type ifAbsent: [ ^ self unknownEvent ]) fromSdlEvent: self\n\nEventTypeMap is defined in the method\n\tSDL_Event class >> initializeEventTypeMap\n\t\t\"self initializeEventTypeMap\"\n\t\tEventTypeMap := Dictionary new.\n\t\tSDL2MappedEvent  allSubclassesDo: [ :cls |\n\t\t\t| eventType |\n\t\t\teventType := cls eventType.\n\t\t\teventType ifNotNil: [ EventTypeMap at: eventType put: cls ] ]\n\t]\n\nAnd for SDL_MouseMotionEvent class eventType\n\t^ SDL_MOUSEMOTION\nwhich link SDL enum to Pharo class type.\n\nSDL2MappedEvent class >> fromSdlEvent: event\n\t\t^  self new setHandle: event getHandle\nwhich return an instance of the SDL2 event class.\n"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2024-09-08T14:50:32.4941-04:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2024-09-08T14:50:32.4941-04:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Chain of event delivery (OSMouseMoveEvent in this example)."
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "12ad8fd9-01de-0d00-99d4-20ae095c5896"
+	}
+}
