@@ -129,6 +129,413 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T15:56:12.152216-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T15:56:28.920488-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "3xfpxALeDQCmpIaNCMvzoQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## processing\n{{gtMethod:OSSDL2Driver>>eventLoopProcessWithVMWindow|expanded}}\n\nimportant call here:\n\n\t``event := SDL_Event new.\n\t\tself processEvent: event``\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T15:59:48.138087-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T16:00:01.371849-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "t8fI0QLeDQCoN3cRCMvzoQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "\t{{gtMethod:OSSDL2Driver>>processEvent:|expanded}}\nImportant call: `mappedEvent := sdlEvent mapped.`"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T15:56:39.677932-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T15:59:01.897483-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "KhaNxgLeDQCmvJkWCMvzoQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "OSSDL2Driver >> convertEvent: sdlEvent\n\t\t| mappedEvent window |\n\t\tmappedEvent := sdlEvent mapped.\n\t\twindow := WindowMap at: mappedEvent windowID\n\t\twindow handleNewSDLEvent: mappedEvent.\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T15:56:41.243446-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T15:56:41.243446-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "2f2kxgLeDQCmw1T4CMvzoQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "\tOSSDL2BackendWindow >> handleNewSDLEvent: sdlEvent\n\t\t^ sdlEvent accept: self\n\tSDL_MouseMotionEvent >> accept: aVisitor\n\t\t^ aVisitor visitMouseMotionEvent: self\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T15:56:42.76698-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T16:37:10.450252-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "JzG8xgLeDQCmyntGCMvzoQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "\t{{gtM\n\t\n\tOSSDL2BackendWindow >> visitMouseMotionEvent: sdlEvent\n\t\t| osEvent |\n\t\tosEvent := OSMouseMoveEvent for: osWindow.\n\t\t^ osEvent deliver\t"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T15:56:44.26728-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T16:36:44.031837-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "ByLTxgLeDQCm0XH5CMvzoQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "\t{{gtMethod:OSEvent>>deliver|expanded}}\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T15:56:49.703889-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T15:56:52.432988-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "FRgmxwLeDQCm41vVCMvzoQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "OSWindow >> DeliverEvent: anEvent\n\t\teventHandler ifNotNil: [ eventHandler handleEvent: anEvent ].\n\n\t\t In the open method, we have: window eventHandler: (self createEventHandler) which is defined as: \nOSWindowAthensExampleEventHandler new athensExample: self\n\tOSWindowAthensDrawingExampleEventHandler >> handleEvent: anEvent\n\n\tinherit code from: \nOSWindowEventVisitor >> handleEvent: anEvent\n\t\tanEvent accept: self.\n\nOSMouseMoveEvent >> accept: aVisitor\n\t\t^ aVisitor visitMouseMoveEvent: self\n\t\n\tOSWindowAthensExampleEventHandler >> visitMouseMoveEvent: anEvent\n\t\"your code reacting to event here\"\n\t\t\tathensExample moveAt: anEvent position\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T16:06:53.426395-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T16:10:41.770665-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Wyoi6wLeDQCqu8eHCMvzoQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## event conversion\nIn `OSSDL2Driver >> processEvent: sdlEvent`, \nwe have: `mappedEvent := sdlEvent mapped`."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T16:06:48.898568-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T16:09:48.080906-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "lBPd6gLeDQCqs0gNCMvzoQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "{{gtMethod:SDL_Event>>mapped|expanded}}"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T16:06:30.30719-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T16:06:48.909411-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "pF3B6QLeDQCqnOA/CMvzoQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "EventTypeMap is defined in the method\n{{gtMethod:SDL_Event class>>initializeEventTypeMap|expanded}}"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T16:08:31.905096-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T16:09:12.281151-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "qdIA8QLeDQCr/p27CMvzoQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "{{gtMethod:SDL_MouseMotionEvent class>>eventType|expanded}}\nwhich link SDL enum to Pharo class type."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
 						"dateAndTimeString" : "2024-09-08T14:50:23.691831-04:00"
 					}
 				},
@@ -140,7 +547,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T15:50:26.295276-04:00"
+						"dateAndTimeString" : "2024-09-08T16:09:08.370743-04:00"
 					}
 				},
 				"uid" : {
@@ -150,7 +557,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "## processing\n{{gtMethod:OSSDL2Driver>>eventLoopProcessWithVMWindow|expanded}}\n\n\n\n\nOSSDL2Driver >> eventLoopProcessWithVMWindow\n\t\t|event|\n\t\tevent := SDL_Event new.\n\t\tself processEvent: event\n\n\tOSSDL2Driver >> processEvent: sdlEvent\n\t\t| event |\n\t\tevent := self convertEvent: sdlEvent.\n\n\tOSSDL2Driver >> convertEvent: sdlEvent\n\t\t| mappedEvent window |\n\t\tmappedEvent := sdlEvent mapped.\n\t\twindow := WindowMap at: mappedEvent windowID\n\t\twindow handleNewSDLEvent: mappedEvent.\n\n\tOSSDL2BackendWindow >> handleNewSDLEvent: sdlEvent\n\t\t^ sdlEvent accept: self\n\tSDL_MouseMotionEvent >> accept: aVisitor\n\t\t^ aVisitor visitMouseMotionEvent: self\n\n\tOSSDL2BackendWindow >> visitMouseMotionEvent: sdlEvent\n\t\t| osEvent |\n\t\tosEvent := OSMouseMoveEvent for: osWindow.\n\t\t^ osEvent deliver\n\t\t\n\tOSEvent >> deliver\n\t\t^ window deliverEvent: self\n\nOSWindow >> DeliverEvent: anEvent\n\t\teventHandler ifNotNil: [ eventHandler handleEvent: anEvent ].\n\n\t\t In the open method, we have: window eventHandler: (self createEventHandler) which is defined as: \nOSWindowAthensExampleEventHandler new athensExample: self\n\tOSWindowAthensDrawingExampleEventHandler >> handleEvent: anEvent\n\n\tinherit code from: \nOSWindowEventVisitor >> handleEvent: anEvent\n\t\tanEvent accept: self.\n\nOSMouseMoveEvent >> accept: aVisitor\n\t\t^ aVisitor visitMouseMoveEvent: self\n\t\n\tOSWindowAthensExampleEventHandler >> visitMouseMoveEvent: anEvent\n\t\"your code reacting to event here\"\n\t\t\tathensExample moveAt: anEvent position\n##############################################################\t\t\n## event conversion\n\nIn OSSDL2Driver >> convertEvent: sdlEvent, we have: mappedEvent := sdlEvent mapped.\nSDL_Event >> mapped\n\t^ (EventTypeMap at: self type ifAbsent: [ ^ self unknownEvent ]) fromSdlEvent: self\n\nEventTypeMap is defined in the method\n\tSDL_Event class >> initializeEventTypeMap\n\t\t\"self initializeEventTypeMap\"\n\t\tEventTypeMap := Dictionary new.\n\t\tSDL2MappedEvent  allSubclassesDo: [ :cls |\n\t\t\t| eventType |\n\t\t\teventType := cls eventType.\n\t\t\teventType ifNotNil: [ EventTypeMap at: eventType put: cls ] ]\n\t]\n\nAnd for SDL_MouseMotionEvent class eventType\n\t^ SDL_MOUSEMOTION\nwhich link SDL enum to Pharo class type.\n\nSDL2MappedEvent class >> fromSdlEvent: event\n\t\t^  self new setHandle: event getHandle\nwhich return an instance of the SDL2 event class.\n"
+				"string" : "{{gtMethod:SDL2MappedEvent class>>fromSdlEvent:|expanded}}\n\nwhich return an instance of the SDL2 event class.\n"
 			}
 		]
 	},
