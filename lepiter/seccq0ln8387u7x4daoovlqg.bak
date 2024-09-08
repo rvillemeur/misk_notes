@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T18:24:14.405781-04:00"
+						"dateAndTimeString" : "2024-09-08T17:37:33.639404-04:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T18:32:11.353761-04:00"
+						"dateAndTimeString" : "2024-09-08T18:40:55.397293-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "9ZBV1gTeDQCh+zBOBx6Z4A=="
+					"uidString" : "ITplLwTeDQCQzxybBx6Z4A=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "## Pharo Startup and shutdown\nWhat happen when you select the menu \"save and quit\". Pharo will \n\nIf you ask to quit, Pharo will execute: `Smalltalk snapshot: false andQuit: true`\nIf you ask to save and quit, Pharo will execute: `Smalltalk snapshot: true andQuit: true`\nIf you only ask to save your current image state, you'll run: `Smalltalk snapshot: true andQuit: false.`\n\nThe {{gtMethod:SessionManager>>snapshot:andQuit:}} message is implemented by {{gtClass:SessionManager}} \n I strongly advise to read its class comment. It'll give you lots of information on how Pharo stop\nand starts its session, and manage its services\n\nA new session starts when the image starts.\r\nA session stops when the image quits.\n**There is only one active session at a single point of time.**\n\n"
+				"string" : "SessionManager default startupList.\r\n-> UIManagerSessionHandler >> startup: isImageStarting\r\n\t\"Install the right UIManager\"\r\n\tUIManager default: UIManager forCurrentSystemConfiguration.\r\n\r\nUIManager class >> defaut:\r\ndefault: aUIManager\r\n\r\n\tDefault deactivate.\r\n\tDefault := aUIManager.\r\n\tDefault activate.\n"
 			},
 			{
 				"__type" : "textSnippet",
@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T18:30:39.347814-04:00"
+						"dateAndTimeString" : "2024-09-08T17:38:00.532574-04:00"
 					}
 				},
 				"editEmail" : {
@@ -66,17 +66,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T18:38:20.78135-04:00"
+						"dateAndTimeString" : "2024-09-08T17:38:19.700104-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "zT9H7QTeDQCiuCZGBx6Z4A=="
+					"uidString" : "E/bEMATeDQCQ3gtJBx6Z4A=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "\r\nStartup\r\n-----------\r\nAt startup and shutdown the image execute the methods startUp: and shutdown: of registered classes (registered using addToStartUpList:, addToShutDownList:, ... methods and friends).\r\n\t\r\nStartup phases\r\nDuring the first stage of start up the UI manager, the default uimanager is switched to a specific non interactive ui manager (StartupUIManager). Note that this specific non interactive UIManager kills the system on any attempt to open windows and interaction. So be warned, don't use interaction in the first phase. \r\nThen all registered classes execute their start up procedures (which should not imply interactive behavior). \r\nAfter startup list is finished, any deferred startup actions are executed, which you can add using the method\r\naddDeferredStartupAction: method.  "
+				"string" : "{{gtMethod:UIManagerSessionHandler>>startup:|expanded}}"
 			},
 			{
 				"__type" : "textSnippet",
@@ -92,7 +92,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T18:32:06.13534-04:00"
+						"dateAndTimeString" : "2024-09-08T17:36:17.46239-04:00"
 					}
 				},
 				"editEmail" : {
@@ -103,51 +103,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T18:32:14.909171-04:00"
+						"dateAndTimeString" : "2024-09-08T17:39:46.170643-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "6o5z8gTeDQCjRKUvBx6Z4A=="
+					"uidString" : "Q9vaKgTeDQCPibHRBx6Z4A=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "The current active session is held by the singleton {{gtClass:SessionManager}}. It can be accessed by doing:"
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T18:24:36.438487-04:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T18:24:37.570785-04:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "MaSl1wTeDQCiCw6RBx6Z4A=="
-				},
-				"code" : "SessionManager default currentSession."
+				"string" : "Which return {{gtClass:MorphicUIManager}}, a subclass of {{gtClass:UIManager}}"
 			},
 			{
 				"__type" : "textSnippet",
@@ -163,7 +129,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T18:24:41.394122-04:00"
+						"dateAndTimeString" : "2024-09-08T17:34:30.450809-04:00"
 					}
 				},
 				"editEmail" : {
@@ -174,51 +140,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T18:24:55.047244-04:00"
+						"dateAndTimeString" : "2024-09-08T17:36:32.277471-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "pFbx1wTeDQCiFELNBx6Z4A=="
+					"uidString" : "oP15JATeDQCNwx9GBx6Z4A=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "## Shutdown"
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T18:25:11.15573-04:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T18:25:12.255203-04:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "rFi32QTeDQCiMUVwBx6Z4A=="
-				},
-				"code" : "SessionManager default shutdownList"
+				"string" : "{{gtMethod:MorphicUIManager>>activate}}"
 			},
 			{
 				"__type" : "textSnippet",
@@ -234,7 +166,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T18:24:19.042974-04:00"
+						"dateAndTimeString" : "2024-09-08T17:36:36.429805-04:00"
 					}
 				},
 				"editEmail" : {
@@ -245,51 +177,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T18:25:33.867485-04:00"
+						"dateAndTimeString" : "2024-09-08T17:36:38.265501-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "vkqc1gTeDQCiAijCBx6Z4A=="
+					"uidString" : "vUj8KwTeDQCQB3z1Bx6Z4A=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "## Startup"
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T18:25:49.779134-04:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T18:25:51.125366-04:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "F7kE3ATeDQCiXeOIBx6Z4A=="
-				},
-				"code" : "SessionManager default startupList."
+				"string" : "will call"
 			},
 			{
 				"__type" : "textSnippet",
@@ -305,7 +203,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T18:26:20.634205-04:00"
+						"dateAndTimeString" : "2024-09-08T17:36:44.718812-04:00"
 					}
 				},
 				"editEmail" : {
@@ -316,17 +214,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T18:26:22.184981-04:00"
+						"dateAndTimeString" : "2024-09-08T17:36:44.718812-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "PaDb3QTeDQCibJE+Bx6Z4A=="
+					"uidString" : "jMJ6LATeDQCQQ2dCBx6Z4A=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "If you inspect it, you'll get (in my current Image) a list containing 54 items. In those items, we will find:\n- Color\n- Cursor\n- Form\n- UIManagerSessionHandler -> this interest us.\n\nOn Pharo/Image startup, the SessionManager will call all the startup method in all\nitems that is in the startup list (*SessionManager default currentSession*)"
+				"string" : "{{gtMethod:AbstractWorldRenderer>>activate}}\n"
 			},
 			{
 				"__type" : "textSnippet",
@@ -342,7 +240,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T18:27:36.154548-04:00"
+						"dateAndTimeString" : "2024-09-08T17:35:14.642764-04:00"
 					}
 				},
 				"editEmail" : {
@@ -353,17 +251,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T18:27:38.229364-04:00"
+						"dateAndTimeString" : "2024-09-08T17:36:44.727832-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "uvJb4gTeDQCili/uBx6Z4A=="
+					"uidString" : "nE4cJwTeDQCOW3xPBx6Z4A=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "{{gtMethod:WorkingSession>>runStartup:|expanded}}"
+				"string" : "which call"
 			},
 			{
 				"__type" : "textSnippet",
@@ -379,7 +277,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-07-22T20:26:56.628-04:00"
+						"dateAndTimeString" : "2024-09-08T17:37:03.396249-04:00"
 					}
 				},
 				"editEmail" : {
@@ -390,17 +288,165 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T18:42:25.650589-04:00"
+						"dateAndTimeString" : "2024-09-08T17:37:03.396249-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "YF8svs+gDQCrpENLDgkDmw=="
+					"uidString" : "/8CXLQTeDQCQwpPHBx6Z4A=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "\n"
+				"string" : "{{gtMethod:OSWorldRenderer>>doActivate}} "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T18:06:11.862133-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T18:07:50.313976-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "lDvPlQTeDQCcVhOBBx6Z4A=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "OSWorldRenderer >> pickMostSuitableWindowDriver => an OSSDL2Driver: A window driver used for running things using SDL2 library"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T18:06:13.630098-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T18:06:32.211379-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "mTXqlQTeDQCcXDvGBx6Z4A=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "{{gtMethod:OSWorldRenderer>>osWindowRenderer|expanded}}"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T19:43:58.005-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T18:07:40.133557-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "IHBVJM+gDQC9WYR/DxVTDQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "\t\nOSWindow >> newFormRenderer: form\n\t^ backendWindow ifNotNil: [backendWindow newFormRenderer: form]\n    \nbackendWindow := initialAttributes createWindowHandleFor: self.\n\nOSWorldRenderer class >> isApplicableFor: aWorld\n\n\t^ Smalltalk isHeadless and: [ CommandLineArguments new hasOption: 'interactive'  ]\n\n\nWorld is rendered on an {{gtClass:OSWindow}} through the use of {{gtClass:OSWorldRenderer}}\n\nForm are rendered on the screen through {{gtClass:OSSDL2FormRenderer}}\nOSSDL2Driver >> createWindowWithAttributes: attributes osWindow: osWindow\n    aBackendWindow := OSSDL2BackendWindow newWithHandle: handle attributes: attributes.\n\nOSSDL2BackendWindow >> newFormRenderer:\n\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T18:29:39.821814-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T18:29:41.97279-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Ov266QTeDQCiqJRDBx6Z4A=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "This session handler makes the assumption that the current UIManager is a \nstartup UI manager when its #startup: method gets called. Then, during startup \nhe will install a Morphic UI manager.\n\nstartup: isImageStarting\n\t\"Install the right UIManager\"\n\tUIManager default: UIManager forCurrentSystemConfiguration.\n=> renvoie MorphicUIManager\n\nUIManager class default: aUIManager\n\n\tDefault deactivate.\n\tDefault := aUIManager.\n\tDefault activate.\n\t\n=> MorphicUIManager >> activate\nactivate\n\tactiveTranscript \n\t\tifNil: [\n\t\t\tTranscript class == ThreadSafeTranscript ifFalse: [ \n\t\t\t\tThreadSafeTranscript install \n\t\t\t]\n\t\t]\t\t\n\t\tifNotNil: [ Transcript := activeTranscript ].\n\t\t\n\tSystemProgressMorph enable.\n--------------------------------------------------------------------------------\nMorphicUIManager qui lance la commande: UIManager default defer:  [ \n\t\tsuper activateWith: aCommandLine ]\n\t\t\nThe CommandLineArguments represents the arguments passed to the image.\nIn the following case,\n\n\t$PHARO_VM myImage.image --foo bar\n\t\n`CommandLineArguments default` contains {'--foo'. 'bar'}.\n\n--------------------------------------------------------------------------------\nQuestion: comment cette action s'est retrouvé dans la chaine d'execution \nde UI Manager. "
 			}
 		]
 	},
@@ -412,7 +458,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-07-22T20:26:46.441-04:00"
+			"dateAndTimeString" : "2022-07-22T19:43:45.453-04:00"
 		}
 	},
 	"editEmail" : {
@@ -423,15 +469,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2024-09-08T18:24:06.44063-04:00"
+			"dateAndTimeString" : "2022-07-22T19:43:57.092-04:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Pharo startup and shutdown"
+		"title" : "Pharo GUI Startup and shutdown"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "28982bbe-cfa0-0d00-aba3-d5b40e09039b"
+		"uuid" : "c8d75424-cfa0-0d00-bd58-84a50f15530d"
 	}
 }

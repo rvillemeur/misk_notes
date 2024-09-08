@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T14:50:57.904754-04:00"
+						"dateAndTimeString" : "2024-09-08T18:15:43.593631-04:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "*SDL2MappedEvent allSubclasses* implement the visitor pattern, with OSSDL2BackendWindow\nis class being visited\n\nevents are then managed through an event handler, *OSWindowMorphicEventHandler*\nwhich is a subclass of *OSWindowEventVisitor*. Then *OSEvent allSubclasses* implement again the\nvisitor pattern, with OSWindowMorphicEventHandler being visited.\n\nTo create your own event handler, subclass *OSWindowEventVisitor* and implement the\n*visitXXXEvent* method, like *visitMouseMoveEvent*\n\nMorphic events are managed with OSWindowMorphicEventHandler, which convert event\nto format expected by Morphic.\n1. return true to accept specific events in method in category *event handling* \n2. implement logic to this events by overriding method in category *event processing*\n\nTODO: define your own event handler for your morph.\n```\neventHandler: anEventHandler \n\t\"Note that morphs can share eventHandlers and all is OK. \"\n\tself assureExtension eventHandler: anEventHandler\n```\n\nEvent handler is created and associated in the open method:\n\n\twindow := OSWindow createWithAttributes: attrs.\n\twindow eventHandler: (self createEventHandler).\n\n\n\tSDL2AthensDrawingExample >> createEventHandler\n\t\t^ OSWindowAthensDrawingExampleEventHandler new \n\t\t\t\tathensExample: self\n\t\t\t\nA newly created OSWindow instance can be used and controlled by application.\nTo handle events (mouse/keyboard) of newly created window, one must\nbind own event handler to it (#eventHandler:) which must understand #handleEvent: message.\n\nTo render on window's surface, first application must obtain an OSWindowRenderer instance.\nCurrently there's two kinds of renderers available:\n•\tform renderer (to use existing form for updating window's contents)\n•\topengl renderer (to render using OpenGL).\n\nOSWindowEventVisitor -> OSWindowAthensExampleEventHandler -> OSWindowAthensExampleEventHandler\nhas 1 instance variable\n\t- athensExample\nDefine 4 method (through inheritance):\n\t- visitMouseButtonPressEvent: anEvent\n\t- visitMouseButtonReleaseEvent: anEvent\n\t- visitMouseMoveEvent: anEvent\n\t- visitWindowCloseEvent: anEvent\n\nThe specific events are coming from operating system and converted to corresponding \nOSEvent subinstance(s) in order to handle them. Events can implement a default \naction, which will be performed after dispatch on event handling,  unless they \nare suppressed using #suppressDefaultAction message.\n\n\n\n\n"
+				"string" : "\n\nTo create your own event handler, subclass {{gtClass:OSWindowEventVisitor}} and implement the\n*visitXXXEvent* method, like {{gtMethod:OSWindowEventVisitor>>visitMouseMoveEvent:}}\n\nMorphic events are managed with {{gtClass:OSWindowMorphicEventHandler}}, which convert event\nto format expected by Morphic.\n1. return true to accept specific events in method in category *event handling* \n2. implement logic to this events by overriding method in category *event processing*\n\nTODO: define your own event handler for your morph.\n```\neventHandler: anEventHandler \n\t\"Note that morphs can share eventHandlers and all is OK. \"\n\tself assureExtension eventHandler: anEventHandler\n```\n\nEvent handler is created and associated in the open method:\n\n\twindow := OSWindow createWithAttributes: attrs.\n\twindow eventHandler: (self createEventHandler).\n\n\n\tSDL2AthensDrawingExample >> createEventHandler\n\t\t^ OSWindowAthensDrawingExampleEventHandler new \n\t\t\t\tathensExample: self\n\t\t\t\nA newly created OSWindow instance can be used and controlled by application.\nTo handle events (mouse/keyboard) of newly created window, one must\nbind own event handler to it (#eventHandler:) which must understand #handleEvent: message.\n\nTo render on window's surface, first application must obtain an OSWindowRenderer instance.\nCurrently there's two kinds of renderers available:\n•\tform renderer (to use existing form for updating window's contents)\n•\topengl renderer (to render using OpenGL).\n\nOSWindowEventVisitor -> OSWindowAthensExampleEventHandler -> OSWindowAthensExampleEventHandler\nhas 1 instance variable\n\t- athensExample\nDefine 4 method (through inheritance):\n\t- visitMouseButtonPressEvent: anEvent\n\t- visitMouseButtonReleaseEvent: anEvent\n\t- visitMouseMoveEvent: anEvent\n\t- visitWindowCloseEvent: anEvent\n\nThe specific events are coming from operating system and converted to corresponding \nOSEvent subinstance(s) in order to handle them. Events can implement a default \naction, which will be performed after dispatch on event handling,  unless they \nare suppressed using #suppressDefaultAction message.\n\n\n\n\n"
 			}
 		]
 	},
@@ -62,12 +62,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-11-05T15:20:18.624615-04:00"
+			"dateAndTimeString" : "2024-09-08T17:43:44.474852-04:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Event handling on Pharo"
+		"title" : "Event handling on Pharo with OSWindow"
 	},
 	"uid" : {
 		"__type" : "uuid",

@@ -92,43 +92,6 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T18:41:48.437965-04:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T18:41:51.234999-04:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "pcgoFQXeDQCl2VQ4Bx6Z4A=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "\nThisContext = [ super activateWith: aCommandLine ] in PharoCommandLineHandler class>>activateWith:\"\n--------------------------------------------------------------------------------\nDans la classe BasicCommandLineHandler >> activateSubCommand: aCommandLinehandler\n\t[ aCommandLinehandler activateWith: commandLine ] on: Exit do: [ :exit |\n\t\t^ self handleExit: exit for: aCommandLinehandler ].\n\t\"the return value of this method is used to check if the subcommand was successfull\"\n\t^ aCommandLinehandler\n--------------------------------------------------------------------------------"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
 						"dateAndTimeString" : "2024-09-08T18:39:42.206642-04:00"
 					}
 				},

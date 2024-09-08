@@ -29,12 +29,228 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T14:52:16.904774-04:00"
+						"dateAndTimeString" : "2024-09-08T18:16:06.642422-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "at1P4AHeDQCadIZACVxYlg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "##Introduction"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T18:18:31.294153-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T18:21:42.460433-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "xg/iwQTeDQCfyg1JBx6Z4A=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "events are managed through an event handler, {{gtClass:OSWindowMorphicEventHandler}}\nwhich is a subclass of {{gtClass:OSWindowEventVisitor}} .  "
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T18:18:55.592031-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T18:18:56.830937-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "UrFUwwTeDQCf2NygBx6Z4A=="
+				},
+				"code" : "OSEvent allSubclasses"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T18:19:05.095807-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T18:19:23.082649-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "FtflwwTeDQCf4UJqBx6Z4A=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "implement again the visitor pattern, with {{gtClass:OSWindowMorphicEventHandler}} being visited."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T18:18:01.182726-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T18:18:09.452394-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "loMWwATeDQCft8SPBx6Z4A=="
+				},
+				"code" : "SDL2MappedEvent allSubclasses"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T18:20:59.97599-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T18:22:09.783281-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "ecS+ygTeDQCg3D29Bx6Z4A=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "implement the visitor pattern, with {{gtClass:OSSDL2BackendWindow}} being visited"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T18:15:58.361348-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T18:16:11.059052-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "LH/EuATeDQCeuuh0Bx6Z4A=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
@@ -203,6 +419,43 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T17:23:54.092034-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T17:23:54.092034-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Du6L/gPeDQCJ/labBx6Z4A=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "\t{{gtMethod:OSSDL2Driver>>processEvent:|expanded}}"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
 						"dateAndTimeString" : "2024-09-08T15:59:48.138087-04:00"
 					}
 				},
@@ -214,7 +467,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T17:03:24.675214-04:00"
+						"dateAndTimeString" : "2024-09-08T17:25:34.518234-04:00"
 					}
 				},
 				"uid" : {
@@ -224,7 +477,44 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "\t{{gtMethod:OSSDL2Driver>>processEvent:|expanded}}Important call: `mappedEvent := sdlEvent mapped.`"
+				"string" : "Important call: \n```\nmappedEvent := sdlEvent mapped.\nself eventFilter dispatchEvent: mappedEvent\n```"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T17:25:58.976235-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T17:25:58.976235-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "koD9BQTeDQCK/zBkBx6Z4A=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "{{gtMethod:OSSDL2Driver>>dispatchEvent:|expanded}}\n\n"
 			},
 			{
 				"__type" : "textSnippet",
@@ -251,7 +541,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T15:59:01.897483-04:00"
+						"dateAndTimeString" : "2024-09-08T17:26:19.600305-04:00"
 					}
 				},
 				"uid" : {
@@ -261,7 +551,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "OSSDL2Driver >> convertEvent: sdlEvent\n\t\t| mappedEvent window |\n\t\tmappedEvent := sdlEvent mapped.\n\t\twindow := WindowMap at: mappedEvent windowID\n\t\twindow handleNewSDLEvent: mappedEvent.\n"
+				"string" : "Important call:\n```\nwindow := WindowMap at: mappedEvent windowID\nwindow handleNewSDLEvent: mappedEvent.\n```"
 			},
 			{
 				"__type" : "textSnippet",
@@ -621,7 +911,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T17:09:50.729249-04:00"
+						"dateAndTimeString" : "2024-09-08T17:20:37.190524-04:00"
 					}
 				},
 				"uid" : {
@@ -631,7 +921,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "{{gtMethod>:\n\tOSWindowAthensDrawingExampleEventHandler >> handleEvent: anEvent\n\n\tinherit code from: "
+				"string" : "{{gtClass:OSWindowAthensDrawingExampleEventHandler}} inherit code from: "
 			},
 			{
 				"__type" : "textSnippet",
