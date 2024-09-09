@@ -1,0 +1,150 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T09:43:36.67-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T09:43:36.67-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "SOdCrhHeDQCKfQWKDauhNQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "A detailed design sketch is included below after the instance variable descriptions.  The instance variable declarations can be checked for extra and missing declarations by making a literal array out of them and using"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T09:43:31.756-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T09:43:36.671-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "4O/3rRHeDQCKdfi8DauhNQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "\t(| ivs |\n\tivs := (#(becomeEffectsFlags\t\t<Integer> ...) piecesCutWhere: [:a :b| a = #>]) collect: [:ea| ea first].\n\t{ivs reject: [:iv| SpurMemoryManager instVarNames includes: iv].\n\t(SpurMemoryManager instVarNames reject: [:iv| ivs includes: iv]) sort})\nThe instance variable descriptions can be checked for extra and missing declarations by making a literal string out of them and using\n\t(| ivs |\n\tivs := ('becomeEffectsFlags...' piecesCutWhere: [:a :b| a = Character cr]) select: [:s| s notEmpty and: [s first isLetter]] thenCollect: [:ea| ea withoutTrailingBlanks].\n\t{ivs reject: [:iv| SpurMemoryManager instVarNames includes: iv].\n\t(SpurMemoryManager instVarNames reject: [:iv| ivs includes: iv]) sort})"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T09:43:12.485-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T09:43:41.81-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "iOLRrBHeDQCKbwJXDauhNQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "##Instance Variables\n**becomeEffectsFlags** `<Integer>`\na set of flags to limit the work done during become; one of BecameCompiledMethodFlag, BecamePointerObjectFlag\n\n**checkForLeaks** `<Boolean>`\na set of flags determining when to run leak checks on the heap's contents\n\n**classTableFirstPage**  `<Integer oop>`\nthe first page of the class table which contains all classes known to the VM at known indices\n\n**classTableIndex** `<Integer>`\nthe last known used index in the class table, used to limit the search for empty slots\n\n**coInterpreter**\t\t `<StackInterpreter|CoInterpreter (StackInterpreterSimulator|CogVMSimulator)>`\nthe VM interpreter using this heap\n\n**edenBytes**\t\t\t `<Integer>`\na variable holding the size of eden at start up only\n\n**endOfMemory**\t\t `<Integer address>`\nthe address past the last oldSpace segment\n\n**mournQueue**\t `<Integer objStack oop>`\nthe oopStack holding triggered ephemerons, and, depending on finalization scheme, bereaved weak arrays\n\n**extraRootCount**\t `<Integer>`\nthe count of extra roots\n\n**extraRoots**\t\t\t `<Array of: oop>`\nan array of pointers to variables holding oops that need updating.  used by plugins to update objects they hold on to.\n\n**falseObj**\t\t\t `<Integer oop>`\nthe oop of the false object; must be the second object in oldSpace\n\n**firstFreeChunk**\t\t `<Integer oop|nil>`\nthe free chunk at the lowest address discovered during global gc's sweep through the heap.  used in compaction.\n\n**freeLists**\t\t\t `<CArray on: memory>`\nan array of list heads of free chunks of each size (in allocationUnits).  the 0'th element is the head of a tree of free chunks of size > 63 slots in 64-bits or 31 slots in 32-bits. freeLists is the firstIndexableField of the fourth object in oldSpace.\n\n**freeListsMask**\t\t `<Integer>`\na bitmap of flags with a 1 set whereever the freeLists has a non-empty entry, used to limit the search for free chunks\n\n**freeOldSpaceStart**\t `<Integer address>`\nthe last used address in oldSpace.  The space between freeOldSpaceStart and endOfMemory can be used for oldSpace allocations. **Given freeLists this probably isn't useful and shoud be discarded in favour of endOfMemory.**\n\t  \n**freeStart**\t\t\t `<Integer address>`\nthe last used address in eden.  this is where new objects are allocated if there is room in eden.\n\n**gcPhaseInProgress**\nflag taking values 0, ScavengeInProgress, SlidingCompactionInProgress, for remapObj: to decide what to do.\n\t\n**gcStartUsecs**\t\t `<Integer>`\nthe time in microseconds of the start of the most recent gc, used to compute the duration of a gc.\n\n**growHeadroom**\t\t `<Integer>`\nthe minimum ammount of space to grow memory by when a grow is required.\n\n**heapMap**\t\t\t `<CogCheck32BitHeapMap>`\na bitmap used to check for leaks. a bit is set in the map at each object's header.  every pointer in the heap should point to the header of an object\n\n**hiddenRootsObj**\t `<Integer oop>`\n\n**heapGrowthToSizeGCRatio** <Float>`\ndetermines how much heap growth since heapSizeAtPreviousGC at which a full GC will be performed after a scavenge.  This is a stop gap measure running the full GC occasionally until we have implemented an incremental scan-mark-compact GC.\n\n**heapSizeAtPreviousGC**\t `<Integer>`\nthe size of the heap at the most recent GC, used to decide if a full GC is needed after a scavenge.  See heapGrowthToSizeGCRatio.\n\n**hiddenRootsObj**\nthe root page of the class table and some other roots (e.g. the mourn queue). its first numClassTablePages elements are pages containing classes. Remaining slots hold other roots the VM needs.  Must be the fifth object in oldSpace.\n\t  \n**invalidObjStackPage**\t `<Integer oop|nil>`\nthe offending objStack page, if isValidObjStack: failed, or nil. This is for debugging.\n\n**lastFreeChunk**\t\t\t `<Integer oop|nil>`\nthe free chunk at the highest address discovered during global gc's sweep through the heap.  used in compaction.\n\n**lastHash**\t\t\t\t `<Integer>`\nthe last object hash value.  the seed to the pseudo-random number generator for identity hashes.\n\n**lowSpaceThreshold**\t `<Integer address>`\nthe ammount of free memory below which the low space condition should be signalled.\n\n**marking**\t\t\t\t `<Boolean>`\na flag set and cleared in markAccessibleObjects to allow ensureRoomOnObjStackAtIndex: to know whether to mark a new obj stack page or not.\n\n**markStack**\t\t\t\t `<Integer objStack oop>`\nthe objStack that houses the mark stack.\n\n**maxOldSpaceSize**\t\t `<Integer>`\nthe maximum allowed size of old space in bytes.  If zero, there is no limit.\n\n**memory**\t\t\t\t `<Bitmap|LittleEndianBitmap>`\nin the Simulator this is the single oldSpace segment that contains the codeZone, newSpace and oldSpace.  In C it is effectively the base address of used memory.\n\n**needGCFlag**\t\t\t `<Boolean>`\na boolean flag set if a scavenge is needed\n\n**newSpaceLimit**\t\t\t `<Integer address>`\nthe last address in newSpace (the last address in eden)\n\n**newSpaceStart**\t\t\t `<Integer address>`\nthe first address in newSpace (the start address of the first of the two survivor spaces, past and future space)\n\n**nilObj**\t\t\t\t\t `<Integer oop>`\nthe oop of the nil object; must be the first object in oldSpace\n\n**numClassTablePages**\t `<Integer>`\nthe number of used pages in the classTable\n\n**numCompactionPasses**\t `<Integer>`\ncontrols the number of pig compaction passes done in a full GC.  When snapshotting this is set to 3 to reduce the free space in the snapshot file.  In normal use it is set to two.\n \n**objStackInvalidBecause** `<String|nil>`\na string identifying the reason isValidObjStack: failed, or nil.  This is for debugging.\n\n**oldSpaceStart**\t\t\t `<Integer address>`\nthe start of oldSpace, which happens to be nilObj.\n\n**pastSpaceStart**\t\t\t `<Integer address>`\nthe address past the last object in pastSpace, used to enumerate objects in newSpace.\n\n**remapBuffer**\t\t\t `<CArrayAccessor on: (Array new: RemapBufferSize)>`\nan Array of objects used to implement pushRemappableOop: et al for compatibility with ObjectMemory.\nIts functionality isnt needed because Spur will never GC during allocation.  But it muts be present and correct, otherwise many primitives that use pushRemappableOop: et al would have to be rewritten.\n\t  \n**remapBufferCount**\t\t `<Integer>`\nthe index of the last used entry in remampBuffer\n\n**scavengeThreshold**\t `<Integer address>`\na tidemark in eden.  needGCFlag is set if a newSpace allocation pushes freeStart past scavengeThreshold\n \n**scavenger**\t\t\t\t `<SourGenerationScavenger>`\nthe generation scavenger that collects objects in newSpace\n \n**segmentManager**\t\t `<SpurSegmentManager>`\nthe object that manages oldSpace segments.  Segments are largely invisible to the memory manager because the gaps between segments are hidden by bridge objects.\n\t  \n**signalLowSpace**\t\t `<Boolean>`\na boolean flag set if the lowSpaceSemaphore should be signalled\n\n**shrinkThreshold**\t\t `<Integer>`\nthe amount of free oldSpace above which the manager should attempt to give memory back to the OS.\n\n**specialObjectsOop**\t\t `<Integer oop>`\nthe oop of the specialObjectsArray object\n\n**statCoalesces**\t\t\t `<Integer>`\n**statCompactPassCount**\t `<Integer>`\n**statFGCDeltaUsecs**\t\t `<Integer>`\n**statFullGCUsecs**\t\t `<Integer>`\n**statFullGCs**\t\t\t\t `<Integer>`\n**statGCEndUsecs**\t\t `<Integer>`\n**statGrowMemory**\t\t `<Integer>`\n**statIGCDeltaUsecs**\t\t `<Integer>`\n**statIncrGCUsecs**\t\t `<Integer>`\n**statIncrGCs**\t\t\t`<Integer>`\n**statMarkCount**\t\t\t `<Integer>`\n**statRootTableCount**\t `<Integer>`\n**statRootTableOverflows** `<Integer>`\n**statSGCDeltaUsecs**\t `<Integer>`\n**statScavengeGCUsecs**\t `<Integer>`\n**statScavenges**\t\t\t `<Integer>`\n**statShrinkMemory**\t\t `<Integer>`\nvarious statistics**\n\n**totalFreeOldSpace**\t\t `<Integer>`\nthe total free space on the free lists\n\n**trueObj**\t\t\t\t\t `<Integer oop>`\nthe oop of the false object; must be the third object in oldSpace\n\n**unscannedEphemerons**\t `<SpurContiguousObjStack>`\nthe set of ephemerons yet to be scanned.  used for identifying firable ephemerons during gc.\n\n**weaklingStack**\t\t\t `<Integer objStack oop>`\nthe set of weak collections that must be scanned later on in gc to nil their collected referents."
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2024-09-09T09:43:32.664-04:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2024-09-09T09:43:32.664-04:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "unnamedPage",
+		"defaultTitle" : "Page"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "c0afd1ac-11de-0d00-8a6e-4fd40daba135"
+	}
+}
