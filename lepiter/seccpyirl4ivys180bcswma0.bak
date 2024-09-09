@@ -66,7 +66,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T22:45:31.499103-04:00"
+						"dateAndTimeString" : "2024-09-08T22:45:20.970952-04:00"
 					}
 				},
 				"uid" : {
@@ -76,7 +76,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "nextElementaryLargeIntegerBase: aRadix\r\n\t\"Form an unsigned integer with incoming digits from sourceStream.\r\n\tReturn this integer, or zero if no digits found.\r\n\tStop reading if end of digits or if a LargeInteger is formed.\r\n\tCount the number of digits and the position of lastNonZero digit and store them in instVar.\"\r\n\r\n\t| value digit char |\r\n\tvalue := 0.\r\n\tnDigits := 0.\r\n\tlastNonZero := 0.\r\n\t[ value isLarge\r\n\t\tor: [ char := sourceStream next.\r\n\t\t\t\t**(char = $_) ifTrue: [ char := sourceStream next ]. **\"this small change here will allow number to be represented as 1_000_000\"\r\n\t\t\t char isNil\r\n\t\t\t\tor: [ digit := char digitValue.\r\n\t\t\t\t\t(0 > digit or: [ digit >= aRadix ])\r\n\t\t\t\t\t\tand: [ sourceStream skip: -1.\r\n\t\t\t\t\t\t\ttrue ] ] ] ]\r\n\t\twhileFalse: [ nDigits := nDigits + 1.\r\n\t\t\t0 = digit\r\n\t\t\t\tifFalse: [ lastNonZero := nDigits ].\r\n\t\t\tvalue := value * aRadix + digit ].\r\n\t^ value"
+				"string" : "nextElementaryLargeIntegerBase: aRadix\r\n\t\"Form an unsigned integer with incoming digits from sourceStream.\r\n\tReturn this integer, or zero if no digits found.\r\n\tStop reading if end of digits or if a LargeInteger is formed.\r\n\tCount the number of digits and the position of lastNonZero digit and store them in instVar.\"\r\n\r\n\t| value digit char |\r\n\tvalue := 0.\r\n\tnDigits := 0.\r\n\tlastNonZero := 0.\r\n\t[ value isLarge\r\n\t\tor: [ char := sourceStream next.\r\n\t\t\t\t**(char = $_) ifTrue: [ char := sourceStream next ]. **\"this small change here will allow number to be represented as 1_000_000\"**\r\n\t\t\t char isNil\r\n\t\t\t\tor: [ digit := char digitValue.\r\n\t\t\t\t\t(0 > digit or: [ digit >= aRadix ])\r\n\t\t\t\t\t\tand: [ sourceStream skip: -1.\r\n\t\t\t\t\t\t\ttrue ] ] ] ]\r\n\t\twhileFalse: [ nDigits := nDigits + 1.\r\n\t\t\t0 = digit\r\n\t\t\t\tifFalse: [ lastNonZero := nDigits ].\r\n\t\t\tvalue := value * aRadix + digit ].\r\n\t^ value"
 			}
 		]
 	},
