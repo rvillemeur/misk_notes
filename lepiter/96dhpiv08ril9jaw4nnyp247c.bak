@@ -3,7 +3,45 @@
 	"__type" : "page",
 	"children" : {
 		"__type" : "snippets",
-		"items" : [ ]
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T20:26:07.183-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T20:26:07.183-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "OMcSu8+gDQCroi0dDgkDmw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Slang is subset of smalltalk that can be directly translated into C. It's used\r\nto generate the Squeak/Pharo VM from the image. It is also used to integrate \r\nplugin (see InterpreterPlugin and InterpreterPluginclass >> buildCodeGenerator) \r\ncode into the VM.\r\n\r\nThis is used by VMMaker, for example, through VMMaker >> generateMainVM or\r\nVMMaker >> generatePlugins\r\n\r\n\r\nCode is available in package \"VMMAKER-Translation to C\", and all classes included in it.\r\nFrom CCdodeGenerator comment: \"This class oversees the translation of a subset of Smalltalk to C, allowing the comforts of Smalltalk during development and the efficiency and portability of C for the resulting interpreter.\"\r\n\r\nImportant method to understand the mapping: initializeCTranslationDictionary\r\n\t#&\t\t\t\t#generateAnd:on:indent:\r\n\t#|\t\t\t\t#generateOr:on:indent:\r\n\t#abs\t\t\t#generateAbs:on:indent:\r\n\t#and:\t\t\t#generateSequentialAnd:on:indent:\r\n\t#or:\t\t\t#generateSequentialOr:on:indent:\r\n\t#not\t\t\t#generateNot:on:indent:\r\n\r\n\t#+\t\t\t\t#generatePlus:on:indent:\r\n\t#-\t\t\t\t#generateMinus:on:indent:\r\n\t#negated\t\t#generateNegated:on:indent:\r\n\t#*\t\t\t\t#generateTimes:on:indent:\r\n\t#/\t\t\t\t#generateDivide:on:indent:\r\n\t#//\t\t\t\t#generateDivide:on:indent:\r\n\t#\\\\\t\t\t\t#generateModulo:on:indent:\r\n\t#<<\t\t\t#generateShiftLeft:on:indent:\r\n\t#>>\t\t\t#generateShiftRight:on:indent:\r\n\t#>>>\t\t\t#generateSignedShiftRight:on:indent:\r\n\t#min:\t\t\t#generateMin:on:indent:\r\n\t#max:\t\t\t#generateMax:on:indent:\r\n\t#between:and:\t#generateBetweenAnd:on:indent:\r\n\r\n\t#bitAnd:\t\t\t#generateBitAnd:on:indent:\r\n\t#bitOr:\t\t\t\t#generateBitOr:on:indent:\r\n\t#bitXor:\t\t\t#generateBitXor:on:indent:\r\n\t#bitShift:\t\t\t#generateBitShift:on:indent:\r\n\t#signedBitShift:\t#generateSignedBitShift:on:indent:\r\n\t#bitInvert32\t\t#generateBitInvert:on:indent:\r\n\t#bitInvert64\t\t#generateBitInvert:on:indent:\r\n\t#bitClear:\t\t\t#generateBitClear:on:indent:\r\n\t#truncateTo:\t\t#generateTruncateTo:on:indent:\r\n\t#rounded\t\t\t#generateRounded:on:indent:\r\n\r\n\t#byteSwap32\t\t#generateByteSwap32:on:indent:\r\n\t#byteSwap64\t\t#generateByteSwap64:on:indent:\r\n\t#byteSwapped32IfBigEndian:\tgenerateByteSwap32IfBigEndian:on:indent:\r\n\t#byteSwapped64IfBigEndian:\tgenerateByteSwap64IfBigEndian:on:indent:\r\n\t\r\n\t#<\t\t\t\t#generateLessThan:on:indent:\r\n\t#<=\t\t\t#generateLessThanOrEqual:on:indent:\r\n\t#=\t\t\t\t#generateEqual:on:indent:\r\n\t#>\t\t\t\t#generateGreaterThan:on:indent:\r\n\t#>=\t\t\t#generateGreaterThanOrEqual:on:indent:\r\n\t#~=\t\t\t#generateNotEqual:on:indent:\r\n\t#==\t\t\t#generateEqual:on:indent:\r\n\t#~~\t\t\t#generateNotEqual:on:indent:\r\n\t#isNil\t\t\t#generateIsNil:on:indent:\r\n\t#notNil\t\t\t#generateNotNil:on:indent:\r\n\r\n\t#whileTrue: \t#generateWhileTrue:on:indent:\r\n\t#whileFalse:\t#generateWhileFalse:on:indent:\r\n\t#whileTrue \t#generateDoWhileTrue:on:indent:\r\n\t#whileFalse\t\t#generateDoWhileFalse:on:indent:\r\n\t#to:do:\t\t\t#generateToDo:on:indent:\r\n\t#to:by:do:\t\t#generateToByDo:on:indent:\r\n\t#repeat \t\t#generateRepeat:on:indent:\r\n\t#timesRepeat:\t#generateTimesRepeat:on:indent:\r\n\r\n\t#ifTrue:\t\t\t#generateIfTrue:on:indent:\r\n\t#ifFalse:\t\t#generateIfFalse:on:indent:\r\n\t#ifTrue:ifFalse:\t#generateIfTrueIfFalse:on:indent:\r\n\t#ifFalse:ifTrue:\t#generateIfFalseIfTrue:on:indent:\r\n\r\n\t#ifNotNil:\t\t#generateIfNotNil:on:indent:\r\n\t#ifNil:\t\t\t#generateIfNil:on:indent:\r\n\t#ifNotNil:ifNil:\t#generateIfNotNilIfNil:on:indent:\r\n\t#ifNil:ifNotNil:\t#generateIfNilIfNotNil:on:indent:\r\n\r\n\t#at:\t\t\t\t#generateAt:on:indent:\r\n\t#at:put:\t\t\t#generateAtPut:on:indent:\r\n\t#basicAt:\t\t#generateAt:on:indent:\r\n\t#basicAt:put:\t#generateAtPut:on:indent:\r\n\r\n\t#integerValueOf:\t\t\t#generateIntegerValueOf:on:indent:\r\n\t#integerObjectOf:\t\t\t#generateIntegerObjectOf:on:indent:\r\n\t#isIntegerObject: \t\t\t#generateIsIntegerObject:on:indent:\r\n\t#cCode:\t\t\t\t\t#generateInlineCCode:on:indent:\r\n\t#cCode:inSmalltalk:\t\t\t#generateInlineCCode:on:indent:\r\n\t#cPreprocessorDirective:\t#generateInlineCPreprocessorDirective:on:indent:\r\n\t#cppIf:ifTrue:ifFalse:\t\t#generateInlineCppIfElse:on:indent:\r\n\t#cppIf:ifTrue:\t\t\t\t#generateInlineCppIfElse:on:indent:\r\n\t#cCoerce:to:\t\t\t\t#generateCCoercion:on:indent:\r\n\t#cCoerceSimple:to:\t\t\t#generateCCoercion:on:indent:\r\n\t#addressOf:\t\t\t\t#generateAddressOf:on:indent:\r\n\t#addressOf:put:\t\t\t#generateAddressOf:on:indent:\r\n\t#asAddress:put:\t\t\t#generateAsAddress:on:indent:\r\n\t#signedIntFromLong64\t\t#generateSignedIntFromLong64:on:indent:\r\n\t#signedIntFromLong\t\t#generateSignedIntFromLong:on:indent:\r\n\t#signedIntFromShort\t\t#generateSignedIntFromShort:on:indent:\r\n\t#signedIntToLong64\t\t#generateSignedIntToLong64:on:indent:\r\n\t#signedIntToLong\t\t\t#generateSignedIntToLong:on:indent:\r\n\t#signedIntToShort\t\t\t#generateSignedIntToShort:on:indent:\r\n\t#preIncrement\t\t\t\t#generatePreIncrement:on:indent:\r\n\t#preDecrement\t\t\t#generatePreDecrement:on:indent:\r\n\t#inline:\t\t\t\t\t\t#generateInlineDirective:on:indent:\r\n\t#asFloat\t\t\t\t\t#generateAsFloat:on:indent:\r\n\t#asInteger\t\t\t\t\t#generateAsInteger:on:indent:\r\n\t#asIntegerPtr\t\t\t\t#generateAsIntegerPtr:on:indent:\r\n\t#asUnsignedInteger\t\t#generateAsUnsignedInteger:on:indent:\r\n\t#asUnsignedIntegerPtr\t\t#generateAsUnsignedIntegerPtr:on:indent:\r\n\t#asLong\t\t\t\t\t#generateAsLong:on:indent:\r\n\t#asUnsignedLong\t\t\t#generateAsUnsignedLong:on:indent:\r\n\t#asUnsignedLongLong\t\t#generateAsUnsignedLongLong:on:indent:\r\n\t#asVoidPointer\t\t\t\t#generateAsVoidPointer:on:indent:\r\n\t#asSymbol\t\t\t\t\t#generateAsSymbol:on:indent:\r\n\t#flag:\t\t\t\t\t\t#generateFlag:on:indent:\r\n\t#anyMask:\t\t\t\t\t#generateBitAnd:on:indent:\r\n\t#allMask:\t\t\t\t\t#generateAllMask:on:indent:\r\n\t#noMask:\t\t\t\t\t#generateNoMask:on:indent:\r\n\t#raisedTo:\t\t\t\t\t#generateRaisedTo:on:indent:\r\n\t#touch:\t\t\t\t\t\t#generateTouch:on:indent:\r\n\r\n\t#bytesPerOop \t\t\t\t#generateBytesPerOop:on:indent:\r\n\t#bytesPerWord \t\t\t#generateBytesPerWord:on:indent:\r\n\t#wordSize\t\t \t\t\t#generateBytesPerWord:on:indent:\r\n\t#baseHeaderSize\t\t\t#generateBaseHeaderSize:on:indent:\r\n\t#minSmallInteger\t\t\t#generateSmallIntegerConstant:on:indent:\r\n\t#maxSmallInteger\t\t\t#generateSmallIntegerConstant:on:indent:\r\n\t\r\n\t#sharedCodeNamed:inCase:\t\t#generateSharedCodeDirective:on:indent:\r\n\r\n\t#perform:\t\t\t\t\t\t\t#generatePerform:on:indent:\r\n\t#perform:with:\t\t\t\t\t\t#generatePerform:on:indent:\r\n\t#perform:with:with:\t\t\t\t\t#generatePerform:on:indent:\r\n\t#perform:with:with:with:\t\t\t\t#generatePerform:on:indent:\r\n\t#perform:with:with:with:with:\t\t#generatePerform:on:indent:\r\n\t#perform:with:with:with:with:with:\t#generatePerform:on:indent:\r\n\r\n\t#value\t\t\t\t\t\t\t\t#generateValue:on:indent:\r\n\t#value:\t\t\t\t\t\t\t\t#generateValue:on:indent:\r\n\t#value:value:\t\t\t\t\t\t#generateValue:on:indent:\r\n\t#value:value:value:\t\t\t\t\t#generateValue:on:indent:\r\n\t#value:value:value:value:\t\t\t#generateValue:on:indent:\r\n\t#value:value:value:value:value:\t\t\t#generateValue:on:indent:\r\n\t#value:value:value:value:value:value:\t#generateValue:on:indent:\r\n\r\n\t#deny:\t\t\t\t\t\t\t\t#generateDeny:on:indent:\r\n\r\n\t#shouldNotImplement\t\t\t\t#generateSmalltalkMetaError:on:indent:\r\n\t#shouldBeImplemented\t\t\t#generateSmalltalkMetaError:on:indent:\r\n\t#subclassResponsibility\t\t\t#generateSmalltalkMetaError:on:indent:\r\n\r\n\t#ifTrue:\t\t\t\t\t#generateIfTrueAsArgument:on:indent:\t\r\n\t#ifFalse:\t\t\t\t#generateIfFalseAsArgument:on:indent:\r\n\t#ifTrue:ifFalse:\t\t\t#generateIfTrueIfFalseAsArgument:on:indent:\r\n\t#ifFalse:ifTrue:\t\t\t#generateIfFalseIfTrueAsArgument:on:indent:\r\n\t#ifNotNil:\t\t\t\t#generateIfNotNilAsArgument:on:indent:\t\r\n\t#ifNil:\t\t\t\t\t#generateIfNilAsArgument:on:indent:\r\n\t#ifNotNil:ifNil:\t\t\t#generateIfNotNilIfNilAsArgument:on:indent:\r\n\t#ifNil:ifNotNil:\t\t\t#generateIfNilIfNotNilAsArgument:on:indent:\r\n\t#cCode:\t\t\t\t#generateInlineCCodeAsArgument:on:indent:\r\n\t#cCode:inSmalltalk:\t\t#generateInlineCCodeAsArgument:on:indent:\r\n\t#cppIf:ifTrue:ifFalse:\t#generateInlineCppIfElseAsArgument:on:indent:\r\n\t#cppIf:ifTrue:\t\t\t#generateInlineCppIfElseAsArgument:on:indent:\r\n\r\n\t#value\t\t\t\t\t#generateValueAsArgument:on:indent:\r\n\t#value:\t\t\t\t\t#generateValueAsArgument:on:indent:\r\n\t#value:value:\t\t\t#generateValueAsArgument:on:indent:\t"
+			}
+		]
 	},
 	"createEmail" : {
 		"__type" : "email",
@@ -24,12 +62,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-07-22T20:25:54.445-04:00"
+			"dateAndTimeString" : "2022-07-22T20:26:05.332-04:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Page 1"
+		"title" : "slang"
 	},
 	"uid" : {
 		"__type" : "uuid",
