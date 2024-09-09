@@ -924,7 +924,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-07-22T19:43:13.799-04:00"
+									"dateAndTimeString" : "2024-09-08T22:19:09.777952-04:00"
 								}
 							},
 							"uid" : {
@@ -934,44 +934,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[Pharo command lines]]"
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2024-09-08T18:44:18.813262-04:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2024-09-08T18:44:18.832537-04:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "Ie+UHQXeDQCnji8TBx6Z4A=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "[[Smalltalk entry point]]"
+							"string" : "[[Pharo command lines and startup files]]"
 						},
 						{
 							"__type" : "textSnippet",

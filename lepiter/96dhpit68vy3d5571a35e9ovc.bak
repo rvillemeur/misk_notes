@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T19:08:43.559811-04:00"
+						"dateAndTimeString" : "2024-09-08T19:09:48.95483-04:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "From {{gtClass:SmalltalkImage}} comment: My singleton is a central entry point to the system.\r\n\r\nIt has many roles and responsibilities (to be documented)\r\n\t- startup/shutdown image\r\n\t- source management\r\n\t- namespace access\r\n\t- tool access\r\n\t- platform access\r\n\t- VM information and parameters\n\t\r\n### Startup\r\nAt startup and shutdown the image execute the methods `startUp:` and `shutdown:` of registered classes (registered using {{gtMethod:SmalltalkImage>>addToStartUpList:}} , {{gtMethod:SmalltalkImage>>addToShutDownList:}}, ... methods and friends).\r\n\n\r\nAfter startup list is finished, any deferred startup actions are executed, which you can add using the method {{gtMethod:SessionManager>>addDeferredStartupAction:}} method.  "
+				"string" : "From {{gtClass:SmalltalkImage}} comment: My singleton is a central entry point to the system.\r\n\r\nIt has many roles and responsibilities (to be documented)\r\n\t- startup/shutdown image\r\n\t- source management\r\n\t- namespace access\r\n\t- tool access\r\n\t- platform access\r\n\t- VM information and parameters\n\t\r\n### Startup\r\nAt startup and shutdown the image execute the methods `startUp:` and `shutdown:` of registered classes (registered using {{gtMethod:SmalltalkImage>>addToStartUpList:}} , {{gtMethod:SmalltalkImage>>addToShutDownList:}}, ... methods and friends).\r\n\r\nAfter startup list is finished, any deferred startup actions are executed, which you can add using the method {{gtMethod:SessionManager>>addDeferredStartupAction:}} method.  "
 			},
 			{
 				"__type" : "textSnippet",
@@ -148,6 +148,77 @@
 					"uidString" : "MaSl1wTeDQCiCw6RBx6Z4A=="
 				},
 				"code" : "SessionManager default currentSession."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T22:04:57.699255-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T22:05:04.542516-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Xiiy6wfeDQCHSMiTAOwrEw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Element included are:"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T22:05:09.025443-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T22:05:22.152385-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "st5e7AfeDQCH0+QkAOwrEw=="
+				},
+				"code" : "SessionManager initializedSessionManager}}"
 			},
 			{
 				"__type" : "textSnippet",

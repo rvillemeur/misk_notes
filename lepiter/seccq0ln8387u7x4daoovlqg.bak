@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T19:02:37.986431-04:00"
+						"dateAndTimeString" : "2024-09-08T21:58:20.97387-04:00"
 					}
 				},
 				"uid" : {
@@ -39,44 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "\r\nUIManager class >> defaut:\r\ndefault: aUIManager\r\n\r\n\tDefault deactivate.\r\n\tDefault := aUIManager.\r\n\tDefault activate.\n"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T18:42:42.9674-04:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T18:42:45.829103-04:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "R9doGAXeDQCl6E0WBx6Z4A=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "Au démarrage.\n\n--------------------------------------------------------------------------------\nSmalltalkImage -> session.\n--------------------------------------------------------------------------------\nSessionManager default startupList.\n-> ClassSessionHandler(WorldMorph)\nI handle a Session for a specific class, providing the API the class should implement.\nHandlers will be triggered by the SessionManager.\n\n\nstartup: isImageStarting\n\tself registeredClass startUp: isImageStarting\n--------------------------------------------------------------------------------\t\n-> UIManagerSessionHandler(UIManagerSessionHandler)\nI am a session handler that will initialize the UIManager during startup.\n"
+				"string" : "during startup it will install a Morphic UI manager."
 			},
 			{
 				"__type" : "textSnippet",
@@ -103,7 +66,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T19:09:05.824643-04:00"
+						"dateAndTimeString" : "2024-09-08T19:09:13.39208-04:00"
 					}
 				},
 				"uid" : {
@@ -113,7 +76,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "###  Startup phases\r\nDuring the first stage of start up the UI manager, the default *uimanager* is switched to a specific non interactive ui manager ( {{gtClass:StartupUIManager}} ). It's in fact done in the last step of image shutdown {{gtMethod:UIManagerSessionHandler>>shutdown:}}\n\n**Note**\nthis specific non interactive UIManager kills the system on any attempt to open windows and interaction. So be warned, don't use interaction in the first phase. Then all registered classes execute their start up procedures (which should not imply interactive behavior). "
+				"string" : "### Startup phases\r\nDuring the first stage of start up the UI manager, the default *uimanager* is switched to a specific non interactive ui manager ( {{gtClass:StartupUIManager}} ). It's in fact done in the last step of image shutdown {{gtMethod:UIManagerSessionHandler>>shutdown:}}\n\n**Note**\nthis specific non interactive UIManager kills the system on any attempt to open windows and interaction. So be warned, don't use interaction in the first phase. Then all registered classes execute their start up procedures (which should not imply interactive behavior). "
 			},
 			{
 				"__type" : "textSnippet",
@@ -177,7 +140,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T17:39:46.170643-04:00"
+						"dateAndTimeString" : "2024-09-08T21:57:02.604815-04:00"
 					}
 				},
 				"uid" : {
@@ -187,7 +150,44 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Which return {{gtClass:MorphicUIManager}}, a subclass of {{gtClass:UIManager}}"
+				"string" : "`UIManager forCurrentSystemConfiguration `will  return {{gtClass:MorphicUIManager}}, a subclass of {{gtClass:UIManager}}"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T21:56:01.888595-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T21:56:28.090299-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "5krCywfeDQCCPeRVAOwrEw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "{{gtMethod:UIManager class>>default:|expanded}}"
 			},
 			{
 				"__type" : "textSnippet",
@@ -510,7 +510,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T19:04:14.727082-04:00"
+						"dateAndTimeString" : "2024-09-08T21:58:00.617104-04:00"
 					}
 				},
 				"uid" : {
@@ -520,7 +520,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "This session handler makes the assumption that the current UIManager is a \nstartup UI manager when its #startup: method gets called. Then, during startup \nhe will install a Morphic UI manager.\n\nstartup: isImageStarting\n\t\"Install the right UIManager\"\n\tUIManager default: UIManager forCurrentSystemConfiguration.\n=> renvoie MorphicUIManager\n\nUIManager class default: aUIManager\n\n\tDefault deactivate.\n\tDefault := aUIManager.\n\tDefault activate.\n\t\n=> MorphicUIManager >> activate\nactivate\n\tactiveTranscript \n\t\tifNil: [\n\t\t\tTranscript class == ThreadSafeTranscript ifFalse: [ \n\t\t\t\tThreadSafeTranscript install \n\t\t\t]\n\t\t]\t\t\n\t\tifNotNil: [ Transcript := activeTranscript ].\n\t\t\n\tSystemProgressMorph enable.\n--------------------------------------------------------------------------------\nMorphicUIManager qui lance la commande: UIManager default defer:  [ \n\t\tsuper activateWith: aCommandLine ]\n\t\t\n\n--------------------------------------------------------------------------------\nQuestion: comment cette action s'est retrouvé dans la chaine d'execution \nde UI Manager. "
+				"string" : "This session handler makes the assumption that the current UIManager is a \nstartup UI manager when its #startup: method gets called. Then, \n\n\t\n=> MorphicUIManager >> activate\nactivate\n\tactiveTranscript \n\t\tifNil: [\n\t\t\tTranscript class == ThreadSafeTranscript ifFalse: [ \n\t\t\t\tThreadSafeTranscript install \n\t\t\t]\n\t\t]\t\t\n\t\tifNotNil: [ Transcript := activeTranscript ].\n\t\t\n\tSystemProgressMorph enable.\n--------------------------------------------------------------------------------\nMorphicUIManager qui lance la commande: UIManager default defer:  [ \n\t\tsuper activateWith: aCommandLine ]\n\t\t\n\n--------------------------------------------------------------------------------\nQuestion: comment cette action s'est retrouvé dans la chaine d'execution \nde UI Manager. "
 			}
 		]
 	},
