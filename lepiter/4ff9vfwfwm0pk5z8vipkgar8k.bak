@@ -198,7 +198,45 @@
 							"__type" : "textSnippet",
 							"children" : {
 								"__type" : "snippets",
-								"items" : [ ]
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-09-09T09:44:19.55-04:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-09-09T09:44:19.553-04:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "oE5UsBHeDQCKjVEUDauhNQ=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "[[Spur Instance Variables]]"
+									}
+								]
 							},
 							"createEmail" : {
 								"__type" : "email",
@@ -230,43 +268,6 @@
 								"__type" : "textStyle"
 							},
 							"string" : "[[Spur memory manager]]"
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2024-09-09T09:44:11.364-04:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2024-09-09T09:44:11.364-04:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "oE5UsBHeDQCKjVEUDauhNQ=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : ""
 						}
 					]
 				},
@@ -950,43 +951,6 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-07-22T19:43:13.799-04:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2024-09-08T22:19:09.777952-04:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "cCsQIs+gDQC9VpGPDxVTDQ=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "[[Pharo command lines and startup files]]"
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
 									"dateAndTimeString" : "2022-07-22T20:27:42.751-04:00"
 								}
 							},
@@ -1009,6 +973,43 @@
 								"__type" : "textStyle"
 							},
 							"string" : "[[Pharo startup and shutdown]]"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-07-22T19:43:13.799-04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-09-08T22:19:09.777952-04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "cCsQIs+gDQC9VpGPDxVTDQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "[[Pharo command lines and startup files]]"
 						},
 						{
 							"__type" : "textSnippet",
