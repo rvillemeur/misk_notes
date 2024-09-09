@@ -66,7 +66,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T18:39:28.316125-04:00"
+						"dateAndTimeString" : "2024-09-08T19:04:26.739693-04:00"
 					}
 				},
 				"uid" : {
@@ -76,7 +76,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "BasicCommandLineHandler >> activate => can be initialized by PharoBootstrapInitialization\r\nBasicCommandLineHandler >> handleArgument: aString\r\nBasicCommandLineHandler >> handleSubcommand\r\n\t\"check if there is an active subcommand\"\r\n\t\r\n\t| handlers |\r\n\t\r\n\thandlers := self selectHandlers.\r\n\t\r\n\t\"If there is no handler, use myself\"\r\n\thandlers ifEmpty: [ ^ self ].\r\n\t\t\r\n\t^self activateSubCommand: handlers first .\r\n\r\nBasicCommandLineHandler >> activateSubCommand: aCommandLinehandler\r\n\t[ aCommandLinehandler activateWith: commandLine ] on: Exit do: [ :exit |\r\n\t\t^ self handleExit: exit for: aCommandLinehandler ].\r\n\t\"the return value of this method is used to check if the subcommand was successfull\"\r\n\t^ aCommandLinehandler\r\n\t\r\nPharoCommandLineHandler >> activateWith: aCommandLine\t\r\n\t\"Make sure that the PharoCommandLineHandler starts at the top of the stack in the main UI thread.\"\r\n\tUIManager default defer:  [ \r\n\t\tsuper activateWith: aCommandLine ]\r\n\r\nBasicCommandLineHandler -> PharoCommandLineHandler >> activate\r\n\tself isChangingPreferences\r\n\t\tifTrue: [ self changePreferences ]\r\n\t\tifFalse: [ self runPreferences ].\r\n\t^ super activate.\r\n\r\n-> PharoCommandLineHandler >> runPreferences\r\n\tSmalltalk at: #SystemSettingsPersistence ifPresent: [:persistence | \r\n\t\tpersistence resumeSystemSettings].\r\n\tSmalltalk at: #StartupPreferencesLoader ifPresent: [:loader |\r\n\t\tloader default loadFromDefaultLocations ]."
+				"string" : "The CommandLineArguments represents the arguments passed to the image.\nIn the following case,\n\n\t$PHARO_VM myImage.image --foo bar\n\t\n`CommandLineArguments default` contains {'--foo'. 'bar'}.\n\nBasicCommandLineHandler >> activate => can be initialized by PharoBootstrapInitialization\r\nBasicCommandLineHandler >> handleArgument: aString\r\nBasicCommandLineHandler >> handleSubcommand\r\n\t\"check if there is an active subcommand\"\r\n\t\r\n\t| handlers |\r\n\t\r\n\thandlers := self selectHandlers.\r\n\t\r\n\t\"If there is no handler, use myself\"\r\n\thandlers ifEmpty: [ ^ self ].\r\n\t\t\r\n\t^self activateSubCommand: handlers first .\r\n\r\nBasicCommandLineHandler >> activateSubCommand: aCommandLinehandler\r\n\t[ aCommandLinehandler activateWith: commandLine ] on: Exit do: [ :exit |\r\n\t\t^ self handleExit: exit for: aCommandLinehandler ].\r\n\t\"the return value of this method is used to check if the subcommand was successfull\"\r\n\t^ aCommandLinehandler\r\n\t\r\nPharoCommandLineHandler >> activateWith: aCommandLine\t\r\n\t\"Make sure that the PharoCommandLineHandler starts at the top of the stack in the main UI thread.\"\r\n\tUIManager default defer:  [ \r\n\t\tsuper activateWith: aCommandLine ]\r\n\r\nBasicCommandLineHandler -> PharoCommandLineHandler >> activate\r\n\tself isChangingPreferences\r\n\t\tifTrue: [ self changePreferences ]\r\n\t\tifFalse: [ self runPreferences ].\r\n\t^ super activate.\r\n\r\n-> PharoCommandLineHandler >> runPreferences\r\n\tSmalltalk at: #SystemSettingsPersistence ifPresent: [:persistence | \r\n\t\tpersistence resumeSystemSettings].\r\n\tSmalltalk at: #StartupPreferencesLoader ifPresent: [:loader |\r\n\t\tloader default loadFromDefaultLocations ]."
 			},
 			{
 				"__type" : "textSnippet",
@@ -177,7 +177,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-07-22T19:43:01.01-04:00"
+						"dateAndTimeString" : "2024-09-08T20:21:32.56373-04:00"
 					}
 				},
 				"uid" : {
@@ -187,7 +187,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "./pharo -vm-display-null ../shared/Pharo5.0.image printVersion\n\n./pharo -vm-display-null ../shared/Pharo5.0.image --copyright\n\n./pharo -vm-display-null ../shared/Pharo5.0.image --list\n\n$ ./pharo -vm-display-null ../shared/Pharo5.0.image --no-default-preferences clean\n\n$ ./pharo -vm-display-null ../shared/Pharo5.0.image --no-default-preferences printVersion\n[version] 5.0 #50760\n\n./pharo -vm-display-null ../shared/Pharo5.0.image --no-default-preferences config\n\n$ ./pharo -vm-display-null ../shared/Pharo5.0.image --no-default-preferences config ftp://ftpperso.free.fr/mc ConfigurationOfRbdvDesignPattern --install=stable --username=renaud.devillemeur --password=devils01\n'Installing ConfigurationOfRbdvDesignPattern stable'\n\n$ ./pharo  ../shared/Pharo5.0.image --no-default-preferences config ftp://ftpperso.free.fr/mc ConfigurationOfRbdvDesignPattern --install=stable --username=renaud.devillemeur --password=devils01\n\n$ ./pharo  ../shared/Pharo5.0.image --no-default-preferences config ftp://ftpperso.free.fr/pharo ConfigurationOfRbdvDesignPattern --install=stable --username=renaud.devillemeur --password=devils01\n\n$ ./pharo  -vm-display-null ../shared/Pharo5.0.image --no-default-preferences config ftp://ftpperso.free.fr/pharo ConfigurationOfRbdvDesignPattern --username=renaud.devillemeur --password=devils01\n'Available versions for ConfigurationOfRbdvDesignPattern'\nbleedingEdge\nlast\n"
+				"string" : "./pharo -vm-display-null ../shared/Pharo5.0.image printVersion\n\n./pharo -vm-display-null ../shared/Pharo5.0.image --copyright\n\n./pharo -vm-display-null ../shared/Pharo5.0.image --list\n\n$ ./pharo -vm-display-null ../shared/Pharo5.0.image --no-default-preferences clean\n\n$ ./pharo -vm-display-null ../shared/Pharo5.0.image --no-default-preferences printVersion\n[version] 5.0 #50760\n\n./pharo -vm-display-null ../shared/Pharo5.0.image --no-default-preferences config\n\n$ ./pharo -vm-display-null ../shared/Pharo5.0.image --no-default-preferences config ftp://ftpperso.free.fr/mc ConfigurationOfRbdvDesignPattern --install=stable --username=renaud.devillemeur --password=XXX\n'Installing ConfigurationOfRbdvDesignPattern stable'\n\n$ ./pharo  ../shared/Pharo5.0.image --no-default-preferences config ftp://ftpperso.free.fr/mc ConfigurationOfRbdvDesignPattern --install=stable --username=renaud.devillemeur --password=XXX\n\n$ ./pharo  ../shared/Pharo5.0.image --no-default-preferences config ftp://ftpperso.free.fr/pharo ConfigurationOfRbdvDesignPattern --install=stable --username=renaud.devillemeur --password=XXX\n\n$ ./pharo  -vm-display-null ../shared/Pharo5.0.image --no-default-preferences config ftp://ftpperso.free.fr/pharo ConfigurationOfRbdvDesignPattern --username=renaud.devillemeur --password=XXX\n'Available versions for ConfigurationOfRbdvDesignPattern'\nbleedingEdge\nlast\n"
 			}
 		]
 	},

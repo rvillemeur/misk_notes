@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T18:44:39.176229-04:00"
+						"dateAndTimeString" : "2024-09-08T18:44:57.472521-04:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T18:44:42.109576-04:00"
+						"dateAndTimeString" : "2024-09-08T18:45:11.036924-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "lAGO9gTeDQCjXVmrBx6Z4A=="
+					"uidString" : "xDltIAXeDQCn9ythBx6Z4A=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : " {{gtCla"
+				"string" : "{{gtClass:SmalltalkImage}}"
 			},
 			{
 				"__type" : "textSnippet",

@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T18:40:55.397293-04:00"
+						"dateAndTimeString" : "2024-09-08T19:02:37.986431-04:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,81 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "SessionManager default startupList.\r\n-> UIManagerSessionHandler >> startup: isImageStarting\r\n\t\"Install the right UIManager\"\r\n\tUIManager default: UIManager forCurrentSystemConfiguration.\r\n\r\nUIManager class >> defaut:\r\ndefault: aUIManager\r\n\r\n\tDefault deactivate.\r\n\tDefault := aUIManager.\r\n\tDefault activate.\n"
+				"string" : "\r\nUIManager class >> defaut:\r\ndefault: aUIManager\r\n\r\n\tDefault deactivate.\r\n\tDefault := aUIManager.\r\n\tDefault activate.\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T18:42:42.9674-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T18:42:45.829103-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "R9doGAXeDQCl6E0WBx6Z4A=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Au démarrage.\n\n--------------------------------------------------------------------------------\nSmalltalkImage -> session.\n--------------------------------------------------------------------------------\nSessionManager default startupList.\n-> ClassSessionHandler(WorldMorph)\nI handle a Session for a specific class, providing the API the class should implement.\nHandlers will be triggered by the SessionManager.\n\n\nstartup: isImageStarting\n\tself registeredClass startUp: isImageStarting\n--------------------------------------------------------------------------------\t\n-> UIManagerSessionHandler(UIManagerSessionHandler)\nI am a session handler that will initialize the UIManager during startup.\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T19:08:59.758954-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T19:09:05.824643-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "dcZkdgXeDQCBAkrmAOwrEw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "###  Startup phases\r\nDuring the first stage of start up the UI manager, the default *uimanager* is switched to a specific non interactive ui manager ( {{gtClass:StartupUIManager}} ). It's in fact done in the last step of image shutdown {{gtMethod:UIManagerSessionHandler>>shutdown:}}\n\n**Note**\nthis specific non interactive UIManager kills the system on any attempt to open windows and interaction. So be warned, don't use interaction in the first phase. Then all registered classes execute their start up procedures (which should not imply interactive behavior). "
 			},
 			{
 				"__type" : "textSnippet",
@@ -436,7 +510,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T18:29:41.97279-04:00"
+						"dateAndTimeString" : "2024-09-08T19:04:14.727082-04:00"
 					}
 				},
 				"uid" : {
@@ -446,7 +520,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "This session handler makes the assumption that the current UIManager is a \nstartup UI manager when its #startup: method gets called. Then, during startup \nhe will install a Morphic UI manager.\n\nstartup: isImageStarting\n\t\"Install the right UIManager\"\n\tUIManager default: UIManager forCurrentSystemConfiguration.\n=> renvoie MorphicUIManager\n\nUIManager class default: aUIManager\n\n\tDefault deactivate.\n\tDefault := aUIManager.\n\tDefault activate.\n\t\n=> MorphicUIManager >> activate\nactivate\n\tactiveTranscript \n\t\tifNil: [\n\t\t\tTranscript class == ThreadSafeTranscript ifFalse: [ \n\t\t\t\tThreadSafeTranscript install \n\t\t\t]\n\t\t]\t\t\n\t\tifNotNil: [ Transcript := activeTranscript ].\n\t\t\n\tSystemProgressMorph enable.\n--------------------------------------------------------------------------------\nMorphicUIManager qui lance la commande: UIManager default defer:  [ \n\t\tsuper activateWith: aCommandLine ]\n\t\t\nThe CommandLineArguments represents the arguments passed to the image.\nIn the following case,\n\n\t$PHARO_VM myImage.image --foo bar\n\t\n`CommandLineArguments default` contains {'--foo'. 'bar'}.\n\n--------------------------------------------------------------------------------\nQuestion: comment cette action s'est retrouvé dans la chaine d'execution \nde UI Manager. "
+				"string" : "This session handler makes the assumption that the current UIManager is a \nstartup UI manager when its #startup: method gets called. Then, during startup \nhe will install a Morphic UI manager.\n\nstartup: isImageStarting\n\t\"Install the right UIManager\"\n\tUIManager default: UIManager forCurrentSystemConfiguration.\n=> renvoie MorphicUIManager\n\nUIManager class default: aUIManager\n\n\tDefault deactivate.\n\tDefault := aUIManager.\n\tDefault activate.\n\t\n=> MorphicUIManager >> activate\nactivate\n\tactiveTranscript \n\t\tifNil: [\n\t\t\tTranscript class == ThreadSafeTranscript ifFalse: [ \n\t\t\t\tThreadSafeTranscript install \n\t\t\t]\n\t\t]\t\t\n\t\tifNotNil: [ Transcript := activeTranscript ].\n\t\t\n\tSystemProgressMorph enable.\n--------------------------------------------------------------------------------\nMorphicUIManager qui lance la commande: UIManager default defer:  [ \n\t\tsuper activateWith: aCommandLine ]\n\t\t\n\n--------------------------------------------------------------------------------\nQuestion: comment cette action s'est retrouvé dans la chaine d'execution \nde UI Manager. "
 			}
 		]
 	},
