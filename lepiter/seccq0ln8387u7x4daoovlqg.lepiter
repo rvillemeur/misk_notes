@@ -140,7 +140,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T21:57:02.604815-04:00"
+						"dateAndTimeString" : "2024-09-08T22:32:10.530294-04:00"
 					}
 				},
 				"uid" : {
@@ -150,7 +150,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "`UIManager forCurrentSystemConfiguration `will  return {{gtClass:MorphicUIManager}}, a subclass of {{gtClass:UIManager}}"
+				"string" : "`UIManager forCurrentSystemConfiguration `will  return {{gtClass:MorphicUIManager}}, a subclass of {{gtClass:UIManager}}. This session handler makes the assumption that the current UIManager is a startup UI manager when its #startup: method gets called. Then, "
 			},
 			{
 				"__type" : "textSnippet",
@@ -177,7 +177,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T21:56:28.090299-04:00"
+						"dateAndTimeString" : "2024-09-08T22:32:18.998971-04:00"
 					}
 				},
 				"uid" : {
@@ -187,7 +187,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "{{gtMethod:UIManager class>>default:|expanded}}"
+				"string" : "{{gtMethod:UIManager class>>default:}}"
 			},
 			{
 				"__type" : "textSnippet",
@@ -288,7 +288,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T17:36:44.718812-04:00"
+						"dateAndTimeString" : "2024-09-08T22:32:30.351076-04:00"
 					}
 				},
 				"uid" : {
@@ -298,7 +298,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "{{gtMethod:AbstractWorldRenderer>>activate}}\n"
+				"string" : "{{gtMethod:AbstractWorldRenderer>>activate}}"
 			},
 			{
 				"__type" : "textSnippet",
@@ -388,6 +388,43 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T22:40:54.164682-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T22:40:56.810562-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "hTU7bAjeDQCV8pwnAOwrEw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "will call"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
 						"dateAndTimeString" : "2024-09-08T18:06:11.862133-04:00"
 					}
 				},
@@ -399,7 +436,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T18:07:50.313976-04:00"
+						"dateAndTimeString" : "2024-09-08T22:40:10.062228-04:00"
 					}
 				},
 				"uid" : {
@@ -409,7 +446,44 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "OSWorldRenderer >> pickMostSuitableWindowDriver => an OSSDL2Driver: A window driver used for running things using SDL2 library"
+				"string" : "{{gtMethod:OSWorldRenderer>>pickMostSuitableWindowDriver}}"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T22:40:11.34264-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T22:40:18.490535-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "zcqtaQjeDQCVrUiSAOwrEw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "will return an OSSDL2Driver: A window driver used for running things using SDL2 library"
 			},
 			{
 				"__type" : "textSnippet",
@@ -436,7 +510,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T18:06:32.211379-04:00"
+						"dateAndTimeString" : "2024-09-08T22:39:08.320517-04:00"
 					}
 				},
 				"uid" : {
@@ -446,7 +520,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "{{gtMethod:OSWorldRenderer>>osWindowRenderer|expanded}}"
+				"string" : "{{gtMethod:OSWorldRenderer>>osWindowRenderer}}"
 			},
 			{
 				"__type" : "textSnippet",
@@ -462,7 +536,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-07-22T19:43:58.005-04:00"
+						"dateAndTimeString" : "2024-09-08T22:33:53.911963-04:00"
 					}
 				},
 				"editEmail" : {
@@ -473,17 +547,165 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T18:07:40.133557-04:00"
+						"dateAndTimeString" : "2024-09-08T22:33:53.911963-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "IHBVJM+gDQC9WYR/DxVTDQ=="
+					"uidString" : "9aguUwjeDQCSp7J7AOwrEw=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "\t\nOSWindow >> newFormRenderer: form\n\t^ backendWindow ifNotNil: [backendWindow newFormRenderer: form]\n    \nbackendWindow := initialAttributes createWindowHandleFor: self.\n\nOSWorldRenderer class >> isApplicableFor: aWorld\n\n\t^ Smalltalk isHeadless and: [ CommandLineArguments new hasOption: 'interactive'  ]\n\n\nWorld is rendered on an {{gtClass:OSWindow}} through the use of {{gtClass:OSWorldRenderer}}\n\nForm are rendered on the screen through {{gtClass:OSSDL2FormRenderer}}\nOSSDL2Driver >> createWindowWithAttributes: attributes osWindow: osWindow\n    aBackendWindow := OSSDL2BackendWindow newWithHandle: handle attributes: attributes.\n\nOSSDL2BackendWindow >> newFormRenderer:\n\n"
+				"string" : "{{gtMethod:OSWindow>>newFormRenderer:}}\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T22:36:10.342404-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T22:36:16.047725-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "4mlQWwjeDQCUE4uLAOwrEw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "backendWindow := initialAttributes createWindowHandleFor: self.\n{{gtMethod:OSWorldRenderer class>>isApplicableFor:}}\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T22:38:09.007595-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T22:38:09.007595-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "WBFjYgjeDQCUsQkkAOwrEw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "World is rendered on an {{gtClass:OSWindow}} through the use of {{gtClass:OSWorldRenderer}}\n\nForm are rendered on the screen through {{gtClass:OSSDL2FormRenderer}}"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T22:38:11.767045-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T22:38:27.070898-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "UjCNYgjeDQCUuGDmAOwrEw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "  aBackendWindow := OSSDL2BackendWindow newWithHandle: handle attributes: attributes defined in:"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T22:32:46.21511-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-08T22:38:38.761799-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "z7AlTwjeDQCR9h+7AOwrEw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "{{gtMethod:OSSDL2Driver>>createWindowWithAttributes:osWindow:}}\n\n{{gtMethod:OSSDL2BackendWindow >> newFormRenderer:}}\n\n"
 			},
 			{
 				"__type" : "textSnippet",
@@ -510,7 +732,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T21:58:42.903822-04:00"
+						"dateAndTimeString" : "2024-09-08T22:31:29.803394-04:00"
 					}
 				},
 				"uid" : {
@@ -520,7 +742,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "This session handler makes the assumption that the current UIManager is a \nstartup UI manager when its #startup: method gets called. Then, \n\n\t\n=> MorphicUIManager >> activate\nactivate\n\tactiveTranscript \n\t\tifNil: [\n\t\t\tTranscript class == ThreadSafeTranscript ifFalse: [ \n\t\t\t\tThreadSafeTranscript install \n\t\t\t]\n\t\t]\t\t\n\t\tifNotNil: [ Transcript := activeTranscript ].\n\t\t\n\tSystemProgressMorph enable.\n--------------------------------------------------------------------------------\n\n\n"
+				"string" : "\n\n\n\n\n"
 			}
 		]
 	},
