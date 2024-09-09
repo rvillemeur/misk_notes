@@ -103,7 +103,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T17:38:19.700104-04:00"
+						"dateAndTimeString" : "2024-09-09T18:44:22.137-04:00"
 					}
 				},
 				"uid" : {
@@ -113,7 +113,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "{{gtMethod:UIManagerSessionHandler>>startup:|expanded}}"
+				"string" : "{{gtMethod:UIManagerSessionHandler>>startup:}}"
 			},
 			{
 				"__type" : "textSnippet",
@@ -177,7 +177,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T22:32:18.998971-04:00"
+						"dateAndTimeString" : "2024-09-09T18:55:35.103-04:00"
 					}
 				},
 				"uid" : {
@@ -187,7 +187,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "{{gtMethod:UIManager class>>default:}}"
+				"string" : "{{gtMethod:UIManager class>>default:}} "
 			},
 			{
 				"__type" : "textSnippet",
@@ -214,7 +214,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T17:36:32.277471-04:00"
+						"dateAndTimeString" : "2024-09-09T18:55:40.276-04:00"
 					}
 				},
 				"uid" : {
@@ -224,7 +224,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "{{gtMethod:MorphicUIManager>>activate}}"
+				"string" : "{{gtMethod:MorphicUIManager>>activate}} will call {{gtMethod:AbstractWorldRenderer>>activate}} which call"
 			},
 			{
 				"__type" : "textSnippet",
@@ -240,7 +240,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T17:36:36.429805-04:00"
+						"dateAndTimeString" : "2024-09-09T18:55:48.289-04:00"
 					}
 				},
 				"editEmail" : {
@@ -251,123 +251,12 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T17:36:38.265501-04:00"
+						"dateAndTimeString" : "2024-09-09T18:56:15.903-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "vUj8KwTeDQCQB3z1Bx6Z4A=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "will call"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T17:36:44.718812-04:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T22:32:30.351076-04:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "jMJ6LATeDQCQQ2dCBx6Z4A=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "{{gtMethod:AbstractWorldRenderer>>activate}}"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T17:35:14.642764-04:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T17:36:44.727832-04:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "nE4cJwTeDQCOW3xPBx6Z4A=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "which call"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T17:37:03.396249-04:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T17:37:03.396249-04:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "/8CXLQTeDQCQwpPHBx6Z4A=="
+					"uidString" : "AEoPZRneDQCEh1TRDkXuEQ=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
@@ -388,7 +277,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T22:40:54.164682-04:00"
+						"dateAndTimeString" : "2024-09-08T17:37:03.396249-04:00"
 					}
 				},
 				"editEmail" : {
@@ -399,17 +288,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T22:40:56.810562-04:00"
+						"dateAndTimeString" : "2024-09-09T18:57:35.718-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "hTU7bAjeDQCV8pwnAOwrEw=="
+					"uidString" : "/8CXLQTeDQCQwpPHBx6Z4A=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "will call"
+				"string" : "This method will select:\r\n- the driver: {{gtMethod:OSWorldRenderer>>pickMostSuitableWindowDriver}},returning  {{gtClass:OSSDL2Driver}}. A window driver used for running things using SDL2 library\r\n- The {{gtClass:OSWindow}}. After a couple of method call in instance creation, you'll arrive at {{gtMethod:OSWindow>>createWindow}}, which in turn will call {{gtMethod:OSSDL2Driver>>createWindowWithAttributes:osWindow:}}. Backend Window will then be {{gtClass:OSSDL2BackendWindow}}\r\n- event handler, {{gtClass:OSWindowMorphicEventHandler}}"
 			},
 			{
 				"__type" : "textSnippet",
@@ -425,7 +314,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T18:06:11.862133-04:00"
+						"dateAndTimeString" : "2024-09-09T18:40:19.817-04:00"
 					}
 				},
 				"editEmail" : {
@@ -436,313 +325,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T22:40:10.062228-04:00"
+						"dateAndTimeString" : "2024-09-09T18:55:07.557-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "lDvPlQTeDQCcVhOBBx6Z4A=="
+					"uidString" : "KPK3LRneDQC7r9QcDkXuEQ=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "{{gtMethod:OSWorldRenderer>>pickMostSuitableWindowDriver}}"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T22:40:11.34264-04:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T22:40:18.490535-04:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "zcqtaQjeDQCVrUiSAOwrEw=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "will return an OSSDL2Driver: A window driver used for running things using SDL2 library"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T18:06:13.630098-04:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T22:39:08.320517-04:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "mTXqlQTeDQCcXDvGBx6Z4A=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "{{gtMethod:OSWorldRenderer>>osWindowRenderer}}"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T22:33:53.911963-04:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T22:33:53.911963-04:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "9aguUwjeDQCSp7J7AOwrEw=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "{{gtMethod:OSWindow>>newFormRenderer:}}\n"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T22:36:10.342404-04:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T22:36:16.047725-04:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "4mlQWwjeDQCUE4uLAOwrEw=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "backendWindow := initialAttributes createWindowHandleFor: self.\n{{gtMethod:OSWorldRenderer class>>isApplicableFor:}}\n"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T22:38:09.007595-04:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T22:38:09.007595-04:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "WBFjYgjeDQCUsQkkAOwrEw=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "World is rendered on an {{gtClass:OSWindow}} through the use of {{gtClass:OSWorldRenderer}}\n\nForm are rendered on the screen through {{gtClass:OSSDL2FormRenderer}}"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T22:38:11.767045-04:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T22:38:27.070898-04:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "UjCNYgjeDQCUuGDmAOwrEw=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "  aBackendWindow := OSSDL2BackendWindow newWithHandle: handle attributes: attributes defined in:"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T22:32:46.21511-04:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T22:38:38.761799-04:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "z7AlTwjeDQCR9h+7AOwrEw=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "{{gtMethod:OSSDL2Driver>>createWindowWithAttributes:osWindow:}}\n\n{{gtMethod:OSSDL2BackendWindow >> newFormRenderer:}}\n\n"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T18:29:39.821814-04:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T22:31:29.803394-04:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "Ov266QTeDQCiqJRDBx6Z4A=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "\n\n\n\n\n"
+				"string" : "During the rendering phase, {{gtMethod:OSWorldRenderer>>osWindowRenderer}} will be called, and if renderer is null, it'll send {{gtMethod:OSWindow>>newFormRenderer:}}Renderer:}}, you'll receive  {{gtClass:OSSDL2FormRenderer}} on which Form are rendered"
 			}
 		]
 	},
