@@ -288,7 +288,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-09T18:57:08.791-04:00"
+						"dateAndTimeString" : "2024-09-09T18:57:35.718-04:00"
 					}
 				},
 				"uid" : {
@@ -298,7 +298,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "This method will select:\r\n- the driver: {{gtMethod:OSWorldRenderer>>pickMostSuitableWindowDriver}},returning  {{gtClass:OSSDL2Driver}}. A window driver used for running things using SDL2 library\r\n- The {{gtClass:OSWindow}}. After a couple of method call in {{gtClass:OSWindow}} creation, you'll arrive at {{gtMethod:OSWindow>>createWindow}}, which in turn will call {{gtMethod:OSSDL2Driver>>createWindowWithAttributes:osWindow:}}. Backend Window will be {{gtClass:OSSDL2BackendWindow}}\r\n- event handler, {{gtClass:OSWindowMorphicEventHandler}}"
+				"string" : "This method will select:\r\n- the driver: {{gtMethod:OSWorldRenderer>>pickMostSuitableWindowDriver}},returning  {{gtClass:OSSDL2Driver}}. A window driver used for running things using SDL2 library\r\n- The {{gtClass:OSWindow}}. After a couple of method call in instance creation, you'll arrive at {{gtMethod:OSWindow>>createWindow}}, which in turn will call {{gtMethod:OSSDL2Driver>>createWindowWithAttributes:osWindow:}}. Backend Window will then be {{gtClass:OSSDL2BackendWindow}}\r\n- event handler, {{gtClass:OSWindowMorphicEventHandler}}"
 			},
 			{
 				"__type" : "textSnippet",
@@ -325,7 +325,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-09T18:55:07.557-04:00"
+						"dateAndTimeString" : "2024-09-09T19:17:49.397-04:00"
 					}
 				},
 				"uid" : {
@@ -335,44 +335,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "During the rendering phase, {{gtMethod:OSWorldRenderer>>osWindowRenderer}} will be called, and if renderer is null, it'll send {{gtMethod:OSWindow>>newFormRenderer:}}Renderer:}}, you'll receive  {{gtClass:OSSDL2FormRenderer}} on which Form are rendered"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T18:29:39.821814-04:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T22:31:29.803394-04:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "Ov266QTeDQCiqJRDBx6Z4A=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "\n\n\n\n\n"
+				"string" : "During the rendering phase, {{gtMethod:OSWorldRenderer>>osWindowRenderer}} will be called, and if renderer is null, it'll send {{gtMethod:OSWindow>>newFormRenderer:}}, which in our case will be {{gtMethod:OSSD}} you'll receive  {{gtClass:OSSDL2FormRenderer}} on which Form are rendered"
 			}
 		]
 	},

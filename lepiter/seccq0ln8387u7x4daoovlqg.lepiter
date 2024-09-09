@@ -325,7 +325,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-09T18:55:07.557-04:00"
+						"dateAndTimeString" : "2024-09-09T19:17:58.591-04:00"
 					}
 				},
 				"uid" : {
@@ -335,7 +335,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "During the rendering phase, {{gtMethod:OSWorldRenderer>>osWindowRenderer}} will be called, and if renderer is null, it'll send {{gtMethod:OSWindow>>newFormRenderer:}}Renderer:}}, you'll receive  {{gtClass:OSSDL2FormRenderer}} on which Form are rendered"
+				"string" : "During the rendering phase, {{gtMethod:OSWorldRenderer>>osWindowRenderer}} will be called, and if renderer is null, it'll send {{gtMethod:OSWindow>>newFormRenderer:}}, which in our case will be {{gtMethod:OSSDL2BackendWindow>>newFormRenderer:}} you'll receive  {{gtClass:OSSDL2FormRenderer}} on which Form are rendered"
 			}
 		]
 	},
