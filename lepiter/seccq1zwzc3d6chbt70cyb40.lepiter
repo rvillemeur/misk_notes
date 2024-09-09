@@ -388,7 +388,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-07-22T19:46:53.192-04:00"
+						"dateAndTimeString" : "2024-09-09T14:55:51.09-04:00"
 					}
 				},
 				"editEmail" : {
@@ -399,17 +399,375 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-09T14:46:33.283-04:00"
+						"dateAndTimeString" : "2024-09-09T14:55:51.09-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "wCUiL8+gDQC9bqfEDxVTDQ=="
+					"uidString" : "aHfrChbeDQCzBSzDDkXuEQ=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Comme toute stack graphique, l'axe roassal part du point en haut à gauche de l'écran, et part en bas à droite (sens de l'écriture occidentale).\r\n\r\npar défaut, une fenêtre roassal fait une taille de 500@500.\r\nPour adapter le dessin à la taille de la fenêtre:\r\ncanvas @ RSCanvasController.\r\n\r\npour faire un axe de courbe:\r\n\taxes := RSPolyline new width: 2;\r\n\t\tcontrolPoints: { 0@0. 0@90. 0@45 . 90@45  }.\r\n\t\r\nPour faire un axe de graphe:\r\n\taxes := RSPolyline new width: 2;\r\n\t\tcontrolPoints: { 0@0. 0@90. 90@90  }.\r\n\t\t\r\nPour ajouter une dessin à la fin des axes:\r\n\tarrow := RSPolygon new \r\n\t\tpoints: { -10@0. 0@ -10. 10@0 };\r\n\t\tcolor: Color black;\r\n\t\tsize: 10.\r\n\taxes markerEnd: (axes markerStart: arrow).\r\n\r\nou\r\n\tcircle := RSEllipse new\r\n    radius: 2.5;\r\n    color: Color red.\r\n\taxes markerEnd: (axes markerStart: circle).\r\n\r\n\t\r\n"
+				"string" : "Comme toute stack graphique, l'axe roassal part du point en haut à gauche de l'écran, et part en bas à droite (sens de l'écriture occidentale).\r\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:55:53.521-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:56:00.46-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "mIsQCxbeDQCzC7qdDkXuEQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "#tips & tricks"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:56:05.108-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:56:05.108-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "OF3BCxbeDQCzauhtDkXuEQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "par défaut, une fenêtre roassal fait une taille de 500@500.\r\nPour adapter le dessin à la taille de la fenêtre:\r\ncanvas @ RSCanvasController.\r\n\r\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:56:22.541-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:56:22.541-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "4F7LDBbeDQCzj4x+DkXuEQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "##pour faire un axe de courbe:"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:56:28.256-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:56:32.347-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "MI8iDRbeDQCzmnf4DkXuEQ=="
+				},
+				"code" : "axes := RSPolyline new\r\t\twidth: 2;\r\t\tcontrolPoints: {0 @ 0.\r\t\t\t\t0 @ 90.\r\t\t\t\t0 @ 45.\r\t\t\t\t90 @ 45}"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:56:44.608-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:56:44.608-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "MBIcDhbeDQCzuOq8DkXuEQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "##Pour faire un axe de graphe:"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:56:47.96-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:56:51.008-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "2DtPDhbeDQCzvpoGDkXuEQ=="
+				},
+				"code" : "axes := RSPolyline new\r\t\twidth: 2;\r\t\tcontrolPoints: {0 @ 0.\r\t\t\t\t0 @ 90.\r\t\t\t\t90 @ 90}"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:57:00.141-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:57:00.141-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "+BUJDxbeDQCz3GfTDkXuEQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "##Pour ajouter une dessin à la fin des axes:"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:57:04.85-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:57:10.423-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "gPBQDxbeDQCz4ngMDkXuEQ=="
+				},
+				"code" : "arrow := RSPolygon new\r\t\tpoints: {-10 @ 0.\r\t\t\t\t0 @ -10.\r\t\t\t\t10 @ 0};\r\t\tcolor: Color black;\r\t\tsize: 10.\raxes markerEnd: (axes markerStart: arrow)"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:57:16.454-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:57:16.454-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "iAQCEBbeDQC0Cz3oDkXuEQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "ou"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:57:22.241-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:57:26.307-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "SEZaEBbeDQC0F193DkXuEQ=="
+				},
+				"code" : "circle := RSEllipse new\r\t\tradius: 2.5;\r\t\tcolor: Color red.\raxes markerEnd: (axes markerStart: circle)"
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -436,14 +794,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-09T14:47:00.642-04:00"
+						"dateAndTimeString" : "2024-09-09T14:57:44.377-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "0Ifp6RXeDQClOqRSDauhNQ=="
 				},
-				"code" : "| canvas axes box interest |\r\ncanvas := RSCanvas new.\r\n\r\n\"dataLine marker: circle.\"\r\n\r\naxes := RSPolyline new controlPoints: { 0@0. 0@150. 150@150 }.\r\n\r\ninterest := RSPolyline new color: Color red;\r\n    controlPoints: { 15@80. 29@50. 43@60. 57@30. 71@40. 85@15 }.\r\n\r\n\r\n(30 to: 150 by: 10) do: [ :nb |\r\n\tbox := RSBox new size: nb@nb.\r\n\tcanvas add: box ].\r\nRSFlowLayout on: canvas nodes.\r\ncanvas addShape: interest.\r\n\r\ncanvas addShape: axes.\r\ncanvas @ RSCanvasController.\r\ncanvas open"
+				"code" : "| canvas axes box interest |\rcanvas := RSCanvas new.\t\"dataLine marker: circle.\"\r\raxes := RSPolyline new\r\t\tcontrolPoints: {0 @ 0.\r\t\t\t\t0 @ 150.\r\t\t\t\t150 @ 150}.\r\rinterest := RSPolyline new\r\t\tcolor: Color red;\r\t\tcontrolPoints: {15 @ 80.\r\t\t\t\t29 @ 50.\r\t\t\t\t43 @ 60.\r\t\t\t\t57 @ 30.\r\t\t\t\t71 @ 40.\r\t\t\t\t85 @ 15}.\r\r\r30\r\tto: 150\r\tby: 10\r\tdo: [ :nb | \r\t\tbox := RSBox new size: nb @ nb.\r\t\tcanvas add: box ].\rRSFlowLayout on: canvas nodes.\rcanvas addShape: interest.\r\rcanvas addShape: axes.\rcanvas @ RSCanvasController.\rcanvas open"
 			}
 		]
 	},
