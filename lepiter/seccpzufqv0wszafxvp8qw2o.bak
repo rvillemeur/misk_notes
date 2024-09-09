@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-07-22T19:36:00.994-04:00"
+						"dateAndTimeString" : "2024-09-09T14:32:36.553-04:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,440 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-07-22T19:36:00.994-04:00"
+						"dateAndTimeString" : "2024-09-09T14:32:45.308-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "sOUqCM+gDQC9Ms27DxVTDQ=="
+					"uidString" : "KInMtxXeDQCdlORrDauhNQ=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "$ cat > /tmp/lines.txt\r\none\r\ntwo\r\nthree\r\n\r\n(FileLocator temp / 'lines.txt') contents lines.\r\n\r\n'/tmp/lines.txt' asFileReference contents lines.\r\n\r\n'/tmp/lines.txt' asFileReference readStreamDo: [ :in |\r\n  Array streamContents: [ :out |\r\n    [ in atEnd ] whileFalse: [ out nextPut: in nextLine ] ] ].\r\n\r\n(File named: '/tmp/lines.txt') readStreamDo: [ :in |\r\n  | characterStream |\r\n  characterStream := ZnCharacterReadStream on: in.\r\n  Array streamContents: [ :out |\r\n    [ characterStream atEnd ] whileFalse: [ out nextPut: characterStream nextLine ] ] ].\r\n\r\nThey all return #('one' 'two' 'three').\r\n\r\n\r\n  (File named: '/tmp/lines.txt') readStream[Do:]\r\n  \r\n  \r\n  | |\r\n (File named: '/tmp/lines.txt') readStream[Do:]\r\n  \r\n  \r\n  #printToFileNamed:beforeWritingDo: \r\n  \r\n   f := File openForWriteFileNamed: '/home/jimmie/xmldoc.xml'.\r\n> >> f nextPutAll: (writer write contents).\r\n> >> f flush.\r\n> >> f close.\r\n\r\noutStream nextPutAll:"
+				"string" : "# Reading from a file"
+			},
+			{
+				"__type" : "shellCommandSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:30:05.253-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:30:10.136-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "iOHHrhXeDQCcgoX5DauhNQ=="
+				},
+				"code" : "$ cat > /tmp/lines.txt\r\none\r\ntwo\r\nthree"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:30:22.242-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:30:33.201-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "6BjLrxXeDQCclsOXDauhNQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "All code below will return #('one' 'two' 'three')."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:30:39.41-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:30:44.396-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "aA/RsBXeDQCdCchIDauhNQ=="
+				},
+				"code" : "(FileLocator temp / 'lines.txt') contents lines."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:30:51.574-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:30:52.599-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "8K6KsRXeDQCdHcczDauhNQ=="
+				},
+				"code" : "'/tmp/lines.txt' asFileReference contents lines."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:31:00.929-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:31:04.317-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "AGoZshXeDQCdLNPBDauhNQ=="
+				},
+				"code" : "'/tmp/lines.txt' asFileReference readStreamDo: [ :in |\r\n  Array streamContents: [ :out |\r\n    [ in atEnd ] whileFalse: [ out nextPut: in nextLine ] ] ]."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:31:20.755-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:31:21.844-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "UO9HsxXeDQCdQDHZDauhNQ=="
+				},
+				"code" : "(File named: '/tmp/lines.txt') readStreamDo: [ :in |\r\n  | characterStream |\r\n  characterStream := ZnCharacterReadStream on: in.\r\n  Array streamContents: [ :out |\r\n    [ characterStream atEnd ] whileFalse: [ out nextPut: characterStream nextLine ] ] ]."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:32:52.341-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:32:57.07-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "IG29uBXeDQCeCqGTDauhNQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# writing to a file"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:35:00.588-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:39:12.519-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "4FViwBXeDQCe5xqFDauhNQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Method to write XML:\r\n{{gtMethod:XMLNode>>printToFileNamed:}}\r\n{{gtMethod:XMLNode>>printToFileNamed:beforeWritingDo:}}\r\n`outStream` {{gtMethod:Stream>>nextPutAll: }}"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:33:10.512-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:33:20.898-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "sK3SuRXeDQCec6lzDauhNQ=="
+				},
+				"code" : "f := File openForWriteFileNamed: '/home/jimmie/xmldoc.xml'.\r\nf nextPutAll: (writer write contents).\r\nf flush.\r\nf close."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:39:29.309-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:39:40.094-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "eKlm0BXeDQCg6sTXDauhNQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# Stream instead of string concatenation"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:40:16.68-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:40:22.311-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "QIQ50xXeDQCiBwtDDauhNQ=="
+				},
+				"code" : "String streamContents: [ :stream |\r\n        stream\r\n                nextPutAll: 'Hello';\r\n                nextPut: $ ;\r\n                nextPutAll: 'World']"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T19:41:46.107-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:39:51.034-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "8CgkHc+gDQC9TpYpDxVTDQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "[source](http://forum.world.st/Stream-instead-of-string-concatenation-td4792368.html)"
 			}
 		]
 	},

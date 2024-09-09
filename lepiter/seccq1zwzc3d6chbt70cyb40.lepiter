@@ -18,6 +18,376 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:44:52.567-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:45:22.238-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "qDZu4xXeDQCjOWqqDauhNQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# Core concept"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:44:58.86-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:45:24.029-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "4D0L5BXeDQCjrAjoDauhNQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## Element"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:45:01.462-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:45:01.462-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "IOoy5BXeDQCjs6zHDauhNQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : " - has a shape (how it is rendered)\r\n - react to event (drag & drop, click, etc...)\r\n\r\nElements can added to a view, and/or nested in other elements.\r\nThe view is like a camera, that can be translated, rotated, etc...\r\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:45:03.388-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:45:26.892-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "YFVQ5BXeDQCjudSJDauhNQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## Shape"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:45:37.05-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:45:37.05-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "kPlR5hXeDQCkVqtBDauhNQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Shape of an element can be tweaked, and composed with different shapes.\r\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:45:38.257-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:45:43.547-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "gGBk5hXeDQCkXCvfDauhNQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## Link"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:45:12.597-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:45:37.053-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "INbc5BXeDQCj9QPgDauhNQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "One can link different elements together with:\r\n - arrow\r\n - edge\r\n - edge with arrow\r\n - double arrow\r\n - etc...\r\n "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:45:14.028-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:45:34.65-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "4K/y5BXeDQCj++gfDauhNQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## Layout"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:45:50.241-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:45:57.998-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "AD0b5xXeDQCkjwEtDauhNQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Layout define how elements are automatically arranged in a view.\r\n - grid layout\r\n - row layout (horizontal or vertical)\r\n - circle layout\r\n - tree layout\r\n - treeMap layout\r\n - etc...\r\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:45:55.776-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:46:16.189-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "GLJv5xXeDQCkpBWDDauhNQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## Window and canvas"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
 						"dateAndTimeString" : "2022-07-22T19:46:53.192-04:00"
 					}
 				},
@@ -29,7 +399,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-07-22T19:46:53.192-04:00"
+						"dateAndTimeString" : "2024-09-09T14:46:33.283-04:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +409,41 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Roassal:\r\n\r\nElement\r\n - has a shape (how it is rendered)\r\n - react to event (drag & drop, click, etc...)\r\n\r\nElements can added to a view, and/or nested in other elements.\r\nThe view is like a camera, that can be translated, rotated, etc...\r\n\r\nShape of an element can be tweaked, and composed with different shapes.\r\n\r\nOne can link different elements together with:\r\n - arrow\r\n - edge\r\n - edge with arrow\r\n - double arrow\r\n - etc...\r\n \r\nLayout define how elements are automatically arranged in a view.\r\n - grid layout\r\n - row layout (horizontal or vertical)\r\n - circle layout\r\n - tree layout\r\n - treeMap layout\r\n - etc...\r\n\r\n================================================================================\r\nComme toute stack graphique, l'axe roassal part du point en haut à gauche de \r\nl'écran, et part en bas à droite (sens de l'écriture occidentale).\r\n\r\npar défaut, une fenêtre roassal fait une taille de 500@500.\r\nPour adapter le dessin à la taille de la fenêtre:\r\ncanvas @ RSCanvasController.\r\n\r\npour faire un axe de courbe:\r\n\taxes := RSPolyline new width: 2;\r\n\t\tcontrolPoints: { 0@0. 0@90. 0@45 . 90@45  }.\r\n\t\r\nPour faire un axe de graphe:\r\n\taxes := RSPolyline new width: 2;\r\n\t\tcontrolPoints: { 0@0. 0@90. 90@90  }.\r\n\t\t\r\nPour ajouter une dessin à la fin des axes:\r\n\tarrow := RSPolygon new \r\n\t\tpoints: { -10@0. 0@ -10. 10@0 };\r\n\t\tcolor: Color black;\r\n\t\tsize: 10.\r\n\taxes markerEnd: (axes markerStart: arrow).\r\n\r\nou\r\n\tcircle := RSEllipse new\r\n    radius: 2.5;\r\n    color: Color red.\r\n\taxes markerEnd: (axes markerStart: circle).\r\n\r\n\t\r\n\t| canvas arrow axes box interest |\r\ncanvas := RSCanvas new.\r\n\r\n\"dataLine marker: circle.\"\r\n\r\naxes := RSPolyline new controlPoints: { 0@0. 0@150. 150@150 }.\r\n\r\ninterest := RSPolyline new color: Color red;\r\n    controlPoints: { 15@80. 29@50. 43@60. 57@30. 71@40. 85@15 }.\r\n\r\n\r\n(30 to: 150 by: 10) do: [ :nb |\r\n\tbox := RSBox new size: nb@nb.\r\n\tcanvas add: box ].\r\nRSFlowLayout on: canvas nodes.\r\ncanvas addShape: interest.\r\n\r\ncanvas addShape: axes.\r\ncanvas @ RSCanvasController.\r\ncanvas open"
+				"string" : "Comme toute stack graphique, l'axe roassal part du point en haut à gauche de l'écran, et part en bas à droite (sens de l'écriture occidentale).\r\n\r\npar défaut, une fenêtre roassal fait une taille de 500@500.\r\nPour adapter le dessin à la taille de la fenêtre:\r\ncanvas @ RSCanvasController.\r\n\r\npour faire un axe de courbe:\r\n\taxes := RSPolyline new width: 2;\r\n\t\tcontrolPoints: { 0@0. 0@90. 0@45 . 90@45  }.\r\n\t\r\nPour faire un axe de graphe:\r\n\taxes := RSPolyline new width: 2;\r\n\t\tcontrolPoints: { 0@0. 0@90. 90@90  }.\r\n\t\t\r\nPour ajouter une dessin à la fin des axes:\r\n\tarrow := RSPolygon new \r\n\t\tpoints: { -10@0. 0@ -10. 10@0 };\r\n\t\tcolor: Color black;\r\n\t\tsize: 10.\r\n\taxes markerEnd: (axes markerStart: arrow).\r\n\r\nou\r\n\tcircle := RSEllipse new\r\n    radius: 2.5;\r\n    color: Color red.\r\n\taxes markerEnd: (axes markerStart: circle).\r\n\r\n\t\r\n"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:46:37.314-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:47:00.642-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "0Ifp6RXeDQClOqRSDauhNQ=="
+				},
+				"code" : "| canvas axes box interest |\r\ncanvas := RSCanvas new.\r\n\r\n\"dataLine marker: circle.\"\r\n\r\naxes := RSPolyline new controlPoints: { 0@0. 0@150. 150@150 }.\r\n\r\ninterest := RSPolyline new color: Color red;\r\n    controlPoints: { 15@80. 29@50. 43@60. 57@30. 71@40. 85@15 }.\r\n\r\n\r\n(30 to: 150 by: 10) do: [ :nb |\r\n\tbox := RSBox new size: nb@nb.\r\n\tcanvas add: box ].\r\nRSFlowLayout on: canvas nodes.\r\ncanvas addShape: interest.\r\n\r\ncanvas addShape: axes.\r\ncanvas @ RSCanvasController.\r\ncanvas open"
 			}
 		]
 	},

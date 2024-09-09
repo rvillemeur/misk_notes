@@ -3,7 +3,341 @@
 	"__type" : "page",
 	"children" : {
 		"__type" : "snippets",
-		"items" : [ ]
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:28:16.143-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:28:30.215-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "sPpGqBXeDQCb1wuYDauhNQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Pharo and smalltalk was told to be designed like operating system. However, if you compare their structure with a real operation system like Minix,  you will see that, while they share some common responsability, some are really split of between the VM and the Image.\r\n```\r\n|Operating System| Pharo Smalltalk|\r\n| Process Mgmt\t | Pharo image\t  |\r\n| I&O\t\t\t | managed from image, possibilities given by VM|\r\n| memory mgmt\t | pharo VM \t  |\r\n```\r\nIn I&O, look for \r\n- graphics\r\n- keyboard\r\n- mouse\r\n- touch screen\r\n- sound\r\n- etc...\r\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:27:12.877-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:27:52.555-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "+JmBpBXeDQCa8JpVDauhNQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## Memory management with Object format, and object recollection\r\n-> ObjectMemory; SpurMemoryManager\r\n=> difference between VM object and Image Object.\r\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:27:14.757-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:27:49.171-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "oE2epBXeDQCa96TIDauhNQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## VM is acting like a processor\r\n-> StackInterpreter >> initializeBytecodeTableForSistaV1\r\n=> bytecode.\r\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:27:16.801-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:27:45.387-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "AH69pBXeDQCa/qlLDauhNQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## VM is acting like a primary operation system\r\n-> StackInterpreter class >> initializePrimitiveTable\r\n=> VM Primitive that the VM could use\r\n=> FFI to extend the possibilities of the VM\r\n=> plugin to extend the VM, either from external DLL or inside de VM/\r\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:27:18.895-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:27:42.543-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "sHHdpBXeDQCbD6DuDauhNQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## VM running optimization: COG which introduce JIT optimization.\r\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:27:20.127-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:27:39.929-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "GELwpBXeDQCbFtTgDauhNQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## VM store the Image and define Image format\r\n-> ImageFormat\r\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:27:21.407-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:27:37.409-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "SMIDpRXeDQCbHT9DDauhNQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## VM Plugins\r\n-> category VMMaker-Plugins, and ThreadedFFIPlugin to access a DLL\r\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:27:22.809-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:27:34.715-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "2CYZpRXeDQCbJCX/DauhNQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## VM Source contain also a way to convert SLANG (a subset of smalltalk) to C \r\n-> Category \"VMMaker-Translation to C\"\r\n-> CCodeGenerator >> initializeCTranslationDictionary \r\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-22T20:29:53.211-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-09-09T14:27:31.04-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "2D9Gus+gDQCrnIh5DgkDmw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## Initialisation de la VM:\r\n pharo-vm/opensmalltalk-vm/platforms/unix/vm/sqUnixMain.c \r\n Au démarrage:\r\n 1. loadModules()\r\n  ioInitTime();\r\n  ioInitThreads();\r\n  aioInit();\r\n  dpy->winInit();\r\n  imgInit() -> CoInterpreter >> readImageFromFile: f HeapSize: desiredHeapSize StartingAt: imageOffset \r\n\tou StackInterpreter >> readImageFromFile: f HeapSize: desiredHeapSize StartingAt: imageOffset\r\n  dpy->winOpen(runAsSingleInstance ? squeakArgCnt : 0, squeakArgVec);\r\n  interpret(); -> WMMaker-Interpreter >> StackInterpreter >> Interpret\r\n  \r\n\t\"This is the main interpreter loop. It normally loops forever, fetching and executing\r\n\t bytecodes.  When running in the context of a browser plugin VM, however, it must\r\n\t return control to the browser periodically.  This should done only when the state of\r\n\t the currently running Squeak thread is safely stored in the object heap.  Since this\r\n\t is the case at the moment that a check for interrupts is performed, that is when we\r\n\t return to the browser if it is time to do so.  Interrupt checks happen quite frequently.\"\r\n\t \r\nOn a alors la chaine suivante au démarrage:\r\ninitStackPagesAndInterpret (VM) -> loadInitialContext (VM) \r\n-> activeProc := self activeProcess (VM)\r\n-> activeContext := objectMemory fetchPointer: SuspendedContextIndex ofObject: activeProc.\r\n\tself marryContextInNewStackPageAndInitializeInterpreterRegisters: activeContext (VM)\r\n\t\r\n-> recharge l'image qui était sur le point de se fermer. Les dernière instructions\r\nsont donc \"Smalltalk snapshot: true andQuit: true\", qui, quand activé au démarrage, \r\nvont lancer le message \"startup: true\" \r\n(SessionManager >> snapshot: save andQuit: quit\r\n\t-> WorkingSession >> runStartup: isImageStarting qui va envoyer le message\r\n\tstartup: à toutes les listes des \" SessionManager default startupList.\")\r\n"
+			}
+		]
 	},
 	"createEmail" : {
 		"__type" : "email",
