@@ -198,6 +198,43 @@
 							"__type" : "textSnippet",
 							"children" : {
 								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-09-29T22:11:24.627269-04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-09-29T22:11:24.640708-04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "T6fqdK7fDQCVRweDATlHPw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "[[Pharo VM Transpiler]]"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
 								"items" : [
 									{
 										"__type" : "textSnippet",
@@ -1025,7 +1062,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-11-14T19:59:15.303282-05:00"
+									"dateAndTimeString" : "2022-11-14T19:59:39.458686-05:00"
 								}
 							},
 							"editEmail" : {
@@ -1036,17 +1073,17 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2024-09-08T17:43:44.488931-04:00"
+									"dateAndTimeString" : "2022-11-14T19:59:39.458686-05:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "asWUmdmpDQCglYVJB5qlGQ=="
+								"uidString" : "DYFlmtmpDQCglwUQB5qlGQ=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[Event handling on Pharo with OSWindow]]"
+							"string" : "[[Pharo GUI Startup and shutdown]]"
 						},
 						{
 							"__type" : "textSnippet",
@@ -1099,7 +1136,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-11-14T19:59:39.458686-05:00"
+									"dateAndTimeString" : "2022-11-14T19:59:15.303282-05:00"
 								}
 							},
 							"editEmail" : {
@@ -1110,17 +1147,17 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-11-14T19:59:39.458686-05:00"
+									"dateAndTimeString" : "2024-09-08T17:43:44.488931-04:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "DYFlmtmpDQCglwUQB5qlGQ=="
+								"uidString" : "asWUmdmpDQCglYVJB5qlGQ=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[Pharo GUI Startup and shutdown]]"
+							"string" : "[[Event handling on Pharo with OSWindow]]"
 						}
 					]
 				},
