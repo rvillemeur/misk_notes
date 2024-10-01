@@ -1,0 +1,150 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-01T14:42:08.161-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-01T14:42:08.161-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "ANFgatDfDQC1c1IYAdOiLw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# Pre-Existing area\nMonticello -> versionning\nGofer -> command tool for Monticello package loading \nMetacello -> project management & dependencies\n\nWere using Configuration message to get things done\n\nProject loading looked like\n\n```smalltalk\nGofer new\n  squeaksource3: 'Sample';\n  package: 'ConfigurationOfSample';\n  load.\n((Smalltalk at: #ConfigurationOfSample) project version: '0.9.0') load.\n```\n\nrepository by default was: *https://www.squeaksource.com/MetacelloRepository/*\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-01T14:42:10.6-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-01T14:42:10.6-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "WAiGatDfDQC1ekAHAdOiLw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# managing your project - baseline\n\nYour baseline is a subclass of **BaseLineOf**, and follow the name pattern:\n'BaselineOfYOURBASELINE', like `BaselineOf subclass: #BaselineOfSQLite3`\n\nIt can be simplified as\n```smalltalk\nBaselineOf << #BaselineOfSQLite3\n\tpackage: 'BaselineOfSQLite3'\n```\n\nYour must subclass the method `baseline: spec` with pragma `<baseline>`\nSpec is an instance of **MetacelloBaselineConstructor**\n\nIt has notion of:\n\n* package\n* group\n* requirements\n* repository\n* version\n* author\n\n\nhttps://github.com/Metacello/metacello/blob/master/docs/APIReference.md\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-01T14:41:52.738-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-01T14:42:10.604-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "0H51adDfDQC1SKjRAdOiLw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# Scripting API\n\n\nReturns a *MetacelloScriptApiExecutor*\n\n```smalltalk\nMetacello new\n  repository: 'github://pharo-rdbms/Pharo-SQLite3/src';\n  baseline: 'SQLite3';\n  load: 'all'\n ``` \n \n or\n \n ```smalltalk\n Metacello new\n  repository: 'github://pharo-rdbms/Pharo-SQLite3/src';\n  baseline: 'SQLite3';\n  load: 'Tools'\n``` \n\nYou can define different options\n* *baseline:* or *configuration:* or *project:*\n* *repository:*\n* *version:*\n\nDifferents options:\n\n* fetch and fetch:\n* load and load:\n* list \n* get\n"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2024-10-01T14:42:00.855-04:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2024-10-01T14:42:00.855-04:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Note on Metacello"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "80387569-d0df-0d00-b547-a35e01d3a22f"
+	}
+}

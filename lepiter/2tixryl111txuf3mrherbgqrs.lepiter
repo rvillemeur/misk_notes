@@ -1,0 +1,150 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-01T14:41:32.16-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-01T14:41:32.16-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "GHw7aNDfDQC1O0QYAdOiLw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## global shortcut for tools.\n* Ctrl+O+B \t\t\t\tSystem browser\n* Ctrl+O+I \t\t\t\tgit browser\n* Ctrl+O+P \t\t\t\tMonticello Browser\n* Ctrl+O+W \t\t\t\tPlayground\n* Ctrl+O+T \t\t\t\tTranscript\n* Ctrl+O+U \t\t\t\tTest runner\n* Shift+Enter \t\t\tSpotter.\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-01T14:41:35.208-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-01T14:41:35.208-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "WP5paNDfDQC1QoQhAdOiLw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## Browser\n\n### packages\nCtrl+B\t\t\t\t\tBrowse\nCtrl+R \t\t\t\t\tRename\nCtrl+C\t\t\t\t\tCopy all packages\nCtrl+X \t\t\t\t\tremove\n\n### Classes.\nCtrl+B\t\t\t\t\tBrowse\nCtrl+N \t\t\t\t\tClass refs\nCtrl+R\t\t\t\t\tRename\nCtrl+A,Ctrl+A\t\t\tAbstract instance variable\nCtrl+G Ctrl+A\t\t\tGenerate Accessors\nCtrl+G\tCtrl+J\t\t\tJump to test class\nCtrl+C\t\t\t\t\tCopy\nCtrl+X\t\t\t\t\tRemove\nCtrl+T\t\t\t\t\tRefactoring\nCtrl+I\t\t\t\t\tInspect\nCtrl+M\tCtrl+C\t\t\tMove to packages\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-01T14:41:20.758-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-01T14:41:35.211-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "8ISNZ9DfDQC1EKNWAdOiLw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## window management\nCtrl+w\tClose window.\nCtrl+Shift+w+Up\t\t\tMove windows up\nCtrl+Shift+w+Down\t\tMove windows Down\nCtrl+Shift+w+Lef\t\tMove windows Left\nCtrl+Shift+w+Right\t\tMove windows Right\nCtrl+Shift+w+s\t\t\tMaximize window\nCtrl+Shift+w+Shift+s \tMinimize Window\nCtrl+Shift+w+z\t\t\tResize window to bottom Left\nCtrl+Shift+w+c\t\t\tResize window to bottom right\nCtrl+Shift+w+q\t\t\tResize window to top Left\nCtrl+Shift+w+e\t\t\tResize window to top right\nCtrl+Shift+w+w\t\t\tResize window to top \nCtrl+Shift+w+x\t\t\tResize window to bottom \nCtrl+Shift+w+r\t\t\tCenter window\nCtrl+Shift+w+a\t\t\tResize window to Left\nCtrl+Shift+w+d\t\t\tResize window to right"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2024-10-01T14:41:26.54-04:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2024-10-01T14:41:26.54-04:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : " Pharo keyboard shortcut"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "88428d67-d0df-0d00-b50f-229201d3a22f"
+	}
+}

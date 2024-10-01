@@ -1,0 +1,261 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-01T14:40:44.977-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-01T14:40:44.977-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "gIdrZdDfDQC07ulaAdOiLw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "[repository](https://github.com/pharo-ide/Calypso)\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-01T14:40:50.018-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-01T14:40:50.018-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "6HK4ZdDfDQC09UUTAdOiLw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## ClyEnvironmentPlugin\nBrowser can be extended.\n \nClyEnvironmentPlugin subclasses are responsible for 3 things:\n1. Extend browser items with arbitrary properties. Any plugin can compute specific properties for given item.\n2. Connect external systems to the navigation environment.\n3. Collect query result metadata\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-01T14:40:56.6-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-01T14:40:56.6-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "2OEcZtDfDQC0/B3UAdOiLw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "### Activation & deactivation of plugins.\n\nTo activate plugin it should be added to navigation environment:\n```smalltalk\n\tenvironment addPlugin: anEnvironmentPlugin\n```\n\nDefault global environment adds all plugins automatically. Only plugins marked as auto-activated are used (which is true by default): \n\n```smalltalk\n\tClyEnvironmentPlugin class>>isAutoActivated\n\t^isAutoActivated ifNil [true]\n```\nYou can enable.any plugin using:\n\n```smalltalk\n\tClyConcretePlugin disable\n``` \nBut it do not affect default navigation environment. You will need recreate it.\n\n```smalltalk\n\"ClySystemEnvironmentPlugin allSubclasses asString \"\n\tClyDefaultSystemEnvironmentPlugin enable.\n\tClyTraitEnvironmentPlugin disable.\n\tClyCriticEnvironmentPlugin disable.\n\tClyDeprecationEnvironmentPlugin disable.\n\tClyInheritanceAnalysisEnvironmentPlugin disable.\n\tClyReflectiveEnvironmentPlugin disable.\n\tClySUnitEnvironmentPlugin disable.\n\tClyTestedEnvironmentPlugin disable.\n\tClyUndeclaredEnvironmentPlugin disable.\n\tClyFFIEnvironmentPlugin disable.\n\tClyFlagsEnvironmentPlugin disable.\n\tClyClassScriptEnvironmentPlugin disable.\n\t\n\tClyNavigationEnvironment reset\n```\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-01T14:40:59.195-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-01T14:40:59.195-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "kHpEZtDfDQC1A3kqAdOiLw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## ClySystemEnvironmentPlugin\nMy subclasses extend system objects and their properties.\n\n```\nClySystemEnvironmentPlugin allSubclasses \n```\n\nTo extend objects subclasses should implement methods:\n- resolvePropertiesOfClass: classItem\n- resolvePropertiesOfMethod: methodItem\n- look at \"items resolving\" protocol for more\n\nPlugins can provide new kind of package, class and method groups. They return own group providers in following methods:\n- collectMethodGroupProviders\n- collectClassGroupProviders\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-01T14:41:00.737-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-01T14:41:00.737-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "6AVcZtDfDQC1Cs1ZAdOiLw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# disabling code critics\nFollowing line should be enough to disable critic method group with all related computation. It is the main reason of that kind of problems:\n\nClyCriticEnvironmentPlugin disableMethodGroup.\nIt is not full critic disable. If it not helps then turn off it completely:\n\nClyCriticBrowserPlugin disable.\nClyCriticEnvironmentPlugin disable.\nClyNavigationEnvironment reset.\n\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-01T14:40:19.458-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-01T14:41:00.74-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "0CfmY9DfDQC05kFiAdOiLw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## use case\n1. move to class side\nClyClassSideLinkTableDecorator\n\n`Icon Name from class: Smalltalk ui icons iconNamed: (Morph systemIconName)`\n\nClass allSubclasses select: [ :each | each methodDict includesKey: #systemIconName  ] return:\n- Trait \n- Exception \n- Announcement \n- Collection \n- Magnitude \n- PackageManifest \n- Morph \n- SpAbstractPresenter \n- String \n \ndefault: Object systemIconName\n\n\nin \n class >> decorateMainTableCell: anItemCellMorph of: aDataSourceItem\nLook for sender of *decorateMainTableCell: anItemCellMorph of: aDataSourceItem*\n\ntable can be decorated by subclasses of *ClyTableDecorator* "
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2024-10-01T14:40:41.617-04:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2024-10-01T14:43:42.195-04:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Calypso"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "20f1e563-d0df-0d00-b4e5-ba1301d3a22f"
+	}
+}
