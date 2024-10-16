@@ -1,0 +1,2167 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:35:28.677-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:35:40.638-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "iGB+bAHhDQCktLmwAzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# Syntax"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:35:41.336-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:35:46.128-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "8IE/bQHhDQCku5KqAzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "### Allowable characters:                                                 \r\n- `a-z`, \r\n- `A-Z`, \r\n- `0-9`\r\n- `. +/\\*% <>~=& { } [|] ; : # ? , _ ' $ \" @`"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:35:46.726-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:35:52.87-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "iMSRbQHhDQCkxBi9AzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "### First explanation                                                           \r\n- `.` *(separator)*\r\n- `+/\\*%` *(arithmetic)*\r\n- `<>~=&` *(Booleans)\r\n- `{ }` *(dynamic array)*\r\n- `[ | ]` *(block closures)*\r\n- ` ;` *(cascade)*\r\n- ` :` *(assignment, keywords)*\r\n- `#` *(symbol and array)* \r\n- `'` *(string)*\r\n- `$` *(character)*\r\n- `\"` *(comment)*\r\n- `@` *(point creation)*\r\n- blank (`Character space`), tab (`Character tab`), cr (`Character space`), lf (`Character lf`)     "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:35:53.344-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:35:58.839-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "GMD2bQHhDQCkzajOAzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "### Variables:                                                             \r\n- variables must be declared before use surrounded by `|` e.g., `| a b |`                            \r\n- shared vars must begin with uppercase                             \r\n- local vars must begin with lowercase                              \r\n- reserved names: `nil`, `true`, `false`, `self`, `super`, and `thisContext`    "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:35:59.3-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:36:05.751-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "uKFRbgHhDQCk1kAVAzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "#### Variable scope:                                                       \r\n- Global: defined in a global namespace Smalltalk and accessible by all objects in system                                              *\r\n- Special: (reserved) `thisContext`, `super`, `self`, `true`, `false`, `nil`\r\n- Method Temporary: local to a method"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:36:20.765-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:36:29.672-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "SC2ZbwHhDQCk7KZnAzpN3w=="
+				},
+				"code" : "myMethod\r\n   | tmp1 temp2 |\r\n   ..."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:35:23.762-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:36:36.892-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "UGEzbAHhDQCks1pRAzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "- Block Temporary: local to a block"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:36:39.421-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:36:45.737-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "qMi1cAHhDQClDkFdAzpN3w=="
+				},
+				"code" : "[ \r\n   | tmp1 temp2 |\r\n   ... ]\r\n``` "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:36:51.882-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:36:58.004-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "EPxzcQHhDQClFxybAzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "- Method Parameters: automatic local vars created as a result of message call with params"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:37:09.868-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:37:10.857-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "4G2GcgHhDQClICX8AzpN3w=="
+				},
+				"code" : "myMethod: myArg\r\n   ..."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:37:20.527-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:37:21.579-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "sA4pcwHhDQClKYwlAzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "- Block Parameters: automatic local vars created as a result of value: message call   "
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:37:29.721-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:37:30.587-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "2FS1cwHhDQClMnXzAzpN3w=="
+				},
+				"code" : "[ :each |\r\n   ... ]"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:37:39.487-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:37:40.309-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "GGFKdAHhDQClOzd2AzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "- Instance Variables: unique to each instance                                    \r\n- Class: shared with all instances of one class & its subclasses\r\n- Class Instance: unique to each instance of a class"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:37:41.332-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:37:47.014-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "IIhmdAHhDQClRD7wAzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "#### Class and method definition:\r\n- Classes are defined inside packages\r\n- Methods are public and virtual\r\n- By default a method returns the receiver\r\n- Class methods are just methods of the class (i.e., public, virtual)"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:37:47.574-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:37:53.41-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "IL/FdAHhDQClTR4lAzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "### Comments \r\nComments are enclosed in quotes"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:38:02.257-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:38:03.142-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "aNKldQHhDQClWmNUAzpN3w=="
+				},
+				"code" : "\"Comments are enclosed in quotes\""
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:37:54.003-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:38:10.916-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "UNwndQHhDQClVsrkAzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "### Instruction separator \r\nPeriod (`.`) is the statement separator"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:38:20.581-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:38:21.594-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "uGS9dgHhDQClbNZXAzpN3w=="
+				},
+				"code" : "self doThis.\r\nself doThat"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:38:11.496-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:38:33.396-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "cMQydgHhDQClaIdiAzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## Assignment\r\n\r\n```st\r\n| x y |\r\nx := 5.                                                     \"assignment\"\r\nx := y := z := 6.                                           \"compound assignment\"\r\nx := (y := 6) + 1.\r\nx := Set new.                                               \"assign the newly created instance\"\r\nx := 123 class.                                             \"assign the object class\"\r\nx := Integer superclass.                                    \"assign the superclass of a class\"\r\nx := Object allInstances.                                   \"assign an array of all instances of a class\"\r\nx := Integer allSuperclasses.                               \"assign all superclasses of a class\"\r\n```"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:38:43.129-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:38:44.038-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "2HIVeAHhDQClfvowAzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## Copy\r\n\r\n```st\r\ny := x copy.                                                \"copy object\"\r\ny := x deepCopy.                                            \"copy object and instance vars\"\r\n```\r\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:38:59.116-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:39:00.21-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "4GsJeQHhDQClixReAzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## Literals\r\n\r\n```st\r\n| b |\r\nb := true.                                                  \"true constant\"\r\nb := false.                                                 \"false constant\"\r\nx := nil.                                                   \"nil object constant\"\r\nx := 1.                                                     \"integer constants\"\r\nx := 8r177.                                                 \"octal integer constant\"\r\nx := 3.14.                                                  \"float constants\"\r\nx := 2r1010.                                                \"arbitrary base integer\"\r\nx := 2r1.1.                                                 \"arbitrary base float\"\r\nx := 2r1.1e2.                                               \"float with exponent\"\r\nx := 2e-2.                                                  \"fractional constants\"\r\nx := 16r0F.                                                 \"hex constant\".\r\nx := 36rPHARO5.                                             \"number in base 36\" \r\nx := -1.                                                    \"negative constants\"\r\nx := 'Hello'.                                               \"string constant\"\r\nx := 'I''m here'.                                           \"single quote escape\"\r\nx := $A.                                                    \"character constant\"\r\nx := $ .                                                    \"character constant (space)\"\r\nx := #aSymbol.                                              \"symbol constants\"\r\nx := #'It''s a symbol!'.                                    \"quoted symbol literal\"\r\nx := #(3 2 1).                                              \"array constants\"\r\nx := #[255 255 0].                                          \"byte array constant\"\r\nx := #(2 2.0 #two two 'two' #($t $w $o) #[2 2]).            \"nested array literal\"\r\nx := #('abc' 2 $a).                                         \"mixing of types allowed\"\r\n```"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:39:00.798-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:39:07.946-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "SBIjeQHhDQCllKOCAzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## Booleans\r\n\r\n```st\r\n| b x y |\r\nx := 1. y := 2.\r\nb := x = y.                                                 \"equals\"\r\nb := x ~= y.                                                \"not equals\"\r\nb := x == y.                                                \"identical\"\r\nb := x ~~ y.                                                \"not identical\"\r\nb := x > y.                                                 \"greater than\"\r\nb := x < y.                                                 \"less than\"\r\nb := x >= y.                                                \"greater than or equal\"\r\nb := x <= y.                                                \"less than or equal\"\r\nb := b not.                                                 \"boolean not\"\r\nb := x < 5 & (y > 1).                                       \"boolean and\"\r\nb := x < 5 | (y > 1).                                       \"boolean or\"\r\nb := x < 5 and: [y > 1].                                    \"boolean and (short-circuit)\"\r\nb := x < 5 or: [y > 1].                                     \"boolean or (short-circuit)\"\r\nb := x < 5 eqv: (y > 1).                                    \"test if both true or both false\"\r\nb := x < 5 xor: (y > 1).                                    \"test if one true and other false\"\r\nb := 5 between: 3 and: 12.                                  \"between (inclusive)\"\r\nb := 123 isKindOf: Number.                                  \"test if object is class or subclass of\"\r\nb := 123 isMemberOf: SmallInteger.                          \"test if object is type of class\"\r\nb := 123 respondsTo: sqrt.                                  \"test if object responds to message\"\r\nb := x isNil.                                               \"test if object is nil\"\r\nb := x isZero.                                              \"test if number is zero\"\r\nb := x positive.                                            \"test if number is positive\"\r\nb := x strictlyPositive.                                    \"test if number is greater than zero\"\r\nb := x negative.                                            \"test if number is negative\"\r\nb := x even.                                                \"test if number is even\"\r\nb := x odd.                                                 \"test if number is odd\"\r\nb := x isLiteral.                                           \"test if literal constant\"\r\nb := x isInteger.                                           \"test if object is integer\"\r\nb := x isFloat.                                             \"test if object is float\"\r\nb := x isNumber.                                            \"test if object is number\"\r\nb := $A isUppercase.                                        \"test if upper case character\"\r\nb := $A isLowercase.                                        \"test if lower case character\"\r\n```"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:39:08.585-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:39:15.854-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "QOSZeQHhDQClnabSAzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## Arithmetic expressions\r\n\r\n```st\r\n| x |\r\nx := 6 + 3.                                                 \"addition\"\r\nx := 6 - 3.                                                 \"subtraction\"\r\nx := 6 * 3.                                                 \"multiplication\"\r\nx := 1 + 2 * 3.                                             \"evaluation always left to right (1 + 2) * 3\"\r\nx := 5 / 3.                                                 \"division with fractional result\"\r\nx := 5.0 / 3.0.                                             \"division with float result\"\r\nx := 5.0 // 3.0.                                            \"integer divide\"\r\nx := 5.0 \\\\ 3.0.                                            \"integer remainder\"\r\nx := -5.                                                    \"unary minus\"\r\nx := 5 sign.                                                \"numeric sign (1, -1 or 0)\"\r\nx := 5 negated.                                             \"negate receiver\"\r\nx := 1.2 integerPart.                                       \"integer part of number (1.0)\"\r\nx := 1.2 fractionPart.                                      \"fractional part of number (0.2)\"\r\nx := 5 reciprocal.                                          \"reciprocal function\"\r\nx := 6 * 3.1.                                               \"auto convert to float\"\r\nx := 5 squared.                                             \"square function\"\r\nx := 25 sqrt.                                               \"square root\"\r\nx := 5 raisedTo: 2.                                         \"power function\"\r\nx := 5 raisedToInteger: 2.                                  \"power function with integer\"\r\nx := 5 exp.                                                 \"exponential\"\r\nx := -5 abs.                                                \"absolute value\"\r\nx := 3.99 rounded.                                          \"round\"\r\nx := 3.99 truncated.                                        \"truncate\"\r\nx := 3.99 roundTo: 1.                                       \"round to specified decimal places\"\r\nx := 3.99 truncateTo: 1.                                    \"truncate to specified decimal places\"\r\nx := 3.99 floor.                                            \"truncate\"\r\nx := 3.99 ceiling.                                          \"round up\"\r\nx := 5 factorial.                                           \"factorial\"\r\nx := -5 quo: 3.                                             \"integer divide rounded toward zero\"\r\nx := -5 rem: 3.                                             \"integer remainder rounded toward zero\"\r\nx := 28 gcd: 12.                                            \"greatest common denominator\"\r\nx := 28 lcm: 12.                                            \"least common multiple\"\r\nx := 100 ln.                                                \"natural logarithm\"\r\nx := 100 log.                                               \"base 10 logarithm\"\r\nx := 100 log: 10.                                           \"logarithm with specified base\"\r\nx := 100 floorLog: 10.                                      \"floor of the log\"\r\nx := 180 degreesToRadians.                                  \"convert degrees to radians\"\r\nx := 3.14 radiansToDegrees.                                 \"convert radians to degrees\"\r\nx := 0.7 sin.                                               \"sine\"\r\nx := 0.7 cos.                                               \"cosine\"\r\nx := 0.7 tan.                                               \"tangent\"\r\nx := 0.7 arcSin.                                            \"arcsine\"\r\nx := 0.7 arcCos.                                            \"arccosine\"\r\nx := 0.7 arcTan.                                            \"arctangent\"\r\nx := 10 max: 20.                                            \"get maximum of two numbers\"\r\nx := 10 min: 20.                                            \"get minimum of two numbers\"\r\nx := Float pi.                                              \"pi\"\r\nx := Float e.                                               \"exp constant\"\r\nx := Float infinity.                                        \"infinity\"\r\nx := Float nan.                                             \"not-a-number\"\r\nx := Random new next; yourself. x next.                     \"random number stream (0.0 to 1.0)\"\r\nx := 100 atRandom.                                          \"quick random number\"\r\n```"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:39:16.363-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:39:23.094-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "+JYQegHhDQClppVTAzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## Bitwise Manipulation\r\n\r\n```st\r\n| b x |\r\nx := 2r1111 bitAnd: 2r0100.                                 \"and bits\"\r\nx := 4r3333 bitAnd: 2r011011011.                            \"and with different bases\"\r\nx := 2r1111 bitOr: 2r0100.                                  \"or bits\"\r\nx := 16rFF bitXor: 8r5252.                                  \"xor bits mixing bases\"\r\nx := 16rFF bitInvert.                                       \"invert bits\"\r\nx := 2r0100 bitShift: 2.                                    \"left shift\"\r\nx := 2r0100 bitShift: -2.                                   \"right shift\"\r\nx := 2r0100 >> 2.                                           \"divide by four\"\r\nx := 2r0100 << 2.                                           \"multiply by four\"\r\nx := 2r0100 bitAt: 3.                                       \"bit at position (0|1)\"\r\nx := 2r0100 highBit.                                        \"position of highest bit set\"\r\nb := 16rFF allMask: 16r0F.                                  \"test if all bits set in mask set in receiver\"\r\nb := 16rFF anyMask: 16r0F.                                  \"test if any bits set in mask set in receiver\"\r\nb := 16rFF noMask: 16r0F.                                   \"test if all bits set in mask clear in receiver\"\r\n```\r\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:39:23.56-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:39:31.868-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "QGh+egHhDQClr+rOAzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## Conversion\r\n\r\n```st\r\n| x |\r\nx := 3.99 asInteger.                                        \"convert number to integer (truncates)\"\r\nx := 3.99 asFraction.                                       \"convert number to fraction\"\r\nx := 3 asFloat.                                             \"convert number to float\"\r\nx := 65 asCharacter.                                        \"convert integer to character\"\r\nx := $A asciiValue.                                         \"convert character to integer\"\r\nx := 3.99 printString.                                      \"convert object to string via printOn:\"\r\nx := 3.99 storeString.                                      \"convert object to string via storeOn:\"\r\nx := 15 radix: 16.                                          \"convert to string in given base\"\r\nx := 15 printStringBase: 2.                                 \"string in given base\"\r\n```"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:39:29.409-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:39:42.215-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "AKTXegHhDQCluCstAzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## Blocks\r\n- blocks are objects and may be assigned to a variable\r\n- a block value is last expression evaluated unless explicit return\r\n- blocks may be nested\r\n- syntax is [ :arguments | | localvars | expression . expression ]\r\n- ^ expression terminates block & method (exits all nested blocks)\r\n- blocks intended for long term storage should not contain ^\r\n\r\n\r\n```st\r\n| x y z |\r\nx := [ y := 1. z := 2. ]. x value.                          \"simple block usage\"\r\nx := [ :argOne :argTwo |   argOne, ' and ' , argTwo.].      \"set up block with argument passing\"\r\nTranscript show: (x value: 'First' value: 'Second'); cr.    \"use block with argument passing\"\r\nx := [ | t | t := 1.].                                      \"local var in block\"\r\n```\r\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:39:42.812-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:39:50.288-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "YCukewHhDQClxlfwAzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## Messages\r\n\r\n#### Method calls (in order of priority):\r\n- unary methods are messages with no arguments\r\n- binary methods\r\n- keyword methods are messages with selectors including colons\r\n\r\n\r\n```st\r\n| x |\r\nx := 2 sqrt.                                                \"unary message\"\r\nx := 2 raisedTo: 10.                                        \"keyword message\"\r\nx := 194 * 9.                                               \"binary message\"\r\nTranscript show: (194 * 9) printString; cr.                 \"combination (chaining)\"\r\nx := 2 perform: #sqrt.                                      \"indirect method invocation\"\r\nTranscript                                                  \"Cascading - send multiple messages to receiver\"\r\n   show: 'hello ';\r\n   show: 'world';\r\n   cr.\r\nx := 3 + 2; * 100.                                          \"result=300. Sends message to same receiver (3)\"\r\n```"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:39:50.893-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:40:10.875-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "yHkffAHhDQClz/4JAzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "#### Method lookup:\r\n- follows the inheritance chain\r\n- self send triggers a method lookup starting from the class of receiver\r\n- super send triggers a method lookup starting from the superclass of the class containing the super expression!\r\n\r\nStandard protocols:\r\n- initialize          (methods called for new instance)\r\n- accessing             (get/set methods)\r\n- testing               (boolean tests - is)\r\n- comparing             (boolean tests with parameter)\r\n- displaying            (gui related methods)\r\n- printing              (methods for printing)\r\n- updating              (receive notification of changes)\r\n- private               (methods private to class)\r\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:39:57.744-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:40:08.464-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "gAOIfAHhDQCl2E3XAzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## Conditional statements\r\n\r\n```st\r\n| x switch result |\r\nX := 20 atRandom.\r\nx > 10 ifTrue: [ 'ifTrue' traceCr ].             \"if then\"\r\nx > 10 ifFalse: [ 'ifFalse' traceCr ].           \"if else\"\r\nx > 10                                                      \"if then else\"\r\n   ifTrue: [ 'ifTrue' traceCr ]\r\n   ifFalse: [ 'ifFalse' traceCr ].\r\nx > 10                                                      \"if else then\"\r\n   ifFalse: [Transcript show: 'ifFalse'; cr]\r\n   ifTrue: [Transcript show: 'ifTrue'; cr].\r\n\r\n(x > 10\r\n   ifTrue: ['ifTrue']\r\n   ifFalse: ['ifFalse']) traceCr.\r\n```\r\n\r\n```st\r\nswitch := Dictionary new.                                   \"switch functionality\"\r\nswitch at: $A put: [ 'Case A' traceCr].\r\nswitch at: $B put: [ 'Case B' traceCr].\r\nswitch at: $C put: [ 'Case C' traceCr].\r\nresult := (switch at: $B) value.\r\n```"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:40:05.909-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:40:21.979-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "OJIEfQHhDQCl4W/6AzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## Iteration statements\r\n\r\n```st\r\n| x y |\r\nx := 4. y := 1.\r\n[x > 0] whileTrue: [x := x - 1. y := y * 2].                \"while true loop\"\r\n[x >= 4] whileFalse: [x := x + 1. y := y * 2].              \"while false loop\"\r\nx timesRepeat: [y := y * 2].                                \"times repear loop (i := 1 to x)\"\r\n1 to: x do: [:a | y := y * 2].                              \"for loop\"\r\n1 to: x by: 2 do: [:a | y := y / 2].                        \"for loop with specified increment\"\r\n#(5 4 3) do: [:a | x := x + a].                             \"iterate over array elements\"\r\n```"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:40:22.472-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:40:28.014-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "QFUBfgHhDQCl9OarAzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## String\r\n\r\n```st\r\n| b x y |\r\nx := 'This is a string'.                                    \"string assignment\"\r\nx allButFirst: 10.                                          \"returns string\"\r\nx := 'String', 'Concatenation'.                             \"string concatenation\"\r\nb := x isEmpty.                                             \"test if string is empty\"\r\ny := x size.                                                \"string size\"\r\ny := x at: 2.                                               \"char at location\"\r\ny := x copyFrom: 2 to: 4.                                   \"substring\"\r\ny := x indexOf: $a ifAbsent: [0].                           \"first position of character within string\"\r\nx := String with: $a with: $b with: $c with: $d.            \"set up to 4 elements at a time\"\r\nx do: [:a | Transcript show: a printString; cr].            \"iterate over the string\"\r\ny := x select: [:a | a > $a].                               \"return all elements that meet condition\"\r\ny := x asSymbol.                                            \"convert string to symbol\"\r\ny := x asArray.                                             \"convert string to array\"\r\nx := 'ABCD' asByteArray.                                    \"convert string to byte array\"\r\ny := x asOrderedCollection.                                 \"convert string to ordered collection\"\r\ny := x asSortedCollection.                                  \"convert string to sorted collection\"\r\ny := x asBag.                                               \"convert string to bag collection\"\r\ny := x asSet.                                               \"convert string to set collection\"\r\ny := x shuffled.                                            \"randomly shuffle string\"\r\n```"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:40:28.456-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:40:33.993-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "QKRcfgHhDQCl/b4QAzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## Character\r\n\r\n```st\r\n| x y |\r\nx := $A.                                                    \"character assignment\"\r\ny := x isLowercase.                                         \"test if lower case\"\r\ny := x isUppercase.                                         \"test if upper case\"\r\ny := x isLetter.                                            \"test if letter\"\r\ny := x isDigit.                                             \"test if digit\"\r\ny := x isAlphaNumeric.                                      \"test if alphanumeric\"\r\ny := x isSeparator.                                         \"test if seperator char\"\r\ny := x isVowel.                                             \"test if vowel\"\r\ny := x digitValue.                                          \"convert to numeric digit value\"\r\ny := x asLowercase.                                         \"convert to lower case\"\r\ny := x asUppercase.                                         \"convert to upper case\"\r\ny := x asciiValue.                                          \"convert to numeric ascii value\"\r\ny := x asString.                                            \"convert to string\"\r\ny := $A <= $B.                                              \"comparison\"\r\ny := $A max: $B.\r\n```\r\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:40:34.36-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:40:44.542-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "wLq2fgHhDQCmBnH/AzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## Symbol\r\n\r\n```st\r\n| b x y |\r\nx := #Hello.                                                \"symbol assignment\"\r\ny := 'String', 'Concatenation'.                             \"symbol concatenation (result is string)\"\r\nb := x isEmpty.                                             \"test if symbol is empty\"\r\ny := x size.                                                \"string size\"\r\ny := x at: 2.                                               \"char at location\"\r\ny := x copyFrom: 2 to: 4.                                   \"substring\"\r\ny := x indexOf: $e ifAbsent: [0].                           \"first position of character within string\"\r\nx do: [:a | Transcript show: a printString; cr].            \"iterate over the string\"\r\ny := x select: [:a | a > $a].                               \"return all elements that meet condition\"\r\ny := x asString.                                            \"convert symbol to string\"\r\ny := x asText.                                              \"convert symbol to text\"\r\ny := x asArray.                                             \"convert symbol to array\"\r\ny := x asOrderedCollection.                                 \"convert symbol to ordered collection\"\r\ny := x asSortedCollection.                                  \"convert symbol to sorted collection\"\r\ny := x asBag.                                               \"convert symbol to bag collection\"\r\ny := x asSet.                                               \"convert symbol to set collection\"\r\n```\r\n\r\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:40:52.958-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:40:54.046-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "SH/SfwHhDQCmGBveAzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## Array: Fixed length collection\r\n- ByteArray:     Array limited to byte elements (0-255)\r\n- WordArray:     Array limited to word elements (0-2^32)\r\n\r\n\r\n```st\r\n| b x y sum max |\r\nx := #[255 255 255].                                        \"constant byte array\"\r\nx := #(4 3 2 1).                                            \"literal array\"\r\nx := #((1 + 2) . 3).                                        \"literal array whose first element is an array of size 3\"\r\nx := { 5. 2 * 2 + 1 . 3+2 . 8 - 3 }.                        \"dynamic array\"\r\nx := Array with: 5 with: 4 with: 3 with: 2.                 \"create array with up to 4 elements\"\r\nx := Array new: 4.                                          \"allocate an array with specified size\"\r\nx                                                           \"set array elements\"\r\n   at: 1 put: 5;\r\n   at: 2 put: 4;\r\n   at: 3 put: 3;\r\n   at: 4 put: 2.\r\nb := x isEmpty.                                             \"test if array is empty\"\r\ny := x size.                                                \"array size\"\r\ny := x at: 4.                                               \"get array element at index\"\r\nb := x includes: 3.                                         \"test if element is in array\"\r\ny := x copyFrom: 2 to: 4.                                   \"subarray\"\r\ny := x indexOf: 3 ifAbsent: [0].                            \"first position of element within array\"\r\ny := x occurrencesOf: 3.                                    \"number of times object in collection\"\r\nx do: [:a | Transcript show: a printString; cr].            \"iterate over the array\"\r\ny := x select: [:a | a > 2].                                \"return collection of elements that pass test\"\r\ny := x reject: [:a | a < 2].                                \"return collection of elements that fail test\"\r\ny := x collect: [:a | a + a].                               \"transform each element for new collection\"\r\ny := x detect: [:a | a > 3] ifNone: [].                     \"return first element that passes test\"\r\nsum := 0. x do: [:a | sum := sum + a]. sum.                 \"sum array elements\"\r\nsum := 0. 1 to: (x size) do: [:a | sum := sum + (x at: a)]. \"sum array elements\"\r\nsum := x inject: 0 into: [:a :c | a + c].                   \"sum array elements\"\r\nmax := x inject: 0 into: [:a :c | (a > c)                   \"find max element in array\"\r\n   ifTrue: [a]\r\n   ifFalse: [c]].\r\ny := x shuffled.                                            \"randomly shuffle collection\"\r\ny := x asArray.                                             \"convert to array\"\r\ny := x asByteArray.                                         \"convert to byte array\"\r\ny := x asWordArray.                                         \"convert to word array\"\r\ny := x asOrderedCollection.                                 \"convert to ordered collection\"\r\ny := x asSortedCollection.                                  \"convert to sorted collection\"\r\ny := x asBag.                                               \"convert to bag collection\"\r\ny := x asSet.                                               \"convert to set collection\"\r\n```"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:40:54.883-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:41:01.934-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "uOLvfwHhDQCmIXVbAzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "\r\n## OrderedCollection\r\nacts like an expandable array\r\n\r\n```st\r\n| b x y sum max |\r\nx := OrderedCollection with: 4 with: 3 with: 2 with: 1.     \"create collection with up to 4 elements\"\r\nx := OrderedCollection new.                                 \"allocate collection\"\r\nx add: 3; add: 2; add: 1; add: 4; yourself.                 \"add element to collection\"\r\ny := x addFirst: 5.                                         \"add element at beginning of collection\"\r\ny := x removeFirst.                                         \"remove first element in collection\"\r\ny := x addLast: 6.                                          \"add element at end of collection\"\r\ny := x removeLast.                                          \"remove last element in collection\"\r\ny := x addAll: #(7 8 9).                                    \"add multiple elements to collection\"\r\ny := x removeAll: #(7 8 9).                                 \"remove multiple elements from collection\"\r\nx at: 2 put: 3.                                             \"set element at index\"\r\ny := x remove: 5 ifAbsent: [].                              \"remove element from collection\"\r\nb := x isEmpty.                                             \"test if empty\"\r\ny := x size.                                                \"number of elements\"\r\ny := x at: 2.                                               \"retrieve element at index\"\r\ny := x first.                                               \"retrieve first element in collection\"\r\ny := x last.                                                \"retrieve last element in collection\"\r\nb := x includes: 5.                                         \"test if element is in collection\"\r\ny := x copyFrom: 2 to: 3.                                   \"subcollection\"\r\ny := x indexOf: 3 ifAbsent: [0].                            \"first position of element within collection\"\r\ny := x occurrencesOf: 3.                                    \"number of times object in collection\"\r\nx do: [:a | Transcript show: a printString; cr].            \"iterate over the collection\"\r\ny := x select: [:a | a > 2].                                \"return collection of elements that pass test\"\r\ny := x reject: [:a | a < 2].                                \"return collection of elements that fail test\"\r\ny := x collect: [:a | a + a].                               \"transform each element for new collection\"\r\ny := x detect: [:a | a > 3] ifNone: [].                     \"return first element that passes test\"\r\nsum := 0. x do: [:a | sum := sum + a]. sum.                 \"sum elements\"\r\nsum := 0. 1 to: (x size) do: [:a | sum := sum + (x at: a)]. \"sum elements\"\r\nsum := x inject: 0 into: [:a :c | a + c].                   \"sum elements\"\r\nmax := x inject: 0 into: [:a :c | (a > c)                   \"find max element in collection\"\r\n   ifTrue: [a]\r\n   ifFalse: [c]].\r\ny := x shuffled.                                            \"randomly shuffle collection\"\r\ny := x asArray.                                             \"convert to array\"\r\ny := x asOrderedCollection.                                 \"convert to ordered collection\"\r\ny := x asSortedCollection.                                  \"convert to sorted collection\"\r\ny := x asBag.                                               \"convert to bag collection\"\r\ny := x asSet.                                               \"convert to set collection\"\r\n```"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:41:02.536-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:41:10.559-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "QKlkgAHhDQCmKma6AzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## SortedCollection\r\nLike OrderedCollection except order of elements determined by sorting criteria\r\n\r\n```st\r\n| b x y sum max |\r\nx := SortedCollection with: 4 with: 3 with: 2 with: 1.      \"create collection with up to 4 elements\"\r\nx := SortedCollection new.                                  \"allocate collection\"\r\nx := SortedCollection sortBlock: [:a :c | a > c].           \"set sort criteria\"\r\nx add: 3; add: 2; add: 1; add: 4; yourself.                 \"add element to collection\"\r\ny := x removeFirst.                                         \"remove first element in collection\"\r\ny := x addLast: 5.                                          \"add element at end of collection\"\r\ny := x removeLast.                                          \"remove last element in collection\"\r\ny := x addAll: #(6 7 8).                                    \"add multiple elements to collection\"\r\ny := x removeAll: #(6 7 8).                                 \"remove multiple elements from collection\"\r\ny := x remove: 5 ifAbsent: [].                              \"remove element from collection\"\r\nb := x isEmpty.                                             \"test if empty\"\r\ny := x size.                                                \"number of elements\"\r\ny := x at: 2.                                               \"retrieve element at index\"\r\ny := x first.                                               \"retrieve first element in collection\"\r\ny := x last.                                                \"retrieve last element in collection\"\r\nb := x includes: 4.                                         \"test if element is in collection\"\r\ny := x copyFrom: 2 to: 3.                                   \"subcollection\"\r\ny := x indexOf: 3 ifAbsent: [0].                            \"first position of element within collection\"\r\ny := x occurrencesOf: 3.                                    \"number of times object in collection\"\r\nx do: [:a | Transcript show: a printString; cr].            \"iterate over the collection\"\r\nb := x conform: [:a | (a >= 1) & (a <= 4)].                 \"test if all elements meet condition\"\r\ny := x select: [:a | a > 2].                                \"return collection of elements that pass test\"\r\ny := x reject: [:a | a < 2].                                \"return collection of elements that fail test\"\r\ny := x collect: [:a | a + a].                               \"transform each element for new collection\"\r\ny := x detect: [:a | a > 3] ifNone: [].                     \"return first element that passes test\"\r\nsum := 0. x do: [:a | sum := sum + a]. sum.                 \"sum elements\"\r\nsum := 0. 1 to: (x size) do: [:a | sum := sum + (x at: a)]. \"sum elements\"\r\nsum := x inject: 0 into: [:a :c | a + c].                   \"sum elements\"\r\nmax := x inject: 0 into: [:a :c | (a > c)                   \"find max element in collection\"\r\n   ifTrue: [a]\r\n   ifFalse: [c]].\r\ny := x asArray.                                             \"convert to array\"\r\ny := x asOrderedCollection.                                 \"convert to ordered collection\"\r\ny := x asSortedCollection.                                  \"convert to sorted collection\"\r\ny := x asBag.                                               \"convert to bag collection\"\r\ny := x asSet.                                               \"convert to set collection\"\r\n```\r\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:41:11.106-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:41:17.494-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "0G3ngAHhDQCmM2lcAzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## Bag\r\nLike OrderedCollection except elements are in no particular order\r\n\r\n```st\r\n| b x y sum max |\r\nx := Bag with: 4 with: 3 with: 2 with: 1.                   \"create collection with up to 4 elements\"\r\nx := Bag new.                                               \"allocate collection\"\r\nx add: 4; add: 3; add: 1; add: 2; yourself.                 \"add element to collection\"\r\nx add: 3 withOccurrences: 2.                                \"add multiple copies to collection\"\r\ny := x addAll: #(7 8 9).                                    \"add multiple elements to collection\"\r\ny := x removeAll: #(7 8 9).                                 \"remove multiple elements from collection\"\r\ny := x remove: 4 ifAbsent: [].                              \"remove element from collection\"\r\nb := x isEmpty.                                             \"test if empty\"\r\ny := x size.                                                \"number of elements\"\r\nb := x includes: 3.                                         \"test if element is in collection\"\r\ny := x occurrencesOf: 3.                                    \"number of times object in collection\"\r\nx do: [:a | Transcript show: a printString; cr].            \"iterate over the collection\"\r\ny := x select: [:a | a > 2].                                \"return collection of elements that pass test\"\r\ny := x reject: [:a | a < 2].                                \"return collection of elements that fail test\"\r\ny := x collect: [:a | a + a].                               \"transform each element for new collection\"\r\ny := x detect: [:a | a > 3] ifNone: [].                     \"return first element that passes test\"\r\nsum := 0. x do: [:a | sum := sum + a]. sum.                 \"sum elements\"\r\nsum := x inject: 0 into: [:a :c | a + c].                   \"sum elements\"\r\nmax := x inject: 0 into: [:a :c | (a > c)                   \"find max element in collection\"\r\n   ifTrue: [a]\r\n   ifFalse: [c]].\r\ny := x asOrderedCollection.                                 \"convert to ordered collection\"\r\ny := x asSortedCollection.                                  \"convert to sorted collection\"\r\ny := x asBag.                                               \"convert to bag collection\"\r\ny := x asSet.                                               \"convert to set collection\"\r\n```"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:41:17.93-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:41:23.136-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "EI5PgQHhDQCmPFD3AzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## Set\r\nLike Bag except duplicates not allowed\r\nIdentitySet:   uses identity test (== rather than =)\r\n\r\n```st\r\n| b x y sum max |\r\nx := Set with: 4 with: 3 with: 2 with: 1.                   \"create collection with up to 4 elements\"\r\nx := Set new.                                               \"allocate collection\"\r\nx add: 4; add: 3; add: 1; add: 2; yourself.                 \"add element to collection\"\r\ny := x addAll: #(7 8 9).                                    \"add multiple elements to collection\"\r\ny := x removeAll: #(7 8 9).                                 \"remove multiple elements from collection\"\r\ny := x remove: 4 ifAbsent: [].                              \"remove element from collection\"\r\nb := x isEmpty.                                             \"test if empty\"\r\ny := x size.                                                \"number of elements\"\r\nx includes: 4.                                              \"test if element is in collection\"\r\nx do: [:a | Transcript show: a printString; cr].            \"iterate over the collection\"\r\ny := x select: [:a | a > 2].                                \"return collection of elements that pass test\"\r\ny := x reject: [:a | a < 2].                                \"return collection of elements that fail test\"\r\ny := x collect: [:a | a + a].                               \"transform each element for new collection\"\r\ny := x detect: [:a | a > 3] ifNone: [].                     \"return first element that passes test\"\r\nsum := 0. x do: [:a | sum := sum + a]. sum.                 \"sum elements\"\r\nsum := x inject: 0 into: [:a :c | a + c].                   \"sum elements\"\r\nmax := x inject: 0 into: [:a :c | (a > c)                   \"find max element in collection\"\r\n   ifTrue: [a]\r\n   ifFalse: [c]].\r\ny := x asArray.                                             \"convert to array\"\r\ny := x asOrderedCollection.                                 \"convert to ordered collection\"\r\ny := x asSortedCollection.                                  \"convert to sorted collection\"\r\ny := x asBag.                                               \"convert to bag collection\"\r\ny := x asSet.                                               \"convert to set collection\"\r\n```\r\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:41:23.523-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:41:30.117-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "uOWkgQHhDQCmRbC1AzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## Interval\r\n\r\n```st\r\n| b x y sum max |\r\nx := Interval from: 5 to: 10.                               \"create interval object\"\r\nx := 5 to: 10.\r\nx := Interval from: 5 to: 10 by: 2.                         \"create interval object with specified increment\"\r\nx := 5 to: 10 by: 2.\r\nb := x isEmpty.                                             \"test if empty\"\r\ny := x size.                                                \"number of elements\"\r\nx includes: 9.                                              \"test if element is in collection\"\r\nx do: [:k | Transcript show: k printString; cr].            \"iterate over interval\"\r\ny := x select: [:a | a > 7].                                \"return collection of elements that pass test\"\r\ny := x reject: [:a | a < 2].                                \"return collection of elements that fail test\"\r\ny := x collect: [:a | a + a].                               \"transform each element for new collection\"\r\ny := x detect: [:a | a > 3] ifNone: [].                     \"return first element that passes test\"\r\nsum := 0. x do: [:a | sum := sum + a]. sum.                 \"sum elements\"\r\nsum := 0. 1 to: (x size) do: [:a | sum := sum + (x at: a)]. \"sum elements\"\r\nsum := x inject: 0 into: [:a :c | a + c].                   \"sum elements\"\r\nmax := x inject: 0 into: [:a :c | (a > c)                   \"find max element in collection\"\r\n   ifTrue: [a]\r\n   ifFalse: [c]].\r\ny := x asArray.                                             \"convert to array\"\r\ny := x asOrderedCollection.                                 \"convert to ordered collection\"\r\ny := x asSortedCollection.                                  \"convert to sorted collection\"\r\ny := x asBag.                                               \"convert to bag collection\"\r\ny := x asSet.                                               \"convert to set collection\"\r\n```"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:41:30.412-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:41:35.859-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "+P8NggHhDQCmTmWeAzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## Associations (Pairs)\r\n\r\n```st\r\n| x y |\r\nx := #myVar->'hello'.\r\ny := x key.\r\ny := x value.\r\n```"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:41:36.185-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:41:42.01-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "wBZmggHhDQCmV48nAzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## Dictionary\r\n- IdentityDictionary:   uses identity test (== rather than =)\r\n\r\n```st\r\n| b x y |\r\nx := Dictionary new.                                        \"allocate collection\"\r\nx add: #a->4; add: #b->3; add: #c->1; add: #d->2; yourself. \"add element to collection\"\r\nx at: #e put: 3.                                            \"set element at index\"\r\nb := x isEmpty.                                             \"test if empty\"\r\ny := x size.                                                \"number of elements\"\r\ny := x at: #a ifAbsent: [].                                 \"retrieve element at index\"\r\ny := x keyAtValue: 3 ifAbsent: [].                          \"retrieve key for given value with error block\"\r\ny := x removeKey: #e ifAbsent: [].                          \"remove element from collection\"\r\nb := x includes: 3.                                         \"test if element is in values collection\"\r\nb := x includesKey: #a.                                     \"test if element is in keys collection\"\r\ny := x occurrencesOf: 3.                                    \"number of times object in collection\"\r\ny := x keys.                                                \"set of keys\"\r\ny := x values.                                              \"bag of values\"\r\nx do: [:a | Transcript show: a printString; cr].            \"iterate over the values collection\"\r\nx keysDo: [:a | Transcript show: a printString; cr].        \"iterate over the keys collection\"\r\nx associationsDo: [:a | Transcript show: a printString; cr].\"iterate over the associations\"\r\nx keysAndValuesDo: [:aKey :aValue | Transcript              \"iterate over keys and values\"\r\n   show: aKey printString; space;\r\n   show: aValue printString; cr].\r\ny := x select: [:a | a > 2].                                \"return collection of elements that pass test\"\r\ny := x reject: [:a | a < 2].                                \"return collection of elements that fail test\"\r\ny := x collect: [:a | a + a].                               \"transform each element for new collection\"\r\ny := x detect: [:a | a > 3] ifNone: [].                     \"return first element that passes test\"\r\nsum := 0. x do: [:a | sum := sum + a]. sum.                 \"sum elements\"\r\nsum := x inject: 0 into: [:a :c | a + c].                   \"sum elements\"\r\nmax := x inject: 0 into: [:a :c | (a > c)                   \"find max element in collection\"\r\n   ifTrue: [a]\r\n   ifFalse: [c]].\r\ny := x asArray.                                             \"convert to array\"\r\ny := x asOrderedCollection.                                 \"convert to ordered collection\"\r\ny := x asSortedCollection.                                  \"convert to sorted collection\"\r\ny := x asBag.                                               \"convert to bag collection\"\r\ny := x asSet.                                               \"convert to set collection\"\r\n```"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:41:42.325-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:41:49.671-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "CMvDggHhDQCmYAIJAzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "\r\n## Internal Stream\r\n\r\n```st\r\n| b x ios |\r\nios := ReadStream on: 'Hello read stream'.\r\nios := ReadStream on: 'Hello read stream' from: 1 to: 5.\r\n[ (x := ios nextLine) notNil ]\r\n   whileTrue: [ x traceCr ].\r\nios position: 3.\r\nios position.\r\nx := ios next.\r\nx := ios peek.\r\nx := ios contents.\r\nb := ios atEnd.\r\n\r\nios := ReadWriteStream on: 'Hello read stream'.\r\nios := ReadWriteStream on: 'Hello read stream' from: 1 to: 5.\r\nios := ReadWriteStream with: 'Hello read stream'.\r\nios := ReadWriteStream with: 'Hello read stream' from: 1 to: 10.\r\nios position: 0.\r\n[ (x := ios nextLine) notNil ]\r\n   whileTrue: [ x traceCr ].\r\nios position: 6.\r\nios position.\r\nios nextPutAll: 'Chris'.\r\nx := ios next.\r\nx := ios peek.\r\nx := ios contents.\r\nb := ios atEnd.\r\n```"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:41:50.148-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:41:57.646-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "oCk7gwHhDQCmae3zAzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## File\r\n\r\n```st\r\n\"Creating a file\"\r\nfile := File named: 'asd.txt' asFileReference fullName.\r\n\r\n\"Opening / closing it\"\r\nfile open.\r\nfile openForAppend.\r\nfile close.\r\n\r\n\"Accessing the file properties\"\r\nfile size.\r\nfile position.\r\nfile position: 0.\r\nfile seekAbsolute: 10.\r\nfile seekRelative: 10.\r\nfile atEnd.\r\n\r\n\"Writing\"\r\nfile nextPutAll: 'sdd'.\r\n\r\n\"Reading\"\r\nfile next: 2.\r\n\r\n\"Buffered write\"\r\nfile next: 2 putAll: 'abc' startingAt: 2.\r\n\r\n\"Buffered read\"\r\nbuffer := ByteArray new: 5.\r\nfile readInto: buffer startingAt: 1 count: 5.\r\nbuffer asString.\r\n```"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:41:57.991-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:42:04.089-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "WNaygwHhDQCmciiAAzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## File Reference\r\n\r\n```st\r\n| p m hello |\r\np := FileLocator home.                                      \"user's home directory\"\r\np := FileLocator root.                                      \"file system root\"\r\np pathString.                                               \"file path string\"\r\np parent pathString.                                        \"path of the parent folder\"\r\nm := FileLocator home / 'Music'.                            \"handle to ~/Music\"\r\nm exists.                                                   \"test if file/folder exists\"\r\nm isDirectory.                                              \"test if handle is a folder\"\r\nm allChildrenMatching: '.mp3'.                              \"finding all mp3 files in folder\"\r\np := 'pharo5.image' asFileReference.                        \"handle to pharo.image file\"\r\np isFile.                                                   \"test if handle is a file\"\r\np basename.                                                 \"obtain filename without path\"\r\nhello := 'hello.txt' asFileReference.\r\nhello writeStreamDo: [ :stream |                            \"write to file\"\r\n   stream nextPutAll: 'Hello World'].\r\nhello readStreamDo: [ :stream | stream contents ].          \"read from file\"\r\n```\r\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:42:04.337-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:42:10.81-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "aKsThAHhDQCme+znAzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## Date\r\n\r\n```st\r\n| x y |\r\nx := Date today.                                            \"create date for today\"\r\nx := Date dateAndTimeNow.                                   \"create date from current time/date\"\r\nx := Date readFromString: '01/02/1999'.                     \"create date from formatted string\"\r\nx := Date newDay: 12 month: #July year: 1999.               \"create date from parts\"\r\nx := Date fromDays: 36000.                                  \"create date from elapsed days since 1/1/1901\"\r\ny := Date dayOfWeek: #Monday.                               \"day of week as int (1-7)\"\r\ny := Date indexOfMonth: #January.                           \"month of year as int (1-12)\"\r\ny := Date daysInMonth: 2 forYear: 1996.                     \"day of month as int (1-31)\"\r\ny := Date daysInYear: 1996.                                 \"days in year (365|366)\"\r\ny := Date nameOfDay: 1.                                     \"weekday name (#Monday,...)\"\r\ny := Date nameOfMonth: 1.                                   \"month name (#January,...)\"\r\ny := x weekday.                                             \"day of week (#Monday,...)\"\r\ny := x previous: #Monday.                                   \"date for previous day of week\"\r\ny := x dayOfMonth.                                          \"day of month (1-31)\"\r\ny := x day.                                                 \"day of year (1-366)\"\r\ny := x firstDayOfMonth.                                     \"day of year for first day of month\"\r\ny := x monthName.                                           \"month of year (#January,...)\"\r\ny := x monthIndex.                                          \"month of year (1-12)\"\r\ny := x daysInMonth.                                         \"days in month (1-31)\"\r\ny := x year.                                                \"year (19xx)\"\r\ny := x daysInYear.                                          \"days in year (365|366)\"\r\ny := x daysLeftInYear.                                      \"days left in year (364|365)\"\r\ny := x asSeconds.                                           \"seconds elapsed since 1/1/1901\"\r\ny := x addDays: 10.                                         \"add days to date object\"\r\ny := x subtractDays: 10.                                    \"subtract days to date object\"\r\ny := x subtractDate: (Date today).                          \"subtract date (result in days)\"\r\ny := x printFormat: #(2 1 3 $/ 1 1).                        \"print formatted date\"\r\nb := (x <= Date today).                                     \"comparison\"\r\n```"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:42:11.163-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:42:16.128-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "kM97hAHhDQCmhCJoAzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## Time\r\n\r\n```st\r\n| x y |\r\nx := Time now.                                              \"create time from current time\"\r\nx := Time now asdateAndTime.                                \"create time from current time/date\"\r\nx := Time readFromString: '3:47:26 pm'.                     \"create time from formatted string\"\r\nx := Time fromSeconds: 60 * 60 * 4.                       \"create time from elapsed time from midnight\"\r\ny := Time millisecondClockValue.                            \"milliseconds since midnight\"\r\ny := Time totalSeconds.                                     \"total seconds since 1/1/1901\"\r\ny := x seconds.                                             \"seconds past minute (0-59)\"\r\ny := x minutes.                                             \"minutes past hour (0-59)\"\r\ny := x hours.                                               \"hours past midnight (0-23)\"\r\ny := x addTime: Time now.                                 \"add time to time object\"\r\ny := x subtractTime: (Time now).                            \"subtract time to time object\"\r\ny := x asSeconds.                                           \"convert time to seconds\"\r\nx := Time millisecondsToRun: [                              \"timing facility\"\r\n   1 to: 1000 do: [:index | y := 3.14 * index]].\r\nb := x <= Time now.                                       \"comparison\"\r\n```"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:42:16.505-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:42:38.191-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "qFbNhAHhDQCmjdLUAzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## Point\r\n\r\n```st\r\n| pt x y |\r\npt := 200@100.                                              \"obtain a new point\"\r\nx := pt x.                                                  \"x coordinate\"\r\ny := pt y.                                                  \"y coordinate\"\r\npt := 200@100 negated.                                      \"negates x and y\"\r\npt := (-200@ -100) abs.                                     \"absolute value of x and y\"\r\npt := (200.5@100.5) rounded.                                \"round x and y\"\r\npt := (200.5@100.5) truncated.                              \"truncate x and y\"\r\npt := 200@100 + 100.                                        \"add scale to both x and y\"\r\npt := 200@100 - 100.                                        \"subtract scale from both x and y\"\r\npt := 200@100 * 2.                                          \"multiply x and y by scale\"\r\npt := 200@100 / 2.                                          \"divide x and y by scale\"\r\npt := 200@100 // 2.                                         \"divide x and y by scale\"\r\npt := 200@100 \\\\ 3.                                         \"remainder of x and y by scale\"\r\npt := (200@100) + (50@25).                                  \"add points\"\r\npt := (200@100) – (50@25).                                  \"subtract points\"\r\npt := (200@100) * (3@4).                                    \"multiply points\"\r\npt := (200@100) // (3@4).                                   \"divide points\"\r\npt := 200@100 max: 50@200.                                  \"max x and y\"\r\npt := 200@100 min: 50@200.                                  \"min x and y\"\r\npt := 20@5 dotProduct: 10@2.                                \"sum of product (x1*x2 + y1*y2)\"\r\n```\r\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:42:22.21-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:42:30.59-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "6F8khQHhDQCmllcqAzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "### Rectangle\r\n\r\n```st\r\nRectangle fromUser.\r\n```"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:42:31.002-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:42:48.872-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "kIuqhQHhDQCmn/suAzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## Dynamic Message Calling/Compiling\r\n\r\n### Unary message\r\n\r\n```st\r\n| receiver message result argument keyword1 keyword2 argument1 argument2 |\r\nreceiver := 5.\r\nmessage := 'factorial' asSymbol.\r\nresult := receiver perform: message.\r\nresult := Compiler evaluate: ((receiver storeString), ' ', message).\r\nresult := (Message new setSelector: message arguments: #()) sentTo: receiver.\r\n```"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:42:49.365-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:42:54.686-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "ILrChgHhDQCmt0qGAzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "### Binary message\r\n\r\n```st\r\nreceiver := 1.\r\nmessage := '+' asSymbol.\r\nargument := 2.\r\nresult := receiver perform: message withArguments: (Array with: argument).\r\nresult := Compiler evaluate: ((receiver storeString), ' ', message, ' ', (argument storeString)).\r\nresult := (Message new setSelector: message arguments: (Array with: argument)) sentTo: receiver.\r\n```"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:42:55.052-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:43:00.984-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "4IQZhwHhDQCmwDmcAzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "### Keyword messages\r\n\r\n```st\r\nreceiver := 12.\r\nkeyword1 := 'between:' asSymbol.\r\nkeyword2 := 'and:' asSymbol.\r\nargument1 := 10.\r\nargument2 := 20.\r\nresult := receiver\r\n   perform: (keyword1, keyword2) asSymbol\r\n   withArguments: (Array with: argument1 with: argument2).\r\n   \r\nresult := Compiler evaluate:\r\n   ((receiver storeString), ' ', keyword1, (argument1 storeString) , ' ', keyword2, (argument2 storeString)).\r\n\r\n   \r\nresult := (Message new\r\n      setSelector: (keyword1, keyword2) asSymbol\r\n      arguments: (Array with: argument1 with: argument2))\r\n   sentTo: receiver.\r\n```\r\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:43:01.325-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:43:08.289-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "4Dh5hwHhDQCmyTWSAzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## Exceptions\r\n\r\nInstalling an exception handler\r\n\r\n```st\r\n[ 1/0 ] on: ZeroDivide do: [ :ex | ... ex ... ].\r\n```\r\n\r\nRaising an exception\r\n\r\n```st\r\nWarning signal: 'watch out!'.\r\n```\r\n\r\nAlways execute last block\r\n\r\n```st\r\n[ 1/0 ] ensure: [ 'exception' trace].\r\n```\r\n\r\nExecute last block only if fail or unwind\r\n\r\n```st\r\n[ 1/0 ] ifCurtailed: [ Transcript show: 'exception' ].    \r\n```"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:43:08.724-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:43:15.073-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "ICPqhwHhDQCm0jwcAzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "### Debugging\r\n\r\n```st\r\nString browse.                                              \"browse specified class\"\r\nx inspect.                                                  \"open object inspector window\"\r\nx confirm: 'Is this correct?'.\r\nx halt.                                                     \"breakpoint to open debugger window\"\r\nx halt: 'Halt message'.\r\nx notify: 'Notify text'.\r\nx error: 'Error string'.                                    \"open up error window with title\"\r\nx doesNotUnderstand: #cmrMessage.                           \"flag message is not handled\"\r\nx shouldNotImplement.                                       \"flag message should not be implemented\"\r\nx subclassResponsibility.                                   \"flag message as abstract\"\r\nx errorImproperStore.                                       \"flag an improper store into indexable object\"\r\nx errorNonIntegerIndex.                                     \"flag only integers should be used as index\"\r\nx errorSubscriptBounds.                                     \"flag subscript out of bounds\"\r\nx primitiveFailed.                                          \"system primitive failed\"\r\n```"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:43:15.37-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:43:20.42-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "EIxPiAHhDQCm269/AzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "### Stdio\r\n\r\n```st\r\n'Hello World' trace.                \"output string in internal log\"\r\n```\r\n\r\n```st\r\nStdio stdout nextPutAll: 'Hello world' \"output string in external log\"\r\n```\r\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:43:20.753-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:43:27.207-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "gKuhiAHhDQCm5HT2AzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "### Misc\r\n\r\n```st\r\n| x |\r\n'Hello World' asMorph openInWindow.\r\nUIManager default message: 'Hello Pharo'.                   \"display message\"\r\nx := UIManager default request: 'Enter value:'.             \"prompt user for input using a flexible UI dispatcher\"\r\n(ZnEasy getPng: 'http://pharo.org/web/files/pharo.png')     \r\n    asMorph openInWindow.                                   \"get the Pharo logo\"\r\n```"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:43:27.489-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:43:34.938-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "6HcIiQHhDQCm7fKVAzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "### Class/Metaclass\r\n\r\n```st\r\n| b x |\r\nx := String name.                                           \"class name\"\r\nx := String category.                                       \"organization category\"\r\nx := String comment.                                        \"class comment\"\r\nx := String kindOfSubclass.                                 \"subclass type - subclass: variableSubclass, etc\"\r\nx := String definition.                                     \"class definition\"\r\nx := String instVarNames.                                   \"immediate instance variable names\"\r\nx := String allInstVarNames.                                \"accumulated instance variable names\"\r\nx := String classVarNames.                                  \"immediate class variable names\"\r\nx := String allClassVarNames.                               \"accumulated class variable names\"\r\nx := String sharedPools.                                    \"immediate dictionaries used as shared pools\"\r\nx := String allSharedPools.                                 \"accumulated dictionaries used as shared pools\"\r\nx := String selectors.                                      \"message selectors for class\"\r\nx := String sourceCodeAt: #capitalized.                     \"source code for specified method\"\r\nx := String allInstances.                                   \"collection of all instances of class\"\r\nx := String superclass.                                     \"immediate superclass\"\r\nx := String allSuperclasses.                                \"accumulated superclasses\"\r\nx := String withAllSuperclasses.                            \"receiver class and accumulated superclasses\"\r\nx := String subclasses.                                     \"immediate subclasses\"\r\nx := String allSubclasses.                                  \"accumulated subclasses\"\r\nx := String withAllSubclasses.                              \"receiver class and accumulated subclasses\"\r\nb := String instSize.                                       \"number of named instance variables\"\r\nb := String isFixed.                                        \"true if no indexed instance variables\"\r\nb := String isVariable.                                     \"true if has indexed instance variables\"\r\nb := String isPointers.                                     \"true if index instance vars contain objects\"\r\nb := String isBits.                                         \"true if index instance vars contain bytes/words\"\r\nb := String isBytes.                                        \"true if index instance vars contain bytes\"\r\nb := String isWords.                                        \"true if index instance vars contain words\"\r\nObject withAllSubclasses size.                              \"get total number of class entries\""
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:43:35.387-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:43:35.387-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "kPeAiQHhDQCm9gByAzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:40:40.973-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-10-16T18:40:40.973-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "4J4bfwHhDQCmD79dAzpN3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2024-10-16T18:35:28.673-04:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2024-10-16T18:35:28.673-04:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Pharo terse guide"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "d022336c-01e1-0d00-a4b2-5a8a033a4ddf"
+	}
+}
