@@ -103,14 +103,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-02-06T12:35:42.792-05:00"
+						"dateAndTimeString" : "2025-02-07T10:42:40.043-05:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "AKX5Z97pDQCQp3AJDEABww=="
 				},
-				"code" : "| file contents contentsSource |\rfile := 'C:\\devzone\\BlBreakOut\\assets\\font\\Digital7Mono-Yz9J4.ttf' asFileReference.\r\rcontents := (file binaryReadStreamDo: #contents) .\rcontentsSource := WriteStream on: String new.\rcontentsSource nextPutAll: 'fontContentsData ^'.\rcontents printOn: contentsSource.\r\rDigital7_Mono class compile: contentsSource contents  classified: 'accessing' "
+				"code" : "| file contents contentsSource |\rfile := 'C:\\devzone\\BlBreakOut\\assets\\font\\Digital7Mono-Yz9J4.ttf' asFileReference.\r\r\"we must put the content of the binary content in a string that can be compiled by Pharo\"\rcontents := file binaryReadStreamDo: #contents.\rcontentsSource := WriteStream on: String new.\rcontentsSource\r\tnextPutAll: 'fontContentsData';\r\tcr;\r\ttab;\r\tnextPutAll: '^'.\rcontents storeOn: contentsSource.\rcontentsSource contents\r\r\"Digital7_Mono class compile: contentsSource contents  classified: 'accessing' \""
 			},
 			{
 				"__type" : "textSnippet",

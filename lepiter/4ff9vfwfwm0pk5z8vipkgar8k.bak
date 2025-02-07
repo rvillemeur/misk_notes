@@ -766,7 +766,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-02-06T12:45:42.714-05:00"
+									"dateAndTimeString" : "2025-02-06T12:45:54.372-05:00"
 								}
 							},
 							"editEmail" : {
@@ -777,7 +777,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-02-06T12:45:44.319-05:00"
+									"dateAndTimeString" : "2025-02-06T12:45:54.377-05:00"
 								}
 							},
 							"uid" : {
@@ -787,7 +787,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[["
+							"string" : "[[storing binary content in the image]]"
 						},
 						{
 							"__type" : "textSnippet",

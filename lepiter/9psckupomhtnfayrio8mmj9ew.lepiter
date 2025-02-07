@@ -1,0 +1,295 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-02-07T08:59:00.189-05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-02-07T08:59:45.039-05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "SFNYf+/pDQCqgtklBMwepA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "#use ZnClient to call a REST API that requires HMAC authentication."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-02-07T08:59:58.992-05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-02-07T08:59:59.909-05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "gJbZgu/pDQCqjkPKBMwepA=="
+				},
+				"code" : "|hmac signed response | \r\nhmac:=SHA256 new hmac.\r\nhmac key: 'secret key' asByteArray.\r\nsigned:= hmac digestMessage: 'secret message' asByteArray. \r\nresponse:=ZnClient new\r\n    forJsonREST;\r\n    headerAt:'auth' put:signed base64Encoded;\r\n    get:'http://example.com'."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-02-07T09:00:03.705-05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-02-07T09:00:16.741-05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "qIAhg+/pDQCqlyonBMwepA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# StreamSocket"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-02-07T09:40:58.36-05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-02-07T09:40:59.318-05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "8IhwFfDpDQCq39nhBMwepA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : " (result encodeWith: ZnCharacterEncoder latin1) utf8Decoded "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-02-07T09:39:27.263-05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-02-07T09:42:15.173-05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "MIUCEPDpDQCq0hdgBMwepA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "The other party sends you bytes which are UTF8 encoded. The actual bytes being 'écrit des trucs' utf8Encoded. Both file and socket streams fundamentally deal with bytes, **to work with String you have to use an encoding.**"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-02-07T09:39:29.823-05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-02-07T09:39:29.823-05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "MJUpEPDpDQCq2TsjBMwepA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "You probably used SocketStream in ASCII instead of binary mode, which means the bytes were converted to a String with asString which is no encoding at all (it is a null encoding if you want).\r\nSo you got 'écrit des trucs' utf8Encoded asString."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-02-07T09:00:28.846-05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-02-07T09:39:29.827-05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "yBuhhO/pDQCqqstDBMwepA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "The exact inverse of asString is asByteArray, which is again a null encoding. But it allows you to get back the original bytes. Now we have `'écrit des trucs' utf8Encoded asString asByteArray.\r\nAll that is left to do is what should have been done from the beginning, use the correct encoding.\r\nSo finally, 'écrit des trucs' utf8Encoded asString asByteArray utf8Decoded gives the correct result."
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-02-07T08:59:23.438-05:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-02-07T08:59:23.438-05:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Hint on Zinc Usage"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "6824587f-efe9-0d00-aa81-401704cc1ea4"
+	}
+}

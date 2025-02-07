@@ -936,6 +936,43 @@
 								"__type" : "textStyle"
 							},
 							"string" : "[[default iceberg project]]"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-02-07T10:43:02.367-05:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-02-07T10:43:02.378-05:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "8NYR8/DpDQCtuZGMBMwepA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "[[Hint on Zinc Usage]]"
 						}
 					]
 				},
