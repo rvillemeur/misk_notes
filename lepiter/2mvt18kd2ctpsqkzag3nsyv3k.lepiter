@@ -626,6 +626,43 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-16T08:47:12.726-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-16T08:50:23.499-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "IDvNBm32DQCvB3YLDC7caA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Data is stored in a large ByteArray, that can browse by adress, each location storing one byte.\r\nFor Big Endian, information are stored from left to right, while for little endian, information are read from right to left. For example, the data `0xA0B70708` is stored as `A0 B7 07 08` in big Endian, and as `08 07 B7 A0` in little endian system"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
 						"dateAndTimeString" : "2025-01-27T18:41:05.921-05:00"
 					}
 				},
@@ -784,6 +821,117 @@
 					"uidString" : "WKLdYRrpDQC6LWbPBPSELA=="
 				},
 				"code" : "array := 16rFFFFFFFF asByteArray.\rarray shortAt: 3 put: 2 bigEndian: true; yourself."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-16T06:15:22.424-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-16T06:15:42.343-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "qCEb6Gr2DQCoCVJNDC7caA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "##Integer and signed number"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-16T06:15:45.485-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-16T08:58:48.697-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "yPy56Wr2DQCpZyKPDC7caA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "In computing, [signed number representations](https://en.wikipedia.org/wiki/Signed_number_representations) are required to encode negative numbers in binary number systems. Pharo and GToolkit are using [two's complement](https://en.wikipedia.org/wiki/Two%27s_complement) representation. In current version, Integer range from 16r-FFFFFFFFFFFFFFF to 16rFFFFFFFFFFFFFFF and two's complement representation can be observed in the inspector view (In Pharo)."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-16T08:52:15.311-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-16T08:58:36.473-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "sFhnGW32DQC3cv+YDC7caA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "The sign bit is the most significant bit on any two's-complement machine (like the x86), and thus will be in the last byte in a little-endian format\r\n```txt\r\nbyte 1(lsb)       byte 2(msb)\r\n----------------------------------\r\n7|6|5|4|3|2|1|0 | 7|6|5|4|3|2|1|0|\r\n----------------------------------\r\n                  ^\r\n                  | \r\n                 Sign bit\r\n```"
 			}
 		]
 	},
