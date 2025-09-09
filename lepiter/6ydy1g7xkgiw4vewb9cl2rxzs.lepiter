@@ -1,0 +1,76 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-09T12:26:09.496-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-09T12:26:15.889-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "wBunf8L6DQCOaMFODFV7dQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "```st\r\n| b x ios |\r\nios := ReadStream on: 'Hello read stream'.\r\nios := ReadStream on: 'Hello read stream' from: 1 to: 5.\r\n[ (x := ios nextLine) notNil ]\r\n   whileTrue: [ x traceCr ].\r\nios position: 3.\r\nios position.\r\nx := ios next.\r\nx := ios peek.\r\nx := ios contents.\r\nb := ios atEnd.\r\n\r\nios := ReadWriteStream on: 'Hello read stream'.\r\nios := ReadWriteStream on: 'Hello read stream' from: 1 to: 5.\r\nios := ReadWriteStream with: 'Hello read stream'.\r\nios := ReadWriteStream with: 'Hello read stream' from: 1 to: 10.\r\nios position: 0.\r\n[ (x := ios nextLine) notNil ]\r\n   whileTrue: [ x traceCr ].\r\nios position: 6.\r\nios position.\r\nios nextPutAll: 'Chris'.\r\nx := ios next.\r\nx := ios peek.\r\nx := ios contents.\r\nb := ios atEnd.\r\n```"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-09-09T12:26:09.463-04:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-09-09T12:26:09.463-04:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Pharo internal stream"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "d89aa67f-c2fa-0d00-8e67-31f80c557b75"
+	}
+}

@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-09T11:32:59.341-04:00"
+						"dateAndTimeString" : "2025-09-09T12:24:25.013-04:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-09T13:35:23.804-04:00"
+						"dateAndTimeString" : "2025-09-09T12:25:26.141-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "kPeAiQHhDQCm9gByAzpN3w=="
+					"uidString" : "CNNsecL6DQCNxEZnDFV7dQ=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "{{gtPage:Smalltalk method syntax on a postcard|db=2j9m7db2i4oz116bexd7wbdxo}}\r\n\r\n[reference](https://github.com/pharo-project/pharo/blob/Pharo12/doc/TerseGuide/TerseGuide.md)"
+				"string" : "The collection classes form a loosely-defined group of general-purpose sub\u0002classes of Collection and Stream."
 			}
 		]
 	},
@@ -51,7 +51,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2024-10-16T18:35:28.673-04:00"
+			"dateAndTimeString" : "2025-09-09T12:24:24.981-04:00"
 		}
 	},
 	"editEmail" : {
@@ -62,15 +62,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2024-10-16T18:35:28.673-04:00"
+			"dateAndTimeString" : "2025-09-09T12:24:24.981-04:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Pharo terse guide"
+		"title" : "Pharo collection"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "d022336c-01e1-0d00-a4b2-5a8a033a4ddf"
+		"uuid" : "08566c79-c2fa-0d00-8dc3-94120c557b75"
 	}
 }

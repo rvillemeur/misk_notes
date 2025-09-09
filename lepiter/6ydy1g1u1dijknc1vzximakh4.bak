@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-09T11:32:59.341-04:00"
+						"dateAndTimeString" : "2025-09-09T13:22:04.614-04:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-09T13:35:23.804-04:00"
+						"dateAndTimeString" : "2025-09-09T13:22:39.938-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "kPeAiQHhDQCm9gByAzpN3w=="
+					"uidString" : "cCWiR8P6DQCTbkhADFV7dQ=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "{{gtPage:Smalltalk method syntax on a postcard|db=2j9m7db2i4oz116bexd7wbdxo}}\r\n\r\n[reference](https://github.com/pharo-project/pharo/blob/Pharo12/doc/TerseGuide/TerseGuide.md)"
+				"string" : "Installing an exception handler\r\n```st\r\n[ 1/0 ] on: ZeroDivide do: [ :ex | ... ex ... ].\r\n```\r\nRaising an exception\r\n```st\r\nWarning signal: 'watch out!'.\r\n```\r\nAlways execute last block\r\n```st\r\n[ 1/0 ] ensure: [ 'exception' trace].\r\n```\r\nExecute last block only if fail or unwind\r\n```\r\n[ 1/0 ] ifCurtailed: [ Transcript show: 'exception' ].   "
 			}
 		]
 	},
@@ -51,7 +51,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2024-10-16T18:35:28.673-04:00"
+			"dateAndTimeString" : "2025-09-09T13:22:04.586-04:00"
 		}
 	},
 	"editEmail" : {
@@ -62,15 +62,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2024-10-16T18:35:28.673-04:00"
+			"dateAndTimeString" : "2025-09-09T13:22:04.586-04:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Pharo terse guide"
+		"title" : "Pharo Exception"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "d022336c-01e1-0d00-a4b2-5a8a033a4ddf"
+		"uuid" : "28b4a147-c3fa-0d00-936d-f52c0c557b75"
 	}
 }

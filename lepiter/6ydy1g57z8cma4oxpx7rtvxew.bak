@@ -1,0 +1,150 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-09T11:54:34.533-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-09T11:58:42.943-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "iES0DsL6DQCs9FdXDFV7dQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "```st\r\n| x |\r\nx := 6 + 3.      \"addition\"\r\nx := 6 - 3.                   \"subtraction\"\r\nx := 6 * 3.              \"multiplication\"\r\nx := 1 + 2 * 3.          \"evaluation always left to right (1 + 2) * 3\"\r\nx := 5 / 3.              \"division with fractional result\"\r\nx := 5.0 / 3.0.          \"division with float result\"\r\nx := 5.0 // 3.0.         \"integer divide\"\r\nx := 5.0 \\\\ 3.0.         \"integer remainder\"\r\nx := -5.                 \"unary minus\"\r\nx := 5 sign.             \"numeric sign (1, -1 or 0)\"\r\nx := 5 negated.          \"negate receiver\"\r\nx := 1.2 integerPart.    \"integer part of number (1.0)\"\r\nx := 1.2 fractionPart.   \"fractional part of number (0.2)\"\r\nx := 5 reciprocal.       \"reciprocal function\"\r\nx := 6 * 3.1.            \"auto convert to float\"\r\nx := 5 squared.          \"square function\"\r\nx := 25 sqrt.            \"square root\"\r\nx := 5 raisedTo: 2.      \"power function\"\r\nx := 5 raisedToInteger: 2. \"power function with integer\"\r\nx := 5 exp.               \"exponential\"\r\nx := 3.99 ceiling.        \"round up\"\r\nx := 5 factorial.         \"factorial\"\r\nx := -5 quo: 3.           \"integer divide rounded toward zero\"\r\nx := -5 rem: 3.           \"integer remainder rounded toward zero\"\r\nx := 28 gcd: 12.          \"greatest common denominator\"\r\nx := 28 lcm: 12.          \"least common multiple\"\r\nx := 100 ln.              \"natural logarithm\"\r\nx := 100 log.             \"base 10 logarithm\"\r\nx := 100 log: 10.         \"logarithm with specified base\"\r\nx := 100 floorLog: 10.    \"floor of the log\"\r\nx := 10 max: 20.          \"get maximum of two numbers\"\r\nx := 10 min: 20.          \"get minimum of two numbers\"\r\nx := Float pi.            \"pi\"\r\nx := Float e.             \"exp constant\"\r\nx := Float infinity.      \"infinity\"\r\nx := Float nan.           \"not-a-number\"\r\nx := Random new next; yourself. x next. \"random number stream (0.0 to 1.0)\"\r\nx := 100 atRandom.        \"quick random number\"\r\n```"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-09T11:58:10.784-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-09T11:58:19.81-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "AP+XG8L6DQC0IrSsDFV7dQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "```st\r\nx := 180 degreesToRadians.\"convert degrees to radians\"\r\nx := 3.14 radiansToDegrees.  \"convert radians to degrees\"\r\nx := 0.7 sin.             \"sine\"\r\nx := 0.7 cos.             \"cosine\"\r\nx := 0.7 tan.             \"tangent\"\r\nx := 0.7 arcSin.          \"arcsine\"\r\nx := 0.7 arcCos.          \"arccosine\"\r\nx := 0.7 arcTan.          \"arctangent\"\r\n```"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-09T11:58:47.743-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-09T11:58:53.098-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "SOrLHcL6DQC0d4CoDFV7dQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "```st\r\nx := -5 abs.              \"absolute value\"\r\nx := 3.99 rounded.        \"round\"\r\nx := 3.99 truncated.      \"truncate\"\r\nx := 3.99 roundTo: 1.     \"round to specified decimal places\"\r\nx := 3.99 truncateTo: 1.  \"truncate to specified decimal places\"\r\nx := 3.99 floor.          \"truncate\"\r\n```"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-09-09T11:54:33.857-04:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-09-09T11:54:33.857-04:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Pharo arithmetic expressions"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "e8f3a90e-c2fa-0d00-acf3-d89d0c557b75"
+	}
+}

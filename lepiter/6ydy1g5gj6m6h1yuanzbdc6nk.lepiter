@@ -1,0 +1,76 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-09T13:25:01.965-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-09T13:26:17.907-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "yE40UsP6DQCWRzn/DFV7dQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "```st\r\nString browse.                \"browse specified class\"\r\nx inspect.                    \"open object inspector window\"\r\nx confirm: 'Is this correct?'.\r\nx halt.                       \"breakpoint to open debugger window\"\r\nx halt: 'Halt message'.\r\nx notify: 'Notify text'.\r\nx error: 'Error string'.      \"open up error window with title\"\r\nx doesNotUnderstand: #cmrMessage.  \"flag message is not handled\"\r\nx shouldNotImplement.              \"flag message should not be implemented\"\r\nx subclassResponsibility.     \"flag message as abstract\"\r\nx errorImproperStore.   \"flag an improper store into indexable object\"\r\nx errorNonIntegerIndex. \"flag only integers should be used as index\"\r\nx errorSubscriptBounds. \"flag subscript out of bounds\"\r\nx primitiveFailed.      \"system primitive failed\"\r\n```"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-09-09T13:25:01.934-04:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-09-09T13:25:01.934-04:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Pharo debugging"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "b0d53352-c3fa-0d00-9646-c4a50c557b75"
+	}
+}

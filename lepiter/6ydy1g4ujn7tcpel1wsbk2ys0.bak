@@ -1,0 +1,298 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-09T11:33:52.398-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-09T11:37:41.876-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "sMqqxMH6DQCcYb5/DFV7dQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## Allowable Characters\r\n*  a-z,\r\n* A-Z,\r\n* 0-9\r\n* . +/\\*% <>~=& { } [|] ; : # ? , _ ' $ \" @"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-09T11:37:46.195-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-09T11:38:02.833-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "OECa0sH6DQCe/pTADFV7dQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "##First explanation\r\n* `.` (separator)\r\n* `+/\\*%` (arithmetic)\r\n* `<>~=& *`(Booleans)\r\n* `{ }` (dynamic array)\r\n* `[ | ]` (block closures)\r\n* `;` (cascade)\r\n* `:` (assignment, keywords)\r\n* `# `(symbol and array)\r\n* `'` (string)\r\n* `$` (character)\r\n* `\"` (comment)\r\n* `@` (point creation)\r\n* blank (`Character space`), tab (`Character tab`), cr (`Character space`), lf (`Character lf`)"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-09T11:38:11.68-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-09T11:38:59.738-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "GBsf1MH6DQCfJbPeDFV7dQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "##Variables:\r\n* variables must be declared before use surrounded by `|` e.g., `| a b |`\r\n* shared vars must begin with uppercase\r\n* local vars must begin with lowercase\r\n* reserved names: `nil`, `true`, `false`, `self`, `super`, and `thisContext`"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-09T11:39:23.11-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-09T11:42:58.538-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "iAph2MH6DQCfunqEDFV7dQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "###Variable scope:\r\n* Global: defined in a global namespace Smalltalk and accessible by all objects in system\r\n* Special: (reserved) thisContext, super, self, true, false, nil\r\n* Method Temporary: local to a method\r\n```st\r\nmyMethod\r\n   | tmp1 temp2 |\r\n   ...\r\n```\r\n\r\n* Block Temporary: local to a block\r\n```st\r\n[ \r\n   | tmp1 temp2 |\r\n   ... ]\r\n```\r\n\r\n* Method Parameters: automatic local vars created as a result of message call with params\r\n```st\r\nmyMethod: myArg\r\n   ...\r\n```\r\n\r\n* Block Parameters: automatic local vars created as a result of value: message call\r\n```st\r\n[ :each |\r\n   ... ]\r\n``\r\nInstance Variables: unique to each instance\r\nClass: shared with all instances of one class & its subclasses\r\nClass Instance: unique to each instance of a class\r\nClass and method definition:"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-09T11:40:05.778-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-09T11:41:19.746-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "aBrs2sH6DQCf4TYTDFV7dQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "### Class and method definition:\r\n* Classes are defined inside packages\r\n* Methods are public and virtual\r\n* By default a method returns the receiver\r\n* Class methods are just methods of the class (i.e., public, virtual)"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-09T11:40:19.097-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-09T11:40:37.669-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "wFW328H6DQCf/keaDFV7dQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "##Comments\r\nComments are enclosed in quotes\r\n\r\n```st\r\n\"Comments are enclosed in quotes\"\r\n```"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-09T11:40:49.819-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-09T11:41:05.286-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "KGZg3cH6DQCgOXJ7DFV7dQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "##Instruction separator\r\nPeriod `(.)` is the statement separator\r\n\r\n```st\r\nself doThis.\r\nself doThat\r\n```"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-09-09T11:33:59.278-04:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-09-09T11:37:32.058-04:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Syntax"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "907caac4-c1fa-0d00-9c60-69910c557b75"
+	}
+}

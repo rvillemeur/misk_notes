@@ -1,0 +1,76 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-09T12:23:51.378-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-09T13:37:55.098-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "UJhrd8L6DQCNilvIDFV7dQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "* IdentityDictionary: uses identity test (== rather than =)\r\n```st\r\n| b x y |\r\nx := Dictionary new.        \"allocate collection\"\r\nx add: #a->4; add: #b->3; add: #c->1; add: #d->2; yourself. \"add element to collection\"\r\nx at: #e put: 3.            \"set element at index\"\r\nb := x isEmpty.             \"test if empty\"\r\ny := x size.                \"number of elements\"\r\ny := x at: #a ifAbsent: []. \"retrieve element at index\"\r\ny := x keyAtValue: 3 ifAbsent: [].                          \"retrieve key for given value with error block\"\r\ny := x removeKey: #e ifAbsent: []. \"remove element from collection\"\r\nb := x includes: 3.         \"test if element is in values collection\"\r\nb := x includesKey: #a.    \"test if element is in keys collection\"\r\ny := x occurrencesOf: 3.   \"number of times object in collection\"\r\ny := x keys.               \"set of keys\"\r\ny := x values.             \"bag of values\"\r\nx do: [:a | Transcript show: a printString; cr].            \"iterate over the values collection\"\r\nx keysDo: [:a | Transcript show: a printString; cr].        \"iterate over the keys collection\"\r\nx associationsDo: [:a | Transcript show: a printString; cr].\"iterate over the associations\"\r\nx keysAndValuesDo: [:aKey :aValue | Transcript              \"iterate over keys and values\"\r\n   show: aKey printString; space;\r\n   show: aValue printString; cr].\r\ny := x select: [:a | a > 2].                                \"return collection of elements that pass test\"\r\ny := x reject: [:a | a < 2].                                \"return collection of elements that fail test\"\r\ny := x collect: [:a | a + a].                               \"transform each element for new collection\"\r\ny := x detect: [:a | a > 3] ifNone: [].                     \"return first element that passes test\"\r\nsum := 0. x do: [:a | sum := sum + a]. sum.  \"sum elements\"\r\nsum := x inject: 0 into: [:a :c | a + c].    \"sum elements\"\r\nmax := x inject: 0 into: [:a :c | (a > c)                   \"find max element in collection\"\r\n   ifTrue: [a]\r\n   ifFalse: [c]].\r\ny := x asArray.             \"convert to array\"\r\ny := x asOrderedCollection. \"convert to ordered collection\"\r\ny := x asSortedCollection. \"convert to sorted collection\"\r\ny := x asBag.           \"convert to bag collection\"\r\ny := x asSet.           \"convert to set collection\"\r\n```"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-09-09T12:23:51.343-04:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-09-09T12:23:51.343-04:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Pharo dictionary"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "980f6b77-c2fa-0d00-8d89-0e950c557b75"
+	}
+}

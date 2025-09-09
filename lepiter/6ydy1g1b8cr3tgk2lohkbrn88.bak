@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-09T11:32:59.341-04:00"
+						"dateAndTimeString" : "2025-09-09T11:46:10.266-04:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-09T13:35:23.804-04:00"
+						"dateAndTimeString" : "2025-09-09T11:46:36.127-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "kPeAiQHhDQCm9gByAzpN3w=="
+					"uidString" : "kMOl8MH6DQCkbkMODFV7dQ=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "{{gtPage:Smalltalk method syntax on a postcard|db=2j9m7db2i4oz116bexd7wbdxo}}\r\n\r\n[reference](https://github.com/pharo-project/pharo/blob/Pharo12/doc/TerseGuide/TerseGuide.md)"
+				"string" : "```st\r\ny := x copy.     \"copy object\"\r\ny := x deepCopy. \"copy object and instance vars\"\r\n```"
 			}
 		]
 	},
@@ -51,7 +51,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2024-10-16T18:35:28.673-04:00"
+			"dateAndTimeString" : "2025-09-09T11:46:17.293-04:00"
 		}
 	},
 	"editEmail" : {
@@ -62,15 +62,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2024-10-16T18:35:28.673-04:00"
+			"dateAndTimeString" : "2025-09-09T11:46:17.293-04:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Pharo terse guide"
+		"title" : "Pharo copy"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "d022336c-01e1-0d00-a4b2-5a8a033a4ddf"
+		"uuid" : "5879a5f0-c1fa-0d00-a46d-8c1b0c557b75"
 	}
 }

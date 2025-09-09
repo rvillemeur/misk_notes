@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-09T11:32:59.341-04:00"
+						"dateAndTimeString" : "2025-09-09T12:08:09.277-04:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-09T13:35:23.804-04:00"
+						"dateAndTimeString" : "2025-09-09T12:08:35.571-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "kPeAiQHhDQCm9gByAzpN3w=="
+					"uidString" : "SEZEP8L6DQC+IOx+DFV7dQ=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "{{gtPage:Smalltalk method syntax on a postcard|db=2j9m7db2i4oz116bexd7wbdxo}}\r\n\r\n[reference](https://github.com/pharo-project/pharo/blob/Pharo12/doc/TerseGuide/TerseGuide.md)"
+				"string" : "```st\r\n| x y |\r\nx := 4. y := 1.\r\n[x > 0] whileTrue: [x := x - 1. y := y * 2]. \"while true loop\"\r\n[x >= 4] whileFalse: [x := x + 1. y := y * 2]. \"while false loop\"\r\nx timesRepeat: [y := y * 2].         \"times repear loop (i := 1 to x)\"\r\n1 to: x do: [:a | y := y * 2].       \"for loop\"\r\n1 to: x by: 2 do: [:a | y := y / 2].\"for loop with specified increment\"\r\n#(5 4 3) do: [:a | x := x + a]. \"iterate over array elements\"\r\n```"
 			}
 		]
 	},
@@ -51,7 +51,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2024-10-16T18:35:28.673-04:00"
+			"dateAndTimeString" : "2025-09-09T12:08:09.247-04:00"
 		}
 	},
 	"editEmail" : {
@@ -62,15 +62,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2024-10-16T18:35:28.673-04:00"
+			"dateAndTimeString" : "2025-09-09T12:08:09.247-04:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Pharo terse guide"
+		"title" : "Pharo Iteration statements"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "d022336c-01e1-0d00-a4b2-5a8a033a4ddf"
+		"uuid" : "18d1433f-c2fa-0d00-be1f-178c0c557b75"
 	}
 }

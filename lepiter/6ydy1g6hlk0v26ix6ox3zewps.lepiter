@@ -1,0 +1,76 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-09T12:19:42.963-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-09T12:19:57.707-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "OBWdaML6DQCIyXSfDFV7dQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "acts like an expandable array\r\n\r\n```st\r\n| b x y sum max |\r\nx := OrderedCollection with: 4 with: 3 with: 2 with: 1.     \"create collection with up to 4 elements\"\r\nx := OrderedCollection new.                                 \"allocate collection\"\r\nx add: 3; add: 2; add: 1; add: 4; yourself.                 \"add element to collection\"\r\ny := x addFirst: 5.                                         \"add element at beginning of collection\"\r\ny := x removeFirst.                                         \"remove first element in collection\"\r\ny := x addLast: 6.                                          \"add element at end of collection\"\r\ny := x removeLast.                                          \"remove last element in collection\"\r\ny := x addAll: #(7 8 9).                                    \"add multiple elements to collection\"\r\ny := x removeAll: #(7 8 9).                                 \"remove multiple elements from collection\"\r\nx at: 2 put: 3.                                             \"set element at index\"\r\ny := x remove: 5 ifAbsent: [].                              \"remove element from collection\"\r\nb := x isEmpty.                                             \"test if empty\"\r\ny := x size.                                                \"number of elements\"\r\ny := x at: 2.                                               \"retrieve element at index\"\r\ny := x first.                                               \"retrieve first element in collection\"\r\ny := x last.                                                \"retrieve last element in collection\"\r\nb := x includes: 5.                                         \"test if element is in collection\"\r\ny := x copyFrom: 2 to: 3.                                   \"subcollection\"\r\ny := x indexOf: 3 ifAbsent: [0].                            \"first position of element within collection\"\r\ny := x occurrencesOf: 3.                                    \"number of times object in collection\"\r\nx do: [:a | Transcript show: a printString; cr].            \"iterate over the collection\"\r\ny := x select: [:a | a > 2].                                \"return collection of elements that pass test\"\r\ny := x reject: [:a | a < 2].                                \"return collection of elements that fail test\"\r\ny := x collect: [:a | a + a].                               \"transform each element for new collection\"\r\ny := x detect: [:a | a > 3] ifNone: [].                     \"return first element that passes test\"\r\nsum := 0. x do: [:a | sum := sum + a]. sum.                 \"sum elements\"\r\nsum := 0. 1 to: (x size) do: [:a | sum := sum + (x at: a)]. \"sum elements\"\r\nsum := x inject: 0 into: [:a :c | a + c].                   \"sum elements\"\r\nmax := x inject: 0 into: [:a :c | (a > c)                   \"find max element in collection\"\r\n   ifTrue: [a]\r\n   ifFalse: [c]].\r\ny := x shuffled.                                            \"randomly shuffle collection\"\r\ny := x asArray.                                             \"convert to array\"\r\ny := x asOrderedCollection.                                 \"convert to ordered collection\"\r\ny := x asSortedCollection.                                  \"convert to sorted collection\"\r\ny := x asBag.                                               \"convert to bag collection\"\r\ny := x asSet.                                               \"convert to set collection\"\r\n```"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-09-09T12:19:42.933-04:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-09-09T12:19:42.933-04:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Pharo ordered collection"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "209c9c68-c2fa-0d00-88c8-14c80c557b75"
+	}
+}

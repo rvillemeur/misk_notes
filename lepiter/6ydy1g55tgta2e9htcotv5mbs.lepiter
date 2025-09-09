@@ -1,0 +1,76 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-09T12:14:10.303-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-09T12:16:16.389-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "GBjJVML6DQCDAnu7DFV7dQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "```st\r\n| b x y |\r\nx := #Hello.            \t  \"symbol assignment\"\r\nb := x isEmpty.         \t  \"test if symbol is empty\"\r\ny := x size.            \t  \"string size\"\r\ny := x at: 2.           \t  \"char at location\"\r\ny := x copyFrom: 2 to: 4. \t\"substring\"\r\ny := x asString.      \t\t\"convert symbol to string\"\r\ny := x asText.        \t\t\"convert symbol to text\"\r\ny := x asArray.       \t    \"convert symbol to array\"\r\ny := x asOrderedCollection.   \"convert symbol to ordered collection\"\r\ny := x asSortedCollection.    \"convert symbol to sorted collection\"\r\ny := x asBag.                 \"convert symbol to bag collection\"\r\ny := x asSet.                 \"convert symbol to set collection\"\r\n\r\ny := 'String', 'Concatenation'.  \"symbol concatenation (result is string)\"\r\ny := x indexOf: $e ifAbsent: [0]. \"first position of character within string\"\r\nx do: [:a | Transcript show: a printString; cr]. \"iterate over the string\"\r\ny := x select: [:a | a > $a].  \"return all elements that meet condition\"\r\n```"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-09-09T12:14:10.269-04:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-09-09T12:14:10.269-04:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Pharo symbol"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "4893c854-c2fa-0d00-8301-d99b0c557b75"
+	}
+}

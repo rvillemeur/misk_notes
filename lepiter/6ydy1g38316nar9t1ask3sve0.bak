@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-09T11:32:59.341-04:00"
+						"dateAndTimeString" : "2025-09-09T11:44:30.262-04:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-09T13:35:23.804-04:00"
+						"dateAndTimeString" : "2025-09-09T11:45:28.775-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "kPeAiQHhDQCm9gByAzpN3w=="
+					"uidString" : "8NKv6sH6DQCjMbCFDFV7dQ=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "{{gtPage:Smalltalk method syntax on a postcard|db=2j9m7db2i4oz116bexd7wbdxo}}\r\n\r\n[reference](https://github.com/pharo-project/pharo/blob/Pharo12/doc/TerseGuide/TerseGuide.md)"
+				"string" : "```st\r\n| x y |\r\nx := 5.                            \"assignment\"\r\nx := y := z := 6.                  \"compound assignment\"\r\nx := (y := 6) + 1.\r\nx := Set new.                      \"assign the newly created instance\"\r\nx := 123 class.                    \"assign the object class\"\r\nx := Integer superclass.           \"assign the superclass of a class\"\r\nx := Object allInstances.   \"assign an array of all instances of a class\"\r\nx := Integer allSuperclasses.   \"assign all superclasses of a class\"\r\n```"
 			}
 		]
 	},
@@ -51,7 +51,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2024-10-16T18:35:28.673-04:00"
+			"dateAndTimeString" : "2025-09-09T11:44:44.551-04:00"
 		}
 	},
 	"editEmail" : {
@@ -62,15 +62,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2024-10-16T18:35:28.673-04:00"
+			"dateAndTimeString" : "2025-09-09T11:44:44.551-04:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Pharo terse guide"
+		"title" : "Pharo Assignment"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "d022336c-01e1-0d00-a4b2-5a8a033a4ddf"
+		"uuid" : "e880afea-c1fa-0d00-a330-4a5b0c557b75"
 	}
 }

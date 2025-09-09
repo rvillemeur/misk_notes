@@ -1,0 +1,113 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-09T12:06:51.097-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-09T12:07:39.265-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "qFebOsL6DQC8eZ2EDFV7dQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "```st\r\n| x switch result |\r\nX := 20 atRandom.\r\nx > 10 ifTrue: [ 'ifTrue' traceCr ].   \"if then\"\r\nx > 10 ifFalse: [ 'ifFalse' traceCr ]. \"if else\"\r\nx > 10                                 \"if then else\"\r\n   ifTrue: [ 'ifTrue' traceCr ]\r\n   ifFalse: [ 'ifFalse' traceCr ].\r\nx > 10                                \"if else then\"\r\n   ifFalse: [Transcript show: 'ifFalse'; cr]\r\n   ifTrue: [Transcript show: 'ifTrue'; cr].\r\n\r\n(x > 10\r\n   ifTrue: ['ifTrue']\r\n   ifFalse: ['ifFalse']) traceCr.\r\n```"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-09T12:07:19.952-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-09T12:07:29.173-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "mJ5TPML6DQC86n5cDFV7dQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "```st\r\nswitch := Dictionary new.       \"switch functionality\"\r\nswitch at: $A put: [ 'Case A' traceCr].\r\nswitch at: $B put: [ 'Case B' traceCr].\r\nswitch at: $C put: [ 'Case C' traceCr].\r\nresult := (switch at: $B) value.\r\n```"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-09-09T12:06:51.067-04:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-09-09T12:06:51.067-04:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Pharo conditional statements"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "90de9a3a-c2fa-0d00-bc78-dadb0c557b75"
+	}
+}

@@ -1,0 +1,76 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-09T12:22:36.705-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-09T13:38:35.994-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "6Cz4csL6DQCLtgbmDFV7dQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "```st\r\n| b x y sum max |\r\nx := Interval from: 5 to: 10.      \"create interval object\"\r\nx := 5 to: 10.\r\nx := Interval from: 5 to: 10 by: 2. \"create interval object with specified increment\"\r\nx := 5 to: 10 by: 2.\r\nb := x isEmpty.      \"test if empty\"\r\ny := x size.         \"number of elements\"\r\nx includes: 9.       \"test if element is in collection\"\r\nx do: [:k | Transcript show: k printString; cr].            \"iterate over interval\"\r\ny := x select: [:a | a > 7].                                \"return collection of elements that pass test\"\r\ny := x reject: [:a | a < 2].                                \"return collection of elements that fail test\"\r\ny := x collect: [:a | a + a].                               \"transform each element for new collection\"\r\ny := x detect: [:a | a > 3] ifNone: [].                     \"return first element that passes test\"\r\nsum := 0. x do: [:a | sum := sum + a]. sum.                 \"sum elements\"\r\nsum := 0. 1 to: (x size) do: [:a | sum := sum + (x at: a)]. \"sum elements\"\r\nsum := x inject: 0 into: [:a :c | a + c].                   \"sum elements\"\r\nmax := x inject: 0 into: [:a :c | (a > c)                   \"find max element in collection\"\r\n   ifTrue: [a]\r\n   ifFalse: [c]].\r\ny := x asArray.       \"convert to array\"\r\ny := x asOrderedCollection.  \"convert to ordered collection\"\r\ny := x asSortedCollection.   \"convert to sorted collection\"\r\ny := x asBag.                \"convert to bag collection\"\r\ny := x asSet.                \"convert to set collection\"\r\n```"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-09-09T12:22:36.644-04:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-09-09T12:22:36.644-04:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Pharo Interval"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "a03ef772-c2fa-0d00-8bb5-77fb0c557b75"
+	}
+}

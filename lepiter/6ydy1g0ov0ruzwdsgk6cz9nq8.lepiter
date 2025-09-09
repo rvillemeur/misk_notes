@@ -1,0 +1,76 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-09T11:50:26.177-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-09T11:54:03.396-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "SHRv/8H6DQCouUwmDFV7dQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "```st\r\n| b x y |\r\nx := 1. y := 2.\r\nb := x = y.      \t\t\t\"equals\"\r\nb := x ~= y.     \t\t\t\"not equals\"\r\nb := x == y.         \t\t\"identical\"\r\nb := x ~~ y.         \t\t\"not identical\"\r\nb := x > y.      \t\t\t\"greater than\"\r\nb := x < y.          \t\t\"less than\"\r\nb := x >= y.         \t\t\"greater than or equal\"\r\nb := x <= y.         \t\t\"less than or equal\"\r\nb := x isNil.        \t\t\"test if object is nil\"\r\nb := x isZero.       \t\t\"test if number is zero\"\r\nb := x positive.     \t\t\"test if number is positive\"\r\nb := x strictlyPositive.\t \"test if number is greater than zero\"\r\nb := x negative.     \t\t\"test if number is negative\"\r\nb := x even.        \t\t \"test if number is even\"\r\nb := x odd.        \t\t  \"test if number is odd\"\r\nb := x isLiteral.  \t\t  \"test if literal constant\"\r\nb := x isInteger.  \t\t  \"test if object is integer\"\r\nb := x isFloat.   \t\t   \"test if object is float\"\r\nb := x isNumber.  \t\t   \"test if object is number\"\r\nb := $A isUppercase. \t\t\"test if upper case character\"\r\nb := $A isLowercase. \t\t\"test if lower case character\"\r\nb := b not.          \t\t\"boolean not\"\r\nb := x < 5 & (y > 1). \t   \"boolean and\"\r\nb := x < 5 | (y > 1). \t   \"boolean or\"\r\nb := x < 5 and: [y > 1]. \t\"boolean and (short-circuit)\"\r\nb := x < 5 or: [y > 1].  \t\"boolean or (short-circuit)\"\r\nb := x < 5 eqv: (y > 1). \t\"test if both true or both false\"\r\nb := x < 5 xor: (y > 1). \t\"test if one true and other false\"\r\nb := 5 between: 3 and: 12.   \"between (inclusive)\"\r\nb := 123 isKindOf: Number.   \"test if object is class or subclass of\"\r\nb := 123 isMemberOf: SmallInteger. \"test if object is type of class\"\r\nb := 123 respondsTo: sqrt.   \"test if object responds to message\"\r\n```"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-09-09T11:50:18.332-04:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-09-09T11:50:18.332-04:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Pharo booleans"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "60f36eff-c1fa-0d00-a8b8-d6060c557b75"
+	}
+}

@@ -1,0 +1,76 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-09T12:10:31.869-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-09T12:12:00.379-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "SA7ER8L6DQC/SlcnDFV7dQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "```st\r\n| b x y |\r\nx := 'This is a string'.        \"string assignment\"\r\nx allButFirst: 10.              \"returns string\"\r\nx := 'String', 'Concatenation'. \"string concatenation\"\r\nb := x isEmpty.                 \"test if string is empty\"\r\ny := x size.                    \"string size\"\r\ny := x at: 2.                   \"char at location\"\r\ny := x copyFrom: 2 to: 4.       \"substring\"\r\ny := x asSymbol.            \t\"convert string to symbol\"\r\ny := x asArray.             \t\"convert string to array\"\r\nx := 'ABCD' asByteArray.    \"convert string to byte array\"\r\ny := x asOrderedCollection. \"convert string to ordered collection\"\r\ny := x asSortedCollection.  \"convert string to sorted collection\"\r\ny := x asBag.               \"convert string to bag collection\"\r\ny := x asSet.               \"convert string to set collection\"\r\ny := x shuffled.            \"randomly shuffle string\"\r\n\r\ny := x indexOf: $a ifAbsent: [0].   \"first position of character within string\"\r\nx := String with: $a with: $b with: $c with: $d. \"set up to 4 elements at a time\"\r\nx do: [:a | Transcript show: a printString; cr].  \"iterate over the string\"\r\ny := x select: [:a | a > $a]. \"return all elements that meet condition\"\r\n\r\n```"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-09-09T12:10:31.837-04:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-09-09T12:10:31.837-04:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Pharo Strings"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "4891c347-c2fa-0d00-bf49-5dc10c557b75"
+	}
+}

@@ -1,0 +1,113 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-09T12:02:30.409-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-09T12:03:25.927-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "KI8RK8L6DQC3tC3EDFV7dQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "* blocks are objects and may be assigned to a variable\r\n* a block value is last expression evaluated unless explicit return\r\n* blocks may be nested\r\n* syntax is `[ :arguments | | localvars | expression . expression ]`\r\n* `^` expression terminates block & method (exits all nested blocks)\r\n* blocks intended for long term storage should not contain `^`\r\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-09T12:02:43.26-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-09T12:02:47.808-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "eKLVK8L6DQC3wZaQDFV7dQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "```st\r\n| x y z |\r\nx := [ y := 1. z := 2. ]. x value.                          \"simple block usage\"\r\nx := [ :argOne :argTwo |   argOne, ' and ' , argTwo.].      \"set up block with argument passing\"\r\nTranscript show: (x value: 'First' value: 'Second'); cr.    \"use block with argument passing\"\r\nx := [ | t | t := 1.].                                      \"local var in block\"\r\n```"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-09-09T12:02:30.383-04:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-09-09T12:02:30.383-04:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Pharo Block"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "9829112b-c2fa-0d00-b7b3-ba410c557b75"
+	}
+}

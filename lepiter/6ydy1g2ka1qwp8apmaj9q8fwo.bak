@@ -1,0 +1,113 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-09T13:19:33.953-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-09T13:19:50.309-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "6D2nPsP6DQCQc6gqDFV7dQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "##date\r\n```st\r\n| x y |\r\nx := Date today.                                            \"create date for today\"\r\nx := Date dateAndTimeNow.                                   \"create date from current time/date\"\r\nx := Date readFromString: '01/02/1999'.                     \"create date from formatted string\"\r\nx := Date newDay: 12 month: #July year: 1999.               \"create date from parts\"\r\nx := Date fromDays: 36000.                                  \"create date from elapsed days since 1/1/1901\"\r\ny := Date dayOfWeek: #Monday.                               \"day of week as int (1-7)\"\r\ny := Date indexOfMonth: #January.                           \"month of year as int (1-12)\"\r\ny := Date daysInMonth: 2 forYear: 1996.                     \"day of month as int (1-31)\"\r\ny := Date daysInYear: 1996.                                 \"days in year (365|366)\"\r\ny := Date nameOfDay: 1.                                     \"weekday name (#Monday,...)\"\r\ny := Date nameOfMonth: 1.                                   \"month name (#January,...)\"\r\ny := x weekday.                                             \"day of week (#Monday,...)\"\r\ny := x previous: #Monday.                                   \"date for previous day of week\"\r\ny := x dayOfMonth.                                          \"day of month (1-31)\"\r\ny := x day.                                                 \"day of year (1-366)\"\r\ny := x firstDayOfMonth.                                     \"day of year for first day of month\"\r\ny := x monthName.                                           \"month of year (#January,...)\"\r\ny := x monthIndex.                                          \"month of year (1-12)\"\r\ny := x daysInMonth.                                         \"days in month (1-31)\"\r\ny := x year.                                                \"year (19xx)\"\r\ny := x daysInYear.                                          \"days in year (365|366)\"\r\ny := x daysLeftInYear.                                      \"days left in year (364|365)\"\r\ny := x asSeconds.                                           \"seconds elapsed since 1/1/1901\"\r\ny := x addDays: 10.                                         \"add days to date object\"\r\ny := x subtractDays: 10.                                    \"subtract days to date object\"\r\ny := x subtractDate: (Date today).                          \"subtract date (result in days)\"\r\ny := x printFormat: #(2 1 3 $/ 1 1).                        \"print formatted date\"\r\nb := (x <= Date today).                                     \"comparison\"\r\n```"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-09T13:19:55.026-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-09T13:20:09.422-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "UMroP8P6DQCQ26ueDFV7dQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "##time\r\n```st\r\n| x y |\r\nx := Time now.                                              \"create time from current time\"\r\nx := Time now asdateAndTime.                                \"create time from current time/date\"\r\nx := Time readFromString: '3:47:26 pm'.                     \"create time from formatted string\"\r\nx := Time fromSeconds: 60 * 60 * 4.                       \"create time from elapsed time from midnight\"\r\ny := Time millisecondClockValue.                            \"milliseconds since midnight\"\r\ny := Time totalSeconds.                                     \"total seconds since 1/1/1901\"\r\ny := x seconds.                                             \"seconds past minute (0-59)\"\r\ny := x minutes.                                             \"minutes past hour (0-59)\"\r\ny := x hours.                                               \"hours past midnight (0-23)\"\r\ny := x addTime: Time now.                                 \"add time to time object\"\r\ny := x subtractTime: (Time now).                            \"subtract time to time object\"\r\ny := x asSeconds.                                           \"convert time to seconds\"\r\nx := Time millisecondsToRun: [                              \"timing facility\"\r\n   1 to: 1000 do: [:index | y := 3.14 * index]].\r\nb := x <= Time now.                                       \"comparison\"\r\n"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-09-09T13:19:33.925-04:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-09-09T13:19:33.925-04:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Pharo date & time"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "88d0a63e-c3fa-0d00-9072-40450c557b75"
+	}
+}
