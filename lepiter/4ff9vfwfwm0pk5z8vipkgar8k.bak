@@ -481,7 +481,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-07-22T19:34:15.297-04:00"
+									"dateAndTimeString" : "2025-09-03T16:59:59.687-04:00"
 								}
 							},
 							"uid" : {
@@ -491,7 +491,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[floating numbers]]"
+							"string" : "[[floating numbers representation in binary]]"
 						},
 						{
 							"__type" : "textSnippet",

@@ -621,7 +621,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-09T11:13:05.065-04:00"
+						"dateAndTimeString" : "2025-09-09T10:58:21.67-04:00"
 					}
 				},
 				"uid" : {
@@ -631,7 +631,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "###Step 5: Add Bias to the Exponent\r\nInternally, IEEE-754 values store their exponents in an unsigned representation, which may seem odd considering that the exponent can be negative. Negative exponents are accomodated by using a biased representation, wherein a pre-set number is always subtracted from the given unsigned number. \r\n\r\nBecause the given unsigned number may be less than this number, this allows for negative values to be effectively encoded without resorting to two's complement. Specifically, for the binary32 representation, the number 127 will be subtracted from anything encoded in the exponent field of the IEEE-754 number. As such, in this step, we need to add 127 to the normalized exponent value from the previous step.\r\n\r\nTo see this in action, if we recorded an exponent of -1 in the previous step, then the result of this step should be 126 (-1 + 127 = 126). Similarly, if we recorded an exponent of 6 in the previous step, the the result of this step should be 133 (6 + 127 = 133)."
+				"string" : "###Step 5: Add Bias to the Exponent\r\nInternally, IEEE-754 values store their exponents in an unsigned representation, which may seem odd considering that the exponent can be negative. Negative exponents are accomodated by using a biased representation, wherein a pre-set number is always subtracted from the given unsigned number. Because the given unsigned number may be less than this number, this allows for negative values to be effectively encoded without resorting to two's complement. Specifically, for the binary32 representation, the number 127 will be subtracted from anything encoded in the exponent field of the IEEE-754 number. As such, in this step, we need to add 127 to the normalized exponent value from the previous step.\r\n\r\nTo see this in action, if we recorded an exponent of -1 in the previous step, then the result of this step should be 126 (-1 + 127 = 126). Similarly, if we recorded an exponent of 6 in the previous step, the the result of this step should be 133 (6 + 127 = 133)."
 			},
 			{
 				"__type" : "textSnippet",
