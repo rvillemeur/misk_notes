@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-09-08T22:50:48.280765-04:00"
+						"dateAndTimeString" : "2025-09-09T14:26:34.693-04:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "A pragma represents the occurrence of an annotation in a compiled method. A pragma \nis a literal message pattern that occurs between angle brackets at the start of a \nmethodafter any temporaries\n\nBecause pragmas are messages, one can browse senders and implementors and perform \nthem. One can query a method for its pragmas by sending it the pragmas message, which \nanswers an Array of pragma instances, one for each pragma in the method. \n\nA pragma holds information about its defining class, method, its selector, \nas well as theinformation about the pragma keyword and its arguments.\n\nDeclaring a pragma : <> in method\nAccessing method annotation: pragma := (Color >> #gtInspectorColorIn:) pragmas first\n    => pragma arguments\n    => pragma keyword\n    => pragma selector\n    => pragma method\n    => pragma methodClass\nQuerying pragmas: Pragma allNamed: #alarm: in: Pragma\nor: Pragma allNamed: #gtExample in: BlBasicExamples\n\nget a pragma: (BlBasicExamples >> #buttons) pragmas first\n\nExecuting a pragma: (AClass >> #test) pragmas first sendTo: Alarmer new\n\na tool may need to adapt its internal state whenever a method contain-ing a particular pragma is added, \nremoved or updated. This is the role of thePragmaCollector:\n    PragmaCollectorfilter: [:pragma | pragma keyword = ’primitive:’]) reset\n    \n    \nPragma `<return: AClassName>`\nHow is it used ?"
+				"string" : "##introduction\r\nA pragma represents the occurrence of an annotation in a compiled method. A pragma is a literal message pattern that occurs between angle brackets at the start of a methodafter any temporaries\n\nBecause pragmas are messages, one can browse senders and implementors and perform them. One can query a method for its pragmas by sending it the pragmas message, which answers an Array of pragma instances, one for each pragma in the method. \n\nA pragma holds information about its defining class, method, its selector, as well as theinformation about the pragma keyword and its arguments.\n##Declaring a pragma : \r\n`<>` in method\r\n##working with pragma\n###Accessing method annotation: \r\n`pragma := (Color >> #gtInspectorColorIn:) pragmas first`\r\n\r\n```txt\n    => pragma arguments\n    => pragma keyword\n    => pragma selector\n    => pragma method\n    => pragma methodClass\r\n```\n###Querying pragmas: \r\n\r\n`Pragma allNamed: #alarm: in: Pragma`\nor:` Pragma allNamed: #gtExample in: BlBasicExamples`\n\n###get a pragma: \r\n`(BlBasicExamples >> #buttons) pragmas first`\n\n###Executing a pragma: \r\n` (AClass >> #test) pragmas first sendTo: Alarmer new`\n\r\n###PragmaCollector\na tool may need to adapt its internal state whenever a method contain-ing a particular pragma is added, removed or updated. This is the role of PragmaCollector:\n    `PragmaCollectorfilter: [:pragma | pragma keyword = ’primitive:’]) reset`"
 			}
 		]
 	},
