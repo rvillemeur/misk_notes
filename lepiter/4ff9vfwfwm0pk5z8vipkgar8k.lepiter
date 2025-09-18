@@ -2896,7 +2896,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-09-15T15:48:36.913-04:00"
+									"dateAndTimeString" : "2025-09-18T15:20:30.463-04:00"
 								}
 							},
 							"uid" : {
@@ -2906,7 +2906,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[Unicode - UTF8]]"
+							"string" : "[[Unicode - UTF8 and modern text processing]]"
 						}
 					]
 				},

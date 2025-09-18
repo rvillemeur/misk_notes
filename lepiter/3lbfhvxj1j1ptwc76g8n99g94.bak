@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-15T16:10:33.273-04:00"
+						"dateAndTimeString" : "2025-09-18T15:18:24.049-04:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "##introduction\r\n A string is a sequence of code points. Certain code points have certain meanings, which can affect things like the width of the rendered string, caret placement, and editing commands. A code point is just a number. \r\n##Unicode code point encoding\r\nBasically UTF-8 uses 32 bits and the old ASCII uses 7 bits, but UTF-8 is designed in such a way that:\r\n\r\nEvery ASCII encoded file is a valid UTF-8 file.\r\nEvery UTF-8 encoded file that has only ASCII characters is a valid ASCII file.\r\n\r\nIt encodes characters using **one to four bytes.**\r\n\r\nThe first 128 characters (U+0000 to U+007F) are encoded with a single byte, ensuring backward compatibility with ASCII, and this is the reason why a file with only ASCII characters is a valid UTF-8 file.\r\n\r\nOther characters require two, three, or four bytes. The leading bits of the first byte determine the total number of bytes that represents the current character. These bits follow one of four specific patterns, which indicate how many continuation bytes follow.\r\n\r\n```txt\r\n1st byte\t# of bytes   Full byte sequence pattern\r\n0xxxxxxx\t1\t\t\t0xxxxxxx\r\n110xxxxx\t2\t\t\t110xxxxx 10xxxxxx\r\n1110xxxx\t3\t\t\t1110xxxx 10xxxxxx 10xxxxxx\r\n11110xxx\t4\t\t\t11110xxx 10xxxxxx 10xxxxxx 10xxxxxx\r\n```\r\n\r\nNotice that the second, third, and fourth bytes in a multi-byte sequence always start with 10. This indicates that these bytes are continuation bytes, following the main byte.\r\n\r\n##unicode combining characters and modifiers letters\r\n\r\n*Combining* characters are always applied against a preceding base character. *modifying* letters are freestanding and relate to the *semantic* of the character. While they also usually modify another character (normally but not necessarily the preceding character) they are base characters themselves, and visually distinct. \r\n\r\nhere is an example of the base character *a* followed by U+0302, COMBINING CIRCUMFLEX ACCENT (◌̂) and U+02C6, MODIFIER LETTER CIRCUMFLEX ACCENT (ˆ) respectively:\r\n\r\n```txt\r\nA 0302: Â\r\nA 02C6: Aˆ\r\n```\r\n\r\nIn French, the circumflex on the o in côté affects its pronunciation, but the circumflex on the u in sûr does not; instead it is used to visually distinguish sûr (meaning sure) from the identically pronounced sur (meaning on). In French a circumflex on o always affects pronunciation, and on u it never does. *Modifier letters are commonly used in technical phonetic transcriptional systems, where they augment the use of combining marks to make phonetic distinctions. * \r\n\r\n##unicode normalization\r\nUnicode also includes the concept of combining marks. The idea is that if you want to have the character \"é\", you can represent it as the \"e\" character followed by U+301 COMBINING ACUTE ACCENT. This is so that every combination of diacritic marks and base characters doesn't have to be encoded in Unicode. It's important because, once a code point is assigned a meaning, it can never ever be un-assigned.\r\n\r\nTo make matters worse, there is also a standalone code point U+E9 LATIN SMALL LETTER E WITH ACUTE. When doing string comparisons, these two strings need to be equal. Therefore, string comparisons aren't just raw byte comparisons.\r\n\r\nOne way to perform these string comparisons is to use Unicode's notion of \"normalization.\" The idea is that strings which are conceptually equal should be normalized to the same sequence of code points. \r\n##unicode rendering\r\nIn any implementation of textual rendering with Unicode characters, the problem of placing arbitrary combining marks, typically accents and diacritical marks, inevitably arises.  The relationship between what you see on the screen and the unicode string behind it is completely arbitrary.\r\n\r\nOnce you have a string and you want to render it, you partition it into runs, where each run can be rendered with a single font (and has other properties, like a single direction throughout the run). You then map code points to glyphs one-to-one, and then you run a Turing-complete \"shaping\" pass over the sequence of glyphs and advances. Once you've got your shaped glyphs and advances, you can finally render them.\r\n\r\nA font file can do whatever it wants with the string it is tasked with rendering. It can draw emoji without color. It can draw non-emoji with color. The idea of color in a glyph is orthogonal to whether or not a code point is classified as \"emoji.\"\r\n\r\nSimilarly, a font can include a ligature, which draws multiple code points as a single glyph (\"glyph\" just means \"picture\"). A font can also draw a single code point as multiple glyphs (for example, an accent over é may be implemented as as separate glyph from e). But it doesn't have to. The choice of what glyphs to use where is totally an implementation detail of the font. The choice of which glyphs include color is totally an implementation detail of the font. Some ligatures get caret positions inside them; others don't.\r\n\r\n##display all font file character\r\nSince looking to glyphs is a visual task, you need a GUI application to see the glyphs of a font.\r\n\r\n###List fonts that could render (contain) a glyph (well, actually, an Unicode code point):\r\n\r\n`fc-list :charset=1f63f | less      # all installed fonts that have 1f63f 😿`\r\n###List Unicode code points that an specific font covers:\r\n\r\n- Look at the table of charset for the font:\r\n`fc-query /usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf  | less`\r\n- List Unicode character ranges for all supported code points (glyphs?):\r\n`fc-query --format='%{charset}\\n' /usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf | less`\r\n\r\n##source\r\nhttps://iamvishnu.com/posts/utf8-is-brilliant-design\r\nhttps://www.unicode.org/Public/UCD/latest/ucd/UnicodeData.txt\r\nhttps://stackoverflow.com/questions/54450823/what-is-the-difference-between-combining-characters-and-modifier-letters\r\nhttps://www.unicode.org/notes/tn2/\r\nhttps://practicaltypography.com/ligatures-in-programming-fonts-hell-no.html\r\nhttps://adamadam.blog/2025/04/22/unicode-facts-you-should-know/\r\nhttps://litherum.blogspot.com/2017/05/relationship-between-glyphs-and-code.html\r\nhttps://medium.com/concerning-pharo/an-implementation-of-unicode-normalization-7c6719068f43#.qmy18gky0\r\nhttp://www.smalltalkhub.com/Pharo/Unicode/\r\nhttps://unix.stackexchange.com/questions/595756/how-to-list-all-supported-glyphs-of-a-given-font"
+				"string" : "##introduction\r\n A string is a sequence of code points. Certain code points have certain meanings, which can affect things like the width of the rendered string, caret placement, and editing commands. A code point is just a number. \r\n##Unicode code point encoding\r\nBasically UTF-8 uses 32 bits and the old ASCII uses 7 bits, but UTF-8 is designed in such a way that:\r\n\r\nEvery ASCII encoded file is a valid UTF-8 file.\r\nEvery UTF-8 encoded file that has only ASCII characters is a valid ASCII file.\r\n\r\nIt encodes characters using **one to four bytes.**\r\n\r\nThe first 128 characters (U+0000 to U+007F) are encoded with a single byte, ensuring backward compatibility with ASCII, and this is the reason why a file with only ASCII characters is a valid UTF-8 file.\r\n\r\nOther characters require two, three, or four bytes. The leading bits of the first byte determine the total number of bytes that represents the current character. These bits follow one of four specific patterns, which indicate how many continuation bytes follow.\r\n\r\n```txt\r\n1st byte\t# of bytes   Full byte sequence pattern\r\n0xxxxxxx\t1\t\t\t0xxxxxxx\r\n110xxxxx\t2\t\t\t110xxxxx 10xxxxxx\r\n1110xxxx\t3\t\t\t1110xxxx 10xxxxxx 10xxxxxx\r\n11110xxx\t4\t\t\t11110xxx 10xxxxxx 10xxxxxx 10xxxxxx\r\n```\r\n\r\nNotice that the second, third, and fourth bytes in a multi-byte sequence always start with 10. This indicates that these bytes are continuation bytes, following the main byte.\r\n##unicode combining characters and modifiers letters\r\n\r\n*Combining* characters are always applied against a preceding base character. *modifying* letters are freestanding and relate to the *semantic* of the character. While they also usually modify another character (normally but not necessarily the preceding character) they are base characters themselves, and visually distinct. \r\n\r\nhere is an example of the base character *a* followed by U+0302, COMBINING CIRCUMFLEX ACCENT (◌̂) and U+02C6, MODIFIER LETTER CIRCUMFLEX ACCENT (ˆ) respectively:\r\n\r\n```txt\r\nA 0302: Â\r\nA 02C6: Aˆ\r\n```\r\n\r\nIn French, the circumflex on the o in côté affects its pronunciation, but the circumflex on the u in sûr does not; instead it is used to visually distinguish sûr (meaning sure) from the identically pronounced sur (meaning on). In French a circumflex on o always affects pronunciation, and on u it never does. *Modifier letters are commonly used in technical phonetic transcriptional systems, where they augment the use of combining marks to make phonetic distinctions. * \r\n\r\n##unicode normalization\r\nUnicode also includes the concept of combining marks. The idea is that if you want to have the character \"é\", you can represent it as the \"e\" character followed by U+301 COMBINING ACUTE ACCENT. This is so that every combination of diacritic marks and base characters doesn't have to be encoded in Unicode. It's important because, once a code point is assigned a meaning, it can never ever be un-assigned.\r\n\r\nTo make matters worse, there is also a standalone code point U+E9 LATIN SMALL LETTER E WITH ACUTE. When doing string comparisons, these two strings need to be equal. Therefore, string comparisons aren't just raw byte comparisons.\r\n\r\nOne way to perform these string comparisons is to use Unicode's notion of \"normalization.\" The idea is that strings which are conceptually equal should be normalized to the same sequence of code points. \r\n##unicode rendering\r\nIn any implementation of textual rendering with Unicode characters, the problem of placing arbitrary combining marks, typically accents and diacritical marks, inevitably arises.  The relationship between what you see on the screen and the unicode string behind it is completely arbitrary.\r\n\r\nOnce you have a string and you want to render it, you partition it into runs, where each run can be rendered with a single font (and has other properties, like a single direction throughout the run). You then map code points to glyphs one-to-one, and then you run a Turing-complete \"shaping\" pass over the sequence of glyphs and advances. Once you've got your shaped glyphs and advances, you can finally render them.\r\n\r\nA font file can do whatever it wants with the string it is tasked with rendering. It can draw emoji without color. It can draw non-emoji with color. The idea of color in a glyph is orthogonal to whether or not a code point is classified as \"emoji.\"\r\n\r\nSimilarly, a font can include a ligature, which draws multiple code points as a single glyph (\"glyph\" just means \"picture\"). A font can also draw a single code point as multiple glyphs (for example, an accent over é may be implemented as as separate glyph from e). But it doesn't have to. The choice of what glyphs to use where is totally an implementation detail of the font. The choice of which glyphs include color is totally an implementation detail of the font. Some ligatures get caret positions inside them; others don't.\r\n\r\n##display all font file character\r\nSince looking to glyphs is a visual task, you need a GUI application to see the glyphs of a font.\r\n\r\n###List fonts that could render (contain) a glyph (well, actually, an Unicode code point):\r\n\r\n`fc-list :charset=1f63f | less      # all installed fonts that have 1f63f 😿`\r\n###List Unicode code points that an specific font covers:\r\n\r\n- Look at the table of charset for the font:\r\n`fc-query /usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf  | less`\r\n- List Unicode character ranges for all supported code points (glyphs?):\r\n`fc-query --format='%{charset}\\n' /usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf | less`"
 			},
 			{
 				"__type" : "textSnippet",
@@ -66,7 +66,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-15T15:59:49.961-04:00"
+						"dateAndTimeString" : "2025-09-18T15:18:10.739-04:00"
 					}
 				},
 				"uid" : {
@@ -76,7 +76,81 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "\r\n"
+				"string" : "##Complex text processing\r\nhttps://raphlinus.github.io/text/2020/10/26/text-layout.html\r\nhttps://simoncozens.github.io/fonts-and-layout/\r\nhttps://mrandri19.github.io/2019/07/24/modern-text-rendering-linux-overview.html\r\n"
+			},
+			{
+				"__type" : "pictureSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-18T15:18:57.633-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-18T15:19:47.754-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "AK829nn7DQCCKLoNCwQj0A=="
+				},
+				"url" : "attachments/cblkm71d9mbypjhhkwpnpppa8/overview.png",
+				"caption" : "modern text rendering on linux",
+				"previewHeight" : 300,
+				"reference" : "https://mrandri19.github.io/assets/images/modern-text-rendering-linux-overview/overview.svg"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-18T15:18:19.645-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-18T15:18:20.67-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "YAjz83n7DQCCCtYHCwQj0A=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "##source\r\nhttps://iamvishnu.com/posts/utf8-is-brilliant-design\r\nhttps://www.unicode.org/Public/UCD/latest/ucd/UnicodeData.txt\r\nhttps://stackoverflow.com/questions/54450823/what-is-the-difference-between-combining-characters-and-modifier-letters\r\nhttps://www.unicode.org/notes/tn2/\r\nhttps://practicaltypography.com/ligatures-in-programming-fonts-hell-no.html\r\nhttps://adamadam.blog/2025/04/22/unicode-facts-you-should-know/\r\nhttps://litherum.blogspot.com/2017/05/relationship-between-glyphs-and-code.html\r\nhttps://medium.com/concerning-pharo/an-implementation-of-unicode-normalization-7c6719068f43#.qmy18gky0\r\nhttp://www.smalltalkhub.com/Pharo/Unicode/\r\nhttps://unix.stackexchange.com/questions/595756/how-to-list-all-supported-glyphs-of-a-given-font"
 			}
 		]
 	},
