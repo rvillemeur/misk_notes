@@ -140,7 +140,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-03-20T16:21:39.448-04:00"
+						"dateAndTimeString" : "2026-03-20T16:39:38.959-04:00"
 					}
 				},
 				"uid" : {
@@ -150,7 +150,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "###references\r\n[wikipedia]([https://en.wikipedia.org/wiki/Role-based_access_control)\r\n"
+				"string" : "###references\r\n[wikipedia]([https://en.wikipedia.org/wiki/Role-based_access_control)\r\n[github original example](https://github.com/eMaringolo/rbac/)\r\n"
 			}
 		]
 	},
