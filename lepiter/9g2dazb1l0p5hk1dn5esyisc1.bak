@@ -1,0 +1,187 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-03-20T11:11:56.894-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-03-20T16:20:06.201-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "AW1IGJkBcUO6DgCY2mLTNw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "##introduction\r\nRole-based access control is a policy-neutral access control mechanism defined around roles and privileges. The components of RBAC such as role-permissions, user-role and role-role relationships make it simple to perform user assignments. \r\n\r\nIn an RBAC system, an administrator assigns each individual user one or more roles. Each new role represents a set of permissions or privileges for the user.\r\n\r\nA finance role might authorize a user to make purchases, run forecasting software or grant access to supply chain systems. A human resources role might authorize a user to see personnel files and manage employee benefits systems.\r\n\r\nA role-based access control system enables organizations to take a granular approach to identity and access management (IAM) while streamlining authorization processes and access control policies. Specifically, RBAC helps organizations:\r\n\r\n- Assign permissions more effectively\r\n- Maintain compliance\r\n- Protect sensitive data\r\n##object involved\r\nWith RBAC, a user or a service (**subject**), connected through a **session**, can have multiple **role** within an **organization**. Each **role** grant specific **permission** to performed targeted **operation**. An **organization** itself will define multiple **role**"
+			},
+			{
+				"__type" : "pictureSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-03-20T11:13:01.498-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-03-20T11:13:59.285-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "qkdAHt74IUuHreNYKDj4Fg=="
+				},
+				"url" : "attachments/6lxwu7ay3wwqxcs36a5344r3i/Role-based_access_control.svg.png",
+				"caption" : "Role base access control diagram",
+				"previewHeight" : 300,
+				"reference" : "https://en.wikipedia.org/wiki/Role-based_access_control#/media/File:Role-based_access_control.svg"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-03-20T11:11:43.718-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-03-20T16:19:31.536-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "reCuAdhdxEK0GbUUGbJaUA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "### Best practices\r\n- adopt the principle of least privilege\r\n- separate users, roles and permissions\r\n- design role around business function\r\n- plan for role exception, but minimize them.\r\n- automate as much as you can"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-03-20T16:21:08.635-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-03-20T16:21:08.635-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "enzsnXP3wEqAw7RnXxiSXA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2026-03-20T11:11:56.89-04:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2026-03-20T11:11:56.89-04:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "RBAC - Role Based Access Control"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "f1d1e37f-7496-9348-a8ec-774ed3138f9f"
+	}
+}

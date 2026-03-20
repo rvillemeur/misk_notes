@@ -1,10 +1,11 @@
 Class {
-	#name : #BaselineOfRdvNote,
-	#superclass : #BaselineOf,
-	#category : #BaselineOfRdvNote
+	#name : 'BaselineOfRdvNote',
+	#superclass : 'BaselineOf',
+	#category : 'BaselineOfRdvNote',
+	#package : 'BaselineOfRdvNote'
 }
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 BaselineOfRdvNote >> baseline: spec [
 	<baseline>
 	spec
@@ -12,10 +13,11 @@ BaselineOfRdvNote >> baseline: spec [
 		do: [ spec postLoadDoIt: #loadLepiter.
 			spec
 				package: 'RdvSAM';
-				package: 'RdvRounding' ]
+				package: 'RdvRounding';
+				package: 'RdvRbacStudy' ]
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 BaselineOfRdvNote >> loadLepiter [ 
 	| dbExist |
 	dbExist := false.
@@ -33,7 +35,7 @@ BaselineOfRdvNote >> loadLepiter [
 	LeDatabasesRegistry default defaultLogicalDatabase reload. ]
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 BaselineOfRdvNote >> loadLepiter2 [
 	"https://github.com/feenkcom/gt4edx/blob/4d57e4c9993de6e2e22a5d27dd7809f012f67ee1/src/BaselineOfGToolkit4Edx/BaselineOfGToolkit4Edx.class.st#L8"
 	| currentProperties |
