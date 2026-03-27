@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-09T12:13:33.034-04:00"
+						"dateAndTimeString" : "2025-09-09T12:13:37.573-04:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "```st\r\n| x y |\r\nx := $A.               \"character assignment\"\r\ny := x isLowercase.    \"test if lower case\"\r\ny := x isUppercase.    \"test if upper case\"\r\ny := x isLetter.       \"test if letter\"\r\ny := x isDigit.        \"test if digit\"\r\ny := x isAlphaNumeric. \"test if alphanumeric\"\r\ny := x isSeparator.    \"test if seperator char\"\r\ny := x isVowel.        \"test if vowel\"\r\ny := x digitValue.     \"convert to numeric digit value\"\r\ny := x asLowercase.    \"convert to lower case\"\r\ny := x asUppercase.    \"convert to upper case\"\r\ny := x asciiValue.     \"convert to numeric ascii value\"\r\ny := x asString.        \"convert to string\"\r\ny := $A <= $B.                                             \"comparison\"\r\ny := $A max: $B.\r\n```"
+				"string" : "```st\r\n| x y |\r\nx := $A.               \"character assignment\"\r\ny := x isLowercase.    \"test if lower case\"\r\ny := x isUppercase.    \"test if upper case\"\r\ny := x isLetter.       \"test if letter\"\r\ny := x isDigit.        \"test if digit\"\r\ny := x isAlphaNumeric. \"test if alphanumeric\"\r\ny := x isSeparator.    \"test if seperator char\"\r\ny := x isVowel.        \"test if vowel\"\r\ny := x digitValue.     \"convert to numeric digit value\"\r\ny := x asLowercase.    \"convert to lower case\"\r\ny := x asUppercase.    \"convert to upper case\"\r\ny := x asciiValue.     \"convert to numeric ascii value\"\r\ny := x asString.       \"convert to string\"\r\ny := $A <= $B.         \"comparison\"\r\ny := $A max: $B.\r\n```"
 			}
 		]
 	},

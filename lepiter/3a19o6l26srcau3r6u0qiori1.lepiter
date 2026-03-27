@@ -1,0 +1,184 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-03-26T15:39:40.092-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-03-26T15:39:59.466-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "FDpwMaay40mAwPi0od/hoQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Metacello is a scripting API that helps loading package into the image. Let's look at it"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-03-26T15:40:39.728-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-03-26T15:40:41.814-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "BOgM5+15ykO3JoM1MfajmA=="
+				},
+				"code" : "Metacello new\r\n\tbaseline: 'BlBreakOut';\r\n\trepository: 'github://rvillemeur/BlBreakOut:main/src';\r\n\tload"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-03-26T15:40:47.924-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-03-26T15:57:39.85-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "aFAeN9B5ykCxb437RxiHag=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "It works in conjuction with **BaseLineOf** class, which keep the configuration of your project, including your dependencies. Note that this doc only look at *BaselineOf* style of configuration, using *git* disk based sccm, and don't consider legacy *mcz* package and their **ConfigurationOf** way of working."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-03-26T15:52:01.212-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-03-27T16:31:52.883-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "gTgu2gslxkCIRhaBiwcwyw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "##Using the Metacello Scripting API\r\n- Loading\r\n- Locking\r\n- Unlocking\r\n- Getting\r\n- Fetching\r\n- Recording\r\n- Listing\r\n\r\n###Loading\r\nMetacello loads the packages and dependencies (required projects) for a project based on the specifications in the configuration of a project.\r\n\r\n**fetch phase**\r\nIn the first phase, all of the packages that are to be loaded into your image are fetched from their respective repositories and stashed in the Monticello package-cache. If there is an network error during the fetch phase, you can execute the load command again, and Metacello will not attempt to re-fetch any packages that are already present in the package-cache.\r\n\r\n**load phase**\r\nIn the second phase the packages are loaded into your image.\r\n\r\n**load return value**\r\nThe load command returns an instance of MetacelloVersionLoadDirective which when printed, gives you a report of the packages loaded into your image.\r\n\r\nThe following expression:\r\n\r\nMetacello new\r\n  configuration: 'Sample';\r\n  version: #stable;\r\n  repository: 'github://dalehenrich/sample:configuration';\r\n  load.\r\nproduces a printString of:\r\n\r\nlinear load : \r\n  explicit load : 0.8.0 [ConfigurationOfSample]\r\n  linear load : 0.8.0 [ConfigurationOfSample]\r\n    linear load : baseline [BaselineOfSample]\r\n      load : Sample-Core-dkh.2\r\nload Notes\r\nIf a configuration is already present in the image when the load command is executed, the existing configuration is used. Use the get command to refresh the configuration.\r\n\r\nThe default repository is platform-dependent. Evaluate the following Smalltalk expression to determine the default repository for your platform:\r\n\r\nMetacelloPlatform  current defaultRepositoryDescription\r\ngithub:// projects are implicitly locked when loaded.\r\n\r\nfiletree:// projects are implicitly locked when loaded unless loaded as a project dependency.\r\n\r\nSee the Options section for additional information.\r\n\r\n###Locking\r\nAutomatically upgrading projects is not always desirable. Of course, in the normal course of loading and upgrading, you want the correct version of dependent projects loaded. However under the following conditions:\r\n\r\nYou may be actively developing a particular version of a project and you don't want the project upgraded (or downgraded) out from under you.\r\nYou may be working with a git checkout of a project and you want to continue using the git checkout.\r\nyou may not want to have particular projects upgraded automatically. The lock command gives you control.\r\n\r\nYou can lock a project to a particular version:\r\n\r\nMetacello new\r\n  configuration: 'Sample';\r\n  version: '0.9.0';\r\n  lock.\r\nIf you don't specify an explicit version, then the currently loaded version of the project is locked:\r\n\r\nMetacello image\r\n  configuration: 'Sample';\r\n  lock.\r\nlock return value\r\nThe lock command returns an instance of the MetacelloProjectRegistration class that when printed, displays the version and repository for the locked project.\r\n\r\nThe following expression:\r\n\r\nMetacello new\r\n  configuration: 'Sample';\r\n  lock.\r\nproduces:\r\n\r\nConfigurationOfSample stable from github://dalehenrich/sample:configuration\r\nYou can obtain a list of locked projects in the registry:\r\n\r\nMetacello registry\r\n  locked.\r\nTo obtain a list of locked projects loaded in the image:\r\n\r\nMetacello image\r\n  locked.\r\nThe locked command returns a list of locked project specs.\r\n\r\nlock Notes\r\nTo lock a git checkout for a project, you should lock the baseline:\r\n\r\nMetacello new\r\n  baseline: 'Sample';\r\n  lock.\r\nAdditional documentation and an example locking project are available\r\n\r\n###Unlocking\r\nTo unlock a project, use the unlock: command:\r\n\r\nMetacello new\r\n  project: 'Sample';\r\n  unlock.\r\nunlock return value\r\n\r\n###Getting\r\nIf you are interested in looking at a configuration you may use the get command to load the configuration of a project into your image:\r\n\r\nMetacello new\r\n  configuration: 'Sample';\r\n  get.\r\nYou can specify an explicit repository from which to get the configuration:\r\n\r\nMetacello new\r\n  configuration: 'Sample';\r\n  squeaksource3: 'Sample';\r\n  get.\r\nget return value\r\n\r\n###Fetching\r\nThe fetch command downloads all of the packages without loading them. Basically the fetch command performs the first phase of the load command.\r\n\r\nThis command downloads all of the Sample packages into the local package-cache directory:\r\n\r\nMetacello new\r\n  configuration: 'Sample';\r\n  version: '0.8.0';\r\n  fetch: 'ALL'.\r\nYou can specify a different repository to be used as the cacheRepository. The following command copies all of the Sample packages into the filetree repository in the directory /opt/git/localSampleRepository:\r\n\r\nMetacello new\r\n  configuration: 'Sample';\r\n  version: '0.8.0';\r\n  cacheRepository: 'filetree:///opt/git/localSampleRepository';\r\n  fetch: 'ALL'.\r\nIf a project has dependent projects, then the packages for the dependent projects that would be loaded in the iamge are also copied.\r\n\r\nThe fetch command duplicates what the load command would do, which means if a package is alrady loaded in the image, it will not be fetched. To fetch packages regardless of what is loaded in the image, use the ignoreImage option:\r\n\r\nMetacello new\r\n  configuration: 'Sample';\r\n  version: '0.8.0';\r\n  cacheRepository: 'filetree:///opt/git/localSampleRepository';\r\n  ignoreImage;\r\n  fetch: 'ALL'.\r\nIf you have fetched your packages to a location on disk, you can use the following variant of the load command to load your project from the disk location:\r\n\r\nMetacello new\r\n  configuration: 'Sample';\r\n  version: '0.8.0';\r\n  cacheRepository: 'filetree:///opt/git/localSampleRepository';\r\n  load: 'ALL'.\r\nfetch return value\r\nLike the load command, the fetch command returns an instance of MetacelloVersionLoadDirective which when printed, gives you a report of the packages fetched.\r\n\r\n###Recording\r\nThe record command performs the same function as the fetch command, without actually downloading any files. As a consequence, it can give you a quick report of what packages will be loaded into your image.\r\n\r\nrecord return value\r\nLike the load and fetch commands, the record command returns an instance of MetacelloVersionLoadDirective which when printed, gives you a report of the packages fetched.\r\n\r\nPrinting the following expression:\r\n\r\nMetacello new\r\n  configuration: 'Sample';\r\n  record.\r\nproduces:\r\n\r\nlinear load : \r\n\tlinear load : 0.8.0 [ConfigurationOfSample]\r\n\t\tload : BaselineOfSample\r\n\tlinear load : 0.8.0 [ConfigurationOfSample]\r\n\t\tlinear load : baseline [BaselineOfSample]\r\n\t\t\tload : Sample-Core\r\nListing\r\nThe list command may be used to list projects in a repository:\r\n\r\nMetacello new\r\n  configuration: [:spec | true ];\r\n  repository: 'github://dalehenrich/sample:configuration';\r\n  list.\r\nor loaded in the image:\r\n\r\nMetacello image\r\n  configuration: [:spec | true ];\r\n  list.\r\nor registered with Metacello (i.e., projects that have been operated on by the get or lock commands:\r\n\r\nMetacello registry\r\n  configuration: [:spec | true ];\r\n  list.\r\nlist return value\r\nThe list command returns a collection of instances of the MetacelloProjectSpec class."
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2026-03-26T15:39:38.273-04:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2026-03-26T15:39:38.273-04:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Metacello"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "391ba124-887e-cf4a-988b-aa06e1d36137"
+	}
+}

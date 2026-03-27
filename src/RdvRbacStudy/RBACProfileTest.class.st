@@ -24,19 +24,16 @@ RBACProfileTest >> classToTest [
 
 { #category : 'instantiation' }
 RBACProfileTest >> profile1 [
-
-	^self classToTest new
+	^ self classToTest new
 ]
 
 { #category : 'instantiation' }
 RBACProfileTest >> profile2 [
-
-	^self classToTest new
+	^ self classToTest new
 ]
 
 { #category : 'unit tests' }
 RBACProfileTest >> testHasRole [
-
 	| samProfile |
 	samProfile := self profile1.
 	samProfile roles: (Set with: (self compositeRoles at: 2)).
